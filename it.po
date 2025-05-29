@@ -2,7 +2,19 @@
 # Prefill add-on <noreply-addon-prefill@weblate.org>, 2025.
 # ivan-hc <ivan-hc@users.noreply.hosted.weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: \nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-28\nPO-Revision-Date: 2025-05-29 07:01+0000\nLast-Translator: Prefill add-on <noreply-addon-prefill@weblate.org>\nLanguage-Team: Italian <https://hosted.weblate.org/projects/am/am/it/>\nLanguage: it\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
+"POT-Creation-Date: 2025-05-28\n"
+"PO-Revision-Date: 2025-05-29 20:18+0000\n"
+"Last-Translator: ivan-hc <ivan-hc@users.noreply.hosted.weblate.org>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/am/am/it/>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: APP-MANAGER:55
 msgid ""
@@ -14,11 +26,13 @@ msgid "Install 'less' if you want to scroll this list"
 msgstr "Installa 'less' se vuoi scorrere questo elenco"
 
 #: APP-MANAGER:105
-#, fuzzy
 msgid ""
 "💀 ERROR: Your version of sed does not support '-i' flag without extension, "
 "we tried to workaround and failed"
-msgstr " 💀 ERRORE: la tua versione di sed non supporta il flag '-i'"
+msgstr ""
+"💀 ERRORE: la tua versione di sed non supporta il flag '-i' senza "
+"estensione, abbiamo provato una soluzione alternativa ma non ci siamo "
+"riusciti"
 
 #: APP-MANAGER:106
 msgid " Please install gsed"
@@ -100,19 +114,26 @@ msgid ""
 msgstr " Visita %bhttps://github.com/ivan-hc/AM#core-dependences\\033[0m per maggiori informazioni\\n"
 
 #: APP-MANAGER:325
-#, fuzzy
 msgid ""
 "\\n%bWARNING: your distro maintainer ships \\\"wget2\\\" as \\\"wget\\\" "
 "\\033[0m\\n\\n"
-msgstr "\\n%bWARNING: your distro maintainer ships \\\"wget2\\\" as \\\"wget\\\" \\033[0m\\n\\n"
+msgstr ""
+"\\n"
+"%bATTENZIONE: il manutentore della tua distribuzione distribuisce \\"
+"\"wget2\\\" come \\\"wget\\\"\\033[0m\\n"
+"\\n"
 
 #: APP-MANAGER:326
-#, fuzzy
 msgid ""
 "Please install \\\"%bwget1\\033[0m\\\" and \\\"%bwget1-wget\\033[0m\\\" (use "
 "%b--allowerasing\\033[0m if you have to)\\n\\nSee https://bugzilla.redhat."
 "com/show_bug.cgi?id=2358792\\n\\n"
-msgstr "Please install \\\"%bwget1\\033[0m\\\" and \\\"%bwget1-wget\\033[0m\\\" (use %b--allowerasing\\033[0m if you have to)\\n\\nSee https://bugzilla.redhat.com/show_bug.cgi?id=2358792\\n\\n"
+msgstr ""
+"Installa \\\"%bwget1\\033[0m\\\" e \\\"%bwget1-wget\\033[0m\\\" (usa %b--"
+"allowerasing\\033[0m se necessario)\\n"
+"\\n"
+"Vedi https://bugzilla.redhat.com/show_bug.cgi?id=2358792\\n"
+"\\n"
 
 #: APP-MANAGER:333
 msgid ""
@@ -441,14 +462,12 @@ msgid "%b\\n >> %bEND OF ALL PROCESSES\\033[0m << \\n%b\\n"
 msgstr "%b\\n >> FINE DI TUTTI I PROCESSI << \\n%b\\n"
 
 #: APP-MANAGER:1214
-#, fuzzy
 msgid " %b✖\\033[0m %b cannot be updated, program not found \\n"
-msgstr " %b✖\\033[0m %b cannot be updated, program not found \\n"
+msgstr " %b✖\\033[0m %b non può essere aggiornato, programma non trovato \\n"
 
 #: APP-MANAGER:1218
-#, fuzzy
 msgid " %b✖\\033[0m %b cannot be updated%b\\n"
-msgstr " %b✖\\033[0m %b cannot be updated%b\\n"
+msgstr " %b✖\\033[0m %b non può essere aggiornato%b\\n"
 
 #: APP-MANAGER:1233
 msgid " ERROR: \\\"$arg\\\" is not installed, see \\\"-f\\\""
@@ -483,9 +502,8 @@ msgid " Run the \\\"$AMCLI -h\\\" command to find out more"
 msgstr " Eseguire \\\"$AMCLI -h\\\" per saperne di più"
 
 #: APP-MANAGER:1350
-#, fuzzy
 msgid "This feature is disabled by your organization"
-msgstr "This feature is disabled by your organization"
+msgstr "Questa funzionalità è disabilitata dalla tua organizzazione"
 
 #: APP-MANAGER:1405
 msgid ""
@@ -524,22 +542,22 @@ msgstr " STATO: %b"
 #: modules/database.am:179
 #, fuzzy
 msgid " $APPSMESSAGE $LIBSMESSAGE LOCALLY, AS \\\"APPMAN\\\""
-msgstr "- $APPSMESSAGE $LIBSMESSAGE LOCALMENTE, COME \\\"APPMAN\\\""
+msgstr " - $APPSMESSAGE $LIBSMESSAGE LOCALMENTE, COME \\\"APPMAN\\\""
 
 #: modules/database.am:179
 #, fuzzy
 msgid " $APPSMESSAGE $LIBSMESSAGE MANAGED BY \\\"$AMCLIUPPER\\\""
-msgstr "- $APPSMESSAGE $LIBSMESSAGE GESTITI DA \\\"$AMCLIUPPER\\\""
+msgstr " - $APPSMESSAGE $LIBSMESSAGE GESTITI DA \\\"$AMCLIUPPER\\\""
 
 #: modules/database.am:181
 #, fuzzy
 msgid " $APPSMESSAGE LOCALLY, AS \\\"APPMAN\\\""
-msgstr "- $APPSMESSAGE LOCALMENTE, COME \\\"APPMAN\\\""
+msgstr " - $APPSMESSAGE LOCALMENTE, COME \\\"APPMAN\\\""
 
 #: modules/database.am:181
 #, fuzzy
 msgid " $APPSMESSAGE MANAGED BY \\\"$AMCLIUPPER\\\""
-msgstr "- $APPSMESSAGE GESTITI DA \\\"$AMCLIUPPER\\\""
+msgstr " - $APPSMESSAGE GESTITI DA \\\"$AMCLIUPPER\\\""
 
 #: modules/database.am:197
 msgid " ◆ $arg\t|\tstatic-binary"
@@ -1330,141 +1348,117 @@ msgid "\\n No valid argument was chosen: process aborted! \\n"
 msgstr "\\n Non è stato scelto alcun argomento valido: processo interrotto! \\n"
 
 #: modules/translate.am:36
-#, fuzzy
 msgid "Press y to continue, anything else to exit (timeout 15 seconds)"
-msgstr "Press y to continue, anything else to exit (timeout 15 seconds)"
+msgstr ""
+"Premi y per continuare, qualsiasi altra cosa per uscire (timeout 15 secondi)"
 
 #: modules/translate.am:52
-#, fuzzy
 msgid "Translating: $list"
-msgstr "Translating: $list"
+msgstr "Tradurre: $list"
 
 #: modules/translate.am:55
-#, fuzzy
 msgid "Can´t enter AMPATH $AMPATH"
-msgstr "Can´t enter AMPATH $AMPATH"
+msgstr "Impossibile entrare in $AMPATH"
 
 #: modules/translate.am:61
-#, fuzzy
 msgid "am.pot removed"
-msgstr "am.pot removed"
+msgstr "am.pot rimosso"
 
 #: modules/translate.am:63
-#, fuzzy
 msgid "Fresh start"
-msgstr "Fresh start"
+msgstr "Nuovo avvio"
 
 #: modules/translate.am:65
-#, fuzzy
 msgid "Creating directories"
-msgstr "Creating directories"
+msgstr "Sto creando le directory"
 
 #: modules/translate.am:74
-#, fuzzy
 msgid "Extracting strings..."
-msgstr "Extracting strings..."
+msgstr "Estrazione delle stringhe..."
 
 #: modules/translate.am:79
-#, fuzzy
 msgid "Extraction completed"
-msgstr "Extraction completed"
+msgstr "Estrazione completata"
 
 #: modules/translate.am:85
-#, fuzzy
 msgid "Fixing strings"
-msgstr "Fixing strings"
+msgstr "Aggiustamento delle stringhe"
 
 #: modules/translate.am:98
-#, fuzzy
 msgid "Fixing completed"
-msgstr "Fixing completed"
+msgstr "Fissaggio completato"
 
 #: modules/translate.am:155
-#, fuzzy
 msgid "Joining duplicities from ${1} into ${2}"
-msgstr "Joining duplicities from ${1} into ${2}"
+msgstr "Unire le duplicità da ${1} in ${2}"
 
 #: modules/translate.am:160
-#, fuzzy
 msgid "Creating files for translations"
-msgstr "Creating files for translations"
+msgstr "Creazione di file per le traduzioni"
 
 #: modules/translate.am:174
-#, fuzzy
 msgid "Enter short code of new language"
-msgstr "Enter short code of new language"
+msgstr "Inserisci il codice breve della nuova lingua"
 
 #: modules/translate.am:178
-#, fuzzy
 msgid "Translator name"
-msgstr "Translator name"
+msgstr "Nome del traduttore"
 
 #: modules/translate.am:179
-#, fuzzy
 msgid "Enter your name..."
-msgstr "Enter your name..."
+msgstr "Inserisci il tuo nome..."
 
 #: modules/translate.am:180
-#, fuzzy
 msgid "Translator email"
-msgstr "Translator email"
+msgstr "Email del traduttore"
 
 #: modules/translate.am:181
-#, fuzzy
 msgid "Enter your email..."
-msgstr "Enter your email..."
+msgstr "Inserisci la tua email..."
 
 #: modules/translate.am:182
-#, fuzzy
 msgid "Is it ${NLANG} correct language?"
-msgstr "Is it ${NLANG} correct language?"
+msgstr "La lingua corretta è ${NLANG}?"
 
 #: modules/translate.am:186
-#, fuzzy
 msgid "Language already included"
-msgstr "Language already included"
+msgstr "Lingua già inclusa"
 
 #: modules/translate.am:186
-#, fuzzy
 msgid ""
 " Try again with another language, or run \\\"$AMCLI --translate\\\" to "
 "update added translations"
-msgstr " Try again with another language, or run \\\"$AMCLI --translate\\\" to update added translations"
+msgstr ""
+" Riprova con un'altra lingua o esegui \\\"$AMCLI --translate\\\" per "
+"aggiornare le traduzioni aggiunte"
 
 #: modules/translate.am:194
-#, fuzzy
 msgid "Merging with old ${i}.po"
-msgstr "Merging with old ${i}.po"
+msgstr "Fusione con il vecchio ${i}.po"
 
 #: modules/translate.am:197
-#, fuzzy
 msgid "Creating new ${i} translation file"
-msgstr "Creating new ${i} translation file"
+msgstr "Creazione di un nuovo file di traduzione ${i}"
 
 #: modules/translate.am:208
-#, fuzzy
 msgid "${i} done"
-msgstr "${i} done"
+msgstr "${i} creato"
 
 #: modules/translate.am:218
-#, fuzzy
 msgid "Preparation for translation done."
-msgstr "Preparation for translation done."
+msgstr "Preparazione per la traduzione completata."
 
 #: modules/translate.am:219
-#, fuzzy
 msgid "Now is up to translators, or AI..."
-msgstr "Now is up to translators..."
+msgstr "Adesso tocca ai traduttori..."
 
 #: modules/translate.am:221
-#, fuzzy
 msgid "Copy files to $HOME/.local/share/ for use with AppMan?"
-msgstr "Copy files to $HOME/.local/share/ for use with AppMan?"
+msgstr "Copiare i file in $HOME/.local/share/ per utilizzarli con AppMan?"
 
 #: modules/translate.am:228
-#, fuzzy
 msgid "No language added, run \\\"$AMCLI --translate-new\\\" first!"
-msgstr "No language added, run \\\"$AMCLI --translate-new\\\" first!"
+msgstr "Nessuna lingua aggiunta, esegui prima \\\"$AMCLI --translate-new\\\"!"
 
 #: modules/help.am:352
 #, fuzzy
