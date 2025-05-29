@@ -2,7 +2,7 @@
 # Prefill add-on <noreply-addon-prefill@weblate.org>, 2025.
 # ivan-hc <ivan-hc@users.noreply.hosted.weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: \nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-28\nPO-Revision-Date: 2025-05-29 06:06+0000\nLast-Translator: Prefill add-on <noreply-addon-prefill@weblate.org>\nLanguage-Team: Italian <https://hosted.weblate.org/projects/am/localization/it/>\nLanguage: it\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: \nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-28\nPO-Revision-Date: 2025-05-29 06:13+0000\nLast-Translator: Prefill add-on <noreply-addon-prefill@weblate.org>\nLanguage-Team: Italian <https://hosted.weblate.org/projects/am/am/it/>\nLanguage: it\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
 
 #: APP-MANAGER:55
 msgid ""
