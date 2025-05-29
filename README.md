@@ -1,8 +1,9 @@
 # 🦉 Localization files 🦉
-[![Stav překladu](https://hosted.weblate.org/widget/am/multi-auto.svg)](https://hosted.weblate.org/engage/am/)
+[![Localization State](https://hosted.weblate.org/widget/am/multi-auto.svg)](https://hosted.weblate.org/engage/am/)
+
 For [AM](https://github.com/ivan-hc/AM) project
 
-[![Stav překladu](https://hosted.weblate.org/widget/am/am/open-graph.png)](https://hosted.weblate.org/engage/am/)
+[![Localization State](https://hosted.weblate.org/widget/am/am/open-graph.png)](https://hosted.weblate.org/engage/am/)
 
 If your language isn't yet listed would be awesome if you add it [here](https://hosted.weblate.org/new-lang/am/am/)
 
