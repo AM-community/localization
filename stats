@@ -1,0 +1,22 @@
+Jak v názvu souboru, tak v obsahu je možné použít značkovací jazyk šablon Django, například:
+
+Italian
+Název jazyka
+it
+Kód jazyka
+84.8
+Procent přeloženo
+330
+Počet řetězců
+280
+Počet přeložených řetězců
+it.po
+Jméno souboru s překladem
+localization
+Název součásti
+localization
+Zkratka URL součásti
+AM
+Název projektu
+am
+Zkratka URL projektu

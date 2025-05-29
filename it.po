@@ -2,19 +2,7 @@
 # Prefill add-on <noreply-addon-prefill@weblate.org>, 2025.
 # ivan-hc <ivan-hc@users.noreply.hosted.weblate.org>, 2025.
 msgid ""
-msgstr ""
-"Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
-"POT-Creation-Date: 2025-05-28\n"
-"PO-Revision-Date: 2025-05-28 21:00+0000\n"
-"Last-Translator: ivan-hc <ivan-hc@users.noreply.hosted.weblate.org>\n"
-"Language-Team: Italian <https://hosted.weblate.org/projects/am/am/it/>\n"
-"Language: it\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: \nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-28\nPO-Revision-Date: 2025-05-29 05:34+0000\nLast-Translator: Prefill add-on <noreply-addon-prefill@weblate.org>\nLanguage-Team: Italian <https://hosted.weblate.org/projects/am/localization/it/>\nLanguage: it\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
 
 #: APP-MANAGER:55
 msgid ""
@@ -124,17 +112,19 @@ msgstr ""
 "maggiori informazioni\\n"
 
 #: APP-MANAGER:325
+#, fuzzy
 msgid ""
 "\\n%bWARNING: your distro maintainer ships \\\"wget2\\\" as \\\"wget\\\" "
 "\\033[0m\\n\\n"
-msgstr ""
+msgstr "\\n%bWARNING: your distro maintainer ships \\\"wget2\\\" as \\\"wget\\\" \\033[0m\\n\\n"
 
 #: APP-MANAGER:326
+#, fuzzy
 msgid ""
 "Please install \\\"%bwget1\\033[0m\\\" and \\\"%bwget1-wget\\033[0m\\\" (use "
 "%b--allowerasing\\033[0m if you have to)\\n\\nSee https://bugzilla.redhat."
 "com/show_bug.cgi?id=2358792\\n\\n"
-msgstr ""
+msgstr "Please install \\\"%bwget1\\033[0m\\\" and \\\"%bwget1-wget\\033[0m\\\" (use %b--allowerasing\\033[0m if you have to)\\n\\nSee https://bugzilla.redhat.com/show_bug.cgi?id=2358792\\n\\n"
 
 #: APP-MANAGER:333
 msgid ""
@@ -495,12 +485,14 @@ msgid "%b\\n >> %bEND OF ALL PROCESSES\\033[0m << \\n%b\\n"
 msgstr "%b\\n >> FINE DI TUTTI I PROCESSI << \\n%b\\n"
 
 #: APP-MANAGER:1214
+#, fuzzy
 msgid " %b✖\\033[0m %b cannot be updated, program not found \\n"
-msgstr ""
+msgstr " %b✖\\033[0m %b cannot be updated, program not found \\n"
 
 #: APP-MANAGER:1218
+#, fuzzy
 msgid " %b✖\\033[0m %b cannot be updated%b\\n"
-msgstr ""
+msgstr " %b✖\\033[0m %b cannot be updated%b\\n"
 
 #: APP-MANAGER:1233
 msgid " ERROR: \\\"$arg\\\" is not installed, see \\\"-f\\\""
@@ -538,8 +530,9 @@ msgid " Run the \\\"$AMCLI -h\\\" command to find out more"
 msgstr " Eseguire \\\"$AMCLI -h\\\" per saperne di più"
 
 #: APP-MANAGER:1350
+#, fuzzy
 msgid "This feature is disabled by your organization"
-msgstr ""
+msgstr "This feature is disabled by your organization"
 
 #: APP-MANAGER:1405
 msgid ""
@@ -1618,8 +1611,9 @@ msgid "No language added, run \\\"$AMCLI --translate-new\\\" first!"
 msgstr "No language added, run \\\"$AMCLI --translate-new\\\" first!"
 
 #: modules/help.am:352
+#, fuzzy
 msgid "$HELP_MESSAGE"
-msgstr ""
+msgstr "$HELP_MESSAGE"
 
 #~ msgid " without extension, we tried to workaround and failed"
 #~ msgstr ""
