@@ -2,14 +2,12 @@
 # FIRST AUTHOR <zenobit@disroot.org>, 2025
 # Prefill add-on <noreply-addon-prefill@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: am 9.7\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-28\nPO-Revision-Date: 2025-05-29 06:13+0000\nLast-Translator: Prefill add-on <noreply-addon-prefill@weblate.org>\nLanguage-Team: Czech <https://hosted.weblate.org/projects/am/am/cs/>\nLanguage: cs\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\nX-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: am 9.7\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-28\nPO-Revision-Date: 2025-05-29 07:01+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: Czech <https://hosted.weblate.org/projects/am/am/cs/>\nLanguage: cs\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\nX-Generator: Weblate 5.12-dev\n"
 
 #: APP-MANAGER:55
 msgid ""
 "\\n Please do not use \\\"sudo\\\" to execute \\\"%b\\\", try again.\\n\\n"
-msgstr ""
-"\\n Prosím nepoužívejte \\\"sudo\\\" ke spouštění \\\"%b\\\", zkuste znovu."
-"\\n\\n"
+msgstr "\\n Prosím nepoužívejte \\\"sudo\\\" ke spouštění \\\"%b\\\", zkuste znovu.\\n\\n"
 
 #: APP-MANAGER:88
 msgid "Install 'less' if you want to scroll this list"
@@ -37,9 +35,7 @@ msgstr ">>> Děkujeme že jste si zvolili AppMan!"
 #: APP-MANAGER:138
 msgid ""
 " Write the path or just press enter to use default:$(printf \"\\n\\n \")"
-msgstr ""
-" Napište cestu nebo jen stiskněte Enter pro použití doporučeného:$(printf "
-"\"\\n\\n \")"
+msgstr " Napište cestu nebo jen stiskněte Enter pro použití doporučeného:$(printf \"\\n\\n \")"
 
 #: APP-MANAGER:146
 msgid " 💀 ERROR, you can't install applications in \\\"$BINDIR\\\""
@@ -49,9 +45,7 @@ msgstr " 💀 CHYBA, nemůžete nainstalovat aplikace do \\\"$BINDIR\\\""
 msgid ""
 " $BINDIR is normally used for executables, Please choose a different path "
 "and retry!"
-msgstr ""
-" $BINDIR je normálně používán pro spustitelné, Prosím vyberte jinou cestu a "
-"zkuste znovu!"
+msgstr " $BINDIR je normálně používán pro spustitelné, Prosím vyberte jinou cestu a zkuste znovu!"
 
 #: APP-MANAGER:151
 msgid " 💀 ERROR: You don't have write access to $location or it is invalid"
@@ -77,9 +71,7 @@ msgstr "CHYBA: Nemůžete zapisovat do $APPSPATH"
 msgid ""
 "%b ⚠️ WARNING\\033[0m: \\\"%b%b\\033[0m\\\" is not in PATH, local apps may "
 "not run.\\n"
-msgstr ""
-"%b ⚠️ UPOZORNĚNÍ\\033[0m: \\\"%b%b\\033[0m\\\" není v PATH, lokální aplikace "
-"nemusí běžet.\\n"
+msgstr "%b ⚠️ UPOZORNĚNÍ\\033[0m: \\\"%b%b\\033[0m\\\" není v PATH, lokální aplikace nemusí běžet.\\n"
 
 #: APP-MANAGER:282
 msgid "\\\"$AMCLIUPPER\\\" $AMVERSION: DEVELOPER MODE"
@@ -89,9 +81,7 @@ msgstr "\\\"$AMCLIUPPER\\\" $AMVERSION: VÝVOJÁŘSKÝ MÓD"
 msgid ""
 " ${RED}💀 ERROR! MISSING ESSENTIAL COMMANDS\\033[0m: %s\\n\\n Install the "
 "above and try again! \\n"
-msgstr ""
-" ${RED}💀 CHYBA! MISSING ESSENTIAL COMMANDS\\033[0m: %s\\n\\n Install the "
-"above and try again! \\n"
+msgstr " ${RED}💀 CHYBA! MISSING ESSENTIAL COMMANDS\\033[0m: %s\\n\\n Install the above and try again! \\n"
 
 #: APP-MANAGER:314
 msgid "%bList of the %b core dependences\\033[0m:\\n\\n%b\\n"
@@ -101,17 +91,13 @@ msgstr "%bSeznam %b základních závislostí\\033[0m:\\n\\n%b\\n"
 msgid ""
 "If this message appears it is because you are missing some dependency and if "
 "its the first time its because something new has been introduced.\\n\\n"
-msgstr ""
-"Pokud se tato zpráva objeví, je to proto, že vám chybí nějaká závislost, a "
-"pokud je to poprvé, je to proto, že bylo zavedeno něco nového.\\n\\n"
+msgstr "Pokud se tato zpráva objeví, je to proto, že vám chybí nějaká závislost, a pokud je to poprvé, je to proto, že bylo zavedeno něco nového.\\n\\n"
 
 #: APP-MANAGER:317
 msgid ""
 " See %bhttps://github.com/ivan-hc/AM#core-dependences\\033[0m for more "
 "information\\n"
-msgstr ""
-" Další informace naleznete na %bhttps://github.com/ivan-hc/AM#core-"
-"dependences\\033[0m\\n"
+msgstr " Další informace naleznete na %bhttps://github.com/ivan-hc/AM#core-dependences\\033[0m\\n"
 
 #: APP-MANAGER:325
 #, fuzzy
@@ -131,16 +117,12 @@ msgstr "Please install \\\"%bwget1\\033[0m\\\" and \\\"%bwget1-wget\\033[0m\\\" 
 #: APP-MANAGER:333
 msgid ""
 "\\n %b⚠️ WARNING: ACCESS TO USER NAMESPACES IS RESTRICTED! \\033[0m\\n\\n"
-msgstr ""
-"\\n %b⚠️ VAROVÁNÍ: PŘÍSTUP K UŽIVATELSKÝM JMENNÝM PROSTORŮM JE OMEZEN! "
-"\\033[0m\\n\\n"
+msgstr "\\n %b⚠️ VAROVÁNÍ: PŘÍSTUP K UŽIVATELSKÝM JMENNÝM PROSTORŮM JE OMEZEN! \\033[0m\\n\\n"
 
 #: APP-MANAGER:334
 msgid ""
 " Some apps may not run, you need to enable access to user namespaces, see"
-msgstr ""
-" Některé aplikace nemusí být možné spustit, je třeba povolit přístup k "
-"uživatelským jmenným prostorům, viz"
+msgstr " Některé aplikace nemusí být možné spustit, je třeba povolit přístup k uživatelským jmenným prostorům, viz"
 
 #: APP-MANAGER:336
 msgid " to know more."
@@ -149,9 +131,7 @@ msgstr " pro více info."
 #: APP-MANAGER:348
 msgid ""
 "\\n %b is offline, please check your internet connection and try again\\n\\n"
-msgstr ""
-"\\n %b je offline, zkontrolujte prosím připojení k internetu a zkuste to "
-"znovu\\n\\n"
+msgstr "\\n %b je offline, zkontrolujte prosím připojení k internetu a zkuste to znovu\\n\\n"
 
 #: APP-MANAGER:357
 msgid "\\n %b💀WARNING! Detected \\\"%b\\\"\\033[0m\\n\\n"
@@ -161,9 +141,7 @@ msgstr "\\n %b💀UPOZORNĚNÍ! Detekován \\\"%b\\\"\\033[0m\\n\\n"
 msgid ""
 "It will prevent \\\"$AMCLIUPPER\\\" from working correctly with AppImages, "
 "especially when extracting, integrating and updating them."
-msgstr ""
-"Zabrání správné práci \\\"$AMCLIUPPER\\\" s AppImage, zejména při jejich "
-"extrakci, integraci a aktualizaci."
+msgstr "Zabrání správné práci \\\"$AMCLIUPPER\\\" s AppImage, zejména při jejich extrakci, integraci a aktualizaci."
 
 #: APP-MANAGER:362
 msgid " Please remove \\\"AppImageLauncher\\\", reboot and retry!"
@@ -171,8 +149,7 @@ msgstr " Prosím odeberte \\\"AppImageLauncher\\\", restartujte a zkuste znovu!"
 
 #: APP-MANAGER:364
 msgid " Please remove \\\"$blacklisted_file\\\", reboot and retry!"
-msgstr ""
-" Prosím odeberte \\\"$blacklisted_file\\\", restartujte a zkuste znovu!"
+msgstr " Prosím odeberte \\\"$blacklisted_file\\\", restartujte a zkuste znovu!"
 
 #: APP-MANAGER:383 modules/database.am:549 modules/database.am:637
 #: modules/install.am:432 modules/install.am:457 modules/management.am:467
@@ -206,8 +183,7 @@ msgstr " Všechny repozitáře třetích stran odebrány"
 
 #: APP-MANAGER:408
 msgid "Select a repo from the list or press CTRL+C to abort:\\n%b\\n"
-msgstr ""
-"Vyberte repozitář ze seznamu nebot stiskněte CTRL+C pro přerušení:\\n%b\\n"
+msgstr "Vyberte repozitář ze seznamu nebot stiskněte CTRL+C pro přerušení:\\n%b\\n"
 
 #: APP-MANAGER:411
 msgid ">>> Invalid Selection"
@@ -260,9 +236,7 @@ msgstr " Prosím buď:"
 #: APP-MANAGER:734
 msgid ""
 "   1. Generate a new token and add it with: $AMCLI apikey YOUR_NEW_TOKEN"
-msgstr ""
-"   1. Vygenerujte nový token a přidejte jej použitím: $AMCLI apikey "
-"VÁŠ_NOVÝ_TOKEN"
+msgstr "   1. Vygenerujte nový token a přidejte jej použitím: $AMCLI apikey VÁŠ_NOVÝ_TOKEN"
 
 #: APP-MANAGER:735
 msgid "   2. Remove the invalid token with: $AMCLI apikey del"
@@ -282,8 +256,7 @@ msgstr " Chcete vstoupit do \\\"AppMan Módu\\\" (y,N)?"
 
 #: APP-MANAGER:786
 msgid " \\\"AM\\\" is read-only, want to use it in \\\"AppMan Mode\\\" (Y,n)? "
-msgstr ""
-" \\\"AM\\\" je pouze čtení, chcete ho použít v \\\"AppMan Módu\\\" (Y,n)? "
+msgstr " \\\"AM\\\" je pouze čtení, chcete ho použít v \\\"AppMan Módu\\\" (Y,n)? "
 
 #: APP-MANAGER:790
 msgid "\\\"AppMan Mode\\\" enabled!"
@@ -311,8 +284,7 @@ msgstr " ✖ CHYBA: nemohu odstranit \\\"$(basename \"$var\")\\\""
 
 #: APP-MANAGER:846
 msgid "   related AppImage is located in an unmounted path of $unmounted_point"
-msgstr ""
-"   související AppImage se nachází v nepřipojené cestě $unmounted_point"
+msgstr "   související AppImage se nachází v nepřipojené cestě $unmounted_point"
 
 #: APP-MANAGER:874
 msgid " ✔ Removed obsolete module named \\\"$(basename -- \"$m\")\\\""
@@ -348,9 +320,7 @@ msgstr "%b\\n Kontroluji změny instalačních skriptů v online databázi...\\n
 msgid ""
 " ◆ %b%b\\033[0m has changed, you may need to reinstall it, see\\n   https://"
 "github.com/ivan-hc/AM/blob/main/programs/%b/%b\\n"
-msgstr ""
-" ◆ %b%b\\033[0m se změnila, možná ji budete muset znovu nainstalovat, "
-"viz\\n   https://github.com/ivan-hc/AM/blob/main/programs/%b/%b\\n"
+msgstr " ◆ %b%b\\033[0m se změnila, možná ji budete muset znovu nainstalovat, viz\\n   https://github.com/ivan-hc/AM/blob/main/programs/%b/%b\\n"
 
 #: APP-MANAGER:937
 msgid " ◆ No installation script for %b, downloading one...\\n"
@@ -360,9 +330,7 @@ msgstr " ◆ Pro %b není instalační skript, stahuji ho...\\n"
 msgid ""
 "\\n To fix the above, just run \\\"%b%b reinstall\\033[0m\\\", without "
 "arguments\\n"
-msgstr ""
-"\\n Pro opravu výše uvedeného spusťte \\\"%b%b reinstall\\033[0m\\\", bez "
-"argumentů\\n"
+msgstr "\\n Pro opravu výše uvedeného spusťte \\\"%b%b reinstall\\033[0m\\\", bez argumentů\\n"
 
 #: APP-MANAGER:960
 msgid "%b\\n Check and update offline lists of additional databases...\\n"
@@ -384,9 +352,7 @@ msgstr " ◆ Aktualizuji $module_name..."
 msgid ""
 "\\n ◆ SYNCHRONIZING \\\"$AMCLIUPPER\\\" VERSION \\\"$CURRENT_AM_VERSION\\"
 "\"...\\r"
-msgstr ""
-"\\n ◆ SYNCHRONIZUJI \\\"$AMCLIUPPER\\\" VERZE \\\"$CURRENT_AM_VERSION\\\"..."
-"\\r"
+msgstr "\\n ◆ SYNCHRONIZUJI \\\"$AMCLIUPPER\\\" VERZE \\\"$CURRENT_AM_VERSION\\\"...\\r"
 
 #: APP-MANAGER:998
 msgid " A new release of \\\"$AMCLIUPPER\\\" is available, please wait...\\r"
@@ -396,9 +362,7 @@ msgstr " Nová verze \\\"$AMCLIUPPER\\\" je k dispozici, počkejte prosím...\\r
 msgid ""
 " ◆ \\\"$AMCLIUPPER\\\" IS NOW UPDATED TO THE BRAND NEW \\\"$NEW_AM_VERSION\\"
 "\" VERSION!"
-msgstr ""
-" ◆ \\\"$AMCLIUPPER\\\" JE AKTUALIZOVÁN NA ZCELA NOVOU VERZI \\"
-"\"$NEW_AM_VERSION\\\"!"
+msgstr " ◆ \\\"$AMCLIUPPER\\\" JE AKTUALIZOVÁN NA ZCELA NOVOU VERZI \\\"$NEW_AM_VERSION\\\"!"
 
 #: APP-MANAGER:1000
 msgid "\\n  Replacement of version \\\"%b\\\" currently in use, COMPLETED! \\n"
@@ -412,9 +376,7 @@ msgstr "\\n Viz https://github.com/ivan-hc/AM/commits/main\\n\\n"
 msgid ""
 " ◆ \\\"$AMCLIUPPER\\\" IS ALREADY UPDATED, CURRENT VERSION \\"
 "\"$CURRENT_AM_VERSION\\\""
-msgstr ""
-" ◆ \\\"$AMCLIUPPER\\\" JE JIŽ AKTUALIZOVÁN, AKTUÁLNÍ VERZE \\"
-"\"$CURRENT_AM_VERSION\\\""
+msgstr " ◆ \\\"$AMCLIUPPER\\\" JE JIŽ AKTUALIZOVÁN, AKTUÁLNÍ VERZE \\\"$CURRENT_AM_VERSION\\\""
 
 #: APP-MANAGER:1004
 msgid "\\n See https://github.com/ivan-hc/AM/commits/%b\\n\\n"
@@ -425,8 +387,7 @@ msgstr "\\n Viz https://github.com/ivan-hc/AM/commits/%b\\n\\n"
 msgid ""
 " %b\\\"%b\\\" CAN MANAGE UPDATES FOR THE FOLLOWING PROGRAMS\\033[0m:"
 "\\n%b\\n\\n"
-msgstr ""
-" \\\"%b\\\" MŮŽE SPRAVOVAT AKTUALIZACE PRO NÁSLEDUJÍCÍ PROGRAMY:\\n%b\\n\\n"
+msgstr " \\\"%b\\\" MŮŽE SPRAVOVAT AKTUALIZACE PRO NÁSLEDUJÍCÍ PROGRAMY:\\n%b\\n\\n"
 
 #: APP-MANAGER:1043
 msgid " None"
@@ -507,9 +468,7 @@ msgstr " CHYBA: \\\"$arg\\\" does not redirect to a generic \\\"releases\\\""
 
 #: APP-MANAGER:1264
 msgid " Module not found, run \\\"$AMCLI -s\\\" to update \\\"$AMCLIUPPER\\\""
-msgstr ""
-" Modul nebyl nalezen, spusťte \\\"$AMCLI -s\\\" pro aktualizaci \\"
-"\"$AMCLIUPPER\\\"."
+msgstr " Modul nebyl nalezen, spusťte \\\"$AMCLI -s\\\" pro aktualizaci \\\"$AMCLIUPPER\\\"."
 
 #: APP-MANAGER:1282
 msgid " USAGE: $AMCLI [OPTION]"
@@ -532,9 +491,7 @@ msgstr "This feature is disabled by your organization"
 msgid ""
 "ERROR: unknown option \\\"$1\\\", run the \\\"$AMCLI -h\\\" command to find "
 "out more"
-msgstr ""
-"CHYBA: unknown option \\\"$1\\\", run the \\\"$AMCLI -h\\\" command to find "
-"out more"
+msgstr "CHYBA: unknown option \\\"$1\\\", run the \\\"$AMCLI -h\\\" command to find out more"
 
 #: modules/database.am:51
 msgid "\\nAvailable families: %b\\n"
@@ -623,9 +580,7 @@ msgstr " ◆ $arg\t|\tjiné"
 #: modules/database.am:340
 msgid ""
 " *has dependency to EOL libfuse2 library, please ask the creator to update\\n"
-msgstr ""
-" *je závislá na zastaralé knihovně libfuse2, poproste strůjce o "
-"aktualizaci\\n"
+msgstr " *je závislá na zastaralé knihovně libfuse2, poproste strůjce o aktualizaci\\n"
 
 #: modules/database.am:357
 msgid " TOTAL SIZE: $TOTAL_SIZE of disk space in use"
@@ -637,15 +592,12 @@ msgstr "-\tAPPIMAGE | CESTA | VELIKOST "
 
 #: modules/database.am:426
 msgid "\\n *this path is listed but not mounted, file size unknown\\n\\n"
-msgstr ""
-"\\n *tato cesta je uvedena, ale nepřipojena, velikost souboru neznámá\\n\\n"
+msgstr "\\n *tato cesta je uvedena, ale nepřipojena, velikost souboru neznámá\\n\\n"
 
 #: modules/database.am:521
 msgid ""
 " To list all installable programs, use the \\\"%b--all\\033[0m\\\" flag\\n\\n"
-msgstr ""
-" Pro výpis instalovatelných programů, spusťte \\\"%b--all\\033[0m\\\" "
-"příznak\\n\\n"
+msgstr " Pro výpis instalovatelných programů, spusťte \\\"%b--all\\033[0m\\\" příznak\\n\\n"
 
 #: modules/database.am:522
 msgid " LIST OF THE %b"
@@ -670,9 +622,7 @@ msgstr " CHYBA: %b not found\\033[0m\\n"
 #: modules/database.am:628
 msgid ""
 "\\n Unknown flag, run \\\"-h\\\" to see supported third-party flags.\\n\\n"
-msgstr ""
-"\\n Neznámý příznak, spusťte \\\"-h\\\" pro zobrazení podporovaných příznaků "
-"třetích stran.\\n\\n"
+msgstr "\\n Neznámý příznak, spusťte \\\"-h\\\" pro zobrazení podporovaných příznaků třetích stran.\\n\\n"
 
 #: modules/database.am:649
 msgid "\\n Search results for packages: %s\\n\\n"
@@ -701,18 +651,15 @@ msgstr " 💀 CHYBA: cannot create \\\"$arg\\\", the builder does not exists"
 #: modules/install.am:72
 msgid ""
 " 💀 ERROR: you cannot install \\\"$arg\\\" without installing \\\"firefox\\\""
-msgstr ""
-" 💀 CHYBA: you cannot install \\\"$arg\\\" without installing \\\"firefox\\\""
+msgstr " 💀 CHYBA: you cannot install \\\"$arg\\\" without installing \\\"firefox\\\""
 
 #: modules/install.am:83
 msgid " 💀 ERROR: cannot install \\\"$arg\\\" without \\\"$dependency_name\\\""
-msgstr ""
-" 💀 CHYBA: cannot install \\\"$arg\\\" without \\\"$dependency_name\\\""
+msgstr " 💀 CHYBA: cannot install \\\"$arg\\\" without \\\"$dependency_name\\\""
 
 #: modules/install.am:99
 msgid " ◆ $APPNAME IS PART OF \\\"$LASTDIR\\\", ALREADY INSTALLED"
-msgstr ""
-" ◆ $APPNAME APLIKACE JE SOUČÁSTÍ \\\"$LASTDIR\\\", KTERÝ JE JIŽ NAINSTALOVÁN"
+msgstr " ◆ $APPNAME APLIKACE JE SOUČÁSTÍ \\\"$LASTDIR\\\", KTERÝ JE JIŽ NAINSTALOVÁN"
 
 #: modules/install.am:123
 msgid "%b%b"
@@ -722,9 +669,7 @@ msgstr "%b%b"
 msgid ""
 "\\n We can't be sure as to what is inside the application\\n We highly "
 "recommend that you sandbox this application\\n\\n"
-msgstr ""
-"\\n Nemůžeme si být jisti, co je uvnitř aplikace\\n Důrazně doporučujeme, "
-"abyste tuto aplikaci uložili do sandboxu\\n\\n"
+msgstr "\\n Nemůžeme si být jisti, co je uvnitř aplikace\\n Důrazně doporučujeme, abyste tuto aplikaci uložili do sandboxu\\n\\n"
 
 #: modules/install.am:125 modules/install.am:141
 msgid " Do you wish to continue? (N/y): "
@@ -748,9 +693,7 @@ msgstr " 💀 CHYBA: \\\"$arg\\\" already exists in /usr/local/lib"
 
 #: modules/install.am:140
 msgid "\\n ⚠️ This script will install a system library in /usr/local/lib\\n\\n"
-msgstr ""
-"\\n ⚠️ Tento skript nainstaluje systémovou knihovnu do adresáře /usr/local/"
-"lib\\n\\n"
+msgstr "\\n ⚠️ Tento skript nainstaluje systémovou knihovnu do adresáře /usr/local/lib\\n\\n"
 
 #: modules/install.am:226 modules/install.am:229
 msgid " 💀 ERROR DURING INSTALLATION, REMOVED $APPNAME!"
@@ -770,9 +713,7 @@ msgstr " ✖ \\\"$(echo \"$arg\" | sed 's/-appimage//g')\\\" není Appimage"
 
 #: modules/install.am:360
 msgid " Detected multiple variants, choose one or press ZERO to abort:\\n\\n"
-msgstr ""
-" Zjištěno více variant, vyberte jednu nebo stiskněte ZERO pro přerušení:"
-"\\n\\n"
+msgstr " Zjištěno více variant, vyberte jednu nebo stiskněte ZERO pro přerušení:\\n\\n"
 
 #: modules/install.am:366
 msgid "%bPlease select another item or press \\\"ZERO\\\".\\n\\n"
@@ -840,10 +781,7 @@ msgid ""
 "💀 ERROR: \\\"$arg\\\" does NOT exist in the \\\"AM\\\" database, $(printf "
 "\"please check the list, run the \\\"%b$AMCLIPATH_ORIGIN -l\\033[0m\\\" "
 "command.\\n\\n\" \"${Gold}\")"
-msgstr ""
-"💀 CHYBA: \\\"$arg\\\" NENÍ v databázi \\\"AM\\\", $(printf \"please check "
-"the list, run the \\\"%b$AMCLIPATH_ORIGIN -l\\033[0m\\\" command.\\n\\n\" "
-"\"${Gold}\")"
+msgstr "💀 CHYBA: \\\"$arg\\\" NENÍ v databázi \\\"AM\\\", $(printf \"please check the list, run the \\\"%b$AMCLIPATH_ORIGIN -l\\033[0m\\\" command.\\n\\n\" \"${Gold}\")"
 
 #: modules/install.am:529
 msgid "\\n ERROR: \\\"%b\\\" is NOT an AppImage\\n"
@@ -904,15 +842,11 @@ msgid ""
 "\\n ◆ To set date and time as a name, press ENTER (default)\\n ◆ To set the "
 "version as a name, press \\\"1\\\"\\n ◆ To set a custom name, write anything "
 "else\\n\\n"
-msgstr ""
-"\\n ◆ Chcete-li nastavit datum a čas jako název, stiskněte ENTER "
-"(výchozí)\\n ◆ Chcete-li nastavit verzi jako název, stiskněte \\\"1\\\"\\n ◆ "
-"Chcete-li nastavit vlastní název, napište cokoli jiného\\n\\n"
+msgstr "\\n ◆ Chcete-li nastavit datum a čas jako název, stiskněte ENTER (výchozí)\\n ◆ Chcete-li nastavit verzi jako název, stiskněte \\\"1\\\"\\n ◆ Chcete-li nastavit vlastní název, napište cokoli jiného\\n\\n"
 
 #: modules/management.am:15
 msgid " Write your choice here, or leave blank to use \\\"date/time\\\": "
-msgstr ""
-" Napište svou volbu zde, nebo nechte prázdné k použití \\\"date/time\\\": "
+msgstr " Napište svou volbu zde, nebo nechte prázdné k použití \\\"date/time\\\": "
 
 #: modules/management.am:32 modules/management.am:62
 msgid " \\\"$2\\\" is not a valid argument or is not installed."
@@ -972,8 +906,7 @@ msgstr "✖ CHYBA: \\\"$arg\\\" už obsahuje config adresář"
 
 #: modules/management.am:102
 msgid "✔ \\$XDG_CONFIG_HOME set to \\\"$argpath.config\\\" for \\\"$arg\\\""
-msgstr ""
-"✔ \\$XDG_CONFIG_HOME nastaven na \\\"$argpath.config\\\" pro \\\"$arg\\\""
+msgstr "✔ \\$XDG_CONFIG_HOME nastaven na \\\"$argpath.config\\\" pro \\\"$arg\\\""
 
 #: modules/management.am:107
 msgid "✖ ERROR: \\\"$arg\\\" already contains a home dir"
@@ -985,9 +918,7 @@ msgstr "✔ \\$HOME nastaven na \\\"$argpath.home\\\" pro \\\"$arg\\\""
 
 #: modules/management.am:137
 msgid " No AM-updater available for \\\"$2\\\", cannot detect any URL!"
-msgstr ""
-" Pro \\\"$2\\\" není k dispozici žádný AM-updater, nelze detekovat žádnou "
-"adresu URL!"
+msgstr " Pro \\\"$2\\\" není k dispozici žádný AM-updater, nelze detekovat žádnou adresu URL!"
 
 #: modules/management.am:144
 msgid " The option \\\"$1\\\" only works for https://github.com"
@@ -1003,9 +934,7 @@ msgstr "Rozhodli jste se pro obnovení \\\"$2\\\"."
 
 #: modules/management.am:157
 msgid "Select a URL from this menu (read carefully) or press ZERO to abort:"
-msgstr ""
-"V této nabídce vyberte adresu URL (čtěte pozorně) nebo stiskněte tlačítko "
-"ZERO pro přerušení:"
+msgstr "V této nabídce vyberte adresu URL (čtěte pozorně) nebo stiskněte tlačítko ZERO pro přerušení:"
 
 #: modules/management.am:180
 msgid "ROLLBACK SUCCESSFUL!"
@@ -1014,16 +943,12 @@ msgstr "OBNOVENÍ ÚSPĚŠNÉ!"
 #: modules/management.am:238
 msgid ""
 "WARNING: cannot extract old type 1 AppImages, install \\\"7z\\\" and retry."
-msgstr ""
-"VAROVÁNÍ: nelze extrahovat staré AppImage typu 1, nainstalujte \\\"7z\\\" a "
-"zkuste znovu."
+msgstr "VAROVÁNÍ: nelze extrahovat staré AppImage typu 1, nainstalujte \\\"7z\\\" a zkuste znovu."
 
 #: modules/management.am:251
 msgid ""
 "WARNING: \\\"$BINDIR\\\" is not in PATH, apps may not run from command line."
-msgstr ""
-"VAROVÁNÍ: \\\"$BINDIR\\\" není v PATH, aplikace nepůjde spustit z "
-"příkazového řádku."
+msgstr "VAROVÁNÍ: \\\"$BINDIR\\\" není v PATH, aplikace nepůjde spustit z příkazového řádku."
 
 #: modules/management.am:254
 msgid " Write a custom command to launch the app, or leave blank: "
@@ -1069,9 +994,7 @@ msgstr " ◆ Soubor: %s\\n"
 msgid ""
 " \\\"$AMCLIUPPER\\\" cannot manage updates for $2, \\\"AM-updater\\\" file "
 "not found!"
-msgstr ""
-" \\\"$AMCLIUPPER\\\" nemůže spravovat aktualizace pro $2, \\\"AM-updater\\\" "
-"soubor nenalezen!"
+msgstr " \\\"$AMCLIUPPER\\\" nemůže spravovat aktualizace pro $2, \\\"AM-updater\\\" soubor nenalezen!"
 
 #: modules/management.am:309
 msgid " Do you wish to keep $2 at its current version? (y/N) "
@@ -1124,9 +1047,7 @@ msgstr " .zsync soubor bude odebrán a nebude dále fungovat"
 #: modules/management.am:358
 msgid ""
 " your \\\"AM-updater\\\" will likely still be able to update the AppImage"
-msgstr ""
-" Váš \\\"AM-updater\\\" bude stále pravděpodobně schopen AppImage "
-"aktualizovat"
+msgstr " Váš \\\"AM-updater\\\" bude stále pravděpodobně schopen AppImage aktualizovat"
 
 #: modules/management.am:359
 msgid " by comparing the old vs new version url, but it is not guaranteed"
@@ -1177,9 +1098,7 @@ msgstr " Chcete odstranit staré libfuse2 AppImage? (Y/n) "
 msgid ""
 " \\\"${RED}$arg\\033[0m\\\" is not a valid \\\"APPNAME\\\", see \\\"$AMCLI -"
 "f\\\" for more."
-msgstr ""
-" \\\"${RED}$arg\\033[0m\\\" není správný \\\"APPNAME\\\", zkuste \\\"$AMCLI -"
-"f\\\" pro více info."
+msgstr " \\\"${RED}$arg\\033[0m\\\" není správný \\\"APPNAME\\\", zkuste \\\"$AMCLI -f\\\" pro více info."
 
 #: modules/management.am:439
 msgid " ◆ Do you wish to remove \\\"$arg\\\"? (Y/n) "
@@ -1261,8 +1180,7 @@ msgstr " Povolit $1 přístup do konkrétního adresáře? (y/N) "
 
 #: modules/sandboxes.am:200
 msgid "  WARNING: Giving access to all of $HOME or / and similar is not safe"
-msgstr ""
-"  UPOZORNĚNÍ: Umožnění přístupu k celému $HOME nebo / a podobně není bezpečné"
+msgstr "  UPOZORNĚNÍ: Umožnění přístupu k celému $HOME nebo / a podobně není bezpečné"
 
 #: modules/sandboxes.am:201
 msgid "  Also aisap might not let $1 start when such paths are given"
@@ -1292,9 +1210,7 @@ msgstr " ◆ PŘIDAT STRUČNÝ POPIS PRO TUTO APLIKACI $(echo -e '\\n : ')"
 msgid ""
 " ◆ FOR \\\"WGET\\\", ADD A COMMAND AS \\\"\\$( ... )\\\" OR A LINEAR "
 "DOWNLOAD URL $(echo -e '\\n : ')"
-msgstr ""
-" ◆ PRO \\\"WGET\\\", PŘIDEJTE PŘÍKAZ JAKO \\\"\\$( ... )\\\" NEBO LINEÁRNÍ "
-"URL PRO STAŽENÍ $(echo -e '\\n : ')"
+msgstr " ◆ PRO \\\"WGET\\\", PŘIDEJTE PŘÍKAZ JAKO \\\"\\$( ... )\\\" NEBO LINEÁRNÍ URL PRO STAŽENÍ $(echo -e '\\n : ')"
 
 #: modules/template.am:115
 msgid " Do you want to use repology.org to identify version (y,N)? "
@@ -1306,11 +1222,7 @@ msgid ""
 "Development\\n 4) Education\\n 5) Game\\n 6) Graphics\\n 7) Network\\n 8) "
 "Office\\n 9) Science\\n 10) Settings\\n 11) System\\n 12) Utility "
 "(default)\\n "
-msgstr ""
-" SEZNAM KATEGORIÍ:\\n 0) AudioVideo\\n 1) Audio\\n 2) Video\\n 3) "
-"Development\\n 4) Education\\n 5) Game\\n 6) Graphics\\n 7) Network\\n 8) "
-"Office\\n 9) Science\\n 10) Settings\\n 11) System\\n 12) Utility "
-"(default)\\n "
+msgstr " SEZNAM KATEGORIÍ:\\n 0) AudioVideo\\n 1) Audio\\n 2) Video\\n 3) Development\\n 4) Education\\n 5) Game\\n 6) Graphics\\n 7) Network\\n 8) Office\\n 9) Science\\n 10) Settings\\n 11) System\\n 12) Utility (default)\\n "
 
 #: modules/template.am:162
 msgid " CHOOSE A CATEGORY : "
@@ -1321,26 +1233,20 @@ msgstr " VYBERTE KATEGORII : "
 msgid ""
 "\\n The URL above is an example of what both\\n the install and update "
 "scripts will point to.\\n"
-msgstr ""
-"\\n Adresa URL výše je příklad kam obojí\\n instalační i aktualizační skript "
-"směřují.\\n"
+msgstr "\\n Adresa URL výše je příklad kam obojí\\n instalační i aktualizační skript směřují.\\n"
 
 #: modules/template.am:306
 msgid ""
 " ◆ ADD THE NAME OF THE PROJECT OR LEAVE BLANK IF ITS THE SAME $(echo -e "
 "'\\n : ')"
-msgstr ""
-" ◆ PŘIDEJTE NÁZEV PROJEKTU NEBO NECHTE PRÁZDNÉ POKUD JE STEJNÝ $(echo -e "
-"'\\n : ')"
+msgstr " ◆ PŘIDEJTE NÁZEV PROJEKTU NEBO NECHTE PRÁZDNÉ POKUD JE STEJNÝ $(echo -e '\\n : ')"
 
 #: modules/template.am:316
 #, fuzzy
 msgid ""
 " ◆ ADD an univoque keyword for the file (for example \\\"tar.gz\\\", \\"
 "\"linux\\\"):"
-msgstr ""
-" ◆ PŘIDEJTE unikátní klíčová slova pro soubor (například \\\"tar.gz\\\", \\"
-"\"linux\\\"):"
+msgstr " ◆ PŘIDEJTE unikátní klíčová slova pro soubor (například \\\"tar.gz\\\", \\\"linux\\\"):"
 
 #: modules/template.am:363
 msgid " Create a template for \\\"$arg\\\""
@@ -1355,9 +1261,7 @@ msgstr " KAŽDÝ MODEL JE ZALOŽEN NA JINÉ METODĚ SESTAVENÍ/AKTUALIZACE PROGR
 msgid ""
 " PLEASE, SELECT A TEMPLATE FOR \\\"$(echo \"$arg\" | tr '[:lower:]' '[:"
 "upper:]')\\\":"
-msgstr ""
-" PROSÍM, VYBERTE TEMPLATE PRO \\\"$(echo \"$arg\" | tr '[:lower:]' '[:"
-"upper:]')\\\":"
+msgstr " PROSÍM, VYBERTE TEMPLATE PRO \\\"$(echo \"$arg\" | tr '[:lower:]' '[:upper:]')\\\":"
 
 #: modules/template.am:371
 msgid "  0) APPIMAGE, FROM ANY WEBSITE (BETTER IF FROM GITHUB.COM)"
@@ -1374,8 +1278,7 @@ msgstr "  2) JAKÝKOLI ARCHIV/BINÁRKA/SKRIPT Z LIBOVOLNÉ STRÁNKY"
 #: modules/template.am:374
 msgid ""
 "  3) WEBAPP BASED ON A FIREFOX PROFILE (REQUIRES \\\"FIREFOX\\\" IN \\$PATH)"
-msgstr ""
-"  3) WEBAPP ZALOŽENA NA FIREFOX PROFILU (VYŽADUJE \\\"FIREFOX\\\" V \\$PATH)"
+msgstr "  3) WEBAPP ZALOŽENA NA FIREFOX PROFILU (VYŽADUJE \\\"FIREFOX\\\" V \\$PATH)"
 
 #: modules/template.am:376
 msgid " WHAT KIND OF PROGRAM DO YOU WANT TO WRITE A SCRIPT FOR? : "
@@ -1392,16 +1295,7 @@ msgid ""
 " - if from other sources, use \"https://www.SITENAME.com\" or something\n"
 "\n"
 " URL: ')"
-msgstr ""
-" ◆ PŘIDEJTE ADRESU STRÁNKY (LEPŠÍ POKUD BUDE z GITHUBU), NA PŘIKLAD: $(echo -"
-"e '\n"
-"\n"
-" - pokud z github.com, použijte \"https://github.com/UŽIVATEL/PROJEKT\"\n"
-"\n"
-" - pokud z jiných zdrojů, použijte \"https://www.NÁZEVSTRÁNEK.com\" nebo "
-"něco\n"
-"\n"
-" URL: \")"
+msgstr " ◆ PŘIDEJTE ADRESU STRÁNKY (LEPŠÍ POKUD BUDE z GITHUBU), NA PŘIKLAD: $(echo -e '\n\n - pokud z github.com, použijte \"https://github.com/UŽIVATEL/PROJEKT\"\n\n - pokud z jiných zdrojů, použijte \"https://www.NÁZEVSTRÁNEK.com\" nebo něco\n\n URL: \")"
 
 #: modules/template.am:398 modules/template.am:419 modules/template.am:471
 #: modules/template.am:511
@@ -1412,9 +1306,7 @@ msgstr "\\n Všechny soubory jsou uloženy v $SCRIPTDIR/am-scripts\\n"
 msgid ""
 " ◆ ADD A LINEAR DOWNLOAD URL FOR THE SCRIPT OR LEAVE BLANK $(echo -e '\\n : "
 "')"
-msgstr ""
-" ◆ PŘIDEJTE LINEÁRNÍ URL STÁHNOVÁNÍ PRO SKRIPT NEBO NECHTE PRÁZDNÉ $(echo -e "
-"'\\n : ')"
+msgstr " ◆ PŘIDEJTE LINEÁRNÍ URL STÁHNOVÁNÍ PRO SKRIPT NEBO NECHTE PRÁZDNÉ $(echo -e '\\n : ')"
 
 #: modules/template.am:442
 msgid " ◆ Do you wish to add a launcher and a icon (y,N)? "
@@ -1438,8 +1330,7 @@ msgstr "\\n Nevybrán validní argument: proces přerušen! \\n"
 
 #: modules/translate.am:36
 msgid "Press y to continue, anything else to exit (timeout 15 seconds)"
-msgstr ""
-"Stiskněte y pro pokračování, cokoli jiného pro odchod (limit 15 vteřin)"
+msgstr "Stiskněte y pro pokračování, cokoli jiného pro odchod (limit 15 vteřin)"
 
 #: modules/translate.am:52
 msgid "Translating: $list"
@@ -1517,9 +1408,7 @@ msgstr "Jazyk už přidán"
 msgid ""
 " Try again with another language, or run \\\"$AMCLI --translate\\\" to "
 "update added translations"
-msgstr ""
-" Zkuste to znovu s jiným jazykem, nebo spusťte \\\"$AMCLI --translate\\\" "
-"pro aktualizaci přidaných překladů"
+msgstr " Zkuste to znovu s jiným jazykem, nebo spusťte \\\"$AMCLI --translate\\\" pro aktualizaci přidaných překladů"
 
 #: modules/translate.am:194
 msgid "Merging with old ${i}.po"
