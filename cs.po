@@ -2,7 +2,7 @@
 # FIRST AUTHOR <zenobit@disroot.org>, 2025
 # Prefill add-on <noreply-addon-prefill@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: am 9.7\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-28\nPO-Revision-Date: 2025-05-29 07:34+0000\nLast-Translator: zenobit <zenobit@disroot.org>\nLanguage-Team: Czech <https://hosted.weblate.org/projects/am/am/cs/>\nLanguage: cs\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\nX-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: am 9.7\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-28\nPO-Revision-Date: 2025-05-29 13:22+0000\nLast-Translator: zenobit <zenobit@disroot.org>\nLanguage-Team: Czech <https://hosted.weblate.org/projects/am/am/cs/>\nLanguage: cs\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\nX-Generator: Weblate 5.12-dev\n"
 
 #: APP-MANAGER:55
 msgid ""
@@ -1099,7 +1099,6 @@ msgid " ◆ Do you wish to allow custom icon theming for ALL the apps? (y,N) "
 msgstr " ◆ Chcete povolit vlastní ikony pro všechny aplikace? (y,N) "
 
 #: modules/management.am:515
-#, fuzzy
 msgid ""
 " ◆ Do you wish to allow custom icon theming for the selected apps? (y,N) "
 msgstr " ◆ Chcete povolit vlastní motivy ikon pro vybrané aplikace? (y,N) "
@@ -1224,7 +1223,6 @@ msgid ""
 msgstr " ◆ PŘIDEJTE NÁZEV PROJEKTU NEBO NECHTE PRÁZDNÉ POKUD JE STEJNÝ $(echo -e '\\n : ')"
 
 #: modules/template.am:316
-#, fuzzy
 msgid ""
 " ◆ ADD an univoque keyword for the file (for example \\\"tar.gz\\\", \\"
 "\"linux\\\"):"
@@ -1267,7 +1265,6 @@ msgid " WHAT KIND OF PROGRAM DO YOU WANT TO WRITE A SCRIPT FOR? : "
 msgstr " PRO JAKÝ DRUH PROGRAMU CHCETE SKRIPT NAPSAT? : "
 
 #: modules/template.am:384 modules/template.am:427
-#, fuzzy
 msgid ""
 " ◆ ADD THE URL OF THE SITE (BETTER IF IT COME FROM GITHUB), FOR EXAMPLE: "
 "$(echo -e '\n"
