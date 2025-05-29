@@ -1,4 +1,5 @@
 # 🦉 Localization files 🦉
+[![Stav překladu](https://hosted.weblate.org/widget/am/multi-auto.svg)](https://hosted.weblate.org/engage/am/)
 For [AM](https://github.com/ivan-hc/AM) project
 
 [![Stav překladu](https://hosted.weblate.org/widget/am/am/open-graph.png)](https://hosted.weblate.org/engage/am/)
