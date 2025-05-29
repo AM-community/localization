@@ -2,7 +2,7 @@
 # FIRST AUTHOR <zenobit@disroot.org>, 2025
 # Prefill add-on <noreply-addon-prefill@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: am 9.7\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-28\nPO-Revision-Date: 2025-05-29 07:01+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: Czech <https://hosted.weblate.org/projects/am/am/cs/>\nLanguage: cs\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\nX-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: am 9.7\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-28\nPO-Revision-Date: 2025-05-29 07:34+0000\nLast-Translator: zenobit <zenobit@disroot.org>\nLanguage-Team: Czech <https://hosted.weblate.org/projects/am/am/cs/>\nLanguage: cs\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\nX-Generator: Weblate 5.12-dev\n"
 
 #: APP-MANAGER:55
 msgid ""
@@ -14,11 +14,10 @@ msgid "Install 'less' if you want to scroll this list"
 msgstr "Nainstalujte 'less' pokud chcete listovat tímto seznamem"
 
 #: APP-MANAGER:105
-#, fuzzy
 msgid ""
 "💀 ERROR: Your version of sed does not support '-i' flag without extension, "
 "we tried to workaround and failed"
-msgstr " 💀 CHYBA: Vaše verze sed nepodporuje '-i' argument"
+msgstr "💀 CHYBA: Vaše verze sed nepodporuje '-i' argument bez rozšíření, snažili jsme se to obejít a selhali"
 
 #: APP-MANAGER:106
 msgid " Please install gsed"
@@ -100,19 +99,17 @@ msgid ""
 msgstr " Další informace naleznete na %bhttps://github.com/ivan-hc/AM#core-dependences\\033[0m\\n"
 
 #: APP-MANAGER:325
-#, fuzzy
 msgid ""
 "\\n%bWARNING: your distro maintainer ships \\\"wget2\\\" as \\\"wget\\\" "
 "\\033[0m\\n\\n"
-msgstr "\\n%bWARNING: your distro maintainer ships \\\"wget2\\\" as \\\"wget\\\" \\033[0m\\n\\n"
+msgstr "\\n%bWARNING: správce vaší distribuce dodává \\\"wget2\\\" jako \\\"wget\\\" \\033[0m\\n\\n"
 
 #: APP-MANAGER:326
-#, fuzzy
 msgid ""
 "Please install \\\"%bwget1\\033[0m\\\" and \\\"%bwget1-wget\\033[0m\\\" (use "
 "%b--allowerasing\\033[0m if you have to)\\n\\nSee https://bugzilla.redhat."
 "com/show_bug.cgi?id=2358792\\n\\n"
-msgstr "Please install \\\"%bwget1\\033[0m\\\" and \\\"%bwget1-wget\\033[0m\\\" (use %b--allowerasing\\033[0m if you have to)\\n\\nSee https://bugzilla.redhat.com/show_bug.cgi?id=2358792\\n\\n"
+msgstr "Prosím, nainstalujte \\\"%bwget1\\033[0m\\\" a \\\"%bwget1-wget\\033[0m\\\" (použijte %b--allowerasing\\033[0m pokud budete muset)\\n\\n Viz https://bugzilla.redhat.com/show_bug.cgi?id=2358792\\n\\n"
 
 #: APP-MANAGER:333
 msgid ""
@@ -383,39 +380,34 @@ msgid "\\n See https://github.com/ivan-hc/AM/commits/%b\\n\\n"
 msgstr "\\n Viz https://github.com/ivan-hc/AM/commits/%b\\n\\n"
 
 #: APP-MANAGER:1042
-#, fuzzy
 msgid ""
 " %b\\\"%b\\\" CAN MANAGE UPDATES FOR THE FOLLOWING PROGRAMS\\033[0m:"
 "\\n%b\\n\\n"
-msgstr " \\\"%b\\\" MŮŽE SPRAVOVAT AKTUALIZACE PRO NÁSLEDUJÍCÍ PROGRAMY:\\n%b\\n\\n"
+msgstr " %b\\\"%b\\\" MŮŽE SPRAVOVAT AKTUALIZACE PRO NÁSLEDUJÍCÍ PROGRAMY\\033[0m:\\n%b\\n\\n"
 
 #: APP-MANAGER:1043
 msgid " None"
 msgstr " Nic"
 
 #: APP-MANAGER:1044
-#, fuzzy
 msgid "\\n %bAll self-updatable programs are excluded\\033[0m\\n"
-msgstr "\\n Všechny programy, které se samy aktualizují, jsou vyloučeny\\n"
+msgstr "\\n %bVšechny samo aktualizovatelné programy jsou vyloučeny\\033[0m\\n"
 
 #: APP-MANAGER:1072
 msgid " The following apps have been updated:\\n\\n"
 msgstr " Následující aplikace byly aktualizovány:\\n\\n"
 
 #: APP-MANAGER:1112
-#, fuzzy
 msgid " %b✔\\033[0m $APPNAME is updated, $timelapsed second elapsed! \\n"
-msgstr " ◆ $APPNAME je aktualizován, $timelapsed uplynula vteřina!"
+msgstr " %b✔\\033[0m $APPNAME aktuální, $timelapsed vteřin uplynulo!"
 
 #: APP-MANAGER:1112
-#, fuzzy
 msgid " %b✔\\033[0m $APPNAME is updated, $timelapsed seconds elapsed! \\n"
-msgstr " ◆ $APPNAME je aktualizován, uplynulo $timelapsed vteřin!"
+msgstr " %b✔\\033[0m $APPNAME je aktualizován,  $timelapsed vteřin uplynulo! \\n"
 
 #: APP-MANAGER:1122
-#, fuzzy
 msgid " %b✖\\033[0m %b is read-only, cannot update it!\\n"
-msgstr " ✖ $APPNAME je pouze pro čtení, nelze ji aktualizovat!"
+msgstr " %b✖\\033[0m %b je jen pro čtení, nelze aktualizovat!\\n"
 
 #: APP-MANAGER:1155
 msgid " ◆ Update local AppImages integrated manually"
@@ -426,29 +418,24 @@ msgid "(unmounted)"
 msgstr "(odpojen)"
 
 #: APP-MANAGER:1188
-#, fuzzy
 msgid "%b\\n >> %bSTART OF ALL PROCESSES\\033[0m << \\n%b\\n"
-msgstr "%b\\n >> ZAČÁTEK VŠECH PROCESÚ << \\n%b\\n"
+msgstr "%b\\n >> %bZAČÁTEK VŠECH PROCESÚ\\033[0m << \\n%b\\n"
 
 #: APP-MANAGER:1198
-#, fuzzy
 msgid " >> %bEND OF ALL PROCESSES\\033[0m << \\n%b\\n"
-msgstr " >> KONEC VŠECH PROCESÚ << \\n%b\\n"
+msgstr " >> %bKONEC VŠECH PROCESÚ\\033[0m << \\n%b\\n"
 
 #: APP-MANAGER:1202
-#, fuzzy
 msgid "%b\\n >> %bEND OF ALL PROCESSES\\033[0m << \\n%b\\n"
-msgstr "%b\\n >> KONEC VŠECH PROCESÚ << \\n%b\\n"
+msgstr "%b\\n >> %bKONEC VŠECH PROCESÚ\\033[0m << \\n%b\\n"
 
 #: APP-MANAGER:1214
-#, fuzzy
 msgid " %b✖\\033[0m %b cannot be updated, program not found \\n"
-msgstr " %b✖\\033[0m %b cannot be updated, program not found \\n"
+msgstr " %b✖\\033[0m %b nelze aktualizovat, program nenalezen \\n"
 
 #: APP-MANAGER:1218
-#, fuzzy
 msgid " %b✖\\033[0m %b cannot be updated%b\\n"
-msgstr " %b✖\\033[0m %b cannot be updated%b\\n"
+msgstr " %b✖\\033[0m %b nelze aktualizovat%b\\n"
 
 #: APP-MANAGER:1233
 msgid " ERROR: \\\"$arg\\\" is not installed, see \\\"-f\\\""
@@ -483,9 +470,8 @@ msgid " Run the \\\"$AMCLI -h\\\" command to find out more"
 msgstr " Spusťte příkaz \\\"$AMCLI -h\\\" a zjistíte více"
 
 #: APP-MANAGER:1350
-#, fuzzy
 msgid "This feature is disabled by your organization"
-msgstr "This feature is disabled by your organization"
+msgstr "Tato funkce je zakázána vaší organizací"
 
 #: APP-MANAGER:1405
 msgid ""
@@ -522,24 +508,20 @@ msgid " STATUS: %b"
 msgstr " STATUS: %b"
 
 #: modules/database.am:179
-#, fuzzy
 msgid " $APPSMESSAGE $LIBSMESSAGE LOCALLY, AS \\\"APPMAN\\\""
-msgstr "- $APPMESSAGE $LIBMESSAGE LOKÁLNĚ, JAKO \\\"APPMAN\\\""
+msgstr " $APPMESSAGE $LIBMESSAGE LOKÁLNĚ, JAKO \\\"APPMAN\\\""
 
 #: modules/database.am:179
-#, fuzzy
 msgid " $APPSMESSAGE $LIBSMESSAGE MANAGED BY \\\"$AMCLIUPPER\\\""
-msgstr "– $APPMESSAGE $LIBSMESSAGE SPRAVOVÁN \\\"$AMCLIUPPER\\\""
+msgstr " $APPMESSAGE $LIBSMESSAGE SPRAVOVÁN \\\"$AMCLIUPPER\\\""
 
 #: modules/database.am:181
-#, fuzzy
 msgid " $APPSMESSAGE LOCALLY, AS \\\"APPMAN\\\""
-msgstr "- $APPMESSAGE LOKÁLNĚ, JAKO \\\"APPMAN\\\""
+msgstr " $APPMESSAGE LOKÁLNĚ, JAKO \\\"APPMAN\\\""
 
 #: modules/database.am:181
-#, fuzzy
 msgid " $APPSMESSAGE MANAGED BY \\\"$AMCLIUPPER\\\""
-msgstr "– $APPMESSAGE SPRAVOVÁN \\\"$AMCLIUPPER\\\""
+msgstr " $APPMESSAGE SPRAVOVÁN \\\"$AMCLIUPPER\\\""
 
 #: modules/database.am:197
 msgid " ◆ $arg\t|\tstatic-binary"
@@ -1427,9 +1409,8 @@ msgid "Preparation for translation done."
 msgstr "Příprava pro překlady hotova."
 
 #: modules/translate.am:219
-#, fuzzy
 msgid "Now is up to translators, or AI..."
-msgstr "Nyní je to na překladatelech..."
+msgstr "Nyní je to na překladatelech, nebo AI ..."
 
 #: modules/translate.am:221
 msgid "Copy files to $HOME/.local/share/ for use with AppMan?"
@@ -1440,7 +1421,6 @@ msgid "No language added, run \\\"$AMCLI --translate-new\\\" first!"
 msgstr "Žádný jazyk nepřidán, nejprve spusťte \\\"$AMCLI --translate-new\\\"!"
 
 #: modules/help.am:352
-#, fuzzy
 msgid "$HELP_MESSAGE"
 msgstr "$HELP_MESSAGE"
 
