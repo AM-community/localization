@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: am 9.7.1-9\n"
 "Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
 "POT-Creation-Date: 2025-05-28\n"
-"PO-Revision-Date: 2025-05-29 15:45+0200\n"
+"PO-Revision-Date: 2025-05-30 10:34+0000\n"
 "Last-Translator: Fifty Dinar <srbaizoki4@tuta.io>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/am/am/sr/>\n"
 "Language: sr\n"
@@ -13,8 +13,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
-"X-Generator: Poedit 3.6\n"
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: APP-MANAGER:55
 msgid ""
@@ -340,7 +340,7 @@ msgstr "✔ $argpath je sakriven"
 #: APP-MANAGER:903
 msgid "✖ Can't hide \\\"$arg\\\", app already hidden or non-existent"
 msgstr ""
-"✖ Ne mogu da sakrijem \\\"$arg\\\", aplikacije je već sakrivena ili ne "
+"✖ Ne mogu da sakrijem \\\"$arg\\\", aplikacija je već sakrivena ili ne "
 "postoji"
 
 #: APP-MANAGER:907
