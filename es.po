@@ -20,8 +20,7 @@ msgstr ""
 #: am/APP-MANAGER:77
 msgid ""
 "Add a two letters code for a language, for example \\\"it\\\" for "
-"Italian\\n\\nNote, you will need to export the LANGUAGE variable while "
-"running \\\"%b\\\"\\n\\n"
+"Italian\\n\\n"
 msgstr ""
 
 #: am/APP-MANAGER:78
@@ -491,6 +490,12 @@ msgstr " Ninguno"
 msgid "\\n %bAll self-updatable programs are excluded\\033[0m\\n"
 msgstr "\\n %bTodos los programas autoactualizables están excluidos\\033[0m\\n"
 
+#: am/APP-MANAGER:1124
+#, fuzzy
+#| msgid " Nothing to do here! \\n%b\\n"
+msgid " Nothing to do here! \\n"
+msgstr " ¡Nada que hacer aquí! \\n%b\\n"
+
 #: am/APP-MANAGER:1126
 msgid " The following apps have been updated:\\n\\n"
 msgstr " Las siguientes aplicaciones han sido actualizadas:\\n\\n"
@@ -862,14 +867,10 @@ msgid ""
 "\t\t\t\t\t${LightBlue}$AMCLI --translate\\033[0m\n"
 "\t\t\t\t\t${LightBlue}$AMCLI --translate {CODE}\\033[0m\n"
 "\n"
-"\t\t\tDescription: Download more language packs or set \\\"$AMCLI\\\" to "
-"English or your system language (if available). Visit this site to learn "
-"more about translations.\n"
-"\n"
-"\t\t\tNOTE, languages ​​other than the system language or English require "
-"exporting the \\\"\\$LANGUAGE\\\" variable with the value of the desired "
-"language to translate \\\"$AMCLI\\\".\n"
-"\n"
+"\t\t\tDescription: Download and set one or more language packs (if "
+"available), set \\\"$AMCLI\\\" to English (default), your language or other "
+"languages.\\n\\nVisit https://github.com/AM-community/localization to learn "
+"more on how to submit or improve translations.\n"
 "\n"
 "\t\t\t${Gold}unhide\\033[0m\n"
 "\n"
@@ -1023,7 +1024,7 @@ msgid ""
 "\t\t\t\\n"
 msgstr ""
 
-#: am/APP-MANAGER:1819
+#: am/APP-MANAGER:1816
 msgid ""
 "ERROR: unknown option \\\"$1\\\", run the \\\"$AMCLI -h\\\" command to find "
 "out more"
