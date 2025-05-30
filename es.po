@@ -3,12 +3,28 @@
 # zenobit <zenobit@disroot.org>, 2025.
 # Prefill add-on <noreply-addon-prefill@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: am 9.7.1-9\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-28\nPO-Revision-Date: 2025-05-29 11:19+0000\nLast-Translator: zenobit <zenobit@disroot.org>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/am/am/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
+msgstr ""
+"Project-Id-Version: am 9.7.1-9\n"
+"Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
+"POT-Creation-Date: 2025-05-28\n"
+"PO-Revision-Date: 2025-05-30 01:24+0000\n"
+"Last-Translator: Prefill add-on <noreply-addon-prefill@weblate.org>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/am/am/es/>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: APP-MANAGER:55
 #, fuzzy
 msgid "\\n Please do not use \\\"sudo\\\" to execute \\\"%b\\\", try again.\\n\\n"
-msgstr "\\n Por favor, no use \\\"sudo\\\" para ejecutar \\\"%b\\\", inténtelo de nuevo.\\n\\n"
+msgstr ""
+"\\n"
+" Por favor, no use \\\"sudo\\\" para ejecutar \\\"%b\\\", inténtelo de nuevo."
+"\\n"
+"\\n"
 
 #: APP-MANAGER:88
 #, fuzzy
@@ -18,7 +34,9 @@ msgstr "Instale 'less' si desea desplazarse por esta lista"
 #: APP-MANAGER:105
 #, fuzzy
 msgid "💀 ERROR: Your version of sed does not support '-i' flag without extension, we tried to workaround and failed"
-msgstr "💀 ERROR: Su versión de sed no admite la opción '-i' sin extensión, intentamos una solución alternativa y fallamos"
+msgstr ""
+"💀 ERROR: Su versión de sed no admite la opción '-i' sin extensión, "
+"intentamos una solución alternativa y fallamos"
 
 #: APP-MANAGER:106
 #, fuzzy
@@ -38,7 +56,11 @@ msgstr ">>> ¡Gracias por elegir AppMan!"
 #: APP-MANAGER:138
 #, fuzzy
 msgid " Write the path or just press enter to use default:$(printf \"\\n\\n \")"
-msgstr " Escriba la ruta o simplemente presione Intro para usar la predeterminada:$(printf \"\\n\\n \")"
+msgstr ""
+" Escriba la ruta o simplemente presione Intro para usar la predeterminada:$("
+"printf \"\\n"
+"\\n"
+" \")"
 
 #: APP-MANAGER:146
 #, fuzzy
@@ -48,7 +70,9 @@ msgstr " 💀 ERROR, no puede instalar aplicaciones en \\\"$BINDIR\\\""
 #: APP-MANAGER:147
 #, fuzzy
 msgid " $BINDIR is normally used for executables, Please choose a different path and retry!"
-msgstr " $BINDIR se usa normalmente para ejecutables. ¡Por favor, elija una ruta diferente y vuelva a intentarlo!"
+msgstr ""
+" $BINDIR se usa normalmente para ejecutables. ¡Por favor, elija una ruta "
+"diferente y vuelva a intentarlo!"
 
 #: APP-MANAGER:151
 #, fuzzy
@@ -58,7 +82,8 @@ msgstr " 💀 ERROR: No tiene acceso de escritura a $location o no es válida"
 #: APP-MANAGER:157
 #, fuzzy
 msgid " You are ready! Start installing your favorite apps locally!"
-msgstr " ¡Está listo! ¡Comience a instalar sus aplicaciones favoritas localmente!"
+msgstr ""
+" ¡Está listo! ¡Comience a instalar sus aplicaciones favoritas localmente!"
 
 #: APP-MANAGER:158
 #, fuzzy
@@ -78,7 +103,9 @@ msgstr "ERROR: No tiene acceso de escritura a $APPSPATH"
 #: APP-MANAGER:183
 #, fuzzy
 msgid "%b ⚠️ WARNING\\033[0m: \\\"%b%b\\033[0m\\\" is not in PATH, local apps may not run.\\n"
-msgstr "%b ⚠️ ADVERTENCIA\\033[0m: \\\"%b%b\\033[0m\\\" no está en el PATH, es posible que las aplicaciones locales no se ejecuten.\\n"
+msgstr ""
+"%b ⚠️ ADVERTENCIA\\033[0m: \\\"%b%b\\033[0m\\\" no está en el PATH, es "
+"posible que las aplicaciones locales no se ejecuten.\\n"
 
 #: APP-MANAGER:282
 #, fuzzy
@@ -88,42 +115,68 @@ msgstr "\\\"$AMCLIUPPER\\\" $AMVERSION: MODO DESARROLLADOR"
 #: APP-MANAGER:312
 #, fuzzy
 msgid " ${RED}💀 ERROR! MISSING ESSENTIAL COMMANDS\\033[0m: %s\\n\\n Install the above and try again! \\n"
-msgstr " ${RED}💀 ¡ERROR! FALTAN COMANDOS ESENCIALES\\033[0m: %s\\n\\n ¡Instale los anteriores y vuelva a intentarlo! \\n"
+msgstr ""
+" ${RED}💀 ¡ERROR! FALTAN COMANDOS ESENCIALES\\033[0m: %s\\n"
+"\\n"
+" ¡Instale los anteriores y vuelva a intentarlo! \\n"
 
 #: APP-MANAGER:314
 #, fuzzy
 msgid "%bList of the %b core dependences\\033[0m:\\n\\n%b\\n"
-msgstr "%bLista de las %b dependencias principales\\033[0m:\\n\\n%b\\n"
+msgstr ""
+"%bLista de las %b dependencias principales\\033[0m:\\n"
+"\\n"
+"%b\\n"
 
 #: APP-MANAGER:316
 #, fuzzy
 msgid "If this message appears it is because you are missing some dependency and if its the first time its because something new has been introduced.\\n\\n"
-msgstr "Si aparece este mensaje, es porque le falta alguna dependencia y, si es la primera vez, es porque se ha introducido algo nuevo.\\n\\n"
+msgstr ""
+"Si aparece este mensaje, es porque le falta alguna dependencia y, si es la "
+"primera vez, es porque se ha introducido algo nuevo.\\n"
+"\\n"
 
 #: APP-MANAGER:317
 #, fuzzy
 msgid " See %bhttps://github.com/ivan-hc/AM#core-dependences\\033[0m for more information\\n"
-msgstr " Consulte %bhttps://github.com/ivan-hc/AM#core-dependences\\033[0m para más información\\n"
+msgstr ""
+" Consulte %bhttps://github.com/ivan-hc/AM#core-dependences\\033[0m para más "
+"información\\n"
 
 #: APP-MANAGER:325
 #, fuzzy
 msgid "\\n%bWARNING: your distro maintainer ships \\\"wget2\\\" as \\\"wget\\\" \\033[0m\\n\\n"
-msgstr "\\n%bADVERTENCIA: el mantenedor de su distro distribuye \\\"wget2\\\" como \\\"wget\\\" \\033[0m\\n\\n"
+msgstr ""
+"\\n"
+"%bADVERTENCIA: el mantenedor de su distro distribuye \\\"wget2\\\" como \\"
+"\"wget\\\" \\033[0m\\n"
+"\\n"
 
 #: APP-MANAGER:326
 #, fuzzy
 msgid "Please install \\\"%bwget1\\033[0m\\\" and \\\"%bwget1-wget\\033[0m\\\" (use %b--allowerasing\\033[0m if you have to)\\n\\nSee https://bugzilla.redhat.com/show_bug.cgi?id=2358792\\n\\n"
-msgstr "Por favor, instale \\\"%bwget1\\033[0m\\\" y \\\"%bwget1-wget\\033[0m\\\" (use %b--allowerasing\\033[0m si es necesario)\\n\\nConsulte https://bugzilla.redhat.com/show_bug.cgi?id=2358792\\n\\n"
+msgstr ""
+"Por favor, instale \\\"%bwget1\\033[0m\\\" y \\\"%bwget1-wget\\033[0m\\\" ("
+"use %b--allowerasing\\033[0m si es necesario)\\n"
+"\\n"
+"Consulte https://bugzilla.redhat.com/show_bug.cgi?id=2358792\\n"
+"\\n"
 
 #: APP-MANAGER:333
 #, fuzzy
 msgid "\\n %b⚠️ WARNING: ACCESS TO USER NAMESPACES IS RESTRICTED! \\033[0m\\n\\n"
-msgstr "\\n %b⚠️ ADVERTENCIA: ¡EL ACCESO A LOS ESPACIOS DE NOMBRES DE USUARIO ESTÁ RESTRINGIDO! \\033[0m\\n\\n"
+msgstr ""
+"\\n"
+" %b⚠️ ADVERTENCIA: ¡EL ACCESO A LOS ESPACIOS DE NOMBRES DE USUARIO ESTÁ "
+"RESTRINGIDO! \\033[0m\\n"
+"\\n"
 
 #: APP-MANAGER:334
 #, fuzzy
 msgid " Some apps may not run, you need to enable access to user namespaces, see"
-msgstr " Es posible que algunas aplicaciones no se ejecuten, necesita habilitar el acceso a los espacios de nombres de usuario, consulte"
+msgstr ""
+" Es posible que algunas aplicaciones no se ejecuten, necesita habilitar el "
+"acceso a los espacios de nombres de usuario, consulte"
 
 #: APP-MANAGER:336
 #, fuzzy
@@ -133,27 +186,39 @@ msgstr " para saber más."
 #: APP-MANAGER:348
 #, fuzzy
 msgid "\\n %b is offline, please check your internet connection and try again\\n\\n"
-msgstr "\\n %b está desconectado, por favor, compruebe su conexión a internet e inténtelo de nuevo\\n\\n"
+msgstr ""
+"\\n"
+" %b está desconectado, por favor, compruebe su conexión a internet e "
+"inténtelo de nuevo\\n"
+"\\n"
 
 #: APP-MANAGER:357
 #, fuzzy
 msgid "\\n %b💀WARNING! Detected \\\"%b\\\"\\033[0m\\n\\n"
-msgstr "\\n %b💀¡ADVERTENCIA! Detectado \\\"%b\\\"\\033[0m\\n\\n"
+msgstr ""
+"\\n"
+" %b💀¡ADVERTENCIA! Detectado \\\"%b\\\"\\033[0m\\n"
+"\\n"
 
 #: APP-MANAGER:358
 #, fuzzy
 msgid "It will prevent \\\"$AMCLIUPPER\\\" from working correctly with AppImages, especially when extracting, integrating and updating them."
-msgstr "Impedirá que \\\"$AMCLIUPPER\\\" funcione correctamente con AppImages, especialmente al extraerlas, integrarlas y actualizarlas."
+msgstr ""
+"Impedirá que \\\"$AMCLIUPPER\\\" funcione correctamente con AppImages, "
+"especialmente al extraerlas, integrarlas y actualizarlas."
 
 #: APP-MANAGER:362
 #, fuzzy
 msgid " Please remove \\\"AppImageLauncher\\\", reboot and retry!"
-msgstr " Por favor, elimine \\\"AppImageLauncher\\\", reinicie y vuelva a intentarlo."
+msgstr ""
+" Por favor, elimine \\\"AppImageLauncher\\\", reinicie y vuelva a intentarlo."
 
 #: APP-MANAGER:364
 #, fuzzy
 msgid " Please remove \\\"$blacklisted_file\\\", reboot and retry!"
-msgstr " Por favor, elimine \\\"$blacklisted_file\\\", reinicie y vuelva a intentarlo."
+msgstr ""
+" Por favor, elimine \\\"$blacklisted_file\\\", reinicie y vuelva a "
+"intentarlo."
 
 #: APP-MANAGER:383 modules/database.am:549 modules/database.am:637
 #: modules/install.am:432 modules/install.am:457 modules/management.am:467
@@ -185,7 +250,10 @@ msgstr " ¡Nuevo repositorio DESACTIVADO!"
 #: APP-MANAGER:401
 #, fuzzy
 msgid " Source: %b\\n Apps: %b\\n List: %b\\n"
-msgstr " Fuente: %b\\n Aplicaciones: %b\\n Lista: %b\\n"
+msgstr ""
+" Fuente: %b\\n"
+" Aplicaciones: %b\\n"
+" Lista: %b\\n"
 
 #: APP-MANAGER:404
 #, fuzzy
@@ -195,7 +263,9 @@ msgstr " Eliminados todos los repositorios de terceros"
 #: APP-MANAGER:408
 #, fuzzy
 msgid "Select a repo from the list or press CTRL+C to abort:\\n%b\\n"
-msgstr "Seleccione un repositorio de la lista o presione CTRL+C para abortar:\\n%b\\n"
+msgstr ""
+"Seleccione un repositorio de la lista o presione CTRL+C para abortar:\\n"
+"%b\\n"
 
 #: APP-MANAGER:411
 #, fuzzy
@@ -240,7 +310,8 @@ msgstr " ✔ $ghapikey_file ha sido eliminado"
 #: APP-MANAGER:710
 #, fuzzy
 msgid " ✔ Authorization headers removed from updater files"
-msgstr " ✔ Cabeceras de autorización eliminadas de los archivos del actualizador"
+msgstr ""
+" ✔ Cabeceras de autorización eliminadas de los archivos del actualizador"
 
 #: APP-MANAGER:720
 #, fuzzy
@@ -250,7 +321,9 @@ msgstr "ERROR: ¡Expresión incorrecta, validación fallida!"
 #: APP-MANAGER:731
 #, fuzzy
 msgid " ⚠️ Warning: Stored GitHub API token is invalid or expired"
-msgstr " ⚠️ Advertencia: El token de API de GitHub almacenado no es válido o ha caducado"
+msgstr ""
+" ⚠️ Advertencia: El token de API de GitHub almacenado no es válido o ha "
+"caducado"
 
 #: APP-MANAGER:733
 #, fuzzy
@@ -260,7 +333,8 @@ msgstr " Por favor, realice una de las siguientes acciones:"
 #: APP-MANAGER:734
 #, fuzzy
 msgid "   1. Generate a new token and add it with: $AMCLI apikey YOUR_NEW_TOKEN"
-msgstr "   1. Generate a new token and add it with: $AMCLI apikey YOUR_NEW_TOKEN"
+msgstr ""
+"   1. Generate a new token and add it with: $AMCLI apikey YOUR_NEW_TOKEN"
 
 #: APP-MANAGER:735
 #, fuzzy
@@ -270,7 +344,8 @@ msgstr "   2. Remove the invalid token with: $AMCLI apikey del"
 #: APP-MANAGER:737
 #, fuzzy
 msgid " For instructions on creating GitHub tokens, see:"
-msgstr " Para obtener instrucciones sobre cómo crear tokens de GitHub, consulte:"
+msgstr ""
+" Para obtener instrucciones sobre cómo crear tokens de GitHub, consulte:"
 
 #: APP-MANAGER:769
 #, fuzzy
@@ -285,7 +360,8 @@ msgstr " ¿Desea entrar en el \\\"Modo AppMan\\\" (s,N)?"
 #: APP-MANAGER:786
 #, fuzzy
 msgid " \\\"AM\\\" is read-only, want to use it in \\\"AppMan Mode\\\" (Y,n)? "
-msgstr " \\\"AM\\\" es de solo lectura, ¿desea usarlo en \\\"Modo AppMan\\\" (S,n)? "
+msgstr ""
+" \\\"AM\\\" es de solo lectura, ¿desea usarlo en \\\"Modo AppMan\\\" (S,n)? "
 
 #: APP-MANAGER:790
 #, fuzzy
@@ -340,7 +416,8 @@ msgstr "✔ $argpath ha sido ocultado"
 #: APP-MANAGER:903
 #, fuzzy
 msgid "✖ Can't hide \\\"$arg\\\", app already hidden or non-existent"
-msgstr "✖ No se puede ocultar \\\"$arg\\\", la aplicación ya está oculta o no existe"
+msgstr ""
+"✖ No se puede ocultar \\\"$arg\\\", la aplicación ya está oculta o no existe"
 
 #: APP-MANAGER:907
 #, fuzzy
@@ -355,12 +432,17 @@ msgstr "✔ $APPMAN_APPSPATH/$arg puede ser gestionado de nuevo"
 #: APP-MANAGER:919
 #, fuzzy
 msgid "%b\\n Checking for changes of the installation scripts in the online database...\\n"
-msgstr "%b\\n Comprobando cambios en los scripts de instalación en la base de datos en línea...\\n"
+msgstr ""
+"%b\\n"
+" Comprobando cambios en los scripts de instalación en la base de datos en "
+"línea...\\n"
 
 #: APP-MANAGER:932
 #, fuzzy
 msgid " ◆ %b%b\\033[0m has changed, you may need to reinstall it, see\\n   https://github.com/ivan-hc/AM/blob/main/programs/%b/%b\\n"
-msgstr " ◆ %b%b\\033[0m has changed, you may need to reinstall it, see\\n   https://github.com/ivan-hc/AM/blob/main/programs/%b/%b\\n"
+msgstr ""
+" ◆ %b%b\\033[0m has changed, you may need to reinstall it, see\\n"
+"   https://github.com/ivan-hc/AM/blob/main/programs/%b/%b\\n"
 
 #: APP-MANAGER:937
 #, fuzzy
@@ -370,17 +452,25 @@ msgstr " ◆ No hay script de instalación para %b, descargando uno...\\n"
 #: APP-MANAGER:946
 #, fuzzy
 msgid "\\n To fix the above, just run \\\"%b%b reinstall\\033[0m\\\", without arguments\\n"
-msgstr "\\n Para solucionar lo anterior, simplemente ejecute \\\"%b%b reinstall\\033[0m\\\", sin argumentos\\n"
+msgstr ""
+"\\n"
+" Para solucionar lo anterior, simplemente ejecute \\"
+"\"%b%b reinstall\\033[0m\\\", sin argumentos\\n"
 
 #: APP-MANAGER:960
 #, fuzzy
 msgid "%b\\n Check and update offline lists of additional databases...\\n"
-msgstr "%b\\n Comprobar y actualizar listas sin conexión de bases de datos adicionales...\\n"
+msgstr ""
+"%b\\n"
+" Comprobar y actualizar listas sin conexión de bases de datos adicionales..."
+"\\n"
 
 #: APP-MANAGER:968
 #, fuzzy
 msgid "%b\\n Check for updates in modules...\\n"
-msgstr "%b\\n Comprobar actualizaciones en los módulos...\\n"
+msgstr ""
+"%b\\n"
+" Comprobar actualizaciones en los módulos...\\n"
 
 #: APP-MANAGER:973
 #, fuzzy
@@ -395,42 +485,63 @@ msgstr " ◆ Actualizando $module_name..."
 #: APP-MANAGER:991
 #, fuzzy
 msgid "\\n ◆ SYNCHRONIZING \\\"$AMCLIUPPER\\\" VERSION \\\"$CURRENT_AM_VERSION\\\"...\\r"
-msgstr "\\n ◆ SINCRONIZANDO VERSIÓN \\\"$CURRENT_AM_VERSION\\\" DE \\\"$AMCLIUPPER\\\"...\\r"
+msgstr ""
+"\\n"
+" ◆ SINCRONIZANDO VERSIÓN \\\"$CURRENT_AM_VERSION\\\" DE \\\"$AMCLIUPPER\\\""
+"...\\r"
 
 #: APP-MANAGER:998
 #, fuzzy
 msgid " A new release of \\\"$AMCLIUPPER\\\" is available, please wait...\\r"
-msgstr " Hay una nueva versión de \\\"$AMCLIUPPER\\\" disponible, por favor espere...\\r"
+msgstr ""
+" Hay una nueva versión de \\\"$AMCLIUPPER\\\" disponible, por favor espere..."
+"\\r"
 
 #: APP-MANAGER:999
 #, fuzzy
 msgid " ◆ \\\"$AMCLIUPPER\\\" IS NOW UPDATED TO THE BRAND NEW \\\"$NEW_AM_VERSION\\\" VERSION!"
-msgstr " ◆ ¡\\\"$AMCLIUPPER\\\" ESTÁ ACTUALIZADO A LA NUEVA VERSIÓN \\\"$NEW_AM_VERSION\\\"!"
+msgstr ""
+" ◆ ¡\\\"$AMCLIUPPER\\\" ESTÁ ACTUALIZADO A LA NUEVA VERSIÓN \\"
+"\"$NEW_AM_VERSION\\\"!"
 
 #: APP-MANAGER:1000
 #, fuzzy
 msgid "\\n  Replacement of version \\\"%b\\\" currently in use, COMPLETED! \\n"
-msgstr "\\n  Replacement of version \\\"%b\\\" currently in use, COMPLETED! \\n"
+msgstr ""
+"\\n"
+"  Replacement of version \\\"%b\\\" currently in use, COMPLETED! \\n"
 
 #: APP-MANAGER:1001
 #, fuzzy
 msgid "\\n See https://github.com/ivan-hc/AM/commits/main\\n\\n"
-msgstr "\\n Consulte https://github.com/ivan-hc/AM/commits/main\\n\\n"
+msgstr ""
+"\\n"
+" Consulte https://github.com/ivan-hc/AM/commits/main\\n"
+"\\n"
 
 #: APP-MANAGER:1003
 #, fuzzy
 msgid " ◆ \\\"$AMCLIUPPER\\\" IS ALREADY UPDATED, CURRENT VERSION \\\"$CURRENT_AM_VERSION\\\""
-msgstr " ◆ \\\"$AMCLIUPPER\\\" YA ESTÁ ACTUALIZADO, VERSIÓN ACTUAL \\\"$CURRENT_AM_VERSION\\\""
+msgstr ""
+" ◆ \\\"$AMCLIUPPER\\\" YA ESTÁ ACTUALIZADO, VERSIÓN ACTUAL \\"
+"\"$CURRENT_AM_VERSION\\\""
 
 #: APP-MANAGER:1004
 #, fuzzy
 msgid "\\n See https://github.com/ivan-hc/AM/commits/%b\\n\\n"
-msgstr "\\n Consulte https://github.com/ivan-hc/AM/commits/%b\\n\\n"
+msgstr ""
+"\\n"
+" Consulte https://github.com/ivan-hc/AM/commits/%b\\n"
+"\\n"
 
 #: APP-MANAGER:1042
 #, fuzzy
 msgid " %b\\\"%b\\\" CAN MANAGE UPDATES FOR THE FOLLOWING PROGRAMS\\033[0m:\\n%b\\n\\n"
-msgstr " %b\\\"%b\\\" PUEDE GESTIONAR ACTUALIZACIONES PARA LOS SIGUIENTES PROGRAMAS\\033[0m:\\n%b\\n\\n"
+msgstr ""
+" %b\\\"%b\\\" PUEDE GESTIONAR ACTUALIZACIONES PARA LOS SIGUIENTES "
+"PROGRAMAS\\033[0m:\\n"
+"%b\\n"
+"\\n"
 
 #: APP-MANAGER:1043
 #, fuzzy
@@ -440,22 +551,28 @@ msgstr " Ninguno"
 #: APP-MANAGER:1044
 #, fuzzy
 msgid "\\n %bAll self-updatable programs are excluded\\033[0m\\n"
-msgstr "\\n %bTodos los programas autoactualizables están excluidos\\033[0m\\n"
+msgstr ""
+"\\n"
+" %bTodos los programas autoactualizables están excluidos\\033[0m\\n"
 
 #: APP-MANAGER:1072
 #, fuzzy
 msgid " The following apps have been updated:\\n\\n"
-msgstr " Las siguientes aplicaciones han sido actualizadas:\\n\\n"
+msgstr ""
+" Las siguientes aplicaciones han sido actualizadas:\\n"
+"\\n"
 
 #: APP-MANAGER:1112
 #, fuzzy
 msgid " %b✔\\033[0m $APPNAME is updated, $timelapsed second elapsed! \\n"
-msgstr " %b✔\\033[0m $APPNAME se actualizó, ¡transcurrió $timelapsed segundo! \\n"
+msgstr ""
+" %b✔\\033[0m $APPNAME se actualizó, ¡transcurrió $timelapsed segundo! \\n"
 
 #: APP-MANAGER:1112
 #, fuzzy
 msgid " %b✔\\033[0m $APPNAME is updated, $timelapsed seconds elapsed! \\n"
-msgstr " %b✔\\033[0m $APPNAME se actualizó, ¡transcurrieron $timelapsed segundos! \\n"
+msgstr ""
+" %b✔\\033[0m $APPNAME se actualizó, ¡transcurrieron $timelapsed segundos! \\n"
 
 #: APP-MANAGER:1122
 #, fuzzy
@@ -475,17 +592,25 @@ msgstr "(no montado)"
 #: APP-MANAGER:1188
 #, fuzzy
 msgid "%b\\n >> %bSTART OF ALL PROCESSES\\033[0m << \\n%b\\n"
-msgstr "%b\\n >> %bINICIO DE TODOS LOS PROCESOS\\033[0m << \\n%b\\n"
+msgstr ""
+"%b\\n"
+" >> %bINICIO DE TODOS LOS PROCESOS\\033[0m << \\n"
+"%b\\n"
 
 #: APP-MANAGER:1198
 #, fuzzy
 msgid " >> %bEND OF ALL PROCESSES\\033[0m << \\n%b\\n"
-msgstr " >> %bFIN DE TODOS LOS PROCESOS\\033[0m << \\n%b\\n"
+msgstr ""
+" >> %bFIN DE TODOS LOS PROCESOS\\033[0m << \\n"
+"%b\\n"
 
 #: APP-MANAGER:1202
 #, fuzzy
 msgid "%b\\n >> %bEND OF ALL PROCESSES\\033[0m << \\n%b\\n"
-msgstr "%b\\n >> %bFIN DE TODOS LOS PROCESOS\\033[0m << \\n%b\\n"
+msgstr ""
+"%b\\n"
+" >> %bFIN DE TODOS LOS PROCESOS\\033[0m << \\n"
+"%b\\n"
 
 #: APP-MANAGER:1214
 #, fuzzy
@@ -505,7 +630,8 @@ msgstr " ERROR: \\\"$arg\\\" no está instalado, consulte \\\"-f\\\""
 #: APP-MANAGER:1235
 #, fuzzy
 msgid " ERROR: \\\"$AMCLI\\\" cannot manage updates for \\\"$arg\\\""
-msgstr " ERROR: \\\"$AMCLI\\\" no puede gestionar actualizaciones para \\\"$arg\\\""
+msgstr ""
+" ERROR: \\\"$AMCLI\\\" no puede gestionar actualizaciones para \\\"$arg\\\""
 
 #: APP-MANAGER:1237
 #, fuzzy
@@ -520,7 +646,9 @@ msgstr " ERROR: \\\"$arg\\\" no redirige a una \\\"releases\\\" genérica"
 #: APP-MANAGER:1264
 #, fuzzy
 msgid " Module not found, run \\\"$AMCLI -s\\\" to update \\\"$AMCLIUPPER\\\""
-msgstr " Módulo no encontrado, ejecute \\\"$AMCLI -s\\\" para actualizar \\\"$AMCLIUPPER\\\""
+msgstr ""
+" Módulo no encontrado, ejecute \\\"$AMCLI -s\\\" para actualizar \\"
+"\"$AMCLIUPPER\\\""
 
 #: APP-MANAGER:1282
 #, fuzzy
@@ -545,22 +673,30 @@ msgstr "Esta característica está deshabilitada por su organización"
 #: APP-MANAGER:1405
 #, fuzzy
 msgid "ERROR: unknown option \\\"$1\\\", run the \\\"$AMCLI -h\\\" command to find out more"
-msgstr "ERROR: opción desconocida \\\"$1\\\", ejecute el comando \\\"$AMCLI -h\\\" para obtener más información"
+msgstr ""
+"ERROR: opción desconocida \\\"$1\\\", ejecute el comando \\\"$AMCLI -h\\\" "
+"para obtener más información"
 
 #: modules/database.am:51
 #, fuzzy
 msgid "\\nAvailable families: %b\\n"
-msgstr "\\nFamilias disponibles: %b\\n"
+msgstr ""
+"\\n"
+"Familias disponibles: %b\\n"
 
 #: modules/database.am:53
 #, fuzzy
 msgid "\\nBinary info: %b\\n"
-msgstr "\\nInformación del binario: %b\\n"
+msgstr ""
+"\\n"
+"Información del binario: %b\\n"
 
 #: modules/database.am:71
 #, fuzzy
 msgid "\\nAvailable in an third-party database (requires an extension).\\n"
-msgstr "\\nDisponible en una base de datos de terceros (requiere una extensión).\\n"
+msgstr ""
+"\\n"
+"Disponible en una base de datos de terceros (requiere una extensión).\\n"
 
 #: modules/database.am:139
 #, fuzzy
@@ -650,7 +786,9 @@ msgstr " ◆ $arg\t|\totro"
 #: modules/database.am:340
 #, fuzzy
 msgid " *has dependency to EOL libfuse2 library, please ask the creator to update\\n"
-msgstr " *tiene dependencia de la biblioteca EOL libfuse2, por favor pida al creador que la actualice\\n"
+msgstr ""
+" *tiene dependencia de la biblioteca EOL libfuse2, por favor pida al creador "
+"que la actualice\\n"
 
 #: modules/database.am:357
 #, fuzzy
@@ -665,12 +803,18 @@ msgstr "-\tAPPIMAGE | RUTA | TAMAÑO "
 #: modules/database.am:426
 #, fuzzy
 msgid "\\n *this path is listed but not mounted, file size unknown\\n\\n"
-msgstr "\\n *esta ruta está listada pero no montada, tamaño de archivo desconocido\\n\\n"
+msgstr ""
+"\\n"
+" *esta ruta está listada pero no montada, tamaño de archivo desconocido\\n"
+"\\n"
 
 #: modules/database.am:521
 #, fuzzy
 msgid " To list all installable programs, use the \\\"%b--all\\033[0m\\\" flag\\n\\n"
-msgstr " Para listar todos los programas instalables, use la opción \\\"%b--all\\033[0m\\\"\\n\\n"
+msgstr ""
+" Para listar todos los programas instalables, use la opción \\"
+"\"%b--all\\033[0m\\\"\\n"
+"\\n"
 
 #: modules/database.am:522
 #, fuzzy
@@ -680,7 +824,10 @@ msgstr " LISTA DE LOS %b"
 #: modules/database.am:528
 #, fuzzy
 msgid "\\n Search results for \\\"%s\\\":\\n\\n"
-msgstr "\\n Resultados de búsqueda para \\\"%s\\\":\\n\\n"
+msgstr ""
+"\\n"
+" Resultados de búsqueda para \\\"%s\\\":\\n"
+"\\n"
 
 #: modules/database.am:532
 #, fuzzy
@@ -690,7 +837,9 @@ msgstr "Sin resultados de búsqueda"
 #: modules/database.am:532
 #, fuzzy
 msgid ", please retry this query using the \\\"%b--all\\033[0m\\\" flag\\n"
-msgstr ", por favor, reintente esta consulta usando la opción \\\"%b--all\\033[0m\\\"\\n"
+msgstr ""
+", por favor, reintente esta consulta usando la opción \\\"%b--all\\033[0m\\\""
+"\\n"
 
 #: modules/database.am:559
 #, fuzzy
@@ -700,12 +849,19 @@ msgstr " ERROR: %b no encontrado\\033[0m\\n"
 #: modules/database.am:628
 #, fuzzy
 msgid "\\n Unknown flag, run \\\"-h\\\" to see supported third-party flags.\\n\\n"
-msgstr "\\n Opción desconocida, ejecute \\\"-h\\\" para ver las opciones de terceros compatibles.\\n\\n"
+msgstr ""
+"\\n"
+" Opción desconocida, ejecute \\\"-h\\\" para ver las opciones de terceros "
+"compatibles.\\n"
+"\\n"
 
 #: modules/database.am:649
 #, fuzzy
 msgid "\\n Search results for packages: %s\\n\\n"
-msgstr "\\n Resultados de búsqueda para paquetes: %s\\n\\n"
+msgstr ""
+"\\n"
+" Resultados de búsqueda para paquetes: %s\\n"
+"\\n"
 
 #: modules/install.am:32
 #, fuzzy
@@ -720,7 +876,8 @@ msgstr "✖ ¡\\\"$SCRIPTDIR/$arg\\\" ya existe!"
 #: modules/install.am:45
 #, fuzzy
 msgid "◆ \\\"$arg\\\" installation script downloaded to \\\"$SCRIPTDIR\\\"! "
-msgstr "◆ ¡Script de instalación de \\\"$arg\\\" descargado en \\\"$SCRIPTDIR\\\"! "
+msgstr ""
+"◆ ¡Script de instalación de \\\"$arg\\\" descargado en \\\"$SCRIPTDIR\\\"! "
 
 #: modules/install.am:48
 #, fuzzy
@@ -740,7 +897,8 @@ msgstr " 💀 ERROR: no puede instalar \\\"$arg\\\" sin instalar \\\"firefox\\\"
 #: modules/install.am:83
 #, fuzzy
 msgid " 💀 ERROR: cannot install \\\"$arg\\\" without \\\"$dependency_name\\\""
-msgstr " 💀 ERROR: no se puede instalar \\\"$arg\\\" sin \\\"$dependency_name\\\""
+msgstr ""
+" 💀 ERROR: no se puede instalar \\\"$arg\\\" sin \\\"$dependency_name\\\""
 
 #: modules/install.am:99
 #, fuzzy
@@ -755,7 +913,11 @@ msgstr "%b%b"
 #: modules/install.am:124
 #, fuzzy
 msgid "\\n We can't be sure as to what is inside the application\\n We highly recommend that you sandbox this application\\n\\n"
-msgstr "\\n No podemos estar seguros de lo que hay dentro de la aplicación\\n Recomendamos encarecidamente que use esta aplicación en un sandbox\\n\\n"
+msgstr ""
+"\\n"
+" No podemos estar seguros de lo que hay dentro de la aplicación\\n"
+" Recomendamos encarecidamente que use esta aplicación en un sandbox\\n"
+"\\n"
 
 #: modules/install.am:125 modules/install.am:141
 #, fuzzy
@@ -765,7 +927,9 @@ msgstr " ¿Desea continuar? (N/s): "
 #: modules/install.am:127 modules/install.am:143
 #, fuzzy
 msgid "\\n INSTALLATION ABORTED! \\n"
-msgstr "\\n ¡INSTALACIÓN ABORTADA! \\n"
+msgstr ""
+"\\n"
+" ¡INSTALACIÓN ABORTADA! \\n"
 
 #: modules/install.am:135
 #, fuzzy
@@ -775,7 +939,9 @@ msgstr " ◆ $APPNAME: iniciando script de instalación"
 #: modules/install.am:137
 #, fuzzy
 msgid "\\n This script will create an AppImage on the fly, please wait...\\n"
-msgstr "\\n Este script creará una AppImage sobre la marcha, por favor espere...\\n"
+msgstr ""
+"\\n"
+" Este script creará una AppImage sobre la marcha, por favor espere...\\n"
 
 #: modules/install.am:139
 #, fuzzy
@@ -785,7 +951,10 @@ msgstr " 💀 ERROR: \\\"$arg\\\" ya existe en /usr/local/lib"
 #: modules/install.am:140
 #, fuzzy
 msgid "\\n ⚠️ This script will install a system library in /usr/local/lib\\n\\n"
-msgstr "\\n ⚠️ Este script instalará una biblioteca del sistema en /usr/local/lib\\n\\n"
+msgstr ""
+"\\n"
+" ⚠️ Este script instalará una biblioteca del sistema en /usr/local/lib\\n"
+"\\n"
 
 #: modules/install.am:226 modules/install.am:229
 #, fuzzy
@@ -810,17 +979,24 @@ msgstr " ✖ \\\"$(echo \"$arg\" | sed 's/-appimage//g')\\\" no es una AppImage"
 #: modules/install.am:360
 #, fuzzy
 msgid " Detected multiple variants, choose one or press ZERO to abort:\\n\\n"
-msgstr " Se detectaron múltiples variantes, elija una o presione CERO para abortar:\\n\\n"
+msgstr ""
+" Se detectaron múltiples variantes, elija una o presione CERO para abortar:"
+"\\n"
+"\\n"
 
 #: modules/install.am:366
 #, fuzzy
 msgid "%bPlease select another item or press \\\"ZERO\\\".\\n\\n"
-msgstr "%bPor favor, seleccione otro elemento o presione \\\"CERO\\\".\\n\\n"
+msgstr ""
+"%bPor favor, seleccione otro elemento o presione \\\"CERO\\\".\\n"
+"\\n"
 
 #: modules/install.am:371
 #, fuzzy
 msgid "\\n Invalid selection. INSTALLATION ABORTED! \\n"
-msgstr "\\n Selección no válida. ¡INSTALACIÓN ABORTADA! \\n"
+msgstr ""
+"\\n"
+" Selección no válida. ¡INSTALACIÓN ABORTADA! \\n"
 
 #: modules/install.am:416
 #, fuzzy
@@ -830,7 +1006,9 @@ msgstr " 💀 ERROR, \\\"$arg\\\" NO existe en las bases de datos de terceros"
 #: modules/install.am:417
 #, fuzzy
 msgid "\\n Try again but WITHOUT the third-party flag\\n"
-msgstr "\\n Inténtelo de nuevo pero SIN la opción de terceros\\n"
+msgstr ""
+"\\n"
+" Inténtelo de nuevo pero SIN la opción de terceros\\n"
 
 #: modules/install.am:429
 #, fuzzy
@@ -870,7 +1048,10 @@ msgstr " USO: $AMCLI $1 --user [ARGUMENTO]"
 #: modules/install.am:470
 #, fuzzy
 msgid "\\n                  %bSTART OF ALL INSTALLATION PROCESSES\\033[0m\\n\\n"
-msgstr "\\n                  %bSTART OF ALL INSTALLATION PROCESSES\\033[0m\\n\\n"
+msgstr ""
+"\\n"
+"                  %bSTART OF ALL INSTALLATION PROCESSES\\033[0m\\n"
+"\\n"
 
 #: modules/install.am:497
 #, fuzzy
@@ -890,22 +1071,35 @@ msgstr " 💀 ERROR: el archivo \\\"$arg\\\" NO existe"
 #: modules/install.am:512
 #, fuzzy
 msgid "💀 ERROR: \\\"$arg\\\" does NOT exist in the \\\"AM\\\" database, $(printf \"please check the list, run the \\\"%b$AMCLIPATH_ORIGIN -l\\033[0m\\\" command.\\n\\n\" \"${Gold}\")"
-msgstr "💀 ERROR: \\\"$arg\\\" NO existe en la base de datos \\\"AM\\\", $(printf \"por favor, compruebe la lista, ejecute el comando \\\"%b$AMCLIPATH_ORIGIN -l\\033[0m\\\".\\n\\n\" \"${Gold}\")"
+msgstr ""
+"💀 ERROR: \\\"$arg\\\" NO existe en la base de datos \\\"AM\\\", $(printf "
+"\"por favor, compruebe la lista, ejecute el comando \\\"%b$AMCLIPATH_ORIGIN -"
+"l\\033[0m\\\".\\n"
+"\\n"
+"\" \"${Gold}\")"
 
 #: modules/install.am:529
 #, fuzzy
 msgid "\\n ERROR: \\\"%b\\\" is NOT an AppImage\\n"
-msgstr "\\n ERROR: \\\"%b\\\" NO es una AppImage\\n"
+msgstr ""
+"\\n"
+" ERROR: \\\"%b\\\" NO es una AppImage\\n"
 
 #: modules/install.am:535
 #, fuzzy
 msgid "\\n                  %bEND OF ALL INSTALLATION PROCESSES\\n\\033[0m"
-msgstr "\\n                  %bEND OF ALL INSTALLATION PROCESSES\\n\\033[0m"
+msgstr ""
+"\\n"
+"                  %bEND OF ALL INSTALLATION PROCESSES\\n"
+"\\033[0m"
 
 #: modules/install.am:536
 #, fuzzy
 msgid "\\n             The following new programs have been installed:\\n\\n"
-msgstr "\\n             The following new programs have been installed:\\n\\n"
+msgstr ""
+"\\n"
+"             The following new programs have been installed:\\n"
+"\\n"
 
 #: modules/install.am:544
 #, fuzzy
@@ -935,37 +1129,58 @@ msgstr " ¿Desea reinstalar todo? (N/s): "
 #: modules/install.am:591
 #, fuzzy
 msgid "%b\\n ABORTED! \\n%b\\n"
-msgstr "%b\\n ¡ABORTADO! \\n%b\\n"
+msgstr ""
+"%b\\n"
+" ¡ABORTADO! \\n"
+"%b\\n"
 
 #: modules/install.am:593
 #, fuzzy
 msgid "%b\\n Reinstalling everything...\\n%b\\n"
-msgstr "%b\\n Reinstalando todo...\\n%b\\n"
+msgstr ""
+"%b\\n"
+" Reinstalando todo...\\n"
+"%b\\n"
 
 #: modules/install.am:613
 #, fuzzy
 msgid "%b\\n Checking for changes of the installation scripts in the online database...\\n%b\\n"
-msgstr "%b\\n Comprobando cambios en los scripts de instalación en la base de datos en línea...\\n%b\\n"
+msgstr ""
+"%b\\n"
+" Comprobando cambios en los scripts de instalación en la base de datos en "
+"línea...\\n"
+"%b\\n"
 
 #: modules/install.am:639
 #, fuzzy
 msgid " App removal and reinstallation complete! \\n%b\\n"
-msgstr " ¡Eliminación y reinstalación de la aplicación completada! \\n%b\\n"
+msgstr ""
+" ¡Eliminación y reinstalación de la aplicación completada! \\n"
+"%b\\n"
 
 #: modules/install.am:639
 #, fuzzy
 msgid " Nothing to do here! \\n%b\\n"
-msgstr " ¡Nada que hacer aquí! \\n%b\\n"
+msgstr ""
+" ¡Nada que hacer aquí! \\n"
+"%b\\n"
 
 #: modules/management.am:14
 #, fuzzy
 msgid "\\n ◆ To set date and time as a name, press ENTER (default)\\n ◆ To set the version as a name, press \\\"1\\\"\\n ◆ To set a custom name, write anything else\\n\\n"
-msgstr "\\n ◆ Para establecer fecha y hora como nombre, presione INTRO (predeterminado)\\n ◆ Para establecer la versión como nombre, presione \\\"1\\\"\\n ◆ Para establecer un nombre personalizado, escriba cualquier otra cosa\\n\\n"
+msgstr ""
+"\\n"
+" ◆ Para establecer fecha y hora como nombre, presione INTRO (predeterminado)"
+"\\n"
+" ◆ Para establecer la versión como nombre, presione \\\"1\\\"\\n"
+" ◆ Para establecer un nombre personalizado, escriba cualquier otra cosa\\n"
+"\\n"
 
 #: modules/management.am:15
 #, fuzzy
 msgid " Write your choice here, or leave blank to use \\\"date/time\\\": "
-msgstr " Escriba su elección aquí, o déjelo en blanco para usar \\\"fecha/hora\\\": "
+msgstr ""
+" Escriba su elección aquí, o déjelo en blanco para usar \\\"fecha/hora\\\": "
 
 #: modules/management.am:32 modules/management.am:62
 #, fuzzy
@@ -980,7 +1195,10 @@ msgstr " ¿Desea hacer una copia de seguridad de la versión actual de $2? (s/N)
 #: modules/management.am:36
 #, fuzzy
 msgid "\\n OPERATION ABORTED!\\n\\n"
-msgstr "\\n ¡OPERACIÓN ABORTADA!\\n\\n"
+msgstr ""
+"\\n"
+" ¡OPERACIÓN ABORTADA!\\n"
+"\\n"
 
 #: modules/management.am:42
 #, fuzzy
@@ -1005,17 +1223,25 @@ msgstr " ¿Desea sobrescribir $2 con una versión anterior? (s,N) "
 #: modules/management.am:66
 #, fuzzy
 msgid "\\n OPERATION ABORTED! \\n\\n"
-msgstr "\\n ¡OPERACIÓN ABORTADA! \\n\\n"
+msgstr ""
+"\\n"
+" ¡OPERACIÓN ABORTADA! \\n"
+"\\n"
 
 #: modules/management.am:68
 #, fuzzy
 msgid "\\n Please, select a snapshot or press ZERO to abort:\\n\\n"
-msgstr "\\n Por favor, seleccione una instantánea o presione CERO para abortar:\\n\\n"
+msgstr ""
+"\\n"
+" Por favor, seleccione una instantánea o presione CERO para abortar:\\n"
+"\\n"
 
 #: modules/management.am:74 modules/management.am:164
 #, fuzzy
 msgid "\\n Invalid selection. ABORTED! \\n"
-msgstr "\\n Selección no válida. ¡ABORTADO! \\n"
+msgstr ""
+"\\n"
+" Selección no válida. ¡ABORTADO! \\n"
 
 #: modules/management.am:80
 #, fuzzy
@@ -1040,7 +1266,8 @@ msgstr "✖ ERROR: \\\"$arg\\\" ya contiene un directorio de configuración"
 #: modules/management.am:102
 #, fuzzy
 msgid "✔ \\$XDG_CONFIG_HOME set to \\\"$argpath.config\\\" for \\\"$arg\\\""
-msgstr "✔ \\$XDG_CONFIG_HOME establecido a \\\"$argpath.config\\\" para \\\"$arg\\\""
+msgstr ""
+"✔ \\$XDG_CONFIG_HOME establecido a \\\"$argpath.config\\\" para \\\"$arg\\\""
 
 #: modules/management.am:107
 #, fuzzy
@@ -1055,7 +1282,9 @@ msgstr "✔ \\$HOME establecido a \\\"$argpath.home\\\" para \\\"$arg\\\""
 #: modules/management.am:137
 #, fuzzy
 msgid " No AM-updater available for \\\"$2\\\", cannot detect any URL!"
-msgstr " No hay AM-updater disponible para \\\"$2\\\", ¡no se puede detectar ninguna URL!"
+msgstr ""
+" No hay AM-updater disponible para \\\"$2\\\", ¡no se puede detectar ninguna "
+"URL!"
 
 #: modules/management.am:144
 #, fuzzy
@@ -1075,7 +1304,9 @@ msgstr "Ha elegido revertir \\\"$2\\\"."
 #: modules/management.am:157
 #, fuzzy
 msgid "Select a URL from this menu (read carefully) or press ZERO to abort:"
-msgstr "Seleccione una URL de este menú (lea atentamente) o presione CERO para abortar:"
+msgstr ""
+"Seleccione una URL de este menú (lea atentamente) o presione CERO para "
+"abortar:"
 
 #: modules/management.am:180
 #, fuzzy
@@ -1085,17 +1316,23 @@ msgstr "¡REVERSIÓN EXITOSA!"
 #: modules/management.am:238
 #, fuzzy
 msgid "WARNING: cannot extract old type 1 AppImages, install \\\"7z\\\" and retry."
-msgstr "ADVERTENCIA: no se pueden extraer AppImages antiguas de tipo 1, instale \\\"7z\\\" y reintente."
+msgstr ""
+"ADVERTENCIA: no se pueden extraer AppImages antiguas de tipo 1, instale \\"
+"\"7z\\\" y reintente."
 
 #: modules/management.am:251
 #, fuzzy
 msgid "WARNING: \\\"$BINDIR\\\" is not in PATH, apps may not run from command line."
-msgstr "ADVERTENCIA: \\\"$BINDIR\\\" no está en el PATH, es posible que las aplicaciones no se ejecuten desde la línea de comandos."
+msgstr ""
+"ADVERTENCIA: \\\"$BINDIR\\\" no está en el PATH, es posible que las "
+"aplicaciones no se ejecuten desde la línea de comandos."
 
 #: modules/management.am:254
 #, fuzzy
 msgid " Write a custom command to launch the app, or leave blank: "
-msgstr " Escriba un comando personalizado para lanzar la aplicación, o déjelo en blanco: "
+msgstr ""
+" Escriba un comando personalizado para lanzar la aplicación, o déjelo en "
+"blanco: "
 
 #: modules/management.am:259
 #, fuzzy
@@ -1130,12 +1367,18 @@ msgstr "ERROR: ¡el comando \\\"$response\\\" ya existe, reintente!"
 #: modules/management.am:284
 #, fuzzy
 msgid "%b\\n ERROR: \\\"%b\\\" not found\\n%b\\n"
-msgstr "%b\\n ERROR: \\\"%b\\\" no encontrado\\n%b\\n"
+msgstr ""
+"%b\\n"
+" ERROR: \\\"%b\\\" no encontrado\\n"
+"%b\\n"
 
 #: modules/management.am:286 modules/sandboxes.am:36
 #, fuzzy
 msgid "%b\\n ERROR: \\\"%b\\\" is NOT an AppImage\\n%b\\n"
-msgstr "%b\\n ERROR: \\\"%b\\\" NO es una AppImage\\n%b\\n"
+msgstr ""
+"%b\\n"
+" ERROR: \\\"%b\\\" NO es una AppImage\\n"
+"%b\\n"
 
 #: modules/management.am:288
 #, fuzzy
@@ -1145,7 +1388,9 @@ msgstr " ◆ Archivo: %s\\n"
 #: modules/management.am:306
 #, fuzzy
 msgid " \\\"$AMCLIUPPER\\\" cannot manage updates for $2, \\\"AM-updater\\\" file not found!"
-msgstr " ¡\\\"$AMCLIUPPER\\\" no puede gestionar actualizaciones para $2, archivo \\\"AM-updater\\\" no encontrado!"
+msgstr ""
+" ¡\\\"$AMCLIUPPER\\\" no puede gestionar actualizaciones para $2, archivo \\"
+"\"AM-updater\\\" no encontrado!"
 
 #: modules/management.am:309
 #, fuzzy
@@ -1165,7 +1410,8 @@ msgstr " ¡Operación abortada!"
 #: modules/management.am:321
 #, fuzzy
 msgid " \\\"$2\\\" cannot be unlocked, \\\"AM-LOCK\\\" file not found!"
-msgstr " ¡No se puede desbloquear \\\"$2\\\", archivo \\\"AM-LOCK\\\" no encontrado!"
+msgstr ""
+" ¡No se puede desbloquear \\\"$2\\\", archivo \\\"AM-LOCK\\\" no encontrado!"
 
 #: modules/management.am:324
 #, fuzzy
@@ -1215,7 +1461,9 @@ msgstr " su \\\"AM-updater\\\" probablemente aún podrá actualizar la AppImage"
 #: modules/management.am:359
 #, fuzzy
 msgid " by comparing the old vs new version url, but it is not guaranteed"
-msgstr " comparando la URL de la versión antigua con la nueva, pero no está garantizado"
+msgstr ""
+" comparando la URL de la versión antigua con la nueva, pero no está "
+"garantizado"
 
 #: modules/management.am:360
 #, fuzzy
@@ -1250,7 +1498,8 @@ msgstr " ◆ $target ha sido convertido a una AppImage de nueva generación."
 #: modules/management.am:407
 #, fuzzy
 msgid " The next update may replace this AppImage with a Type2 one"
-msgstr " La próxima actualización podría reemplazar esta AppImage con una de Tipo2"
+msgstr ""
+" La próxima actualización podría reemplazar esta AppImage con una de Tipo2"
 
 #: modules/management.am:408
 #, fuzzy
@@ -1260,7 +1509,8 @@ msgstr " ¡así que agregué este comando al final del script \\\"AM-updater\\\"
 #: modules/management.am:410
 #, fuzzy
 msgid " Contact the upstream developers to make them officially upgrade!"
-msgstr " ¡Contacte a los desarrolladores originales para que actualicen oficialmente!"
+msgstr ""
+" ¡Contacte a los desarrolladores originales para que actualicen oficialmente!"
 
 #: modules/management.am:411
 #, fuzzy
@@ -1270,7 +1520,9 @@ msgstr " ¿Desea eliminar la antigua AppImage libfuse2? (S/n) "
 #: modules/management.am:438 modules/management.am:454
 #, fuzzy
 msgid " \\\"${RED}$arg\\033[0m\\\" is not a valid \\\"APPNAME\\\", see \\\"$AMCLI -f\\\" for more."
-msgstr " \\\"${RED}$arg\\033[0m\\\" no es un \\\"NOMBREAPP\\\" válido, consulte \\\"$AMCLI -f\\\" para más información."
+msgstr ""
+" \\\"${RED}$arg\\033[0m\\\" no es un \\\"NOMBREAPP\\\" válido, consulte \\"
+"\"$AMCLI -f\\\" para más información."
 
 #: modules/management.am:439
 #, fuzzy
@@ -1290,12 +1542,16 @@ msgstr " ¡\\\"${Green}$arg\\033[0m\\\" ha sido eliminado!"
 #: modules/management.am:512
 #, fuzzy
 msgid " ◆ Do you wish to allow custom icon theming for ALL the apps? (y,N) "
-msgstr " ◆ ¿Desea permitir temas de iconos personalizados para TODAS las aplicaciones? (s,N) "
+msgstr ""
+" ◆ ¿Desea permitir temas de iconos personalizados para TODAS las "
+"aplicaciones? (s,N) "
 
 #: modules/management.am:515
 #, fuzzy
 msgid " ◆ Do you wish to allow custom icon theming for the selected apps? (y,N) "
-msgstr " ◆ ¿Desea permitir temas de iconos personalizados para las aplicaciones seleccionadas? (s,N) "
+msgstr ""
+" ◆ ¿Desea permitir temas de iconos personalizados para las aplicaciones "
+"seleccionadas? (s,N) "
 
 #: modules/management.am:522
 #, fuzzy
@@ -1310,17 +1566,25 @@ msgstr " ✖ ¡Abortado!"
 #: modules/management.am:535
 #, fuzzy
 msgid "%b\\n ◆ Updates check finished! \\n"
-msgstr "%b\\n ◆ ¡Comprobación de actualizaciones finalizada! \\n"
+msgstr ""
+"%b\\n"
+" ◆ ¡Comprobación de actualizaciones finalizada! \\n"
 
 #: modules/sandboxes.am:30
 #, fuzzy
 msgid "%b\\n \\\"%b\\\" is already sandboxed!\\n%b\\n"
-msgstr "%b\\n ¡\\\"%b\\\" ya está en sandbox!\\n%b\\n"
+msgstr ""
+"%b\\n"
+" ¡\\\"%b\\\" ya está en sandbox!\\n"
+"%b\\n"
 
 #: modules/sandboxes.am:33
 #, fuzzy
 msgid "%b\\n ERROR: \\\"%b\\\" is not installed\\n%b\\n"
-msgstr "%b\\n ERROR: \\\"%b\\\" no está instalado\\n%b\\n"
+msgstr ""
+"%b\\n"
+" ERROR: \\\"%b\\\" no está instalado\\n"
+"%b\\n"
 
 #: modules/sandboxes.am:44
 #, fuzzy
@@ -1400,12 +1664,17 @@ msgstr "  Giving access to \\\"$NEWDIR\\\"..."
 #: modules/template.am:38 modules/template.am:322
 #, fuzzy
 msgid " ◆ ADD A BRIEF DESCRIPTION FOR THIS APPLICATION $(echo -e '\\n : ')"
-msgstr " ◆ AÑADA UNA BREVE DESCRIPCIÓN PARA ESTA APLICACIÓN $(echo -e '\\n : ')"
+msgstr ""
+" ◆ AÑADA UNA BREVE DESCRIPCIÓN PARA ESTA APLICACIÓN $(echo -e '\\n"
+" : ')"
 
 #: modules/template.am:83
 #, fuzzy
 msgid " ◆ FOR \\\"WGET\\\", ADD A COMMAND AS \\\"\\$( ... )\\\" OR A LINEAR DOWNLOAD URL $(echo -e '\\n : ')"
-msgstr " ◆ PARA \\\"WGET\\\", AÑADA UN COMANDO COMO \\\"\\$( ... )\\\" O UNA URL DE DESCARGA LINEAL $(echo -e '\\n : ')"
+msgstr ""
+" ◆ PARA \\\"WGET\\\", AÑADA UN COMANDO COMO \\\"\\$( ... )\\\" O UNA URL DE "
+"DESCARGA LINEAL $(echo -e '\\n"
+" : ')"
 
 #: modules/template.am:115
 #, fuzzy
@@ -1415,7 +1684,22 @@ msgstr " ¿Desea usar repology.org para identificar la versión (s,N)? "
 #: modules/template.am:161
 #, fuzzy
 msgid " LIST OF CATEGORIES:\\n 0) AudioVideo\\n 1) Audio\\n 2) Video\\n 3) Development\\n 4) Education\\n 5) Game\\n 6) Graphics\\n 7) Network\\n 8) Office\\n 9) Science\\n 10) Settings\\n 11) System\\n 12) Utility (default)\\n "
-msgstr " LISTA DE CATEGORÍAS:\\n 0) AudioVideo\\n 1) Audio\\n 2) Video\\n 3) Desarrollo\\n 4) Educación\\n 5) Juego\\n 6) Gráficos\\n 7) Red\\n 8) Oficina\\n 9) Ciencia\\n 10) Configuración\\n 11) Sistema\\n 12) Utilidad (predeterminada)\\n "
+msgstr ""
+" LISTA DE CATEGORÍAS:\\n"
+" 0) AudioVideo\\n"
+" 1) Audio\\n"
+" 2) Video\\n"
+" 3) Desarrollo\\n"
+" 4) Educación\\n"
+" 5) Juego\\n"
+" 6) Gráficos\\n"
+" 7) Red\\n"
+" 8) Oficina\\n"
+" 9) Ciencia\\n"
+" 10) Configuración\\n"
+" 11) Sistema\\n"
+" 12) Utilidad (predeterminada)\\n"
+" "
 
 #: modules/template.am:162
 #, fuzzy
@@ -1426,17 +1710,25 @@ msgstr " ELIJA UNA CATEGORÍA : "
 #: modules/template.am:338
 #, fuzzy
 msgid "\\n The URL above is an example of what both\\n the install and update scripts will point to.\\n"
-msgstr "\\n La URL anterior es un ejemplo de a dónde apuntarán tanto\\n los scripts de instalación como los de actualización.\\n"
+msgstr ""
+"\\n"
+" La URL anterior es un ejemplo de a dónde apuntarán tanto\\n"
+" los scripts de instalación como los de actualización.\\n"
 
 #: modules/template.am:306
 #, fuzzy
 msgid " ◆ ADD THE NAME OF THE PROJECT OR LEAVE BLANK IF ITS THE SAME $(echo -e '\\n : ')"
-msgstr " ◆ AÑADA EL NOMBRE DEL PROYECTO O DÉJELO EN BLANCO SI ES EL MISMO $(echo -e '\\n : ')"
+msgstr ""
+" ◆ AÑADA EL NOMBRE DEL PROYECTO O DÉJELO EN BLANCO SI ES EL MISMO $(echo -e '"
+"\\n"
+" : ')"
 
 #: modules/template.am:316
 #, fuzzy
 msgid " ◆ ADD an univoque keyword for the file (for example \\\"tar.gz\\\", \\\"linux\\\"):"
-msgstr " ◆ AÑADA una palabra clave unívoca para el archivo (por ejemplo, \\\"tar.gz\\\", \\\"linux\\\"):"
+msgstr ""
+" ◆ AÑADA una palabra clave unívoca para el archivo (por ejemplo, \\"
+"\"tar.gz\\\", \\\"linux\\\"):"
 
 #: modules/template.am:363
 #, fuzzy
@@ -1446,12 +1738,16 @@ msgstr " Crear una plantilla para \\\"$arg\\\""
 #: modules/template.am:367
 #, fuzzy
 msgid " EACH MODEL IS BASED ON A DIFFERENT METHOD OF BUILDING/UPDATING THE PROGRAM."
-msgstr " CADA MODELO SE BASA EN UN MÉTODO DIFERENTE DE CONSTRUCCIÓN/ACTUALIZACIÓN DEL PROGRAMA."
+msgstr ""
+" CADA MODELO SE BASA EN UN MÉTODO DIFERENTE DE CONSTRUCCIÓN/ACTUALIZACIÓN "
+"DEL PROGRAMA."
 
 #: modules/template.am:369
 #, fuzzy
 msgid " PLEASE, SELECT A TEMPLATE FOR \\\"$(echo \"$arg\" | tr '[:lower:]' '[:upper:]')\\\":"
-msgstr " POR FAVOR, SELECCIONE UNA PLANTILLA PARA \\\"$(echo \"$arg\" | tr '[:lower:]' '[:upper:]')\\\":"
+msgstr ""
+" POR FAVOR, SELECCIONE UNA PLANTILLA PARA \\\"$(echo \"$arg\" | tr '[:lower:]"
+"' '[:upper:]')\\\":"
 
 #: modules/template.am:371
 #, fuzzy
@@ -1471,7 +1767,8 @@ msgstr "  2) ANY ARCHIVE/BINARY/SCRIPT FROM ANY WEBSITE"
 #: modules/template.am:374
 #, fuzzy
 msgid "  3) WEBAPP BASED ON A FIREFOX PROFILE (REQUIRES \\\"FIREFOX\\\" IN \\$PATH)"
-msgstr "  3) WEBAPP BASED ON A FIREFOX PROFILE (REQUIRES \\\"FIREFOX\\\" IN \\$PATH)"
+msgstr ""
+"  3) WEBAPP BASED ON A FIREFOX PROFILE (REQUIRES \\\"FIREFOX\\\" IN \\$PATH)"
 
 #: modules/template.am:376
 #, fuzzy
@@ -1487,18 +1784,31 @@ msgid " ◆ ADD THE URL OF THE SITE (BETTER IF IT COME FROM GITHUB), FOR EXAMPLE
 " - if from other sources, use \"https://www.SITENAME.com\" or something\n"
 "\n"
 " URL: ')"
-msgstr " ◆ AÑADA LA URL DEL SITIO (MEJOR SI VIENE DE GITHUB), POR EJEMPLO: $(echo -e '\n\n - si es de github.com, use \"https://github.com/USUARIO/PROYECTO\"\n\n - si es de otras fuentes, use \"https://www.NOMBRESITIO.com\" o similar\n\n URL: ')"
+msgstr ""
+" ◆ AÑADA LA URL DEL SITIO (MEJOR SI VIENE DE GITHUB), POR EJEMPLO: $(echo -e "
+"'\n"
+"\n"
+" - si es de github.com, use \"https://github.com/USUARIO/PROYECTO\"\n"
+"\n"
+" - si es de otras fuentes, use \"https://www.NOMBRESITIO.com\" o similar\n"
+"\n"
+" URL: ')"
 
 #: modules/template.am:398 modules/template.am:419 modules/template.am:471
 #: modules/template.am:511
 #, fuzzy
 msgid "\\n All files are saved in $SCRIPTDIR/am-scripts\\n"
-msgstr "\\n Todos los archivos se guardan en $SCRIPTDIR/am-scripts\\n"
+msgstr ""
+"\\n"
+" Todos los archivos se guardan en $SCRIPTDIR/am-scripts\\n"
 
 #: modules/template.am:408
 #, fuzzy
 msgid " ◆ ADD A LINEAR DOWNLOAD URL FOR THE SCRIPT OR LEAVE BLANK $(echo -e '\\n : ')"
-msgstr " ◆ AÑADA UNA URL DE DESCARGA LINEAL PARA EL SCRIPT O DÉJELO EN BLANCO $(echo -e '\\n : ')"
+msgstr ""
+" ◆ AÑADA UNA URL DE DESCARGA LINEAL PARA EL SCRIPT O DÉJELO EN BLANCO $(echo "
+"-e '\\n"
+" : ')"
 
 #: modules/template.am:442
 #, fuzzy
@@ -1508,7 +1818,9 @@ msgstr " ◆ ¿Desea añadir un lanzador y un icono (s,N)? "
 #: modules/template.am:448 modules/template.am:503
 #, fuzzy
 msgid " ◆ COPY/PASTE THE URL OF THE ICON HERE $(echo -e '\\n URL: ')"
-msgstr " ◆ COPIE/PEGUE LA URL DEL ICONO AQUÍ $(echo -e '\\n URL: ')"
+msgstr ""
+" ◆ COPIE/PEGUE LA URL DEL ICONO AQUÍ $(echo -e '\\n"
+" URL: ')"
 
 #: modules/template.am:482
 #, fuzzy
@@ -1523,12 +1835,16 @@ msgstr " ◆ URL DE LA APLICACIÓN WEB: "
 #: modules/template.am:516
 #, fuzzy
 msgid "\\n No valid argument was chosen: process aborted! \\n"
-msgstr "\\n No se eligió ningún argumento válido: ¡proceso abortado! \\n"
+msgstr ""
+"\\n"
+" No se eligió ningún argumento válido: ¡proceso abortado! \\n"
 
 #: modules/translate.am:36
 #, fuzzy
 msgid "Press y to continue, anything else to exit (timeout 15 seconds)"
-msgstr "Presione s para continuar, cualquier otra tecla para salir (tiempo de espera 15 segundos)"
+msgstr ""
+"Presione s para continuar, cualquier otra tecla para salir (tiempo de espera "
+"15 segundos)"
 
 #: modules/translate.am:52
 #, fuzzy
@@ -1623,7 +1939,9 @@ msgstr "Idioma ya incluido"
 #: modules/translate.am:186
 #, fuzzy
 msgid " Try again with another language, or run \\\"$AMCLI --translate\\\" to update added translations"
-msgstr " Inténtelo de nuevo con otro idioma, o ejecute \\\"$AMCLI --translate\\\" para actualizar las traducciones añadidas"
+msgstr ""
+" Inténtelo de nuevo con otro idioma, o ejecute \\\"$AMCLI --translate\\\" "
+"para actualizar las traducciones añadidas"
 
 #: modules/translate.am:194
 #, fuzzy
