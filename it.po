@@ -6,8 +6,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
 "POT-Creation-Date: 2025-05-28\n"
-"PO-Revision-Date: 2025-05-30 01:49+0000\n"
-"Last-Translator: zenobit <zenobit@disroot.org>\n"
+"PO-Revision-Date: 2025-05-30 12:01+0000\n"
+"Last-Translator: ivan-hc <ivan-hc@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/am/am/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -480,7 +480,8 @@ msgid ""
 " %b\\\"%b\\\" CAN MANAGE UPDATES FOR THE FOLLOWING PROGRAMS\\033[0m:"
 "\\n%b\\n\\n"
 msgstr ""
-" \\\"%b\\\" PUÒ GESTIRE GLI AGGIORNAMENTI PER I SEGUENTI PROGRAMMI:\\n"
+" \\\"%b\\\" PUÒ GESTIRE GLI AGGIORNAMENTI PER I SEGUENTI PROGRAMMI\\033[0m:"
+"\\n"
 "%b\\n"
 "\\n"
 
@@ -492,7 +493,7 @@ msgstr " Nessuno"
 msgid "\\n %bAll self-updatable programs are excluded\\033[0m\\n"
 msgstr ""
 "\\n"
-" Sono esclusi tutti i programmi auto-aggiornabili\\n"
+" Sono esclusi tutti i programmi auto-aggiornabili\\033[0m\\n"
 
 #: APP-MANAGER:1072
 msgid " The following apps have been updated:\\n\\n"
@@ -502,15 +503,15 @@ msgstr ""
 
 #: APP-MANAGER:1112
 msgid " %b✔\\033[0m $APPNAME is updated, $timelapsed second elapsed! \\n"
-msgstr " ◆ $APPNAME è aggiornato, $timelapsed secondo trascorso!"
+msgstr " ◆ $APPNAME è aggiornato, $timelapsed secondo trascorso! \\n"
 
 #: APP-MANAGER:1112
 msgid " %b✔\\033[0m $APPNAME is updated, $timelapsed seconds elapsed! \\n"
-msgstr " ◆ $APPNAME è aggiornato, $timelapsed secondi trascorsi!"
+msgstr " ◆ $APPNAME è aggiornato, $timelapsed secondi trascorsi! \\n"
 
 #: APP-MANAGER:1122
 msgid " %b✖\\033[0m %b is read-only, cannot update it!\\n"
-msgstr " ✖ $APPNAME è di sola lettura, non è possibile aggiornarlo!"
+msgstr " ✖ $APPNAME è di sola lettura, non è possibile aggiornarlo!\\n"
 
 #: APP-MANAGER:1155
 msgid " ◆ Update local AppImages integrated manually"
