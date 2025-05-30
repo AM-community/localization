@@ -6,8 +6,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
 "POT-Creation-Date: 2025-05-28\n"
-"PO-Revision-Date: 2025-05-30 01:06+0000\n"
-"Last-Translator: ivan-hc <ivan-hc@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2025-05-30 01:24+0000\n"
+"Last-Translator: Prefill add-on <noreply-addon-prefill@weblate.org>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/am/am/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -49,7 +49,11 @@ msgstr ">>> Grazie per aver scelto AppMan!"
 #: APP-MANAGER:138
 msgid ""
 " Write the path or just press enter to use default:$(printf \"\\n\\n \")"
-msgstr " Scrivi il percorso o premi semplicemente Invio per usare quello predefinito:$(printf \"\\n\\n \")"
+msgstr ""
+" Scrivi il percorso o premi semplicemente Invio per usare quello "
+"predefinito:$(printf \"\\n"
+"\\n"
+" \")"
 
 #: APP-MANAGER:146
 msgid " 💀 ERROR, you can't install applications in \\\"$BINDIR\\\""
@@ -59,7 +63,9 @@ msgstr " 💀 ERRORE, non puoi installare applicazioni in \\\"$BINDIR\\\""
 msgid ""
 " $BINDIR is normally used for executables, Please choose a different path "
 "and retry!"
-msgstr " $BINDIR viene normalmente utilizzato per gli eseguibili. Scegli un percorso diverso e riprova!"
+msgstr ""
+" $BINDIR viene normalmente utilizzato per gli eseguibili. Scegli un percorso "
+"diverso e riprova!"
 
 #: APP-MANAGER:151
 msgid " 💀 ERROR: You don't have write access to $location or it is invalid"
@@ -85,7 +91,9 @@ msgstr "ERRORE: Non hai accesso in scrittura a $APPSPATH"
 msgid ""
 "%b ⚠️ WARNING\\033[0m: \\\"%b%b\\033[0m\\\" is not in PATH, local apps may "
 "not run.\\n"
-msgstr "%b ⚠️ ATTENZIONE\\033[0m: \\\"%b%b\\033[0m\\\" non è in PATH, le app locali potrebbero non essere eseguite.\\n"
+msgstr ""
+"%b ⚠️ ATTENZIONE\\033[0m: \\\"%b%b\\033[0m\\\" non è in PATH, le app locali "
+"potrebbero non essere eseguite.\\n"
 
 #: APP-MANAGER:282
 msgid "\\\"$AMCLIUPPER\\\" $AMVERSION: DEVELOPER MODE"
@@ -95,23 +103,34 @@ msgstr "\\\"$AMCLIUPPER\\\" $AMVERSION: MODALITÀ SVILUPPATORE"
 msgid ""
 " ${RED}💀 ERROR! MISSING ESSENTIAL COMMANDS\\033[0m: %s\\n\\n Install the "
 "above and try again! \\n"
-msgstr " ${RED}💀 ERRORE! MANCANO COMANDI ESSENZIALI\\033[0m: %s\\n\\n Installa quanto sopra e riprova! \\n"
+msgstr ""
+" ${RED}💀 ERRORE! MANCANO COMANDI ESSENZIALI\\033[0m: %s\\n"
+"\\n"
+" Installa quanto sopra e riprova! \\n"
 
 #: APP-MANAGER:314
 msgid "%bList of the %b core dependences\\033[0m:\\n\\n%b\\n"
-msgstr "%bElenco delle dipendenze principali di %b\\033[0m:\\n\\n%b\\n"
+msgstr ""
+"%bElenco delle dipendenze principali di %b\\033[0m:\\n"
+"\\n"
+"%b\\n"
 
 #: APP-MANAGER:316
 msgid ""
 "If this message appears it is because you are missing some dependency and if "
 "its the first time its because something new has been introduced.\\n\\n"
-msgstr "Se appare questo messaggio è perché manca qualche dipendenza e se è la prima volta è perché è stato introdotto qualcosa di nuovo.\\n\\n"
+msgstr ""
+"Se appare questo messaggio è perché manca qualche dipendenza e se è la prima "
+"volta è perché è stato introdotto qualcosa di nuovo.\\n"
+"\\n"
 
 #: APP-MANAGER:317
 msgid ""
 " See %bhttps://github.com/ivan-hc/AM#core-dependences\\033[0m for more "
 "information\\n"
-msgstr " Visita %bhttps://github.com/ivan-hc/AM#core-dependences\\033[0m per maggiori informazioni\\n"
+msgstr ""
+" Visita %bhttps://github.com/ivan-hc/AM#core-dependences\\033[0m per "
+"maggiori informazioni\\n"
 
 #: APP-MANAGER:325
 msgid ""
@@ -138,12 +157,18 @@ msgstr ""
 #: APP-MANAGER:333
 msgid ""
 "\\n %b⚠️ WARNING: ACCESS TO USER NAMESPACES IS RESTRICTED! \\033[0m\\n\\n"
-msgstr "\\n %b⚠️ ATTENZIONE: RILEVATO ACCESSO LIMITATO IA NAMESPACES DI LINUX! \\033[0m\\n\\n"
+msgstr ""
+"\\n"
+" %b⚠️ ATTENZIONE: RILEVATO ACCESSO LIMITATO IA NAMESPACES DI LINUX! \\033["
+"0m\\n"
+"\\n"
 
 #: APP-MANAGER:334
 msgid ""
 " Some apps may not run, you need to enable access to user namespaces, see"
-msgstr " Alcune app potrebbero non funzionare, è necessario abilitare l'accesso ai namespaces, vedere"
+msgstr ""
+" Alcune app potrebbero non funzionare, è necessario abilitare l'accesso ai "
+"namespaces, vedere"
 
 #: APP-MANAGER:336
 msgid " to know more."
@@ -152,17 +177,25 @@ msgstr " per saperne di più."
 #: APP-MANAGER:348
 msgid ""
 "\\n %b is offline, please check your internet connection and try again\\n\\n"
-msgstr "\\n %b è offline, controlla la tua connessione Internet e riprova\\n\\n"
+msgstr ""
+"\\n"
+" %b è offline, controlla la tua connessione Internet e riprova\\n"
+"\\n"
 
 #: APP-MANAGER:357
 msgid "\\n %b💀WARNING! Detected \\\"%b\\\"\\033[0m\\n\\n"
-msgstr "\\n %b💀ATTENZIONE! Rilevato \\\"%b\\\"\\033[0m\\n\\n"
+msgstr ""
+"\\n"
+" %b💀ATTENZIONE! Rilevato \\\"%b\\\"\\033[0m\\n"
+"\\n"
 
 #: APP-MANAGER:358
 msgid ""
 "It will prevent \\\"$AMCLIUPPER\\\" from working correctly with AppImages, "
 "especially when extracting, integrating and updating them."
-msgstr "Impedirà a \\\"$AMCLIUPPER\\\" dal funzionare correttamente con le AppImage, in particolare durante l'estrazione, l'integrazione e l'aggiornamento."
+msgstr ""
+"Impedirà a \\\"$AMCLIUPPER\\\" dal funzionare correttamente con le AppImage, "
+"in particolare durante l'estrazione, l'integrazione e l'aggiornamento."
 
 #: APP-MANAGER:362
 msgid " Please remove \\\"AppImageLauncher\\\", reboot and retry!"
@@ -196,7 +229,10 @@ msgstr " Nuovo repository DISATTIVATO!"
 
 #: APP-MANAGER:401
 msgid " Source: %b\\n Apps: %b\\n List: %b\\n"
-msgstr " Fonte: %b\\n Applicazioni: %b\\n Lista: %b\\n"
+msgstr ""
+" Fonte: %b\\n"
+" Applicazioni: %b\\n"
+" Lista: %b\\n"
 
 #: APP-MANAGER:404
 msgid " Removed all 3rd party repositories"
@@ -204,7 +240,9 @@ msgstr " Rimossi tutti i repository di terze parti"
 
 #: APP-MANAGER:408
 msgid "Select a repo from the list or press CTRL+C to abort:\\n%b\\n"
-msgstr "Seleziona un repository dall'elenco o premi CTRL+C per annullare:\\n%b\\n"
+msgstr ""
+"Seleziona un repository dall'elenco o premi CTRL+C per annullare:\\n"
+"%b\\n"
 
 #: APP-MANAGER:411
 msgid ">>> Invalid Selection"
@@ -277,7 +315,9 @@ msgstr " Vuoi entrare in \\\"Modalità AppMan\\\" (y,N)?"
 
 #: APP-MANAGER:786
 msgid " \\\"AM\\\" is read-only, want to use it in \\\"AppMan Mode\\\" (Y,n)? "
-msgstr " \\\"AM\\\" è di sola lettura, vuoi utilizzarlo in \\\"Modalità AppMan\\\" (Y,n)? "
+msgstr ""
+" \\\"AM\\\" è di sola lettura, vuoi utilizzarlo in \\\"Modalità AppMan\\\" "
+"(Y,n)? "
 
 #: APP-MANAGER:790
 msgid "\\\"AppMan Mode\\\" enabled!"
@@ -305,7 +345,9 @@ msgstr " ✖ ERRORE: impossibile rimuovere \\\"$(basename \"$var\")\\\""
 
 #: APP-MANAGER:846
 msgid "   related AppImage is located in an unmounted path of $unmounted_point"
-msgstr "   l'AppImage correlata si trova in un percorso non montato di $unmounted_point"
+msgstr ""
+"   l'AppImage correlata si trova in un percorso non montato di "
+"$unmounted_point"
 
 #: APP-MANAGER:874
 msgid " ✔ Removed obsolete module named \\\"$(basename -- \"$m\")\\\""
@@ -335,13 +377,19 @@ msgstr "✔ $APPMAN_APPSPATH/$arg può essere gestito di nuovo"
 msgid ""
 "%b\\n Checking for changes of the installation scripts in the online "
 "database...\\n"
-msgstr "%b\\n Controllo delle modifiche degli script di installazione nel database online...\\n"
+msgstr ""
+"%b\\n"
+" Controllo delle modifiche degli script di installazione nel database "
+"online...\\n"
 
 #: APP-MANAGER:932
 msgid ""
 " ◆ %b%b\\033[0m has changed, you may need to reinstall it, see\\n   https://"
 "github.com/ivan-hc/AM/blob/main/programs/%b/%b\\n"
-msgstr " ◆ %b%b\\033[0m è cambiato, potrebbe essere necessario reinstallarlo, vedere\\n   https://github.com/ivan-hc/AM/blob/main/programs/%b/%b\\n"
+msgstr ""
+" ◆ %b%b\\033[0m è cambiato, potrebbe essere necessario reinstallarlo, "
+"vedere\\n"
+"   https://github.com/ivan-hc/AM/blob/main/programs/%b/%b\\n"
 
 #: APP-MANAGER:937
 msgid " ◆ No installation script for %b, downloading one...\\n"
@@ -351,15 +399,22 @@ msgstr " ◆ Nessuno script di installazione per %b, ne scaricheremo uno...\\n"
 msgid ""
 "\\n To fix the above, just run \\\"%b%b reinstall\\033[0m\\\", without "
 "arguments\\n"
-msgstr "\\n Per risolvere quanto sopra, basta eseguire \\\"%b%b reinstall\\033[0m\\\", senza argomenti\\n"
+msgstr ""
+"\\n"
+" Per risolvere quanto sopra, basta eseguire \\\"%b%b reinstall\\033[0m\\\", "
+"senza argomenti\\n"
 
 #: APP-MANAGER:960
 msgid "%b\\n Check and update offline lists of additional databases...\\n"
-msgstr "%b\\n Controllo e aggiornamento degli elenchi offline di database aggiuntivi...\\n"
+msgstr ""
+"%b\\n"
+" Controllo e aggiornamento degli elenchi offline di database aggiuntivi...\\n"
 
 #: APP-MANAGER:968
 msgid "%b\\n Check for updates in modules...\\n"
-msgstr "%b\\n Controllo degli aggiornamenti nei moduli...\\n"
+msgstr ""
+"%b\\n"
+" Controllo degli aggiornamenti nei moduli...\\n"
 
 #: APP-MANAGER:973
 msgid " ◆ Downloading $module_name (not previously installed)..."
@@ -373,11 +428,16 @@ msgstr " ◆ Aggiornamento di $module_name..."
 msgid ""
 "\\n ◆ SYNCHRONIZING \\\"$AMCLIUPPER\\\" VERSION \\\"$CURRENT_AM_VERSION\\"
 "\"...\\r"
-msgstr "\\n ◆ SINCRONIZZAZIONE DI \\\"$AMCLIUPPER\\\" VERSIONE \\\"$CURRENT_AM_VERSION\\\"...\\r"
+msgstr ""
+"\\n"
+" ◆ SINCRONIZZAZIONE DI \\\"$AMCLIUPPER\\\" VERSIONE \\"
+"\"$CURRENT_AM_VERSION\\\"...\\r"
 
 #: APP-MANAGER:998
 msgid " A new release of \\\"$AMCLIUPPER\\\" is available, please wait...\\r"
-msgstr " Una nuova versione di \\\"$AMCLIUPPER\\\" è disponibile, attendere prego...\\r"
+msgstr ""
+" Una nuova versione di \\\"$AMCLIUPPER\\\" è disponibile, attendere prego..."
+"\\r"
 
 #: APP-MANAGER:999
 msgid ""
@@ -389,28 +449,41 @@ msgstr ""
 
 #: APP-MANAGER:1000
 msgid "\\n  Replacement of version \\\"%b\\\" currently in use, COMPLETED! \\n"
-msgstr "\\n  Sostituzione della versione \\\"%b\\\" attualmente in uso, COMPLETATO! \\n"
+msgstr ""
+"\\n"
+"  Sostituzione della versione \\\"%b\\\" attualmente in uso, COMPLETATO! \\n"
 
 #: APP-MANAGER:1001
 msgid "\\n See https://github.com/ivan-hc/AM/commits/main\\n\\n"
-msgstr "\\n Vedi https://github.com/ivan-hc/AM/commits/main\\n\\n"
+msgstr ""
+"\\n"
+" Vedi https://github.com/ivan-hc/AM/commits/main\\n"
+"\\n"
 
 #: APP-MANAGER:1003
 msgid ""
 " ◆ \\\"$AMCLIUPPER\\\" IS ALREADY UPDATED, CURRENT VERSION \\"
 "\"$CURRENT_AM_VERSION\\\""
-msgstr " ◆ \\\"$AMCLIUPPER\\\" È GIÀ AGGIORNATO, VERSIONE CORRENTE \\\"$CURRENT_AM_VERSION\\\""
+msgstr ""
+" ◆ \\\"$AMCLIUPPER\\\" È GIÀ AGGIORNATO, VERSIONE CORRENTE \\"
+"\"$CURRENT_AM_VERSION\\\""
 
 #: APP-MANAGER:1004
 msgid "\\n See https://github.com/ivan-hc/AM/commits/%b\\n\\n"
-msgstr "\\n Vedi https://github.com/ivan-hc/AM/commits/%b\\n\\n"
+msgstr ""
+"\\n"
+" Vedi https://github.com/ivan-hc/AM/commits/%b\\n"
+"\\n"
 
 #: APP-MANAGER:1042
 #, fuzzy
 msgid ""
 " %b\\\"%b\\\" CAN MANAGE UPDATES FOR THE FOLLOWING PROGRAMS\\033[0m:"
 "\\n%b\\n\\n"
-msgstr " \\\"%b\\\" PUÒ GESTIRE GLI AGGIORNAMENTI PER I SEGUENTI PROGRAMMI:\\n%b\\n\\n"
+msgstr ""
+" \\\"%b\\\" PUÒ GESTIRE GLI AGGIORNAMENTI PER I SEGUENTI PROGRAMMI:\\n"
+"%b\\n"
+"\\n"
 
 #: APP-MANAGER:1043
 msgid " None"
@@ -419,11 +492,15 @@ msgstr " Nessuno"
 #: APP-MANAGER:1044
 #, fuzzy
 msgid "\\n %bAll self-updatable programs are excluded\\033[0m\\n"
-msgstr "\\n Sono esclusi tutti i programmi auto-aggiornabili\\n"
+msgstr ""
+"\\n"
+" Sono esclusi tutti i programmi auto-aggiornabili\\n"
 
 #: APP-MANAGER:1072
 msgid " The following apps have been updated:\\n\\n"
-msgstr " Le seguenti app sono state aggiornate:\\n\\n"
+msgstr ""
+" Le seguenti app sono state aggiornate:\\n"
+"\\n"
 
 #: APP-MANAGER:1112
 #, fuzzy
@@ -451,17 +528,25 @@ msgstr "(smontato)"
 #: APP-MANAGER:1188
 #, fuzzy
 msgid "%b\\n >> %bSTART OF ALL PROCESSES\\033[0m << \\n%b\\n"
-msgstr "%b\\n >> INIZIO DI TUTTI I PROCESSI << \\n%b\\n"
+msgstr ""
+"%b\\n"
+" >> INIZIO DI TUTTI I PROCESSI << \\n"
+"%b\\n"
 
 #: APP-MANAGER:1198
 #, fuzzy
 msgid " >> %bEND OF ALL PROCESSES\\033[0m << \\n%b\\n"
-msgstr " >> FINE DI TUTTI I PROCESSI << \\n%b\\n"
+msgstr ""
+" >> FINE DI TUTTI I PROCESSI << \\n"
+"%b\\n"
 
 #: APP-MANAGER:1202
 #, fuzzy
 msgid "%b\\n >> %bEND OF ALL PROCESSES\\033[0m << \\n%b\\n"
-msgstr "%b\\n >> FINE DI TUTTI I PROCESSI << \\n%b\\n"
+msgstr ""
+"%b\\n"
+" >> FINE DI TUTTI I PROCESSI << \\n"
+"%b\\n"
 
 #: APP-MANAGER:1214
 msgid " %b✖\\033[0m %b cannot be updated, program not found \\n"
@@ -477,7 +562,8 @@ msgstr " ERRORE: \\\"$arg\\\" non è installato, vedi \\\"-f\\\""
 
 #: APP-MANAGER:1235
 msgid " ERROR: \\\"$AMCLI\\\" cannot manage updates for \\\"$arg\\\""
-msgstr " ERRORE: \\\"$AMCLI\\\" non può gestire gli aggiornamenti per \\\"$arg\\\""
+msgstr ""
+" ERRORE: \\\"$AMCLI\\\" non può gestire gli aggiornamenti per \\\"$arg\\\""
 
 #: APP-MANAGER:1237
 msgid " ERROR: \\\"$arg\\\" source is not on Github"
@@ -489,7 +575,9 @@ msgstr " ERROR: \\\"$arg\\\" non reindirizza a un generico \\\"releases\\\""
 
 #: APP-MANAGER:1264
 msgid " Module not found, run \\\"$AMCLI -s\\\" to update \\\"$AMCLIUPPER\\\""
-msgstr " Modulo non trovato, esegui \\\"$AMCLI -s\\\" per aggiornare \\\"$AMCLIUPPER\\\""
+msgstr ""
+" Modulo non trovato, esegui \\\"$AMCLI -s\\\" per aggiornare \\"
+"\"$AMCLIUPPER\\\""
 
 #: APP-MANAGER:1282
 msgid " USAGE: $AMCLI [OPTION]"
@@ -511,19 +599,27 @@ msgstr "Questa funzionalità è disabilitata dalla tua organizzazione"
 msgid ""
 "ERROR: unknown option \\\"$1\\\", run the \\\"$AMCLI -h\\\" command to find "
 "out more"
-msgstr "ERRORE: opzione sconosciuta \\\"$1\\\", eseguire \\\"$AMCLI -h\\\" per saperne di più"
+msgstr ""
+"ERRORE: opzione sconosciuta \\\"$1\\\", eseguire \\\"$AMCLI -h\\\" per "
+"saperne di più"
 
 #: modules/database.am:51
 msgid "\\nAvailable families: %b\\n"
-msgstr "\\nFamiglie disponibili: %b\\n"
+msgstr ""
+"\\n"
+"Famiglie disponibili: %b\\n"
 
 #: modules/database.am:53
 msgid "\\nBinary info: %b\\n"
-msgstr "\\nInformazioni sul binario: %b\\n"
+msgstr ""
+"\\n"
+"Informazioni sul binario: %b\\n"
 
 #: modules/database.am:71
 msgid "\\nAvailable in an third-party database (requires an extension).\\n"
-msgstr "\\nDisponibile in un database di terze parti (richiede un'estensione).\\n"
+msgstr ""
+"\\n"
+"Disponibile in un database di terze parti (richiede un'estensione).\\n"
 
 #: modules/database.am:139
 msgid " STATUS: %b\\n"
@@ -601,7 +697,9 @@ msgstr " ◆ $arg\t|\taltro"
 #: modules/database.am:340
 msgid ""
 " *has dependency to EOL libfuse2 library, please ask the creator to update\\n"
-msgstr " *dipende dalla libreria obsoleta libfuse2, chiedi al creatore di aggiornare\\n"
+msgstr ""
+" *dipende dalla libreria obsoleta libfuse2, chiedi al creatore di "
+"aggiornare\\n"
 
 #: modules/database.am:357
 msgid " TOTAL SIZE: $TOTAL_SIZE of disk space in use"
@@ -613,12 +711,19 @@ msgstr "-\tAPPIMAGE | PERCORSO | DIMENSIONI "
 
 #: modules/database.am:426
 msgid "\\n *this path is listed but not mounted, file size unknown\\n\\n"
-msgstr "\\n *questo percorso è elencato ma non montato, dimensione del file sconosciuta\\n\\n"
+msgstr ""
+"\\n"
+" *questo percorso è elencato ma non montato, dimensione del file "
+"sconosciuta\\n"
+"\\n"
 
 #: modules/database.am:521
 msgid ""
 " To list all installable programs, use the \\\"%b--all\\033[0m\\\" flag\\n\\n"
-msgstr " Per elencare tutti i programmi installabili, utilizzare il flag \\\"%b--all\\033[0m\\\"\\n\\n"
+msgstr ""
+" Per elencare tutti i programmi installabili, utilizzare il flag \\"
+"\"%b--all\\033[0m\\\"\\n"
+"\\n"
 
 #: modules/database.am:522
 msgid " LIST OF THE %b"
@@ -626,7 +731,10 @@ msgstr " ELENCO DEI %b"
 
 #: modules/database.am:528
 msgid "\\n Search results for \\\"%s\\\":\\n\\n"
-msgstr "\\n Risultati della ricerca per \\\"%s\\\":\\n\\n"
+msgstr ""
+"\\n"
+" Risultati della ricerca per \\\"%s\\\":\\n"
+"\\n"
 
 #: modules/database.am:532
 msgid "No search results"
@@ -643,11 +751,18 @@ msgstr " ERRORE: %b non trovato\\033[0m\\n"
 #: modules/database.am:628
 msgid ""
 "\\n Unknown flag, run \\\"-h\\\" to see supported third-party flags.\\n\\n"
-msgstr "\\n Flag sconosciuto, esegui \\\"-h\\\" per vedere i flag di terze parti supportati.\\n\\n"
+msgstr ""
+"\\n"
+" Flag sconosciuto, esegui \\\"-h\\\" per vedere i flag di terze parti "
+"supportati.\\n"
+"\\n"
 
 #: modules/database.am:649
 msgid "\\n Search results for packages: %s\\n\\n"
-msgstr "\\n Risultati della ricerca per i pacchetti: %s\\n\\n"
+msgstr ""
+"\\n"
+" Risultati della ricerca per i pacchetti: %s\\n"
+"\\n"
 
 #: modules/install.am:32
 msgid " Converting %s to an AppMan-compatible script.\\r"
@@ -659,7 +774,8 @@ msgstr "✖ \\\"$SCRIPTDIR/$arg\\\" esiste già!"
 
 #: modules/install.am:45
 msgid "◆ \\\"$arg\\\" installation script downloaded to \\\"$SCRIPTDIR\\\"! "
-msgstr "◆ \\\"$arg\\\", script di installazione scaricato in \\\"$SCRIPTDIR\\\"! "
+msgstr ""
+"◆ \\\"$arg\\\", script di installazione scaricato in \\\"$SCRIPTDIR\\\"! "
 
 #: modules/install.am:48
 msgid " 💀 ERROR: \\\"$arg\\\" is NOT a valid argument"
@@ -667,7 +783,9 @@ msgstr " 💀 ERRORE: \\\"$arg\\\" NON è un argomento valido"
 
 #: modules/install.am:64
 msgid " 💀 ERROR: cannot create \\\"$arg\\\", the builder does not exists"
-msgstr " 💀 ERRORE: impossibile creare \\\"$arg\\\", lo script per costruirlo non esiste"
+msgstr ""
+" 💀 ERRORE: impossibile creare \\\"$arg\\\", lo script per costruirlo non "
+"esiste"
 
 #: modules/install.am:72
 msgid ""
@@ -676,7 +794,8 @@ msgstr " 💀 ERRORE: non puoi installare \\\"$arg\\\" senza \\\"firefox\\\""
 
 #: modules/install.am:83
 msgid " 💀 ERROR: cannot install \\\"$arg\\\" without \\\"$dependency_name\\\""
-msgstr " 💀 ERRORE: non puoi installare \\\"$arg\\\" senza \\\"$dependency_name\\\""
+msgstr ""
+" 💀 ERRORE: non puoi installare \\\"$arg\\\" senza \\\"$dependency_name\\\""
 
 #: modules/install.am:99
 msgid " ◆ $APPNAME IS PART OF \\\"$LASTDIR\\\", ALREADY INSTALLED"
@@ -691,7 +810,11 @@ msgstr "%b%b"
 msgid ""
 "\\n We can't be sure as to what is inside the application\\n We highly "
 "recommend that you sandbox this application\\n\\n"
-msgstr "\\n Non possiamo essere sicuri di cosa c'è dentro l'applicazione\\n Ti consigliamo vivamente di mettere in sandbox questa applicazione\\n\\n"
+msgstr ""
+"\\n"
+" Non possiamo essere sicuri di cosa c'è dentro l'applicazione\\n"
+" Ti consigliamo vivamente di mettere in sandbox questa applicazione\\n"
+"\\n"
 
 #: modules/install.am:125 modules/install.am:141
 msgid " Do you wish to continue? (N/y): "
@@ -699,7 +822,9 @@ msgstr " Vuoi continuare? (N/y): "
 
 #: modules/install.am:127 modules/install.am:143
 msgid "\\n INSTALLATION ABORTED! \\n"
-msgstr "\\n INSTALLAZIONE ANNULLATA! \\n"
+msgstr ""
+"\\n"
+" INSTALLAZIONE ANNULLATA! \\n"
 
 #: modules/install.am:135
 msgid " ◆ $APPNAME: starting installation script"
@@ -707,7 +832,9 @@ msgstr " ◆ $APPNAME: avvio dello script di installazione"
 
 #: modules/install.am:137
 msgid "\\n This script will create an AppImage on the fly, please wait...\\n"
-msgstr "\\n Questo script creerà un'AppImage al volo, attendere prego...\\n"
+msgstr ""
+"\\n"
+" Questo script creerà un'AppImage al volo, attendere prego...\\n"
 
 #: modules/install.am:139
 msgid " 💀 ERROR: \\\"$arg\\\" already exists in /usr/local/lib"
@@ -715,7 +842,10 @@ msgstr " 💀 ERRORE: \\\"$arg\\\" esiste già in /usr/local/lib"
 
 #: modules/install.am:140
 msgid "\\n ⚠️ This script will install a system library in /usr/local/lib\\n\\n"
-msgstr "\\n ⚠️ Questo script installerà una libreria di sistema in /usr/local/lib\\n\\n"
+msgstr ""
+"\\n"
+" ⚠️ Questo script installerà una libreria di sistema in /usr/local/lib\\n"
+"\\n"
 
 #: modules/install.am:226 modules/install.am:229
 msgid " 💀 ERROR DURING INSTALLATION, REMOVED $APPNAME!"
@@ -736,15 +866,21 @@ msgstr " ✖ \\\"$(echo \"$arg\" | sed 's/-appimage//g')\\\" non è un'Appimage"
 
 #: modules/install.am:360
 msgid " Detected multiple variants, choose one or press ZERO to abort:\\n\\n"
-msgstr " Rilevate più varianti, scegline una o premi ZERO per annullare:\\n\\n"
+msgstr ""
+" Rilevate più varianti, scegline una o premi ZERO per annullare:\\n"
+"\\n"
 
 #: modules/install.am:366
 msgid "%bPlease select another item or press \\\"ZERO\\\".\\n\\n"
-msgstr "%bSeleziona un altro elemento o premi \\\"ZERO\\\".\\n\\n"
+msgstr ""
+"%bSeleziona un altro elemento o premi \\\"ZERO\\\".\\n"
+"\\n"
 
 #: modules/install.am:371
 msgid "\\n Invalid selection. INSTALLATION ABORTED! \\n"
-msgstr "\\n Selezione non valida. INSTALLAZIONE ANNULLATA! \\n"
+msgstr ""
+"\\n"
+" Selezione non valida. INSTALLAZIONE ANNULLATA! \\n"
 
 #: modules/install.am:416
 msgid " 💀 ERROR, \\\"$arg\\\" does NOT exist in 3rd-party databases"
@@ -752,7 +888,9 @@ msgstr " 💀 ERRORE, \\\"$arg\\\" NON esiste nei database di terze parti"
 
 #: modules/install.am:417
 msgid "\\n Try again but WITHOUT the third-party flag\\n"
-msgstr "\\n Riprova ma SENZA il flag di terze parti\\n"
+msgstr ""
+"\\n"
+" Riprova ma SENZA il flag di terze parti\\n"
 
 #: modules/install.am:429
 msgid " USAGE: $AMCLI $1 $2 [ARGUMENT]"
@@ -785,7 +923,10 @@ msgstr " USO: $AMCLI $1 --user [ARGOMENTO]"
 #: modules/install.am:470
 msgid ""
 "\\n                  %bSTART OF ALL INSTALLATION PROCESSES\\033[0m\\n\\n"
-msgstr "\\n                  %bINIZIO DI TUTTI I PROCESSI DI INSTALLAZIONE\\033[0m\\n\\n"
+msgstr ""
+"\\n"
+"                  %bINIZIO DI TUTTI I PROCESSI DI INSTALLAZIONE\\033[0m\\n"
+"\\n"
 
 #: modules/install.am:497
 msgid " ◆ \\\"$pure_arg\\\" is already installed!"
@@ -804,19 +945,32 @@ msgid ""
 "💀 ERROR: \\\"$arg\\\" does NOT exist in the \\\"AM\\\" database, $(printf "
 "\"please check the list, run the \\\"%b$AMCLIPATH_ORIGIN -l\\033[0m\\\" "
 "command.\\n\\n\" \"${Gold}\")"
-msgstr "💀 ERRORE: \\\"$arg\\\" NON esiste nel database di \\\"AM\\\", $(printf \"per favore controlla l'elenco, esegui il comando \\\"%b$AMCLIPATH_ORIGIN -l\\033[0m\\\".\\n\\n\" \"${Gold}\")"
+msgstr ""
+"💀 ERRORE: \\\"$arg\\\" NON esiste nel database di \\\"AM\\\", $(printf "
+"\"per favore controlla l'elenco, esegui il comando \\\"%b$AMCLIPATH_ORIGIN -"
+"l\\033[0m\\\".\\n"
+"\\n"
+"\" \"${Gold}\")"
 
 #: modules/install.am:529
 msgid "\\n ERROR: \\\"%b\\\" is NOT an AppImage\\n"
-msgstr "\\n ERRORE: \\\"%b\\\" NON è un'AppImage\\n"
+msgstr ""
+"\\n"
+" ERRORE: \\\"%b\\\" NON è un'AppImage\\n"
 
 #: modules/install.am:535
 msgid "\\n                  %bEND OF ALL INSTALLATION PROCESSES\\n\\033[0m"
-msgstr "\\n                  %bFINE DI TUTTI I PROCESSI DI INSTALLAZIONE\\n\\033[0m"
+msgstr ""
+"\\n"
+"                  %bFINE DI TUTTI I PROCESSI DI INSTALLAZIONE\\n"
+"\\033[0m"
 
 #: modules/install.am:536
 msgid "\\n             The following new programs have been installed:\\n\\n"
-msgstr "\\n             Sono stati installati i seguenti nuovi programmi:\\n\\n"
+msgstr ""
+"\\n"
+"             Sono stati installati i seguenti nuovi programmi:\\n"
+"\\n"
 
 #: modules/install.am:544
 msgid " USAGE: $AMCLI $1 user/project [ARGUMENT]"
@@ -840,32 +994,51 @@ msgstr " Vuoi reinstallare tutto? (N/y): "
 
 #: modules/install.am:591
 msgid "%b\\n ABORTED! \\n%b\\n"
-msgstr "%b\\n ANNULLATO! \\n%b\\n"
+msgstr ""
+"%b\\n"
+" ANNULLATO! \\n"
+"%b\\n"
 
 #: modules/install.am:593
 msgid "%b\\n Reinstalling everything...\\n%b\\n"
-msgstr "%b\\n Reinstallazione di tutto...\\n%b\\n"
+msgstr ""
+"%b\\n"
+" Reinstallazione di tutto...\\n"
+"%b\\n"
 
 #: modules/install.am:613
 msgid ""
 "%b\\n Checking for changes of the installation scripts in the online "
 "database...\\n%b\\n"
-msgstr "%b\\n Controllo delle modifiche degli script di installazione nel database online...\\n%b\\n"
+msgstr ""
+"%b\\n"
+" Controllo delle modifiche degli script di installazione nel database "
+"online...\\n"
+"%b\\n"
 
 #: modules/install.am:639
 msgid " App removal and reinstallation complete! \\n%b\\n"
-msgstr " Rimozione e reinstallazione delle app completata! \\n%b\\n"
+msgstr ""
+" Rimozione e reinstallazione delle app completata! \\n"
+"%b\\n"
 
 #: modules/install.am:639
 msgid " Nothing to do here! \\n%b\\n"
-msgstr " Niente da fare qui! \\n%b\\n"
+msgstr ""
+" Niente da fare qui! \\n"
+"%b\\n"
 
 #: modules/management.am:14
 msgid ""
 "\\n ◆ To set date and time as a name, press ENTER (default)\\n ◆ To set the "
 "version as a name, press \\\"1\\\"\\n ◆ To set a custom name, write anything "
 "else\\n\\n"
-msgstr "\\n ◆ Per impostare la data e l'ora come nome, premere INVIO (predefinito)\\n ◆ Per impostare la versione come nome, premere \\\"1\\\"\\n ◆ Per impostare un nome personalizzato, scrivere qualsiasi altra cosa\\n\\n"
+msgstr ""
+"\\n"
+" ◆ Per impostare la data e l'ora come nome, premere INVIO (predefinito)\\n"
+" ◆ Per impostare la versione come nome, premere \\\"1\\\"\\n"
+" ◆ Per impostare un nome personalizzato, scrivere qualsiasi altra cosa\\n"
+"\\n"
 
 #: modules/management.am:15
 msgid " Write your choice here, or leave blank to use \\\"date/time\\\": "
@@ -881,7 +1054,10 @@ msgstr " Desideri effettuare il backup della versione corrente di $2? (y/N) "
 
 #: modules/management.am:36
 msgid "\\n OPERATION ABORTED!\\n\\n"
-msgstr "\\n OPERAZIONE ANNULLATA!\\n\\n"
+msgstr ""
+"\\n"
+" OPERAZIONE ANNULLATA!\\n"
+"\\n"
 
 #: modules/management.am:42
 msgid " 💀 ERROR: \\\"$2/$backupname\\\" already exists, ABORTED!"
@@ -901,15 +1077,23 @@ msgstr " Desideri sovrascrivere $2 con una versione precedente?? (y,N) "
 
 #: modules/management.am:66
 msgid "\\n OPERATION ABORTED! \\n\\n"
-msgstr "\\n OPERAZIONE ANNULLATA! \\n\\n"
+msgstr ""
+"\\n"
+" OPERAZIONE ANNULLATA! \\n"
+"\\n"
 
 #: modules/management.am:68
 msgid "\\n Please, select a snapshot or press ZERO to abort:\\n\\n"
-msgstr "\\n Seleziona uno snapshot o premi ZERO per annullare:\\n\\n"
+msgstr ""
+"\\n"
+" Seleziona uno snapshot o premi ZERO per annullare:\\n"
+"\\n"
 
 #: modules/management.am:74 modules/management.am:164
 msgid "\\n Invalid selection. ABORTED! \\n"
-msgstr "\\n Selezione non valida. ANNULLATO! \\n"
+msgstr ""
+"\\n"
+" Selezione non valida. ANNULLATO! \\n"
 
 #: modules/management.am:80
 msgid " RESTORE COMPLETED SUCCESSFULLY!"
@@ -929,7 +1113,8 @@ msgstr "✖ ERRORE: \\\"$arg\\\" contiene già una directory di configurazione"
 
 #: modules/management.am:102
 msgid "✔ \\$XDG_CONFIG_HOME set to \\\"$argpath.config\\\" for \\\"$arg\\\""
-msgstr "✔ \\$XDG_CONFIG_HOME impostato su \\\"$argpath.config\\\" per \\\"$arg\\\""
+msgstr ""
+"✔ \\$XDG_CONFIG_HOME impostato su \\\"$argpath.config\\\" per \\\"$arg\\\""
 
 #: modules/management.am:107
 msgid "✖ ERROR: \\\"$arg\\\" already contains a home dir"
@@ -941,7 +1126,9 @@ msgstr "✔ \\$HOME impostato su \\\"$argpath.home\\\" per \\\"$arg\\\""
 
 #: modules/management.am:137
 msgid " No AM-updater available for \\\"$2\\\", cannot detect any URL!"
-msgstr " Nessun AM-updater disponibile per \\\"$2\\\", non è possibile rilevare alcun URL!"
+msgstr ""
+" Nessun AM-updater disponibile per \\\"$2\\\", non è possibile rilevare "
+"alcun URL!"
 
 #: modules/management.am:144
 msgid " The option \\\"$1\\\" only works for https://github.com"
@@ -957,7 +1144,9 @@ msgstr "Hai scelto di eseguire il downgrade \\\"$2\\\"."
 
 #: modules/management.am:157
 msgid "Select a URL from this menu (read carefully) or press ZERO to abort:"
-msgstr "Seleziona un URL da questo menu (leggi attentamente) o premi ZERO per annullare:"
+msgstr ""
+"Seleziona un URL da questo menu (leggi attentamente) o premi ZERO per "
+"annullare:"
 
 #: modules/management.am:180
 msgid "ROLLBACK SUCCESSFUL!"
@@ -966,12 +1155,16 @@ msgstr "DOWNGRADE RIUSCITO!"
 #: modules/management.am:238
 msgid ""
 "WARNING: cannot extract old type 1 AppImages, install \\\"7z\\\" and retry."
-msgstr "ATTENZIONE: impossibile estrarre le vecchie AppImage di tipo 1, installare \\\"7z\\\" e riprovare."
+msgstr ""
+"ATTENZIONE: impossibile estrarre le vecchie AppImage di tipo 1, installare \\"
+"\"7z\\\" e riprovare."
 
 #: modules/management.am:251
 msgid ""
 "WARNING: \\\"$BINDIR\\\" is not in PATH, apps may not run from command line."
-msgstr "ATTENZIONE: \\\"$BINDIR\\\" non è in PATH, le app non possono essere eseguite dalla riga di comando."
+msgstr ""
+"ATTENZIONE: \\\"$BINDIR\\\" non è in PATH, le app non possono essere "
+"eseguite dalla riga di comando."
 
 #: modules/management.am:254
 msgid " Write a custom command to launch the app, or leave blank: "
@@ -1003,11 +1196,17 @@ msgstr "ERRORE: il comando \\\"$response\\\" esiste già, riprova!"
 
 #: modules/management.am:284
 msgid "%b\\n ERROR: \\\"%b\\\" not found\\n%b\\n"
-msgstr "%b\\n ERRORE: \\\"%b\\\" non trovato\\n%b\\n"
+msgstr ""
+"%b\\n"
+" ERRORE: \\\"%b\\\" non trovato\\n"
+"%b\\n"
 
 #: modules/management.am:286 modules/sandboxes.am:36
 msgid "%b\\n ERROR: \\\"%b\\\" is NOT an AppImage\\n%b\\n"
-msgstr "%b\\n ERRORE: \\\"%b\\\" NON è un'AppImage\\n%b\\n"
+msgstr ""
+"%b\\n"
+" ERRORE: \\\"%b\\\" NON è un'AppImage\\n"
+"%b\\n"
 
 #: modules/management.am:288
 #, fuzzy
@@ -1018,7 +1217,9 @@ msgstr " ◆ File: %s\\n"
 msgid ""
 " \\\"$AMCLIUPPER\\\" cannot manage updates for $2, \\\"AM-updater\\\" file "
 "not found!"
-msgstr " \\\"$AMCLIUPPER\\\" non può gestire gli aggiornamenti per $2, file \\\"AM-updater\\\" non trovato!"
+msgstr ""
+" \\\"$AMCLIUPPER\\\" non può gestire gli aggiornamenti per $2, file \\"
+"\"AM-updater\\\" non trovato!"
 
 #: modules/management.am:309
 msgid " Do you wish to keep $2 at its current version? (y/N) "
@@ -1062,7 +1263,8 @@ msgstr " ◆ \\\"%b\\\" è già un'AppImage di nuova generazione.\\n"
 
 #: modules/management.am:356
 msgid " Warning! Your AppImage uses \\\"zsync\\\" to update."
-msgstr " Attenzione! La tua AppImage utilizza \\\"zsync\\\" per l'aggiornamento."
+msgstr ""
+" Attenzione! La tua AppImage utilizza \\\"zsync\\\" per l'aggiornamento."
 
 #: modules/management.am:357
 msgid " The .zsync file will be removed and will no longer work"
@@ -1071,11 +1273,15 @@ msgstr " Il file .zsync verrà rimosso e non funzionerà più"
 #: modules/management.am:358
 msgid ""
 " your \\\"AM-updater\\\" will likely still be able to update the AppImage"
-msgstr " il tuo \\\"AM-updater\\\" sarà probabilmente ancora in grado di aggiornare l'AppImage"
+msgstr ""
+" il tuo \\\"AM-updater\\\" sarà probabilmente ancora in grado di aggiornare "
+"l'AppImage"
 
 #: modules/management.am:359
 msgid " by comparing the old vs new version url, but it is not guaranteed"
-msgstr " confrontando l'URL della vecchia versione con quello della nuova, ma non è garantito"
+msgstr ""
+" confrontando l'URL della vecchia versione con quello della nuova, ma non è "
+"garantito"
 
 #: modules/management.am:360
 msgid " Do you want to proceede anyway? (N/y) "
@@ -1095,7 +1301,9 @@ msgstr " ...sto cercando di convertirlo in un AppImage di nuova generazione\\r"
 
 #: modules/management.am:397
 msgid " 💀Error when trying to convert $target. Operation Aborted."
-msgstr " 💀Errore durante il tentativo di conversione di $target. Operazione annullata."
+msgstr ""
+" 💀Errore durante il tentativo di conversione di $target. Operazione "
+"annullata."
 
 #: modules/management.am:403
 msgid " ◆ $target has been converted to a new generation AppImage."
@@ -1103,12 +1311,14 @@ msgstr " ◆ $target è stato convertito in una nuova generazione di AppImage."
 
 #: modules/management.am:407
 msgid " The next update may replace this AppImage with a Type2 one"
-msgstr " Il prossimo aggiornamento potrebbe sostituire questa AppImage con una Type2"
+msgstr ""
+" Il prossimo aggiornamento potrebbe sostituire questa AppImage con una Type2"
 
 #: modules/management.am:408
 msgid ""
 " so I added this command to the bottom of the \\\"AM-updater\\\" script!"
-msgstr " quindi ho aggiunto questo comando in fondo allo script \\\"AM-updater\\\"!"
+msgstr ""
+" quindi ho aggiunto questo comando in fondo allo script \\\"AM-updater\\\"!"
 
 #: modules/management.am:410
 msgid " Contact the upstream developers to make them officially upgrade!"
@@ -1122,7 +1332,9 @@ msgstr " Desideri rimuovere la vecchia AppImage che richiede libfuse2? (Y/n) "
 msgid ""
 " \\\"${RED}$arg\\033[0m\\\" is not a valid \\\"APPNAME\\\", see \\\"$AMCLI -"
 "f\\\" for more."
-msgstr " \\\"${RED}$arg\\033[0m\\\" non è un valido \\\"APPNAME\\\", vedi \\\"$AMCLI -f\\\" per saperne di più."
+msgstr ""
+" \\\"${RED}$arg\\033[0m\\\" non è un valido \\\"APPNAME\\\", vedi \\"
+"\"$AMCLI -f\\\" per saperne di più."
 
 #: modules/management.am:439
 msgid " ◆ Do you wish to remove \\\"$arg\\\"? (Y/n) "
@@ -1138,12 +1350,16 @@ msgstr " \\\"${Green}$arg\\033[0m\\\" è stato rimosso!"
 
 #: modules/management.am:512
 msgid " ◆ Do you wish to allow custom icon theming for ALL the apps? (y,N) "
-msgstr " ◆ Desideri consentire l'uso di temi personalizzati per le icone in TUTTE le app? (y,N) "
+msgstr ""
+" ◆ Desideri consentire l'uso di temi personalizzati per le icone in TUTTE le "
+"app? (y,N) "
 
 #: modules/management.am:515
 msgid ""
 " ◆ Do you wish to allow custom icon theming for the selected apps? (y,N) "
-msgstr " ◆ Desideri consentire l'uso di temi di icone personalizzati per le app selezionate? (y,N) "
+msgstr ""
+" ◆ Desideri consentire l'uso di temi di icone personalizzati per le app "
+"selezionate? (y,N) "
 
 #: modules/management.am:522
 msgid " ✔ Success!"
@@ -1155,15 +1371,23 @@ msgstr " ✖ Annullato!"
 
 #: modules/management.am:535
 msgid "%b\\n ◆ Updates check finished! \\n"
-msgstr "%b\\n ◆ Controllo aggiornamenti completato! \\n"
+msgstr ""
+"%b\\n"
+" ◆ Controllo aggiornamenti completato! \\n"
 
 #: modules/sandboxes.am:30
 msgid "%b\\n \\\"%b\\\" is already sandboxed!\\n%b\\n"
-msgstr "%b\\n \\\"%b\\\" è già in una sandbox!\\n%b\\n"
+msgstr ""
+"%b\\n"
+" \\\"%b\\\" è già in una sandbox!\\n"
+"%b\\n"
 
 #: modules/sandboxes.am:33
 msgid "%b\\n ERROR: \\\"%b\\\" is not installed\\n%b\\n"
-msgstr "%b\\n ERRORE: \\\"%b\\\" non è installato\\n%b\\n"
+msgstr ""
+"%b\\n"
+" ERRORE: \\\"%b\\\" non è installato\\n"
+"%b\\n"
 
 #: modules/sandboxes.am:44
 msgid " ERROR: Not a sandboxed AppImage, aborting"
@@ -1175,7 +1399,8 @@ msgstr " Errore: non è possibile inserire aisap in una sandbox"
 
 #: modules/sandboxes.am:56
 msgid " ◆ DO YOU WISH TO INSTALL AISAP? Install size <5 MiB? (Y/n) "
-msgstr " ◆ DESIDERI INSTALLARE AISAP? Dimensioni dell'installazione <5 MiB? (Y/n) "
+msgstr ""
+" ◆ DESIDERI INSTALLARE AISAP? Dimensioni dell'installazione <5 MiB? (Y/n) "
 
 #: modules/sandboxes.am:58
 msgid " OPERATION ABORTED!"
@@ -1203,11 +1428,14 @@ msgstr " Consentire a $1 l'accesso a direcotory specifiche? (y/N) "
 
 #: modules/sandboxes.am:200
 msgid "  WARNING: Giving access to all of $HOME or / and similar is not safe"
-msgstr "  ATTENZIONE: Non è sicuro dare accesso a tutti i servizi $HOME o simili"
+msgstr ""
+"  ATTENZIONE: Non è sicuro dare accesso a tutti i servizi $HOME o simili"
 
 #: modules/sandboxes.am:201
 msgid "  Also aisap might not let $1 start when such paths are given"
-msgstr "  Inoltre, aisap potrebbe non consentire l'avvio di $1 quando vengono forniti tali percorsi"
+msgstr ""
+"  Inoltre, aisap potrebbe non consentire l'avvio di $1 quando vengono "
+"forniti tali percorsi"
 
 #: modules/sandboxes.am:203
 msgid "  Example: /media/external-drive or ~/Backups: "
@@ -1227,13 +1455,18 @@ msgstr "  Sto fornendo l'accesso a \\\"$NEWDIR\\\"..."
 
 #: modules/template.am:38 modules/template.am:322
 msgid " ◆ ADD A BRIEF DESCRIPTION FOR THIS APPLICATION $(echo -e '\\n : ')"
-msgstr " ◆ AGGIUNGI UNA BREVE DESCRIZIONE PER QUESTA APPLICAZIONE $(echo -e '\\n : ')"
+msgstr ""
+" ◆ AGGIUNGI UNA BREVE DESCRIZIONE PER QUESTA APPLICAZIONE $(echo -e '\\n"
+" : ')"
 
 #: modules/template.am:83
 msgid ""
 " ◆ FOR \\\"WGET\\\", ADD A COMMAND AS \\\"\\$( ... )\\\" OR A LINEAR "
 "DOWNLOAD URL $(echo -e '\\n : ')"
-msgstr " ◆ PER \\\"WGET\\\", AGGIUNGI UN COMANDO COME \\\"\\$( ... )\\\" O UN URL DI DOWNLOAD LINEARE $(echo -e '\\n : ')"
+msgstr ""
+" ◆ PER \\\"WGET\\\", AGGIUNGI UN COMANDO COME \\\"\\$( ... )\\\" O UN URL DI "
+"DOWNLOAD LINEARE $(echo -e '\\n"
+" : ')"
 
 #: modules/template.am:115
 msgid " Do you want to use repology.org to identify version (y,N)? "
@@ -1245,7 +1478,22 @@ msgid ""
 "Development\\n 4) Education\\n 5) Game\\n 6) Graphics\\n 7) Network\\n 8) "
 "Office\\n 9) Science\\n 10) Settings\\n 11) System\\n 12) Utility "
 "(default)\\n "
-msgstr " ELENCO DELLE CATEGORIE:\\n 0) AudioVideo\\n 1) Audio\\n 2) Video\\n 3) Development\\n 4) Education\\n 5) Game\\n 6) Graphics\\n 7) Network\\n 8) Office\\n 9) Science\\n 10) Settings\\n 11) System\\n 12) Utility (default)\\n "
+msgstr ""
+" ELENCO DELLE CATEGORIE:\\n"
+" 0) AudioVideo\\n"
+" 1) Audio\\n"
+" 2) Video\\n"
+" 3) Development\\n"
+" 4) Education\\n"
+" 5) Game\\n"
+" 6) Graphics\\n"
+" 7) Network\\n"
+" 8) Office\\n"
+" 9) Science\\n"
+" 10) Settings\\n"
+" 11) System\\n"
+" 12) Utility (default)\\n"
+" "
 
 #: modules/template.am:162
 msgid " CHOOSE A CATEGORY : "
@@ -1256,19 +1504,26 @@ msgstr " SCEGLI UNA CATEGORIA : "
 msgid ""
 "\\n The URL above is an example of what both\\n the install and update "
 "scripts will point to.\\n"
-msgstr "\\n L'URL sopra è un esempio di ciò a cui punteranno sia gli script di installazione che quelli di aggiornamento.\\n"
+msgstr ""
+"\\n"
+" L'URL sopra è un esempio di ciò a cui punteranno sia gli script di "
+"installazione che quelli di aggiornamento.\\n"
 
 #: modules/template.am:306
 msgid ""
 " ◆ ADD THE NAME OF THE PROJECT OR LEAVE BLANK IF ITS THE SAME $(echo -e "
 "'\\n : ')"
-msgstr " ◆ AGGIUNGI IL NOME DEL PROGETTO O LASCIA VUOTO SE È LO STESSO $(echo -e '\\n : ')"
+msgstr ""
+" ◆ AGGIUNGI IL NOME DEL PROGETTO O LASCIA VUOTO SE È LO STESSO $(echo -e '\\n"
+" : ')"
 
 #: modules/template.am:316
 msgid ""
 " ◆ ADD an univoque keyword for the file (for example \\\"tar.gz\\\", \\"
 "\"linux\\\"):"
-msgstr " ◆ AGGIUNGI una parola chiave univoca per il file (ad esempio \\\"tar.gz\\\", \\\"linux\\\"):"
+msgstr ""
+" ◆ AGGIUNGI una parola chiave univoca per il file (ad esempio \\\"tar.gz\\\""
+", \\\"linux\\\"):"
 
 #: modules/template.am:363
 msgid " Create a template for \\\"$arg\\\""
@@ -1277,13 +1532,17 @@ msgstr " Crea un modello di script per \\\"$arg\\\""
 #: modules/template.am:367
 msgid ""
 " EACH MODEL IS BASED ON A DIFFERENT METHOD OF BUILDING/UPDATING THE PROGRAM."
-msgstr " OGNI MODELLO SI BASA SU UN DIVERSO METODO DI COSTRUZIONE/AGGIORNAMENTO DEL PROGRAMMA."
+msgstr ""
+" OGNI MODELLO SI BASA SU UN DIVERSO METODO DI COSTRUZIONE/AGGIORNAMENTO DEL "
+"PROGRAMMA."
 
 #: modules/template.am:369
 msgid ""
 " PLEASE, SELECT A TEMPLATE FOR \\\"$(echo \"$arg\" | tr '[:lower:]' '[:"
 "upper:]')\\\":"
-msgstr " PER FAVORE, SELEZIONA UN MODELLO PER\\\"$(echo \"$arg\" | tr '[:lower:]' '[:upper:]')\\\":"
+msgstr ""
+" PER FAVORE, SELEZIONA UN MODELLO PER\\\"$(echo \"$arg\" | tr '[:lower:]' '"
+"[:upper:]')\\\":"
 
 #: modules/template.am:371
 msgid "  0) APPIMAGE, FROM ANY WEBSITE (BETTER IF FROM GITHUB.COM)"
@@ -1300,7 +1559,9 @@ msgstr "  2) QUALSIASI ARCHIVIO/BINARIO/SCRIPT DA QUALSIASI SITO WEB"
 #: modules/template.am:374
 msgid ""
 "  3) WEBAPP BASED ON A FIREFOX PROFILE (REQUIRES \\\"FIREFOX\\\" IN \\$PATH)"
-msgstr "  3) WEBAPP BASATA SU UN PROFILO FIREFOX (RICHIEDE \\\"FIREFOX\\\" IN \\$PATH)"
+msgstr ""
+"  3) WEBAPP BASATA SU UN PROFILO FIREFOX (RICHIEDE \\\"FIREFOX\\\" IN \\"
+"$PATH)"
 
 #: modules/template.am:376
 msgid " WHAT KIND OF PROGRAM DO YOU WANT TO WRITE A SCRIPT FOR? : "
@@ -1316,18 +1577,32 @@ msgid ""
 " - if from other sources, use \"https://www.SITENAME.com\" or something\n"
 "\n"
 " URL: ')"
-msgstr " ◆ AGGIUNGI L'URL DEL SITO (MEGLIO SE PROVIENE DA GITHUB), AD ESEMPIO: $(echo -e '\n\n - se da github.com, usa \"https://github.com/UTENTE/PROGETTO\"\n\n - se da altre fonti, usa \"https://www.SITENAME.com\" o qualcosa del genere\n\n URL: ')"
+msgstr ""
+" ◆ AGGIUNGI L'URL DEL SITO (MEGLIO SE PROVIENE DA GITHUB), AD ESEMPIO: $("
+"echo -e '\n"
+"\n"
+" - se da github.com, usa \"https://github.com/UTENTE/PROGETTO\"\n"
+"\n"
+" - se da altre fonti, usa \"https://www.SITENAME.com\" o qualcosa del "
+"genere\n"
+"\n"
+" URL: ')"
 
 #: modules/template.am:398 modules/template.am:419 modules/template.am:471
 #: modules/template.am:511
 msgid "\\n All files are saved in $SCRIPTDIR/am-scripts\\n"
-msgstr "\\n Tutti i file sono stati salvati in $SCRIPTDIR/am-scripts\\n"
+msgstr ""
+"\\n"
+" Tutti i file sono stati salvati in $SCRIPTDIR/am-scripts\\n"
 
 #: modules/template.am:408
 msgid ""
 " ◆ ADD A LINEAR DOWNLOAD URL FOR THE SCRIPT OR LEAVE BLANK $(echo -e '\\n : "
 "')"
-msgstr " ◆ AGGIUNGI UN URL LINEARE PER IL DOWNLOAD DELLO SCRIPT O LASCIA VUOTO $(echo -e '\\n : ')"
+msgstr ""
+" ◆ AGGIUNGI UN URL LINEARE PER IL DOWNLOAD DELLO SCRIPT O LASCIA VUOTO $("
+"echo -e '\\n"
+" : ')"
 
 #: modules/template.am:442
 msgid " ◆ Do you wish to add a launcher and a icon (y,N)? "
@@ -1335,7 +1610,9 @@ msgstr " ◆ Desideri aggiungere un launcher e un'icona (y,N)? "
 
 #: modules/template.am:448 modules/template.am:503
 msgid " ◆ COPY/PASTE THE URL OF THE ICON HERE $(echo -e '\\n URL: ')"
-msgstr " ◆ COPIA/INCOLLA QUI L'URL DELL'ICONA $(echo -e '\\n URL: ')"
+msgstr ""
+" ◆ COPIA/INCOLLA QUI L'URL DELL'ICONA $(echo -e '\\n"
+" URL: ')"
 
 #: modules/template.am:482
 msgid " ◆ NAME OF THE APP: "
@@ -1347,7 +1624,9 @@ msgstr " ◆ URL DELLA WEBAPP: "
 
 #: modules/template.am:516
 msgid "\\n No valid argument was chosen: process aborted! \\n"
-msgstr "\\n Non è stato scelto alcun argomento valido: processo interrotto! \\n"
+msgstr ""
+"\\n"
+" Non è stato scelto alcun argomento valido: processo interrotto! \\n"
 
 #: modules/translate.am:36
 msgid "Press y to continue, anything else to exit (timeout 15 seconds)"
