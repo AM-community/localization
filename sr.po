@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: am 9.7.1-9\n"
 "Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
 "POT-Creation-Date: 2025-05-28\n"
-"PO-Revision-Date: 2025-05-30 10:34+0000\n"
+"PO-Revision-Date: 2025-05-30 12:02+0000\n"
 "Last-Translator: Fifty Dinar <srbaizoki4@tuta.io>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/am/am/sr/>\n"
 "Language: sr\n"
@@ -159,7 +159,7 @@ msgstr ""
 
 #: APP-MANAGER:336
 msgid " to know more."
-msgstr " kako bi znao više."
+msgstr " kako bi saznao više."
 
 #: APP-MANAGER:348
 msgid ""
@@ -384,7 +384,9 @@ msgstr "%b\\n Proveravam i ažuriram oflajn listu dodatnih baza podataka...\\n"
 
 #: APP-MANAGER:968
 msgid "%b\\n Check for updates in modules...\\n"
-msgstr "%b\\n Proveravam modul ažuriranja...\\n"
+msgstr ""
+"%b\\n"
+" Proveravam ažuriranja za module...\\n"
 
 #: APP-MANAGER:973
 msgid " ◆ Downloading $module_name (not previously installed)..."
