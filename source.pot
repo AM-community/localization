@@ -1,7 +1,7 @@
 # File with translation for AM
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025
 msgid   ""
-msgstr  "Project-Id-Version: am 9.7.1-15\n"
+msgstr  "Project-Id-Version: am 9.8\n"
         "Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
         "POT-Creation-Date: 2025-05-30\n"
         "PO-Revision-Date: 2025-05-30\n"
@@ -13,7 +13,7 @@ msgstr  "Project-Id-Version: am 9.7.1-15\n"
         "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 #: am/APP-MANAGER:77
-msgid   "Add a two letters code for a language, for example \\\"it\\\" for Italian\\n\\nNote, you will need to export the LANGUAGE variable while running \\\"%b\\\"\\n\\n"
+msgid   "Add a two letters code for a language, for example \\\"it\\\" for Italian\\n\\n"
 msgstr  ""
 
 #: am/APP-MANAGER:78
@@ -379,6 +379,10 @@ msgstr  ""
 msgid   "\\n %bAll self-updatable programs are excluded\\033[0m\\n"
 msgstr  ""
 
+#: am/APP-MANAGER:1124
+msgid   " Nothing to do here! \\n"
+msgstr  ""
+
 #: am/APP-MANAGER:1126
 msgid   " The following apps have been updated:\\n\\n"
 msgstr  ""
@@ -676,10 +680,7 @@ msgid   "\n"
         "\t\t\t\t\t${LightBlue}$AMCLI --translate\\033[0m\n"
         "\t\t\t\t\t${LightBlue}$AMCLI --translate {CODE}\\033[0m\n"
         "\n"
-        "\t\t\tDescription: Download more language packs or set \\\"$AMCLI\\\" to English or your system language (if available). Visit this site to learn more about translations.\n"
-        "\n"
-        "\t\t\tNOTE, languages ​​other than the system language or English require exporting the \\\"\\$LANGUAGE\\\" variable with the value of the desired language to translate \\\"$AMCLI\\\".\n"
-        "\n"
+        "\t\t\tDescription: Download and set one or more language packs (if available), set \\\"$AMCLI\\\" to English (default), your language or other languages.\\n\\nVisit https://github.com/AM-community/localization to learn more on how to submit or improve translations.\n"
         "\n"
         "\t\t\t${Gold}unhide\\033[0m\n"
         "\n"
@@ -811,7 +812,7 @@ msgid   "\n"
         "\t\t\t\\n"
 msgstr  ""
 
-#: am/APP-MANAGER:1819
+#: am/APP-MANAGER:1816
 msgid   "ERROR: unknown option \\\"$1\\\", run the \\\"$AMCLI -h\\\" command to find out more"
 msgstr  ""
 
