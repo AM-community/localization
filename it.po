@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
 "POT-Creation-Date: 2025-05-30\n"
-"PO-Revision-Date: 2025-05-30 15:01+0000\n"
+"PO-Revision-Date: 2025-05-30 19:01+0000\n"
 "Last-Translator: ivan-hc <ivan-hc@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/am/am/it/>\n"
 "Language: it\n"
@@ -2222,7 +2222,7 @@ msgstr " Vuoi configurare l'accesso alle directory? (Y/n): "
 
 #: am/modules/sandboxes.am:190
 msgid " Allow $1 access to \\\"$XDG_DIR\\\"? (y/N) "
-msgstr " Consentire a $1l'accesso a \\\"$XDG_DIR\\\"? (y/N) "
+msgstr " Consentire a $1 l'accesso a \\\"$XDG_DIR\\\"? (y/N) "
 
 #: am/modules/sandboxes.am:198
 msgid " Allow $1 access to a specific directory? (y/N) "
