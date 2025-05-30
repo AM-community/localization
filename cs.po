@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: am 9.7\n"
 "Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
 "POT-Creation-Date: 2025-05-30\n"
-"PO-Revision-Date: 2025-05-29 13:22+0000\n"
+"PO-Revision-Date: 2025-05-30 12:56+0000\n"
 "Last-Translator: zenobit <zenobit@disroot.org>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/am/am/cs/>\n"
 "Language: cs\n"
@@ -22,14 +22,19 @@ msgid ""
 "Italian\\n\\nNote, you will need to export the LANGUAGE variable while "
 "running \\\"%b\\\"\\n\\n"
 msgstr ""
+"Přidat dvou písmenový kód pro jazyk, například \\\"it\\\" pro italštinu\\n"
+"\\n"
+"Nezapomeňte, že budete muset exportovat proměnné LANGUAGE při běhu \\\"%b\\\""
+"\\n"
+"\\n"
 
 #: am/APP-MANAGER:78
 msgid " Leave blank to use \\\"$CLI\\\" in English: "
-msgstr ""
+msgstr " Nechte prázdné pro použití \\\"$CLI\\\" v angličtině: "
 
 #: am/APP-MANAGER:93
 msgid "Setting locale to \\\"%b\\\"\\n"
-msgstr ""
+msgstr "Nastavuji lokalizaci na \\\"%b\\\"\\n"
 
 #: am/APP-MANAGER:99
 msgid ""
@@ -401,10 +406,10 @@ msgid "%b\\n Check and update offline lists of additional databases...\\n"
 msgstr "%b\\n Kontrola a aktualizace offline seznamů dalších databází...\\n"
 
 #: am/APP-MANAGER:1013
-#, fuzzy
-#| msgid "%b\\n Check and update offline lists of additional databases...\\n"
 msgid "%b\\n Check and update localization...\\n"
-msgstr "%b\\n Kontrola a aktualizace offline seznamů dalších databází...\\n"
+msgstr ""
+"%b\\n"
+" Kontrola a aktualizace lokalizace...\\n"
 
 #: am/APP-MANAGER:1020
 msgid "%b\\n Check for updates in modules...\\n"
