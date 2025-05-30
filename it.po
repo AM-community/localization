@@ -1,12 +1,13 @@
 # zenobit <zenobit@disroot.org>, 2025.
 # Prefill add-on <noreply-addon-prefill@weblate.org>, 2025.
 # ivan-hc <ivan-hc@users.noreply.hosted.weblate.org>, 2025.
+# LibreTranslate <noreply-mt-libretranslate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
 "POT-Creation-Date: 2025-05-30\n"
-"PO-Revision-Date: 2025-05-30 12:56+0000\n"
+"PO-Revision-Date: 2025-05-30 13:11+0000\n"
 "Last-Translator: ivan-hc <ivan-hc@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/am/am/it/>\n"
 "Language: it\n"
@@ -51,9 +52,8 @@ msgid ""
 "💀 ERROR: Your version of sed does not support '-i' flag without extension, "
 "we tried to workaround and failed"
 msgstr ""
-"💀 ERRORE: la tua versione di sed non supporta il flag '-i' senza "
-"estensione, abbiamo provato una soluzione alternativa ma non ci siamo "
-"riusciti"
+"💀 ERRORE: la tua versione di sed non supporta l'opzione '-i' senza "
+"estensione, abbiamo cercato di risolvere e fallito."
 
 #: am/APP-MANAGER:150
 msgid " Please install gsed"
@@ -160,9 +160,11 @@ msgid ""
 "%b--allowerasing\\033[0m if you have to)\\n\\nSee https://bugzilla.redhat."
 "com/show_bug.cgi?id=2358792\\n\\n"
 msgstr ""
-"Installa \\\"%bwget1\\033[0m\\\" e \\\"%bwget1-wget\\033[0m\\\" (usa %b--"
-"allowerasing\\033[0m se necessario)\\n\\nVedi https://bugzilla.redhat.com/"
-"show_bug.cgi?id=2358792\\n\\n"
+"Si prega di installare \\\"%bwget1\\033[0m\\\" e \\\"%bwget1-wget\\033[0m\\\""
+" (usa %b--allowerasing\\033[0m se necessario)\\n"
+"\\n"
+"Vedi https://bugzilla.redhat.com/show_bug.cgi?id=2358792\\n"
+"\\n"
 
 #: am/APP-MANAGER:377
 msgid ""
@@ -474,8 +476,10 @@ msgid ""
 " %b\\\"%b\\\" CAN MANAGE UPDATES FOR THE FOLLOWING PROGRAMS\\033[0m:"
 "\\n%b\\n\\n"
 msgstr ""
-" \\\"%b\\\" PUÒ GESTIRE GLI AGGIORNAMENTI PER I SEGUENTI PROGRAMMI\\033[0m:"
-"\\n%b\\n\\n"
+" %b\\\"%b\\\" PUÒ GESTIRE GLI AGGIORNAMENTI PER I SEGUENTI PROGRAMMI\\033[0m:"
+"\\n"
+"%b\\n"
+"\\n"
 
 #: am/APP-MANAGER:1097
 msgid " None"
@@ -483,7 +487,9 @@ msgstr " Nessuno"
 
 #: am/APP-MANAGER:1098
 msgid "\\n %bAll self-updatable programs are excluded\\033[0m\\n"
-msgstr "\\n Sono esclusi tutti i programmi auto-aggiornabili\\033[0m\\n"
+msgstr ""
+"\\n"
+" %bSono esclusi tutti i programmi auto-aggiornabili\\033[0m\\n"
 
 #: am/APP-MANAGER:1126
 msgid " The following apps have been updated:\\n\\n"
@@ -491,15 +497,15 @@ msgstr " Le seguenti app sono state aggiornate:\\n\\n"
 
 #: am/APP-MANAGER:1166
 msgid " %b✔\\033[0m $APPNAME is updated, $timelapsed second elapsed! \\n"
-msgstr " ◆ $APPNAME è aggiornato, $timelapsed secondo trascorso! \\n"
+msgstr " %b✔\\033[0m $APPNAME è aggiornato, $timelapsed secondo trascorso! \\n"
 
 #: am/APP-MANAGER:1166
 msgid " %b✔\\033[0m $APPNAME is updated, $timelapsed seconds elapsed! \\n"
-msgstr " ◆ $APPNAME è aggiornato, $timelapsed secondi trascorsi! \\n"
+msgstr " %b✔\\033[0m $APPNAME è aggiornato, $timelapsed secondi trascorsi! \\n"
 
 #: am/APP-MANAGER:1176
 msgid " %b✖\\033[0m %b is read-only, cannot update it!\\n"
-msgstr " ✖ $APPNAME è di sola lettura, non è possibile aggiornarlo!\\n"
+msgstr " %b✖\\033[0m %b è di sola lettura, non è possibile aggiornarlo!\\n"
 
 #: am/APP-MANAGER:1209
 msgid " ◆ Update local AppImages integrated manually"
@@ -513,7 +519,7 @@ msgstr "(smontato)"
 msgid "%b\\n >> %bSTART OF ALL PROCESSES\\033[0m << \\n%b\\n"
 msgstr ""
 "%b\\n"
-" >> %INIZIO DI TUTTI I PROCESSI\\033[0m << \\n"
+" >> %bINIZIO DI TUTTI I PROCESSI\\033[0m << \\n"
 "%b\\n"
 
 #: am/APP-MANAGER:1252
@@ -526,7 +532,7 @@ msgstr ""
 msgid "%b\\n >> %bEND OF ALL PROCESSES\\033[0m << \\n%b\\n"
 msgstr ""
 "%b\\n"
-" >> FINE DI TUTTI I PROCESSI\\033[0m << \\n"
+" >> %bFINE DI TUTTI I PROCESSI\\033[0m << \\n"
 "%b\\n"
 
 #: am/APP-MANAGER:1268
@@ -574,7 +580,7 @@ msgstr " Eseguire \\\"$AMCLI -h\\\" per saperne di più"
 
 #: am/APP-MANAGER:1398
 msgid "This feature is disabled by your organization"
-msgstr "Questa funzionalità è disabilitata dalla tua organizzazione"
+msgstr "Questa funzione è disabilitata dalla tua organizzazione"
 
 #: am/APP-MANAGER:1458
 msgid ""
