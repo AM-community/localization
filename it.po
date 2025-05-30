@@ -6,8 +6,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
 "POT-Creation-Date: 2025-05-28\n"
-"PO-Revision-Date: 2025-05-30 01:24+0000\n"
-"Last-Translator: Prefill add-on <noreply-addon-prefill@weblate.org>\n"
+"PO-Revision-Date: 2025-05-30 01:49+0000\n"
+"Last-Translator: zenobit <zenobit@disroot.org>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/am/am/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -476,7 +476,6 @@ msgstr ""
 "\\n"
 
 #: APP-MANAGER:1042
-#, fuzzy
 msgid ""
 " %b\\\"%b\\\" CAN MANAGE UPDATES FOR THE FOLLOWING PROGRAMS\\033[0m:"
 "\\n%b\\n\\n"
@@ -490,7 +489,6 @@ msgid " None"
 msgstr " Nessuno"
 
 #: APP-MANAGER:1044
-#, fuzzy
 msgid "\\n %bAll self-updatable programs are excluded\\033[0m\\n"
 msgstr ""
 "\\n"
@@ -503,17 +501,14 @@ msgstr ""
 "\\n"
 
 #: APP-MANAGER:1112
-#, fuzzy
 msgid " %b✔\\033[0m $APPNAME is updated, $timelapsed second elapsed! \\n"
 msgstr " ◆ $APPNAME è aggiornato, $timelapsed secondo trascorso!"
 
 #: APP-MANAGER:1112
-#, fuzzy
 msgid " %b✔\\033[0m $APPNAME is updated, $timelapsed seconds elapsed! \\n"
 msgstr " ◆ $APPNAME è aggiornato, $timelapsed secondi trascorsi!"
 
 #: APP-MANAGER:1122
-#, fuzzy
 msgid " %b✖\\033[0m %b is read-only, cannot update it!\\n"
 msgstr " ✖ $APPNAME è di sola lettura, non è possibile aggiornarlo!"
 
@@ -526,7 +521,6 @@ msgid "(unmounted)"
 msgstr "(smontato)"
 
 #: APP-MANAGER:1188
-#, fuzzy
 msgid "%b\\n >> %bSTART OF ALL PROCESSES\\033[0m << \\n%b\\n"
 msgstr ""
 "%b\\n"
@@ -534,14 +528,12 @@ msgstr ""
 "%b\\n"
 
 #: APP-MANAGER:1198
-#, fuzzy
 msgid " >> %bEND OF ALL PROCESSES\\033[0m << \\n%b\\n"
 msgstr ""
 " >> FINE DI TUTTI I PROCESSI << \\n"
 "%b\\n"
 
 #: APP-MANAGER:1202
-#, fuzzy
 msgid "%b\\n >> %bEND OF ALL PROCESSES\\033[0m << \\n%b\\n"
 msgstr ""
 "%b\\n"
@@ -638,22 +630,18 @@ msgid " STATUS: %b"
 msgstr " STATO: %b"
 
 #: modules/database.am:179
-#, fuzzy
 msgid " $APPSMESSAGE $LIBSMESSAGE LOCALLY, AS \\\"APPMAN\\\""
 msgstr " - $APPSMESSAGE $LIBSMESSAGE LOCALMENTE, COME \\\"APPMAN\\\""
 
 #: modules/database.am:179
-#, fuzzy
 msgid " $APPSMESSAGE $LIBSMESSAGE MANAGED BY \\\"$AMCLIUPPER\\\""
 msgstr " - $APPSMESSAGE $LIBSMESSAGE GESTITI DA \\\"$AMCLIUPPER\\\""
 
 #: modules/database.am:181
-#, fuzzy
 msgid " $APPSMESSAGE LOCALLY, AS \\\"APPMAN\\\""
 msgstr " - $APPSMESSAGE LOCALMENTE, COME \\\"APPMAN\\\""
 
 #: modules/database.am:181
-#, fuzzy
 msgid " $APPSMESSAGE MANAGED BY \\\"$AMCLIUPPER\\\""
 msgstr " - $APPSMESSAGE GESTITI DA \\\"$AMCLIUPPER\\\""
 
@@ -686,7 +674,6 @@ msgid " ◆ $arg\t|\tawk-script"
 msgstr " ◆ $arg\t|\tscript-awk"
 
 #: modules/database.am:219
-#, fuzzy
 msgid " ◆ $arg\t|\tscript"
 msgstr " ◆ $arg\t|\tscript"
 
@@ -802,7 +789,6 @@ msgid " ◆ $APPNAME IS PART OF \\\"$LASTDIR\\\", ALREADY INSTALLED"
 msgstr " ◆ $APPNAME È PARTE DI \\\"$LASTDIR\\\", GIÀ INSTALLATO"
 
 #: modules/install.am:123
-#, fuzzy
 msgid "%b%b"
 msgstr "%b%b"
 
@@ -852,7 +838,6 @@ msgid " 💀 ERROR DURING INSTALLATION, REMOVED $APPNAME!"
 msgstr " 💀 ERRORE DURANTE L'INSTALLAZIONE, RIMOSSO $APPNAME!"
 
 #: modules/install.am:234
-#, fuzzy
 msgid "%b%b%s\\n"
 msgstr "%b%b%s\\n"
 
@@ -1209,7 +1194,6 @@ msgstr ""
 "%b\\n"
 
 #: modules/management.am:288
-#, fuzzy
 msgid " ◆ File: %s\\n"
 msgstr " ◆ File: %s\\n"
 
@@ -1742,7 +1726,6 @@ msgid "No language added, run \\\"$AMCLI --translate-new\\\" first!"
 msgstr "Nessuna lingua aggiunta, esegui prima \\\"$AMCLI --translate-new\\\"!"
 
 #: modules/help.am:352
-#, fuzzy
 msgid "$HELP_MESSAGE"
 msgstr "$HELP_MESSAGE"
 
