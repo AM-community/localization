@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
 "POT-Creation-Date: 2025-05-30\n"
-"PO-Revision-Date: 2025-05-30 13:11+0000\n"
+"PO-Revision-Date: 2025-05-30 15:01+0000\n"
 "Last-Translator: ivan-hc <ivan-hc@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/am/am/it/>\n"
 "Language: it\n"
@@ -36,7 +36,7 @@ msgstr " Lasciare vuoto per usare \\\"$CLI\\\" in inglese: "
 
 #: am/APP-MANAGER:93
 msgid "Setting locale to \\\"%b\\\"\\n"
-msgstr "Lingua impostato su \\\"%b\\\"\\n"
+msgstr "Lingua impostata su \\\"%b\\\"\\n"
 
 #: am/APP-MANAGER:99
 msgid ""
@@ -452,8 +452,8 @@ msgstr ""
 #: am/APP-MANAGER:1053
 msgid "\\n  Replacement of version \\\"%b\\\" currently in use, COMPLETED! \\n"
 msgstr ""
-"\\n  Sostituzione della versione \\\"%b\\\" attualmente in uso, COMPLETATO! "
 "\\n"
+"  Sostituzione della versione \\\"%b\\\" attualmente in uso, COMPLETATA! \\n"
 
 #: am/APP-MANAGER:1054
 msgid "\\n See https://github.com/ivan-hc/AM/commits/main\\n\\n"
@@ -1514,19 +1514,19 @@ msgstr " STATO: %b"
 
 #: am/modules/database.am:179
 msgid " $APPSMESSAGE $LIBSMESSAGE LOCALLY, AS \\\"APPMAN\\\""
-msgstr " - $APPSMESSAGE $LIBSMESSAGE LOCALMENTE, COME \\\"APPMAN\\\""
+msgstr " -PROGRAMMI INSTALLATI LOCALMENTE, COME \\\"APPMAN\\\""
 
 #: am/modules/database.am:179
 msgid " $APPSMESSAGE $LIBSMESSAGE MANAGED BY \\\"$AMCLIUPPER\\\""
-msgstr " - $APPSMESSAGE $LIBSMESSAGE GESTITI DA \\\"$AMCLIUPPER\\\""
+msgstr " PROGRAMMI INSTALLATI E GESTITI DA \\\"$AMCLIUPPER\\\""
 
 #: am/modules/database.am:181
 msgid " $APPSMESSAGE LOCALLY, AS \\\"APPMAN\\\""
-msgstr " - $APPSMESSAGE LOCALMENTE, COME \\\"APPMAN\\\""
+msgstr " - PROGRAMMI INSTALLATI LOCALMENTE, COME \\\"APPMAN\\\""
 
 #: am/modules/database.am:181
 msgid " $APPSMESSAGE MANAGED BY \\\"$AMCLIUPPER\\\""
-msgstr " - $APPSMESSAGE GESTITI DA \\\"$AMCLIUPPER\\\""
+msgstr " - PROGRAMMI INSTALLATI E GESTITI DA \\\"$AMCLIUPPER\\\""
 
 #: am/modules/database.am:197
 msgid " ◆ $arg\t|\tstatic-binary"
@@ -1598,7 +1598,10 @@ msgstr " ELENCO DEI %b"
 
 #: am/modules/database.am:528
 msgid "\\n Search results for \\\"%s\\\":\\n\\n"
-msgstr "\\n Risultati della ricerca per \\\"%s\\\":\\n\\n"
+msgstr ""
+"\\n"
+" Risultati di ricerca per \\\"%s\\\":\\n"
+"\\n"
 
 #: am/modules/database.am:532
 msgid "No search results"
@@ -1622,7 +1625,10 @@ msgstr ""
 
 #: am/modules/database.am:649
 msgid "\\n Search results for packages: %s\\n\\n"
-msgstr "\\n Risultati della ricerca per i pacchetti: %s\\n\\n"
+msgstr ""
+"\\n"
+" Risultati di ricerca per: %s\\n"
+"\\n"
 
 #: am/modules/install.am:32
 msgid " Converting %s to an AppMan-compatible script.\\r"
