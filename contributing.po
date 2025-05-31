@@ -1,8 +1,9 @@
 # File with translation for AM
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025
 # Languages add-on <noreply-addon-languages@weblate.org>, 2025.
+# Glossary sync <noreply-glossary-sync@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: am 9.8\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-31\nPO-Revision-Date: 2025-05-31\nLast-Translator: Automatically generated\nLanguage-Team: none\nLanguage: contributing\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\n"
+msgstr "Project-Id-Version: am 9.8\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-31\nPO-Revision-Date: 2025-05-31 06:39+0000\nLast-Translator: Glossary sync <noreply-glossary-sync@weblate.org>\nLanguage-Team: contributing (generated) <https://hosted.weblate.org/projects/am/am/contributing/>\nLanguage: contributing\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
 
 #: am/APP-MANAGER:92
 msgid "Add a suitable locale code, for example \\\"it\\\" for Italian\\n\\n"
@@ -1690,4 +1691,7 @@ msgstr ""
 
 #: am/modules/yad.am:276 am/modules/yad.am:293
 msgid "yad-quit!!Exit GUI"
+msgstr ""
+
+msgid "\\\"$AMCLIUPPER\\\" $AMVERSION:"
 msgstr ""
