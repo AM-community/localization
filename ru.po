@@ -2188,6 +2188,10 @@ msgstr " ◆ URL OF THE WEBAPP: "
 msgid "\\n No valid argument was chosen: process aborted! \\n"
 msgstr "\\n No valid argument was chosen: process aborted! \\n"
 
+#: am/modules/yad.am:13
+msgid "ERROR! yad is missing! Install it..."
+msgstr ""
+
 #, fuzzy
 #~ msgid " Run the \\\"$AMCLI -h\\\" command to find out more"
 #~ msgstr " Run the \\\"$AMCLI -h\\\" command to find out more"
