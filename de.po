@@ -648,17 +648,12 @@ msgstr " USAGE: $AMCLI [OPTION]"
 msgid "        $AMCLI [OPTION] [ARGUMENT]"
 msgstr "        $AMCLI [OPTION] [ARGUMENT]"
 
-#: am/APP-MANAGER:1352
-#, fuzzy
-msgid " Run the \\\"$AMCLI -h\\\" command to find out more"
-msgstr " Run the \\\"$AMCLI -h\\\" command to find out more"
-
-#: am/APP-MANAGER:1411
+#: am/APP-MANAGER:1417
 #, fuzzy
 msgid "This feature is disabled by your organization"
 msgstr "This feature is disabled by your organization"
 
-#: am/APP-MANAGER:1471
+#: am/APP-MANAGER:1485
 msgid ""
 "\n"
 "\t\t\tNAME: ${Green}$AMCLIUPPER\\033[0m\t\tVERSION: "
@@ -672,6 +667,14 @@ msgid ""
 "database.\n"
 "\n"
 "\t\t\tOPTIONS:\n"
+"\n"
+"\t\t\t${Gold}--gui\\033[0m\n"
+"\n"
+"\t\t\t\t\t${LightBlue}$AMCLI --gui {PROGRAM}\\033[0m\n"
+"\n"
+"\t\t\tDescription: Use AM with 3rd party GUI. (Alpha!) Using bash and "
+"${LightBlue}Y\\033[0met ${LightBlue}A\\033[0mnother ${LightBlue}"
+"D\\033[0mialog.\n"
 "\n"
 "\t\t\t${Gold}about, -a\\033[0m\n"
 "\n"
@@ -1101,7 +1104,7 @@ msgid ""
 "\t\t\t\\n"
 msgstr ""
 
-#: am/APP-MANAGER:1829
+#: am/APP-MANAGER:1849
 #, fuzzy
 msgid ""
 "ERROR: unknown option \\\"$1\\\", run the \\\"$AMCLI -h\\\" command to find "
@@ -2183,6 +2186,10 @@ msgstr " ◆ URL OF THE WEBAPP: "
 #, fuzzy
 msgid "\\n No valid argument was chosen: process aborted! \\n"
 msgstr "\\n No valid argument was chosen: process aborted! \\n"
+
+#, fuzzy
+#~ msgid " Run the \\\"$AMCLI -h\\\" command to find out more"
+#~ msgstr " Run the \\\"$AMCLI -h\\\" command to find out more"
 
 #, fuzzy
 #~ msgid "Press y to continue, anything else to exit (timeout 15 seconds)"
