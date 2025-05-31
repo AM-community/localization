@@ -6,7 +6,7 @@
 # LibreTranslate <noreply-mt-libretranslate@weblate.org>, 2025.
 # Glossary sync <noreply-glossary-sync@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: am 9.7.1-9\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-31\nPO-Revision-Date: 2025-05-31 06:07+0000\nLast-Translator: Glossary sync <noreply-glossary-sync@weblate.org>\nLanguage-Team: German <https://hosted.weblate.org/projects/am/am/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: am 9.7.1-9\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-31\nPO-Revision-Date: 2025-05-31 06:18+0000\nLast-Translator: LibreTranslate <noreply-mt-libretranslate@weblate.org>\nLanguage-Team: German <https://hosted.weblate.org/projects/am/am/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
 
 #: am/APP-MANAGER:92
 #, fuzzy
@@ -2147,5 +2147,6 @@ msgstr "yad-Verlassen!!Ausgang #grafische Benutzeroberfläche"
 #~ msgid "$HELP_MESSAGE"
 #~ msgstr "$HELP_MESSAGE"
 
+#, fuzzy
 msgid "\\\"$AMCLIUPPER\\\" $AMVERSION:"
-msgstr ""
+msgstr "\"$AMCLIUPPER\\\" $AMVERSION:"
