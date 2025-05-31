@@ -1,5 +1,6 @@
 # File with translation for AM
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025
+# Languages add-on <noreply-addon-languages@weblate.org>, 2025.
 msgid ""
 msgstr "Project-Id-Version: am 9.8\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-31\nPO-Revision-Date: 2025-05-31\nLast-Translator: Automatically generated\nLanguage-Team: none\nLanguage: contributing\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\n"
 
