@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
 "POT-Creation-Date: 2025-05-31\n"
-"PO-Revision-Date: 2025-05-31 03:55+0000\n"
-"Last-Translator: ivan-hc <ivan-hc@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2025-05-31 04:47+0000\n"
+"Last-Translator: zenobit <zenobit@disroot.org>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/am/am/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -2387,6 +2387,85 @@ msgstr ""
 msgid "ERROR! yad is missing! Install it..."
 msgstr ""
 
+#: am/modules/yad.am:26
+msgid ""
+"Testing Alpha release\n"
+"\n"
+"Using YAD to create simple and usable\n"
+"Graphical User Interface for\n"
+"AM: Application Manager\n"
+"for linux\n"
+"\n"
+"AM website:\n"
+"https://github.com/ivan-hc/am\n"
+"\n"
+"GUI:"
+msgstr ""
+
+#: am/modules/yad.am:142
+msgid "AppImage!Install only AppImages"
+msgstr ""
+
+#: am/modules/yad.am:143
+msgid "soarpkg!For installation from soar packages"
+msgstr ""
+
+#: am/modules/yad.am:144
+msgid "toolpack!For installation of toolpacks"
+msgstr ""
+
+#: am/modules/yad.am:145
+msgid "sandbox!Set also sandbox"
+msgstr ""
+
+#: am/modules/yad.am:146
+msgid "user (as AppMan)!Use it to install applications locally"
+msgstr ""
+
+#: am/modules/yad.am:147
+msgid "force latest!Downgrade installed app from pre-release to latest"
+msgstr ""
+
+#: am/modules/yad.am:148
+msgid "icons!Allow use of system theme"
+msgstr ""
+
+#: am/modules/yad.am:149
+msgid "debug!For installation debuging"
+msgstr ""
+
+#: am/modules/yad.am:158
+msgid "!Choose app to install"
+msgstr ""
+
+#: am/modules/yad.am:187
+msgid "RUNNING: %s %s %s"
+msgstr ""
+
+#: am/modules/yad.am:270 am/modules/yad.am:287
+msgid "📥 Install apps!!Install more apps"
+msgstr ""
+
+#: am/modules/yad.am:271 am/modules/yad.am:288
+msgid "📥 Install!!Install one app"
+msgstr ""
+
+#: am/modules/yad.am:273 am/modules/yad.am:290
+msgid "📋 Installed!!List installed Apps and remove App"
+msgstr ""
+
+#: am/modules/yad.am:274 am/modules/yad.am:291
+msgid "🗑️ Remove!!Uninstall App(s)"
+msgstr ""
+
+#: am/modules/yad.am:275 am/modules/yad.am:292
+msgid "About!ℹ️!Info about GUI"
+msgstr ""
+
+#: am/modules/yad.am:276 am/modules/yad.am:293
+msgid "yad-quit!!Exit GUI"
+msgstr ""
+
 #~ msgid " Run the \\\"$AMCLI -h\\\" command to find out more"
 #~ msgstr " Eseguire \\\"$AMCLI -h\\\" per saperne di più"
 
@@ -2506,3 +2585,6 @@ msgstr ""
 #~ msgstr ""
 #~ " 💀 ERRORE: impossibile creare \\\"$arg\\\" senza \\\"convert\\\" (da \\"
 #~ "\"imagemagick\\\")"
+
+msgid "yad-quit!!"
+msgstr ""
