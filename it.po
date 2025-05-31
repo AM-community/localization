@@ -4,7 +4,7 @@
 # LibreTranslate <noreply-mt-libretranslate@weblate.org>, 2025.
 # Glossary sync <noreply-glossary-sync@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: \nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-31\nPO-Revision-Date: 2025-05-31 12:42+0000\nLast-Translator: zenobit <zenobit@disroot.org>\nLanguage-Team: Italian <https://hosted.weblate.org/projects/am/am/it/>\nLanguage: it\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: \nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-31\nPO-Revision-Date: 2025-05-31 18:02+0000\nLast-Translator: ivan-hc <ivan-hc@users.noreply.hosted.weblate.org>\nLanguage-Team: Italian <https://hosted.weblate.org/projects/am/am/it/>\nLanguage: it\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
 
 #: am/APP-MANAGER:92
 msgid "Add a suitable locale code, for example \\\"it\\\" for Italian\\n\\n"
@@ -302,10 +302,8 @@ msgid "%b\\n Checking for changes of the installation scripts in the online data
 msgstr "%b\\n Controllo delle modifiche degli script di installazione nel database online...\\n"
 
 #: am/APP-MANAGER:990
-#, fuzzy
-#| msgid " ◆ %b%b\\033[0m has changed, you may need to reinstall it, see\\n   https://github.com/ivan-hc/AM/blob/main/programs/%b/%b\\n"
 msgid " ◆ %b%b\\033[0m has changed, you may need to reinstall it, see\\n   https://github.com/$AM_THE_OWNER/AM/blob/main/programs/%b/%b\\n"
-msgstr "◆ %b%b\\033[0m è cambiato, potrebbe essere necessario reinstallarlo, vedere\\n https://github.com/$AM_THE_OWNER/AM/blob/main/programs/%b/%b\\n"
+msgstr " ◆ %b%b\\033[0m è cambiato, potrebbe essere necessario reinstallarlo, vedi\\n https://github.com/ivan-hc/AM/blob/main/programs/%b/%b\\n"
 
 #: am/APP-MANAGER:995
 msgid " ◆ No installation script for %b, downloading one...\\n"
@@ -340,22 +338,22 @@ msgid "\\n ◆ SYNCHRONIZING \\\"$AMCLIUPPER\\\" VERSION \\\"$CURRENT_AM_VERSION
 msgstr "\\n ◆ SINCRONIZZAZIONE DI \\\"$AMCLIUPPER\\\" VERSIONE \\\"$CURRENT_AM_VERSION\\\"...\\r"
 
 #: am/APP-MANAGER:1065
+#, fuzzy
 msgid " A new release of \\\"$AMCLIUPPER\\\" is available, please wait...\\r"
-msgstr " Una nuova versione di \\\"$AMCLIUPPER\\\" è disponibile, attendere prego...\\r"
+msgstr " È disponibile una nuova versione di \\\"$AMCLIUPPER\\\", attendere prego...\\r"
 
 #: am/APP-MANAGER:1066
+#, fuzzy
 msgid " ◆ \\\"$AMCLIUPPER\\\" IS NOW UPDATED TO THE BRAND NEW \\\"$NEW_AM_VERSION\\\" VERSION!"
-msgstr " ◆ \\\"$AMCLIUPPER\\\" È ORA AGGIORNATO ALLA NUOVISSIMA VERSIONE \\\"$NEW_AM_VERSION\\\""
+msgstr " ◆ \\\"$AMCLIUPPER\\\" È STATO APPENA AGGIORNATO ALLA NUOVISSIMA VERSIONE \\\"$NEW_AM_VERSION\\\"!"
 
 #: am/APP-MANAGER:1067
 msgid "\\n  Replacement of version \\\"%b\\\" currently in use, COMPLETED! \\n"
 msgstr "\\n  Sostituzione della versione \\\"%b\\\" attualmente in uso, COMPLETATA! \\n"
 
 #: am/APP-MANAGER:1068
-#, fuzzy
-#| msgid "\\n See https://github.com/ivan-hc/AM/commits/main\\n\\n"
 msgid "\\n See https://github.com/$AM_THE_OWNER/AM/commits/main\\n\\n"
-msgstr "* https://github.com/$AM_THE_OWNER/AM/commits/main\\n\\n"
+msgstr " \\n See https://github.com/ivan-hc/AM/commits/main\\n\\n"
 
 #: am/APP-MANAGER:1070
 msgid " ◆ \\\"$AMCLIUPPER\\\" IS ALREADY UPDATED, CURRENT VERSION \\\"$CURRENT_AM_VERSION\\\""
@@ -461,7 +459,6 @@ msgid " Run the \\\"$AMCLI -h\\\" command to find out more"
 msgstr " Eseguire \\\"$AMCLI -h\\\" per saperne di più"
 
 #: am/APP-MANAGER:1355
-#, fuzzy
 msgid "   or try AM with GUI (Alpha version!)"
 msgstr "o provare AM con GUI (versione Alpha!)"
 
