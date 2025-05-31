@@ -2336,6 +2336,10 @@ msgstr " ◆ WEBAPP ADRESA: "
 msgid "\\n No valid argument was chosen: process aborted! \\n"
 msgstr "\\n Nevybrán validní argument: proces přerušen! \\n"
 
+#: am/modules/yad.am:13
+msgid "ERROR! yad is missing! Install it..."
+msgstr ""
+
 #~ msgid " Run the \\\"$AMCLI -h\\\" command to find out more"
 #~ msgstr " Spusťte příkaz \\\"$AMCLI -h\\\" a zjistíte více"
 
