@@ -1783,3 +1783,7 @@ msgstr ""
 #: am/modules/template.am:516
 msgid "\\n No valid argument was chosen: process aborted! \\n"
 msgstr ""
+
+#: am/modules/yad.am:13
+msgid "ERROR! yad is missing! Install it..."
+msgstr ""
