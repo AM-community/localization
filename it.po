@@ -2,20 +2,9 @@
 # Prefill add-on <noreply-addon-prefill@weblate.org>, 2025.
 # ivan-hc <ivan-hc@users.noreply.hosted.weblate.org>, 2025.
 # LibreTranslate <noreply-mt-libretranslate@weblate.org>, 2025.
+# Glossary sync <noreply-glossary-sync@weblate.org>, 2025.
 msgid ""
-msgstr ""
-"Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
-"POT-Creation-Date: 2025-05-31\n"
-"PO-Revision-Date: 2025-05-31 05:49+0000\n"
-"Last-Translator: zenobit <zenobit@disroot.org>\n"
-"Language-Team: Italian <https://hosted.weblate.org/projects/am/am/it/>\n"
-"Language: it\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: \nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-31\nPO-Revision-Date: 2025-05-31 06:07+0000\nLast-Translator: Glossary sync <noreply-glossary-sync@weblate.org>\nLanguage-Team: Italian <https://hosted.weblate.org/projects/am/am/it/>\nLanguage: it\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
 
 #: am/APP-MANAGER:92
 msgid "Add a suitable locale code, for example \\\"it\\\" for Italian\\n\\n"
@@ -2517,3 +2506,6 @@ msgstr ""
 
 #~ msgid " 💀 ERROR: cannot create \\\"$arg\\\" without \\\"convert\\\" (from \\\"imagemagick\\\")"
 #~ msgstr " 💀 ERRORE: impossibile creare \\\"$arg\\\" senza \\\"convert\\\" (da \\\"imagemagick\\\")"
+
+msgid "\\\"$AMCLIUPPER\\\" $AMVERSION:"
+msgstr ""
