@@ -14,8 +14,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12-dev\n"
 
 #: am/APP-MANAGER:92
@@ -32,10 +31,8 @@ msgstr ""
 
 #: am/APP-MANAGER:118
 #, fuzzy
-msgid ""
-"\\n Please do not use \\\"sudo\\\" to execute \\\"%b\\\", try again.\\n\\n"
-msgstr ""
-"\\n Please do not use \\\"sudo\\\" to execute \\\"%b\\\", try again.\\n\\n"
+msgid "\\n Please do not use \\\"sudo\\\" to execute \\\"%b\\\", try again.\\n\\n"
+msgstr "\\n Please do not use \\\"sudo\\\" to execute \\\"%b\\\", try again.\\n\\n"
 
 #: am/APP-MANAGER:146
 #, fuzzy
@@ -44,12 +41,8 @@ msgstr "Install 'less' if you want to scroll this list"
 
 #: am/APP-MANAGER:163
 #, fuzzy
-msgid ""
-"💀 ERROR: Your version of sed does not support '-i' flag without extension, "
-"we tried to workaround and failed"
-msgstr ""
-"💀 ERROR: Your version of sed does not support '-i' flag without extension, "
-"we tried to workaround and failed"
+msgid "💀 ERROR: Your version of sed does not support '-i' flag without extension, we tried to workaround and failed"
+msgstr "💀 ERROR: Your version of sed does not support '-i' flag without extension, we tried to workaround and failed"
 
 #: am/APP-MANAGER:164
 #, fuzzy
@@ -68,10 +61,8 @@ msgstr ">>> Thank you for choosing AppMan!"
 
 #: am/APP-MANAGER:196
 #, fuzzy
-msgid ""
-" Write the path or just press enter to use default:$(printf \"\\n\\n \")"
-msgstr ""
-" Write the path or just press enter to use default:$(printf \"\\n\\n \")"
+msgid " Write the path or just press enter to use default:$(printf \"\\n\\n \")"
+msgstr " Write the path or just press enter to use default:$(printf \"\\n\\n \")"
 
 #: am/APP-MANAGER:204
 #, fuzzy
@@ -80,12 +71,8 @@ msgstr " 💀 ERROR, you can't install applications in \\\"$BINDIR\\\""
 
 #: am/APP-MANAGER:205
 #, fuzzy
-msgid ""
-" $BINDIR is normally used for executables, Please choose a different path "
-"and retry!"
-msgstr ""
-" $BINDIR is normally used for executables, Please choose a different path "
-"and retry!"
+msgid " $BINDIR is normally used for executables, Please choose a different path and retry!"
+msgstr " $BINDIR is normally used for executables, Please choose a different path and retry!"
 
 #: am/APP-MANAGER:209
 #, fuzzy
@@ -114,12 +101,8 @@ msgstr "ERROR: You don't have write access to $APPSPATH"
 
 #: am/APP-MANAGER:241
 #, fuzzy
-msgid ""
-"%b ⚠️ WARNING\\033[0m: \\\"%b%b\\033[0m\\\" is not in PATH, local apps may "
-"not run.\\n"
-msgstr ""
-"%b ⚠️ WARNING\\033[0m: \\\"%b%b\\033[0m\\\" is not in PATH, local apps may "
-"not run.\\n"
+msgid "%b ⚠️ WARNING\\033[0m: \\\"%b%b\\033[0m\\\" is not in PATH, local apps may not run.\\n"
+msgstr "%b ⚠️ WARNING\\033[0m: \\\"%b%b\\033[0m\\\" is not in PATH, local apps may not run.\\n"
 
 #: am/APP-MANAGER:340
 #, fuzzy
@@ -128,12 +111,8 @@ msgstr "\\\"$AMCLIUPPER\\\" $AMVERSION: DEVELOPER MODE"
 
 #: am/APP-MANAGER:370
 #, fuzzy
-msgid ""
-" ${RED}💀 ERROR! MISSING ESSENTIAL COMMANDS\\033[0m: %s\\n\\n Install the "
-"above and try again! \\n"
-msgstr ""
-" ${RED}💀 ERROR! MISSING ESSENTIAL COMMANDS\\033[0m: %s\\n\\n Install the "
-"above and try again! \\n"
+msgid " ${RED}💀 ERROR! MISSING ESSENTIAL COMMANDS\\033[0m: %s\\n\\n Install the above and try again! \\n"
+msgstr " ${RED}💀 ERROR! MISSING ESSENTIAL COMMANDS\\033[0m: %s\\n\\n Install the above and try again! \\n"
 
 #: am/APP-MANAGER:372
 #, fuzzy
@@ -142,55 +121,33 @@ msgstr "%bList of the %b core dependences\\033[0m:\\n\\n%b\\n"
 
 #: am/APP-MANAGER:374
 #, fuzzy
-msgid ""
-"If this message appears it is because you are missing some dependency and if "
-"its the first time its because something new has been introduced.\\n\\n"
-msgstr ""
-"If this message appears it is because you are missing some dependency and if "
-"its the first time its because something new has been introduced.\\n\\n"
+msgid "If this message appears it is because you are missing some dependency and if its the first time its because something new has been introduced.\\n\\n"
+msgstr "If this message appears it is because you are missing some dependency and if its the first time its because something new has been introduced.\\n\\n"
 
 #: am/APP-MANAGER:375
 #, fuzzy
-msgid ""
-" See %bhttps://github.com/ivan-hc/AM#core-dependences\\033[0m for more "
-"information\\n"
-msgstr ""
-" See %bhttps://github.com/ivan-hc/AM#core-dependences\\033[0m for more "
-"information\\n"
+msgid " See %bhttps://github.com/ivan-hc/AM#core-dependences\\033[0m for more information\\n"
+msgstr " See %bhttps://github.com/ivan-hc/AM#core-dependences\\033[0m for more information\\n"
 
 #: am/APP-MANAGER:383
 #, fuzzy
-msgid ""
-"\\n%bWARNING: your distro maintainer ships \\\"wget2\\\" as \\\"wget\\\" "
-"\\033[0m\\n\\n"
-msgstr ""
-"\\n%bWARNING: your distro maintainer ships \\\"wget2\\\" as \\\"wget\\\" "
-"\\033[0m\\n\\n"
+msgid "\\n%bWARNING: your distro maintainer ships \\\"wget2\\\" as \\\"wget\\\" \\033[0m\\n\\n"
+msgstr "\\n%bWARNING: your distro maintainer ships \\\"wget2\\\" as \\\"wget\\\" \\033[0m\\n\\n"
 
 #: am/APP-MANAGER:384
 #, fuzzy
-msgid ""
-"Please install \\\"%bwget1\\033[0m\\\" and \\\"%bwget1-wget\\033[0m\\\" (use "
-"%b--allowerasing\\033[0m if you have to)\\n\\nSee https://bugzilla.redhat."
-"com/show_bug.cgi?id=2358792\\n\\n"
-msgstr ""
-"Please install \\\"%bwget1\\033[0m\\\" and \\\"%bwget1-wget\\033[0m\\\" (use "
-"%b--allowerasing\\033[0m if you have to)\\n\\nSee https://bugzilla.redhat."
-"com/show_bug.cgi?id=2358792\\n\\n"
+msgid "Please install \\\"%bwget1\\033[0m\\\" and \\\"%bwget1-wget\\033[0m\\\" (use %b--allowerasing\\033[0m if you have to)\\n\\nSee https://bugzilla.redhat.com/show_bug.cgi?id=2358792\\n\\n"
+msgstr "Please install \\\"%bwget1\\033[0m\\\" and \\\"%bwget1-wget\\033[0m\\\" (use %b--allowerasing\\033[0m if you have to)\\n\\nSee https://bugzilla.redhat.com/show_bug.cgi?id=2358792\\n\\n"
 
 #: am/APP-MANAGER:391
 #, fuzzy
-msgid ""
-"\\n %b⚠️ WARNING: ACCESS TO USER NAMESPACES IS RESTRICTED! \\033[0m\\n\\n"
-msgstr ""
-"\\n %b⚠️ WARNING: ACCESS TO USER NAMESPACES IS RESTRICTED! \\033[0m\\n\\n"
+msgid "\\n %b⚠️ WARNING: ACCESS TO USER NAMESPACES IS RESTRICTED! \\033[0m\\n\\n"
+msgstr "\\n %b⚠️ WARNING: ACCESS TO USER NAMESPACES IS RESTRICTED! \\033[0m\\n\\n"
 
 #: am/APP-MANAGER:392
 #, fuzzy
-msgid ""
-" Some apps may not run, you need to enable access to user namespaces, see"
-msgstr ""
-" Some apps may not run, you need to enable access to user namespaces, see"
+msgid " Some apps may not run, you need to enable access to user namespaces, see"
+msgstr " Some apps may not run, you need to enable access to user namespaces, see"
 
 #: am/APP-MANAGER:394
 #, fuzzy
@@ -199,10 +156,8 @@ msgstr " to know more."
 
 #: am/APP-MANAGER:406
 #, fuzzy
-msgid ""
-"\\n %b is offline, please check your internet connection and try again\\n\\n"
-msgstr ""
-"\\n %b is offline, please check your internet connection and try again\\n\\n"
+msgid "\\n %b is offline, please check your internet connection and try again\\n\\n"
+msgstr "\\n %b is offline, please check your internet connection and try again\\n\\n"
 
 #: am/APP-MANAGER:415
 #, fuzzy
@@ -211,12 +166,8 @@ msgstr "\\n %b💀WARNING! Detected \\\"%b\\\"\\033[0m\\n\\n"
 
 #: am/APP-MANAGER:416
 #, fuzzy
-msgid ""
-"It will prevent \\\"$AMCLIUPPER\\\" from working correctly with AppImages, "
-"especially when extracting, integrating and updating them."
-msgstr ""
-"It will prevent \\\"$AMCLIUPPER\\\" from working correctly with AppImages, "
-"especially when extracting, integrating and updating them."
+msgid "It will prevent \\\"$AMCLIUPPER\\\" from working correctly with AppImages, especially when extracting, integrating and updating them."
+msgstr "It will prevent \\\"$AMCLIUPPER\\\" from working correctly with AppImages, especially when extracting, integrating and updating them."
 
 #: am/APP-MANAGER:420
 #, fuzzy
@@ -333,10 +284,8 @@ msgstr " Please either:"
 
 #: am/APP-MANAGER:792
 #, fuzzy
-msgid ""
-"   1. Generate a new token and add it with: $AMCLI apikey YOUR_NEW_TOKEN"
-msgstr ""
-"   1. Generate a new token and add it with: $AMCLI apikey YOUR_NEW_TOKEN"
+msgid "   1. Generate a new token and add it with: $AMCLI apikey YOUR_NEW_TOKEN"
+msgstr "   1. Generate a new token and add it with: $AMCLI apikey YOUR_NEW_TOKEN"
 
 #: am/APP-MANAGER:793
 #, fuzzy
@@ -361,8 +310,7 @@ msgstr " Do you wish to enter \\\"AppMan Mode\\\" (y,N)?"
 #: am/APP-MANAGER:844
 #, fuzzy
 msgid " \\\"AM\\\" is read-only, want to use it in \\\"AppMan Mode\\\" (Y,n)? "
-msgstr ""
-" \\\"AM\\\" is read-only, want to use it in \\\"AppMan Mode\\\" (Y,n)? "
+msgstr " \\\"AM\\\" is read-only, want to use it in \\\"AppMan Mode\\\" (Y,n)? "
 
 #: am/APP-MANAGER:848
 #, fuzzy
@@ -397,8 +345,7 @@ msgstr " ✖ ERROR: cannot remove \\\"$(basename \"$var\")\\\""
 #: am/APP-MANAGER:904
 #, fuzzy
 msgid "   related AppImage is located in an unmounted path of $unmounted_point"
-msgstr ""
-"   related AppImage is located in an unmounted path of $unmounted_point"
+msgstr "   related AppImage is located in an unmounted path of $unmounted_point"
 
 #: am/APP-MANAGER:932
 #, fuzzy
@@ -432,21 +379,13 @@ msgstr "✔ $APPMAN_APPSPATH/$arg can be managed again"
 
 #: am/APP-MANAGER:977
 #, fuzzy
-msgid ""
-"%b\\n Checking for changes of the installation scripts in the online "
-"database...\\n"
-msgstr ""
-"%b\\n Checking for changes of the installation scripts in the online "
-"database...\\n"
+msgid "%b\\n Checking for changes of the installation scripts in the online database...\\n"
+msgstr "%b\\n Checking for changes of the installation scripts in the online database...\\n"
 
 #: am/APP-MANAGER:990
 #, fuzzy
-msgid ""
-" ◆ %b%b\\033[0m has changed, you may need to reinstall it, see\\n   https://"
-"github.com/$AM_THE_OWNER/AM/blob/main/programs/%b/%b\\n"
-msgstr ""
-" ◆ %b%b\\033[0m has changed, you may need to reinstall it, see\\n   https://"
-"github.com/ivan-hc/AM/blob/main/programs/%b/%b\\n"
+msgid " ◆ %b%b\\033[0m has changed, you may need to reinstall it, see\\n   https://github.com/$AM_THE_OWNER/AM/blob/main/programs/%b/%b\\n"
+msgstr " ◆ %b%b\\033[0m has changed, you may need to reinstall it, see\\n   https://github.com/ivan-hc/AM/blob/main/programs/%b/%b\\n"
 
 #: am/APP-MANAGER:995
 #, fuzzy
@@ -455,12 +394,8 @@ msgstr " ◆ No installation script for %b, downloading one...\\n"
 
 #: am/APP-MANAGER:1004
 #, fuzzy
-msgid ""
-"\\n To fix the above, just run \\\"%b%b reinstall\\033[0m\\\", without "
-"arguments\\n"
-msgstr ""
-"\\n To fix the above, just run \\\"%b%b reinstall\\033[0m\\\", without "
-"arguments\\n"
+msgid "\\n To fix the above, just run \\\"%b%b reinstall\\033[0m\\\", without arguments\\n"
+msgstr "\\n To fix the above, just run \\\"%b%b reinstall\\033[0m\\\", without arguments\\n"
 
 #: am/APP-MANAGER:1018
 #, fuzzy
@@ -489,12 +424,8 @@ msgstr " ◆ Updating $module_name..."
 
 #: am/APP-MANAGER:1058
 #, fuzzy
-msgid ""
-"\\n ◆ SYNCHRONIZING \\\"$AMCLIUPPER\\\" VERSION \\\"$CURRENT_AM_VERSION\\"
-"\"...\\r"
-msgstr ""
-"\\n ◆ SYNCHRONIZING \\\"$AMCLIUPPER\\\" VERSION \\\"$CURRENT_AM_VERSION\\"
-"\"...\\r"
+msgid "\\n ◆ SYNCHRONIZING \\\"$AMCLIUPPER\\\" VERSION \\\"$CURRENT_AM_VERSION\\\"...\\r"
+msgstr "\\n ◆ SYNCHRONIZING \\\"$AMCLIUPPER\\\" VERSION \\\"$CURRENT_AM_VERSION\\\"...\\r"
 
 #: am/APP-MANAGER:1065
 #, fuzzy
@@ -503,18 +434,13 @@ msgstr " A new release of \\\"$AMCLIUPPER\\\" is available, please wait...\\r"
 
 #: am/APP-MANAGER:1066
 #, fuzzy
-msgid ""
-" ◆ \\\"$AMCLIUPPER\\\" IS NOW UPDATED TO THE BRAND NEW \\\"$NEW_AM_VERSION\\"
-"\" VERSION!"
-msgstr ""
-" ◆ \\\"$AMCLIUPPER\\\" IS NOW UPDATED TO THE BRAND NEW \\\"$NEW_AM_VERSION\\"
-"\" VERSION!"
+msgid " ◆ \\\"$AMCLIUPPER\\\" IS NOW UPDATED TO THE BRAND NEW \\\"$NEW_AM_VERSION\\\" VERSION!"
+msgstr " ◆ \\\"$AMCLIUPPER\\\" IS NOW UPDATED TO THE BRAND NEW \\\"$NEW_AM_VERSION\\\" VERSION!"
 
 #: am/APP-MANAGER:1067
 #, fuzzy
 msgid "\\n  Replacement of version \\\"%b\\\" currently in use, COMPLETED! \\n"
-msgstr ""
-"\\n  Replacement of version \\\"%b\\\" currently in use, COMPLETED! \\n"
+msgstr "\\n  Replacement of version \\\"%b\\\" currently in use, COMPLETED! \\n"
 
 #: am/APP-MANAGER:1068
 #, fuzzy
@@ -523,12 +449,8 @@ msgstr "\\n See https://github.com/ivan-hc/AM/commits/main\\n\\n"
 
 #: am/APP-MANAGER:1070
 #, fuzzy
-msgid ""
-" ◆ \\\"$AMCLIUPPER\\\" IS ALREADY UPDATED, CURRENT VERSION \\"
-"\"$CURRENT_AM_VERSION\\\""
-msgstr ""
-" ◆ \\\"$AMCLIUPPER\\\" IS ALREADY UPDATED, CURRENT VERSION \\"
-"\"$CURRENT_AM_VERSION\\\""
+msgid " ◆ \\\"$AMCLIUPPER\\\" IS ALREADY UPDATED, CURRENT VERSION \\\"$CURRENT_AM_VERSION\\\""
+msgstr " ◆ \\\"$AMCLIUPPER\\\" IS ALREADY UPDATED, CURRENT VERSION \\\"$CURRENT_AM_VERSION\\\""
 
 #: am/APP-MANAGER:1071
 #, fuzzy
@@ -537,12 +459,8 @@ msgstr "\\n See https://github.com/ivan-hc/AM/commits/%b\\n\\n"
 
 #: am/APP-MANAGER:1110
 #, fuzzy
-msgid ""
-" %b\\\"%b\\\" CAN MANAGE UPDATES FOR THE FOLLOWING PROGRAMS\\033[0m:"
-"\\n%b\\n\\n"
-msgstr ""
-" %b\\\"%b\\\" CAN MANAGE UPDATES FOR THE FOLLOWING PROGRAMS\\033[0m:"
-"\\n%b\\n\\n"
+msgid " %b\\\"%b\\\" CAN MANAGE UPDATES FOR THE FOLLOWING PROGRAMS\\033[0m:\\n%b\\n\\n"
+msgstr " %b\\\"%b\\\" CAN MANAGE UPDATES FOR THE FOLLOWING PROGRAMS\\033[0m:\\n%b\\n\\n"
 
 #: am/APP-MANAGER:1111
 #, fuzzy
@@ -675,15 +593,12 @@ msgstr "This feature is disabled by your organization"
 #: am/APP-MANAGER:1487
 msgid ""
 "\n"
-"\t\t\tNAME: ${Green}$AMCLIUPPER\\033[0m\t\tVERSION: "
-"${Green}$AMVERSION\\033[0m\n"
+"\t\t\tNAME: ${Green}$AMCLIUPPER\\033[0m\t\tVERSION: ${Green}$AMVERSION\\033[0m\n"
 "\n"
 "\t\t\tSYNOPSIS:\t${LightBlue}$AMCLI {OPTION}\\033[0m\n"
 "\t\t\t\t\t${LightBlue}$AMCLI {OPTION} {PROGRAM}\\033[0m\n"
 "\n"
-"\t\t\tDESCRIPTION: A command line utility to install and manage AppImages "
-"and other portable programs for GNU/Linux thanks to its AUR-inspired "
-"database.\n"
+"\t\t\tDESCRIPTION: A command line utility to install and manage AppImages and other portable programs for GNU/Linux thanks to its AUR-inspired database.\n"
 "\n"
 "\t\t\tOPTIONS:\n"
 "\n"
@@ -697,25 +612,20 @@ msgid ""
 "\n"
 "\t\t\t\t\t${LightBlue}$AMCLI --gui {PROGRAM}\\033[0m\n"
 "\n"
-"\t\t\tDescription: Use AM with 3rd party GUI. (Alpha!) Using bash and "
-"${LightBlue}Y\\033[0met ${LightBlue}A\\033[0mnother ${LightBlue}"
-"D\\033[0mialog.\n"
+"\t\t\tDescription: Use AM with 3rd party GUI. (Alpha!) Using bash and ${LightBlue}Y\\033[0met ${LightBlue}A\\033[0mnother ${LightBlue}D\\033[0mialog.\n"
 "\n"
 "\t\t\t${Gold}apikey\\033[0m\n"
 "\n"
 "\t\t\t\t\t${LightBlue}$AMCLI apikey {Github Token}\n"
 "\t\t\t\t\t${LightBlue}$AMCLI apikey delete\\033[0m\n"
 "\n"
-"\t\t\tDescription: Accede to github APIs using your personal access tokens. "
-"The file named \\\"ghapikey.txt\\\" will be saved in $AMDATADIR. Use \\"
-"\"del\\\" to remove it.\n"
+"\t\t\tDescription: Accede to github APIs using your personal access tokens. The file named \\\"ghapikey.txt\\\" will be saved in $AMDATADIR. Use \\\"del\\\" to remove it.\n"
 "\n"
 "\t\t\t${Gold}backup, -b\\033[0m\n"
 "\n"
 "\t\t\t\t\t${LightBlue}$AMCLI -b {PROGRAM}\\033[0m\n"
 "\n"
-"\t\t\tDescription: Create a snapshot of the current version of an installed "
-"program.\n"
+"\t\t\tDescription: Create a snapshot of the current version of an installed program.\n"
 "\n"
 "\t\t\t${Gold}clean, -c\\033[0m\n"
 "\n"
@@ -727,8 +637,7 @@ msgid ""
 "\n"
 "\t\t\t\t\t${LightBlue}$AMCLI -C {PROGRAM}\\033[0m\n"
 "\n"
-"\t\t\tDescription: Set a dedicated \\$XDG_CONFIG_HOME for one or more "
-"AppImages.\n"
+"\t\t\tDescription: Set a dedicated \\$XDG_CONFIG_HOME for one or more AppImages.\n"
 "\n"
 "\t\t\t${Gold}downgrade, --rollback\\033[0m\n"
 "\n"
@@ -741,24 +650,14 @@ msgid ""
 "\t\t\t\t\t${LightBlue}$AMCLI -d {PROGRAM}\n"
 "\t\t\t\t\t${LightBlue}$AMCLI -d --convert {PROGRAM}\\033[0m\n"
 "\n"
-"\t\t\tDescription: Download one or more installation scripts to your desktop "
-"or convert them to local installers for \\\"AppMan\\\". To test the scripts, "
-"use the \\\"${LightBlue}$AMCLI -i '/path/to/script'\\033[0m\\\" command or "
-"enter the directory of the script and run the \\\"${LightBlue}$AMCLI -i ./"
-"script\\033[0m\\\" command, even using dedicated flags, if necessary (see \\"
-"\"-i\\\").\n"
+"\t\t\tDescription: Download one or more installation scripts to your desktop or convert them to local installers for \\\"AppMan\\\". To test the scripts, use the \\\"${LightBlue}$AMCLI -i '/path/to/script'\\033[0m\\\" command or enter the directory of the script and run the \\\"${LightBlue}$AMCLI -i ./script\\033[0m\\\" command, even using dedicated flags, if necessary (see \\\"-i\\\").\n"
 "\n"
 "\t\t\t${Gold}extra, -e\\033[0m\n"
 "\n"
 "\t\t\t\t\t${LightBlue}$AMCLI -e user/project {APPNAME}\n"
 "\t\t\t\t\t${LightBlue}$AMCLI -e user/project {APPNAME} {KEYWORD}\\033[0m\n"
 "\n"
-"\t\t\tDescription: Install AppImages from github.com, outside the database. "
-"This allows you to install, update and manage them all like the others. "
-"Where \\\"user/project\\\" can be the whole URL to the github repository, "
-"give a name to the program so that it can be used from the command line. "
-"Optionally, add an \\\"univoque\\\" keyword if multiple AppImages are "
-"listed.\n"
+"\t\t\tDescription: Install AppImages from github.com, outside the database. This allows you to install, update and manage them all like the others. Where \\\"user/project\\\" can be the whole URL to the github repository, give a name to the program so that it can be used from the command line. Optionally, add an \\\"univoque\\\" keyword if multiple AppImages are listed.\n"
 "\n"
 "\t\t\t${Gold}files, -f, -fi\\033[0m\n"
 "\n"
@@ -766,11 +665,7 @@ msgid ""
 "\t\t\t\t\t${LightBlue}$AMCLI -f --byname\n"
 "\t\t\t\t\t${LightBlue}$AMCLI -f --less\\033[0m\n"
 "\n"
-"\t\t\tDescription: Shows the list of all installed programs, with sizes. By "
-"default apps are sorted by size, use \\\"--byname\\\" to sort by name. With "
-"the option \\\"--less\\\" it shows only the number of installed apps. Option "
-"\\\"-fi\\\" only shows installed apps, not the AppImages integrated with the "
-"\\\"--launcher\\\" option.\n"
+"\t\t\tDescription: Shows the list of all installed programs, with sizes. By default apps are sorted by size, use \\\"--byname\\\" to sort by name. With the option \\\"--less\\\" it shows only the number of installed apps. Option \\\"-fi\\\" only shows installed apps, not the AppImages integrated with the \\\"--launcher\\\" option.\n"
 "\n"
 "\t\t\t${Gold}help, -h\\033[0m\n"
 "\n"
@@ -782,34 +677,26 @@ msgid ""
 "\n"
 "\t\t\t\t\t${LightBlue}$AMCLI hide {PROGRAM}\\033[0m\n"
 "\n"
-"\t\t\tDescription: Prevents an installed application from being shown or "
-"managed by \\\"$AMCLI\\\".\n"
+"\t\t\tDescription: Prevents an installed application from being shown or managed by \\\"$AMCLI\\\".\n"
 "\n"
 "\t\t\t${Gold}home, -H, --home\\033[0m\n"
 "\n"
 "\t\t\t\t\t${LightBlue}$AMCLI -H {PROGRAM}\\033[0m\n"
 "\n"
-"\t\t\tDescription: Set a dedicated \\$HOME directory for one or more "
-"AppImages.\n"
+"\t\t\tDescription: Set a dedicated \\$HOME directory for one or more AppImages.\n"
 "\n"
 "\t\t\t${Gold}-HC, -CH\\033[0m\n"
 "\n"
 "\t\t\t\t\t${LightBlue}$AMCLI -HC {PROGRAM}\\033[0m\n"
 "\n"
-"\t\t\tDescription: Set dedicated \\$HOME and \\$XDG_CONFIG_HOME directories "
-"for one or more AppImages.\n"
+"\t\t\tDescription: Set dedicated \\$HOME and \\$XDG_CONFIG_HOME directories for one or more AppImages.\n"
 "\n"
 "\t\t\t${Gold}icons, --icons\\033[0m\n"
 "\n"
 "\t\t\t\t\t${LightBlue}$AMCLI --icons {PROGRAM}\n"
 "\t\t\t\t\t${LightBlue}$AMCLI --icons --all\\033[0m\n"
 "\n"
-"\t\t\tDescription: Allow installed apps to use system icon themes. You can "
-"specify the name of the apps to change or use the \\\"--all\\\" flag to "
-"change all of them at once. This will remove the icon path from the .desktop "
-"file and add the symbolic link of all available icons in the $DATADIR/icons/"
-"hicolor/scalable/apps directory. The \\\"--icons\\\" option can be used as \\"
-"\"flag\\\" in the \\\"-i\\\" and \\\"-ia\\\" options.\n"
+"\t\t\tDescription: Allow installed apps to use system icon themes. You can specify the name of the apps to change or use the \\\"--all\\\" flag to change all of them at once. This will remove the icon path from the .desktop file and add the symbolic link of all available icons in the $DATADIR/icons/hicolor/scalable/apps directory. The \\\"--icons\\\" option can be used as \\\"flag\\\" in the \\\"-i\\\" and \\\"-ia\\\" options.\n"
 "\n"
 "\t\t\t${Gold}install, -i\\033[0m\n"
 "\n"
@@ -818,17 +705,9 @@ msgid ""
 "\t\t\t\t\t${LightBlue}$AMCLI -i --force-latest {PROGRAM}\\033[0m\n"
 "\t\t\t\t\t${LightBlue}$AMCLI -i --icons {PROGRAM}\\033[0m\n"
 "\t\t\t\t\t${LightBlue}$AMCLI -i --sandbox {PROGRAM}\\033[0m\n"
-"\t\t\t$(if [ -n \"$third_party_flags\" ]; then echo \"\" && echo \"\tThird-"
-"party databases:\" && echo \"\" && for a in $third_party_flags; do echo "
-"\"\t\t${LightBlue}$AMCLI -l $a {PROGRAM}\\033[0m\"; done; fi)\n"
+"\t\t\t$(if [ -n \"$third_party_flags\" ]; then echo \"\" && echo \"\tThird-party databases:\" && echo \"\" && for a in $third_party_flags; do echo \"\t\t${LightBlue}$AMCLI -l $a {PROGRAM}\\033[0m\"; done; fi)\n"
 "\n"
-"\t\t\tDescription: Install one or more programs or libraries from the list. "
-"With the \\\"--debug\\\" option you can see log messages to debug the "
-"script. For more details on \\\"--force-latest\\\", see the dedicated "
-"option, below. Use the \\\"--icons\\\" flag to allow the program to use icon "
-"themes. The \\\"--sandbox\\\" flag allows you to set sandboxes for AppImage "
-"packages. It can also be extended with additional flags (see third-party "
-"flags, at the bottom of this message).\n"
+"\t\t\tDescription: Install one or more programs or libraries from the list. With the \\\"--debug\\\" option you can see log messages to debug the script. For more details on \\\"--force-latest\\\", see the dedicated option, below. Use the \\\"--icons\\\" flag to allow the program to use icon themes. The \\\"--sandbox\\\" flag allows you to set sandboxes for AppImage packages. It can also be extended with additional flags (see third-party flags, at the bottom of this message).\n"
 "\n"
 "\t\t\t${Gold}install-appimage, -ia, -ias\\033[0m\n"
 "\n"
@@ -839,9 +718,7 @@ msgid ""
 "\t\t\t\t\t${LightBlue}$AMCLI -ia --sandbox {PROGRAM}\\033[0m\n"
 "\t\t\t\t\t${LightBlue}$AMCLI -ias {PROGRAM}\\033[0m\n"
 "\n"
-"\t\t\tDescription: Same as \\\"install\\\" (see above) but for AppImages "
-"only. Option \\\"-ias\\\" (aka Install AppImage & Sandbox) is equivalent to "
-"\\\"-ia --sandbox\\\", to set sandboxes for AppImage packages.\n"
+"\t\t\tDescription: Same as \\\"install\\\" (see above) but for AppImages only. Option \\\"-ias\\\" (aka Install AppImage & Sandbox) is equivalent to \\\"-ia --sandbox\\\", to set sandboxes for AppImage packages.\n"
 "\n"
 "\t\t\t${Gold}list, -l\\033[0m\n"
 "\n"
@@ -849,23 +726,15 @@ msgid ""
 "\t\t\t\t\t${LightBlue}$AMCLI -l --appimages\\033[0m\n"
 "\t\t\t\t\t${LightBlue}$AMCLI -l --portable\\033[0m\n"
 "\t\t\t\t\t${LightBlue}$AMCLI -l --all\\033[0m\n"
-"\t\t\t$(if [ -n \"$third_party_flags\" ]; then echo \"\" && echo \"\tThird-"
-"party databases:\" && echo \"\" && for a in $third_party_flags; do echo "
-"\"\t\t${LightBlue}$AMCLI -l $a\\033[0m\"; done; fi)\n"
+"\t\t\t$(if [ -n \"$third_party_flags\" ]; then echo \"\" && echo \"\tThird-party databases:\" && echo \"\" && for a in $third_party_flags; do echo \"\t\t${LightBlue}$AMCLI -l $a\\033[0m\"; done; fi)\n"
 "\n"
-"\t\t\tDescription: Shows the list of all the apps available. Without flags "
-"only shows the apps in the \\\"AM\\\" database, add the \\\"--appimages\\\" "
-"to show only the AppImages or \\\"--portable\\\" to show other formats from "
-"the \\\"AM\\\" database. The \\\"--all\\\" flag allows you to consult the "
-"set of all supported third-party databases. It can also be extended with "
-"additional flags (see third-party flags, at the bottom of this message).\n"
+"\t\t\tDescription: Shows the list of all the apps available. Without flags only shows the apps in the \\\"AM\\\" database, add the \\\"--appimages\\\" to show only the AppImages or \\\"--portable\\\" to show other formats from the \\\"AM\\\" database. The \\\"--all\\\" flag allows you to consult the set of all supported third-party databases. It can also be extended with additional flags (see third-party flags, at the bottom of this message).\n"
 "\n"
 "\t\t\t${Gold}lock\\033[0m\n"
 "\n"
 "\t\t\t\t\t${LightBlue}$AMCLI lock {PROGRAM}\\033[0m\n"
 "\n"
-"\t\t\tDescription: Prevent an application being updated, if it has an\\\"AM-"
-"updater\\\" script.\n"
+"\t\t\tDescription: Prevent an application being updated, if it has an\\\"AM-updater\\\" script.\n"
 "\n"
 "\t\t\t${Gold}newrepo, neodb\\033[0m\n"
 "\n"
@@ -875,26 +744,19 @@ msgid ""
 "\t\t\t\t\t${LightBlue}$AMCLI newrepo purge\\033[0m\n"
 "\t\t\t\t\t${LightBlue}$AMCLI newrepo info\\033[0m\n"
 "\n"
-"\t\t\tDescription: Set a new default repo, use \\\"add\\\" to append the "
-"path to a local directory or an online URL, then use \\\"select\\\" to use "
-"it by default, a message will warn you about the usage of this repo instead "
-"of the default one. Use \\\"on\\\"/\\\"off\\\" to enable/disable it. Use \\"
-"\"purge\\\" to remove all 3rd party repos. Use \\\"info\\\" to see the "
-"source from where installation scripts and lists are taken.\n"
+"\t\t\tDescription: Set a new default repo, use \\\"add\\\" to append the path to a local directory or an online URL, then use \\\"select\\\" to use it by default, a message will warn you about the usage of this repo instead of the default one. Use \\\"on\\\"/\\\"off\\\" to enable/disable it. Use \\\"purge\\\" to remove all 3rd party repos. Use \\\"info\\\" to see the source from where installation scripts and lists are taken.\n"
 "\n"
 "\t\t\t${Gold}nolibfuse\\033[0m\n"
 "\n"
 "\t\t\t\t\t${LightBlue}$AMCLI nolibfuse {PROGRAM}\\033[0m\n"
 "\n"
-"\t\t\tDescription: Convert old AppImages and get rid of \\\"libfuse2\\\" "
-"dependence.\n"
+"\t\t\tDescription: Convert old AppImages and get rid of \\\"libfuse2\\\" dependence.\n"
 "\n"
 "\t\t\t${Gold}overwrite, -o\\033[0m\n"
 "\n"
 "\t\t\t\t\t${LightBlue}$AMCLI -o {PROGRAM}\\033[0m\n"
 "\n"
-"\t\t\tDescription: Overwrite apps with snapshots saved previously (see \\\"-"
-"b\\\").\n"
+"\t\t\tDescription: Overwrite apps with snapshots saved previously (see \\\"-b\\\").\n"
 "\n"
 "\t\t\t${Gold}query, -q\\033[0m\n"
 "\n"
@@ -904,24 +766,16 @@ msgid ""
 "\t\t\t\t\t${LightBlue}$AMCLI -q --portable {KEYWORD}\n"
 "\t\t\t\t\t${LightBlue}$AMCLI -q --pkg {PROGRAM1} {PROGRAM2}\\033[0m\n"
 "\n"
-"\t\t\tDescription: Search for keywords in the list of available "
-"applications, add the \\\"--appimages\\\" option to list only the AppImages, "
-"\\\"--portable\\\" option to list only the portable apps or add \\\"--pkg\\"
-"\" to list multiple programs at once. The \\\"--all\\\" flag allows you to "
-"consult the set of all supported databases.\n"
+"\t\t\tDescription: Search for keywords in the list of available applications, add the \\\"--appimages\\\" option to list only the AppImages, \\\"--portable\\\" option to list only the portable apps or add \\\"--pkg\\\" to list multiple programs at once. The \\\"--all\\\" flag allows you to consult the set of all supported databases.\n"
 "\n"
 "\t\t\t${Gold}reinstall\\033[0m\n"
 "\n"
 "\t\t\t\t\t${LightBlue}$AMCLI reinstall\\033[0m\n"
 "\t\t\t\t\t${LightBlue}$AMCLI reinstall --all\\033[0m\n"
 "\n"
-"\t\t\tDescription: Reinstall only programs whose installation script has "
-"been modified in AM's online database. Use the \\\"--all\\\" flaf to "
-"reinstall everything instead.\n"
+"\t\t\tDescription: Reinstall only programs whose installation script has been modified in AM's online database. Use the \\\"--all\\\" flaf to reinstall everything instead.\n"
 "\n"
-"\t\t\tNOTE, this only works with the \\\"AM\\\" database. Apps installed "
-"with the \\\"-e\\\" option and custom scripts created with the \\\"-t\\\" "
-"option are not supported.\n"
+"\t\t\tNOTE, this only works with the \\\"AM\\\" database. Apps installed with the \\\"-e\\\" option and custom scripts created with the \\\"-t\\\" option are not supported.\n"
 "\n"
 "\t\t\t${Gold}remove, -r\\033[0m\n"
 "\n"
@@ -941,9 +795,7 @@ msgid ""
 "\n"
 "\t\t\tDescription: Run an AppImage in a sandbox using Aisap.\n"
 "\n"
-"\t\t\tNOTE, \\\"--sandbox\\\" can be used as a flag in \\\"-i\\\" and \\\"-"
-"ia\\\" or can be replaced using the option \\\"-ias\\\" (aka Install "
-"AppImage & Sandbox).\n"
+"\t\t\tNOTE, \\\"--sandbox\\\" can be used as a flag in \\\"-i\\\" and \\\"-ia\\\" or can be replaced using the option \\\"-ias\\\" (aka Install AppImage & Sandbox).\n"
 "\n"
 "\t\t\t${Gold}sync, -s\\033[0m\n"
 "\n"
@@ -955,35 +807,26 @@ msgid ""
 "\n"
 "\t\t\t\t\t${LightBlue}$AMCLI -t {PROGRAM}\\033[0m\n"
 "\n"
-"\t\t\tDescription: Generate a custom installation script. To test the "
-"scripts, use the \\\"${LightBlue}$AMCLI -i '/path/to/script'\\033[0m\\\" "
-"command or enter the directory of the script and run the \\"
-"\"${LightBlue}$AMCLI -i ./script\\033[0m\\\" command, even using dedicated "
-"flags, if necessary (see \\\"-i\\\").\n"
+"\t\t\tDescription: Generate a custom installation script. To test the scripts, use the \\\"${LightBlue}$AMCLI -i '/path/to/script'\\033[0m\\\" command or enter the directory of the script and run the \\\"${LightBlue}$AMCLI -i ./script\\033[0m\\\" command, even using dedicated flags, if necessary (see \\\"-i\\\").\n"
 "\n"
 "\t\t\t${Gold}translate, --translate\\033[0m\n"
 "\n"
 "\t\t\t\t\t${LightBlue}$AMCLI --translate\\033[0m\n"
 "\t\t\t\t\t${LightBlue}$AMCLI --translate {CODE}\\033[0m\n"
 "\n"
-"\t\t\tDescription: Download and set one or more language packs (if "
-"available), set \\\"$AMCLI\\\" to English (default), your language or other "
-"languages.\\n\\nVisit https://github.com/AM-community/localization to learn "
-"more on how to submit or improve translations.\n"
+"\t\t\tDescription: Download and set one or more language packs (if available), set \\\"$AMCLI\\\" to English (default), your language or other languages.\\n\\nVisit https://github.com/AM-community/localization to learn more on how to submit or improve translations.\n"
 "\n"
 "\t\t\t${Gold}unhide\\033[0m\n"
 "\n"
 "\t\t\t\t\t${LightBlue}$AMCLI unhide {PROGRAM}\\033[0m\n"
 "\n"
-"\t\t\tDescription: Allow a hidden app to be shown and managed again (nulls \\"
-"\"hide\\\").\n"
+"\t\t\tDescription: Allow a hidden app to be shown and managed again (nulls \\\"hide\\\").\n"
 "\n"
 "\t\t\t${Gold}unlock\\033[0m\n"
 "\n"
 "\t\t\t\t\t${LightBlue}$AMCLI unlock {PROGRAM}\\033[0m\n"
 "\n"
-"\t\t\tDescription: Unlock updates for the selected program (nulls \\\"lock\\"
-"\").\n"
+"\t\t\tDescription: Unlock updates for the selected program (nulls \\\"lock\\\").\n"
 "\n"
 "\t\t\t${Gold}update, -u, -U\\033[0m\n"
 "\n"
@@ -995,11 +838,7 @@ msgid ""
 "\t\t\t\t\t${LightBlue}$AMCLI -u --debug {PROGRAM}\n"
 "\t\t\t\t\t${LightBlue}$AMCLI -u --launcher\\033[0m\n"
 "\n"
-"\t\t\tDescription: Update everything. Add \\\"--apps\\\" to update only the "
-"apps or write only the apps you want to update by adding their names. Add "
-"the \\\"--debug\\\" flag to view the output of AM-updater scripts. Add the \\"
-"\"--launcher\\\" flag to try to update only local AppImages integrated with "
-"the \\\"--launcher\\\" option (see \\\"--launcher\\\").\n"
+"\t\t\tDescription: Update everything. Add \\\"--apps\\\" to update only the apps or write only the apps you want to update by adding their names. Add the \\\"--debug\\\" flag to view the output of AM-updater scripts. Add the \\\"--launcher\\\" flag to try to update only local AppImages integrated with the \\\"--launcher\\\" option (see \\\"--launcher\\\").\n"
 "\n"
 "\t\t\t${Gold}version, -v\\033[0m\n"
 "\n"
@@ -1035,28 +874,21 @@ msgid ""
 "\n"
 "\t\t\t\t\t${LightBlue}$AMCLI --enable-notifications\\033[0m\n"
 "\n"
-"\t\t\tDescription: Enable notifications during apps update (nulls \\\"--"
-"disable-notifications\\\").\n"
+"\t\t\tDescription: Enable notifications during apps update (nulls \\\"--disable-notifications\\\").\n"
 "\n"
 "\t\t\t${Gold}--force-latest\\033[0m\n"
 "\n"
 "\t\t\t\t\t${LightBlue}$AMCLI --force-latest {PROGRAM}\\033[0m\n"
 "\n"
-"\t\t\tDescription: Downgrades an installed app from pre-release to \\"
-"\"latest\\\".\n"
+"\t\t\tDescription: Downgrades an installed app from pre-release to \\\"latest\\\".\n"
 "\n"
 "\t\t\t${Gold}--launcher\\033[0m\n"
 "\n"
 "\t\t\t\t\t${LightBlue}$AMCLI --launcher /path/to/\\${APPIMAGE}\\033[0m\n"
 "\n"
-"\t\t\tDescription: Drag/drop one or more AppImages in the terminal and embed "
-"them in the apps menu and customize a command to use from the CLI.\n"
+"\t\t\tDescription: Drag/drop one or more AppImages in the terminal and embed them in the apps menu and customize a command to use from the CLI.\n"
 "\n"
-"\t\t\tNOTE that \\\"--launcher\\\" can be used as a flag in \\\"-u\\\" to "
-"try to update the integrated AppImages (see \\\"-u\\\"). This works only if "
-"\\\"appimageupdatetool\\\" is installed and delta updates are supported. "
-"This flag does not work miracles, I strongly suggest to use options \\\"-ia\\"
-"\" and \\\"-e\\\" instead.\n"
+"\t\t\tNOTE that \\\"--launcher\\\" can be used as a flag in \\\"-u\\\" to try to update the integrated AppImages (see \\\"-u\\\"). This works only if \\\"appimageupdatetool\\\" is installed and delta updates are supported. This flag does not work miracles, I strongly suggest to use options \\\"-ia\\\" and \\\"-e\\\" instead.\n"
 "\n"
 "\t\t\t${Gold}--system\\033[0m\n"
 "\n"
@@ -1066,14 +898,11 @@ msgid ""
 "\n"
 "\t\t\t\t\t${LightBlue}am --user\\033[0m\n"
 "\n"
-"\t\t\tDescription: Made \\\"AM\\\" run in \\\"AppMan Mode\\\", locally, "
-"useful for unprivileged users. This option only works with \\\"AM\\\".\n"
+"\t\t\tDescription: Made \\\"AM\\\" run in \\\"AppMan Mode\\\", locally, useful for unprivileged users. This option only works with \\\"AM\\\".\n"
 "\n"
-"\t\t\tThe \\\"--user\\\" option can also be used just as a flag for "
-"installation options. For example:\n"
+"\t\t\tThe \\\"--user\\\" option can also be used just as a flag for installation options. For example:\n"
 "\n"
-"\t\t\t- Use it to install applications locally, option \\\"-i\\\" or \\"
-"\"install\\\":\n"
+"\t\t\t- Use it to install applications locally, option \\\"-i\\\" or \\\"install\\\":\n"
 "\n"
 "\t\t\t\t${LightBlue}am -i --user {PROGRAM}\\033[0m\n"
 "\n"
@@ -1083,31 +912,25 @@ msgid ""
 "\t\t\t\t${LightBlue}am -i --user --force-latest {PROGRAM}\n"
 "\t\t\t\t${LightBlue}am -i --user --icons {PROGRAM}\n"
 "\t\t\t\t${LightBlue}am -i --user --debug --force-latest {PROGRAM}\n"
-"\t\t\t\t${LightBlue}am -i --user --debug --force-latest --icons "
-"{PROGRAM}\\033[0m\n"
+"\t\t\t\t${LightBlue}am -i --user --debug --force-latest --icons {PROGRAM}\\033[0m\n"
 "\n"
-"\t\t\t- Same for AppImages only, option \\\"-ia\\\" or \\\"install-appimage\\"
-"\":\n"
+"\t\t\t- Same for AppImages only, option \\\"-ia\\\" or \\\"install-appimage\\\":\n"
 "\n"
 "\t\t\t\t${LightBlue}am -ia --user {PROGRAM}\\033[0m\n"
 "\t\t\t\t${LightBlue}am -ia --user --debug {PROGRAM}\n"
 "\t\t\t\t${LightBlue}am -ia --user --force-latest {PROGRAM}\n"
 "\t\t\t\t${LightBlue}am -ia --user --icons {PROGRAM}\n"
 "\t\t\t\t${LightBlue}am -ia --user --debug --force-latest {PROGRAM}\\033[0m\n"
-"\t\t\t\t${LightBlue}am -ia --user --debug --force-latest --icons "
-"{PROGRAM}\\033[0m\n"
+"\t\t\t\t${LightBlue}am -ia --user --debug --force-latest --icons {PROGRAM}\\033[0m\n"
 "\n"
-"\t\t\t- External AppImages can be installed like this as well, option \\\"-"
-"e\\\" or \\\"extra\\\":\n"
+"\t\t\t- External AppImages can be installed like this as well, option \\\"-e\\\" or \\\"extra\\\":\n"
 "\n"
 "\t\t\t\t${LightBlue}am -e --user user/project {APPNAME}\\033[0m\n"
 "\t\t\t\t${LightBlue}am -e --user user/project {APPNAME} {KEYWORD}\\033[0m\n"
 "\n"
-"\t\t\tNOTE, \\\"AM\\\" 9 or higher is also able to, update and manage apps "
-"locally, by default, and without having to switch to \\\"AppMan Mode\\\".\n"
+"\t\t\tNOTE, \\\"AM\\\" 9 or higher is also able to, update and manage apps locally, by default, and without having to switch to \\\"AppMan Mode\\\".\n"
 "\n"
-"\t\t\tDescription: Switch \\\"AM\\\" back to \\\"AM\\\" from \\\"AppMan "
-"Mode\\\" (see \\\"--user\\\").\n"
+"\t\t\tDescription: Switch \\\"AM\\\" back to \\\"AM\\\" from \\\"AppMan Mode\\\" (see \\\"--user\\\").\n"
 "\n"
 "\t\t\t$DIVIDING_LINE\n"
 "\n"
@@ -1125,12 +948,8 @@ msgstr ""
 
 #: am/APP-MANAGER:1851
 #, fuzzy
-msgid ""
-"ERROR: unknown option \\\"$1\\\", run the \\\"$AMCLI -h\\\" command to find "
-"out more"
-msgstr ""
-"ERROR: unknown option \\\"$1\\\", run the \\\"$AMCLI -h\\\" command to find "
-"out more"
+msgid "ERROR: unknown option \\\"$1\\\", run the \\\"$AMCLI -h\\\" command to find out more"
+msgstr "ERROR: unknown option \\\"$1\\\", run the \\\"$AMCLI -h\\\" command to find out more"
 
 #: am/modules/database.am:51
 #, fuzzy
@@ -1234,10 +1053,8 @@ msgstr " ◆ $arg\t|\tother"
 
 #: am/modules/database.am:340
 #, fuzzy
-msgid ""
-" *has dependency to EOL libfuse2 library, please ask the creator to update\\n"
-msgstr ""
-" *has dependency to EOL libfuse2 library, please ask the creator to update\\n"
+msgid " *has dependency to EOL libfuse2 library, please ask the creator to update\\n"
+msgstr " *has dependency to EOL libfuse2 library, please ask the creator to update\\n"
 
 #: am/modules/database.am:357
 #, fuzzy
@@ -1256,10 +1073,8 @@ msgstr "\\n *this path is listed but not mounted, file size unknown\\n\\n"
 
 #: am/modules/database.am:521
 #, fuzzy
-msgid ""
-" To list all installable programs, use the \\\"%b--all\\033[0m\\\" flag\\n\\n"
-msgstr ""
-" To list all installable programs, use the \\\"%b--all\\033[0m\\\" flag\\n\\n"
+msgid " To list all installable programs, use the \\\"%b--all\\033[0m\\\" flag\\n\\n"
+msgstr " To list all installable programs, use the \\\"%b--all\\033[0m\\\" flag\\n\\n"
 
 #: am/modules/database.am:522
 #, fuzzy
@@ -1288,10 +1103,8 @@ msgstr " ERROR: %b not found\\033[0m\\n"
 
 #: am/modules/database.am:628
 #, fuzzy
-msgid ""
-"\\n Unknown flag, run \\\"-h\\\" to see supported third-party flags.\\n\\n"
-msgstr ""
-"\\n Unknown flag, run \\\"-h\\\" to see supported third-party flags.\\n\\n"
+msgid "\\n Unknown flag, run \\\"-h\\\" to see supported third-party flags.\\n\\n"
+msgstr "\\n Unknown flag, run \\\"-h\\\" to see supported third-party flags.\\n\\n"
 
 #: am/modules/database.am:649
 #, fuzzy
@@ -1325,16 +1138,13 @@ msgstr " 💀 ERROR: cannot create \\\"$arg\\\", the builder does not exists"
 
 #: am/modules/install.am:72
 #, fuzzy
-msgid ""
-" 💀 ERROR: you cannot install \\\"$arg\\\" without installing \\\"firefox\\\""
-msgstr ""
-" 💀 ERROR: you cannot install \\\"$arg\\\" without installing \\\"firefox\\\""
+msgid " 💀 ERROR: you cannot install \\\"$arg\\\" without installing \\\"firefox\\\""
+msgstr " 💀 ERROR: you cannot install \\\"$arg\\\" without installing \\\"firefox\\\""
 
 #: am/modules/install.am:83
 #, fuzzy
 msgid " 💀 ERROR: cannot install \\\"$arg\\\" without \\\"$dependency_name\\\""
-msgstr ""
-" 💀 ERROR: cannot install \\\"$arg\\\" without \\\"$dependency_name\\\""
+msgstr " 💀 ERROR: cannot install \\\"$arg\\\" without \\\"$dependency_name\\\""
 
 #: am/modules/install.am:99
 #, fuzzy
@@ -1348,12 +1158,8 @@ msgstr "%b%b"
 
 #: am/modules/install.am:124
 #, fuzzy
-msgid ""
-"\\n We can't be sure as to what is inside the application\\n We highly "
-"recommend that you sandbox this application\\n\\n"
-msgstr ""
-"\\n We can't be sure as to what is inside the application\\n We highly "
-"recommend that you sandbox this application\\n\\n"
+msgid "\\n We can't be sure as to what is inside the application\\n We highly recommend that you sandbox this application\\n\\n"
+msgstr "\\n We can't be sure as to what is inside the application\\n We highly recommend that you sandbox this application\\n\\n"
 
 #: am/modules/install.am:125 am/modules/install.am:141
 #, fuzzy
@@ -1383,8 +1189,7 @@ msgstr " 💀 ERROR: \\\"$arg\\\" already exists in /usr/local/lib"
 #: am/modules/install.am:140
 #, fuzzy
 msgid "\\n ⚠️ This script will install a system library in /usr/local/lib\\n\\n"
-msgstr ""
-"\\n ⚠️ This script will install a system library in /usr/local/lib\\n\\n"
+msgstr "\\n ⚠️ This script will install a system library in /usr/local/lib\\n\\n"
 
 #: am/modules/install.am:226 am/modules/install.am:229
 #, fuzzy
@@ -1468,10 +1273,8 @@ msgstr " USAGE: $AMCLI $1 --user [ARGUMENT]"
 
 #: am/modules/install.am:470
 #, fuzzy
-msgid ""
-"\\n                  %bSTART OF ALL INSTALLATION PROCESSES\\033[0m\\n\\n"
-msgstr ""
-"\\n                  %bSTART OF ALL INSTALLATION PROCESSES\\033[0m\\n\\n"
+msgid "\\n                  %bSTART OF ALL INSTALLATION PROCESSES\\033[0m\\n\\n"
+msgstr "\\n                  %bSTART OF ALL INSTALLATION PROCESSES\\033[0m\\n\\n"
 
 #: am/modules/install.am:497
 #, fuzzy
@@ -1490,14 +1293,8 @@ msgstr " 💀 ERROR: the file \\\"$arg\\\" does NOT exist"
 
 #: am/modules/install.am:512
 #, fuzzy
-msgid ""
-"💀 ERROR: \\\"$arg\\\" does NOT exist in the \\\"AM\\\" database, $(printf "
-"\"please check the list, run the \\\"%b$AMCLIPATH_ORIGIN -l\\033[0m\\\" "
-"command.\\n\\n\" \"${Gold}\")"
-msgstr ""
-"💀 ERROR: \\\"$arg\\\" does NOT exist in the \\\"AM\\\" database, $(printf "
-"\"please check the list, run the \\\"%b$AMCLIPATH_ORIGIN -l\\033[0m\\\" "
-"command.\\n\\n\" \"${Gold}\")"
+msgid "💀 ERROR: \\\"$arg\\\" does NOT exist in the \\\"AM\\\" database, $(printf \"please check the list, run the \\\"%b$AMCLIPATH_ORIGIN -l\\033[0m\\\" command.\\n\\n\" \"${Gold}\")"
+msgstr "💀 ERROR: \\\"$arg\\\" does NOT exist in the \\\"AM\\\" database, $(printf \"please check the list, run the \\\"%b$AMCLIPATH_ORIGIN -l\\033[0m\\\" command.\\n\\n\" \"${Gold}\")"
 
 #: am/modules/install.am:529
 #, fuzzy
@@ -1551,12 +1348,8 @@ msgstr "%b\\n Reinstalling everything...\\n%b\\n"
 
 #: am/modules/install.am:613
 #, fuzzy
-msgid ""
-"%b\\n Checking for changes of the installation scripts in the online "
-"database...\\n%b\\n"
-msgstr ""
-"%b\\n Checking for changes of the installation scripts in the online "
-"database...\\n%b\\n"
+msgid "%b\\n Checking for changes of the installation scripts in the online database...\\n%b\\n"
+msgstr "%b\\n Checking for changes of the installation scripts in the online database...\\n%b\\n"
 
 #: am/modules/install.am:639
 #, fuzzy
@@ -1570,14 +1363,8 @@ msgstr " Nothing to do here! \\n%b\\n"
 
 #: am/modules/management.am:14
 #, fuzzy
-msgid ""
-"\\n ◆ To set date and time as a name, press ENTER (default)\\n ◆ To set the "
-"version as a name, press \\\"1\\\"\\n ◆ To set a custom name, write anything "
-"else\\n\\n"
-msgstr ""
-"\\n ◆ To set date and time as a name, press ENTER (default)\\n ◆ To set the "
-"version as a name, press \\\"1\\\"\\n ◆ To set a custom name, write anything "
-"else\\n\\n"
+msgid "\\n ◆ To set date and time as a name, press ENTER (default)\\n ◆ To set the version as a name, press \\\"1\\\"\\n ◆ To set a custom name, write anything else\\n\\n"
+msgstr "\\n ◆ To set date and time as a name, press ENTER (default)\\n ◆ To set the version as a name, press \\\"1\\\"\\n ◆ To set a custom name, write anything else\\n\\n"
 
 #: am/modules/management.am:15
 #, fuzzy
@@ -1701,17 +1488,13 @@ msgstr "ROLLBACK SUCCESSFUL!"
 
 #: am/modules/management.am:238
 #, fuzzy
-msgid ""
-"WARNING: cannot extract old type 1 AppImages, install \\\"7z\\\" and retry."
-msgstr ""
-"WARNING: cannot extract old type 1 AppImages, install \\\"7z\\\" and retry."
+msgid "WARNING: cannot extract old type 1 AppImages, install \\\"7z\\\" and retry."
+msgstr "WARNING: cannot extract old type 1 AppImages, install \\\"7z\\\" and retry."
 
 #: am/modules/management.am:251
 #, fuzzy
-msgid ""
-"WARNING: \\\"$BINDIR\\\" is not in PATH, apps may not run from command line."
-msgstr ""
-"WARNING: \\\"$BINDIR\\\" is not in PATH, apps may not run from command line."
+msgid "WARNING: \\\"$BINDIR\\\" is not in PATH, apps may not run from command line."
+msgstr "WARNING: \\\"$BINDIR\\\" is not in PATH, apps may not run from command line."
 
 #: am/modules/management.am:254
 #, fuzzy
@@ -1765,12 +1548,8 @@ msgstr " ◆ File: %s\\n"
 
 #: am/modules/management.am:306
 #, fuzzy
-msgid ""
-" \\\"$AMCLIUPPER\\\" cannot manage updates for $2, \\\"AM-updater\\\" file "
-"not found!"
-msgstr ""
-" \\\"$AMCLIUPPER\\\" cannot manage updates for $2, \\\"AM-updater\\\" file "
-"not found!"
+msgid " \\\"$AMCLIUPPER\\\" cannot manage updates for $2, \\\"AM-updater\\\" file not found!"
+msgstr " \\\"$AMCLIUPPER\\\" cannot manage updates for $2, \\\"AM-updater\\\" file not found!"
 
 #: am/modules/management.am:309
 #, fuzzy
@@ -1834,10 +1613,8 @@ msgstr " The .zsync file will be removed and will no longer work"
 
 #: am/modules/management.am:358
 #, fuzzy
-msgid ""
-" your \\\"AM-updater\\\" will likely still be able to update the AppImage"
-msgstr ""
-" your \\\"AM-updater\\\" will likely still be able to update the AppImage"
+msgid " your \\\"AM-updater\\\" will likely still be able to update the AppImage"
+msgstr " your \\\"AM-updater\\\" will likely still be able to update the AppImage"
 
 #: am/modules/management.am:359
 #, fuzzy
@@ -1881,10 +1658,8 @@ msgstr " The next update may replace this AppImage with a Type2 one"
 
 #: am/modules/management.am:408
 #, fuzzy
-msgid ""
-" so I added this command to the bottom of the \\\"AM-updater\\\" script!"
-msgstr ""
-" so I added this command to the bottom of the \\\"AM-updater\\\" script!"
+msgid " so I added this command to the bottom of the \\\"AM-updater\\\" script!"
+msgstr " so I added this command to the bottom of the \\\"AM-updater\\\" script!"
 
 #: am/modules/management.am:410
 #, fuzzy
@@ -1898,12 +1673,8 @@ msgstr " Do you wish to remove the old libfuse2 AppImage? (Y/n) "
 
 #: am/modules/management.am:438 am/modules/management.am:454
 #, fuzzy
-msgid ""
-" \\\"${RED}$arg\\033[0m\\\" is not a valid \\\"APPNAME\\\", see \\\"$AMCLI -"
-"f\\\" for more."
-msgstr ""
-" \\\"${RED}$arg\\033[0m\\\" is not a valid \\\"APPNAME\\\", see \\\"$AMCLI -"
-"f\\\" for more."
+msgid " \\\"${RED}$arg\\033[0m\\\" is not a valid \\\"APPNAME\\\", see \\\"$AMCLI -f\\\" for more."
+msgstr " \\\"${RED}$arg\\033[0m\\\" is not a valid \\\"APPNAME\\\", see \\\"$AMCLI -f\\\" for more."
 
 #: am/modules/management.am:439
 #, fuzzy
@@ -1927,10 +1698,8 @@ msgstr " ◆ Do you wish to allow custom icon theming for ALL the apps? (y,N) "
 
 #: am/modules/management.am:515
 #, fuzzy
-msgid ""
-" ◆ Do you wish to allow custom icon theming for the selected apps? (y,N) "
-msgstr ""
-" ◆ Do you wish to allow custom icon theming for the selected apps? (y,N) "
+msgid " ◆ Do you wish to allow custom icon theming for the selected apps? (y,N) "
+msgstr " ◆ Do you wish to allow custom icon theming for the selected apps? (y,N) "
 
 #: am/modules/management.am:522
 #, fuzzy
@@ -2039,12 +1808,8 @@ msgstr " ◆ ADD A BRIEF DESCRIPTION FOR THIS APPLICATION $(echo -e '\\n : ')"
 
 #: am/modules/template.am:83
 #, fuzzy
-msgid ""
-" ◆ FOR \\\"WGET\\\", ADD A COMMAND AS \\\"\\$( ... )\\\" OR A LINEAR "
-"DOWNLOAD URL $(echo -e '\\n : ')"
-msgstr ""
-" ◆ FOR \\\"WGET\\\", ADD A COMMAND AS \\\"\\$( ... )\\\" OR A LINEAR "
-"DOWNLOAD URL $(echo -e '\\n : ')"
+msgid " ◆ FOR \\\"WGET\\\", ADD A COMMAND AS \\\"\\$( ... )\\\" OR A LINEAR DOWNLOAD URL $(echo -e '\\n : ')"
+msgstr " ◆ FOR \\\"WGET\\\", ADD A COMMAND AS \\\"\\$( ... )\\\" OR A LINEAR DOWNLOAD URL $(echo -e '\\n : ')"
 
 #: am/modules/template.am:115
 #, fuzzy
@@ -2053,16 +1818,8 @@ msgstr " Do you want to use repology.org to identify version (y,N)? "
 
 #: am/modules/template.am:161
 #, fuzzy
-msgid ""
-" LIST OF CATEGORIES:\\n 0) AudioVideo\\n 1) Audio\\n 2) Video\\n 3) "
-"Development\\n 4) Education\\n 5) Game\\n 6) Graphics\\n 7) Network\\n 8) "
-"Office\\n 9) Science\\n 10) Settings\\n 11) System\\n 12) Utility "
-"(default)\\n "
-msgstr ""
-" LIST OF CATEGORIES:\\n 0) AudioVideo\\n 1) Audio\\n 2) Video\\n 3) "
-"Development\\n 4) Education\\n 5) Game\\n 6) Graphics\\n 7) Network\\n 8) "
-"Office\\n 9) Science\\n 10) Settings\\n 11) System\\n 12) Utility "
-"(default)\\n "
+msgid " LIST OF CATEGORIES:\\n 0) AudioVideo\\n 1) Audio\\n 2) Video\\n 3) Development\\n 4) Education\\n 5) Game\\n 6) Graphics\\n 7) Network\\n 8) Office\\n 9) Science\\n 10) Settings\\n 11) System\\n 12) Utility (default)\\n "
+msgstr " LIST OF CATEGORIES:\\n 0) AudioVideo\\n 1) Audio\\n 2) Video\\n 3) Development\\n 4) Education\\n 5) Game\\n 6) Graphics\\n 7) Network\\n 8) Office\\n 9) Science\\n 10) Settings\\n 11) System\\n 12) Utility (default)\\n "
 
 #: am/modules/template.am:162
 #, fuzzy
@@ -2072,30 +1829,18 @@ msgstr " CHOOSE A CATEGORY : "
 #: am/modules/template.am:256 am/modules/template.am:275
 #: am/modules/template.am:292 am/modules/template.am:338
 #, fuzzy
-msgid ""
-"\\n The URL above is an example of what both\\n the install and update "
-"scripts will point to.\\n"
-msgstr ""
-"\\n The URL above is an example of what both\\n the install and update "
-"scripts will point to.\\n"
+msgid "\\n The URL above is an example of what both\\n the install and update scripts will point to.\\n"
+msgstr "\\n The URL above is an example of what both\\n the install and update scripts will point to.\\n"
 
 #: am/modules/template.am:306
 #, fuzzy
-msgid ""
-" ◆ ADD THE NAME OF THE PROJECT OR LEAVE BLANK IF ITS THE SAME $(echo -e "
-"'\\n : ')"
-msgstr ""
-" ◆ ADD THE NAME OF THE PROJECT OR LEAVE BLANK IF ITS THE SAME $(echo -e "
-"'\\n : ')"
+msgid " ◆ ADD THE NAME OF THE PROJECT OR LEAVE BLANK IF ITS THE SAME $(echo -e '\\n : ')"
+msgstr " ◆ ADD THE NAME OF THE PROJECT OR LEAVE BLANK IF ITS THE SAME $(echo -e '\\n : ')"
 
 #: am/modules/template.am:316
 #, fuzzy
-msgid ""
-" ◆ ADD an univoque keyword for the file (for example \\\"tar.gz\\\", \\"
-"\"linux\\\"):"
-msgstr ""
-" ◆ ADD an univoque keyword for the file (for example \\\"tar.gz\\\", \\"
-"\"linux\\\"):"
+msgid " ◆ ADD an univoque keyword for the file (for example \\\"tar.gz\\\", \\\"linux\\\"):"
+msgstr " ◆ ADD an univoque keyword for the file (for example \\\"tar.gz\\\", \\\"linux\\\"):"
 
 #: am/modules/template.am:363
 #, fuzzy
@@ -2104,19 +1849,13 @@ msgstr " Create a template for \\\"$arg\\\""
 
 #: am/modules/template.am:367
 #, fuzzy
-msgid ""
-" EACH MODEL IS BASED ON A DIFFERENT METHOD OF BUILDING/UPDATING THE PROGRAM."
-msgstr ""
-" EACH MODEL IS BASED ON A DIFFERENT METHOD OF BUILDING/UPDATING THE PROGRAM."
+msgid " EACH MODEL IS BASED ON A DIFFERENT METHOD OF BUILDING/UPDATING THE PROGRAM."
+msgstr " EACH MODEL IS BASED ON A DIFFERENT METHOD OF BUILDING/UPDATING THE PROGRAM."
 
 #: am/modules/template.am:369
 #, fuzzy
-msgid ""
-" PLEASE, SELECT A TEMPLATE FOR \\\"$(echo \"$arg\" | tr '[:lower:]' '[:"
-"upper:]')\\\":"
-msgstr ""
-" PLEASE, SELECT A TEMPLATE FOR \\\"$(echo \"$arg\" | tr '[:lower:]' '[:"
-"upper:]')\\\":"
+msgid " PLEASE, SELECT A TEMPLATE FOR \\\"$(echo \"$arg\" | tr '[:lower:]' '[:upper:]')\\\":"
+msgstr " PLEASE, SELECT A TEMPLATE FOR \\\"$(echo \"$arg\" | tr '[:lower:]' '[:upper:]')\\\":"
 
 #: am/modules/template.am:371
 #, fuzzy
@@ -2135,10 +1874,8 @@ msgstr "  2) ANY ARCHIVE/BINARY/SCRIPT FROM ANY WEBSITE"
 
 #: am/modules/template.am:374
 #, fuzzy
-msgid ""
-"  3) WEBAPP BASED ON A FIREFOX PROFILE (REQUIRES \\\"FIREFOX\\\" IN \\$PATH)"
-msgstr ""
-"  3) WEBAPP BASED ON A FIREFOX PROFILE (REQUIRES \\\"FIREFOX\\\" IN \\$PATH)"
+msgid "  3) WEBAPP BASED ON A FIREFOX PROFILE (REQUIRES \\\"FIREFOX\\\" IN \\$PATH)"
+msgstr "  3) WEBAPP BASED ON A FIREFOX PROFILE (REQUIRES \\\"FIREFOX\\\" IN \\$PATH)"
 
 #: am/modules/template.am:376
 #, fuzzy
@@ -2148,8 +1885,7 @@ msgstr " WHAT KIND OF PROGRAM DO YOU WANT TO WRITE A SCRIPT FOR? : "
 #: am/modules/template.am:384 am/modules/template.am:427
 #, fuzzy
 msgid ""
-" ◆ ADD THE URL OF THE SITE (BETTER IF IT COME FROM GITHUB), FOR EXAMPLE: "
-"$(echo -e '\n"
+" ◆ ADD THE URL OF THE SITE (BETTER IF IT COME FROM GITHUB), FOR EXAMPLE: $(echo -e '\n"
 "\n"
 " - if from github.com, use \"https://github.com/USER/PROJECT\"\n"
 "\n"
@@ -2157,8 +1893,7 @@ msgid ""
 "\n"
 " URL: ')"
 msgstr ""
-" ◆ ADD THE URL OF THE SITE (BETTER IF IT COME FROM GITHUB), FOR EXAMPLE: "
-"$(echo -e '\n"
+" ◆ ADD THE URL OF THE SITE (BETTER IF IT COME FROM GITHUB), FOR EXAMPLE: $(echo -e '\n"
 "\n"
 " - if from github.com, use \"https://github.com/USER/PROJECT\"\n"
 "\n"
@@ -2174,12 +1909,8 @@ msgstr "\\n All files are saved in $SCRIPTDIR/am-scripts\\n"
 
 #: am/modules/template.am:408
 #, fuzzy
-msgid ""
-" ◆ ADD A LINEAR DOWNLOAD URL FOR THE SCRIPT OR LEAVE BLANK $(echo -e '\\n : "
-"')"
-msgstr ""
-" ◆ ADD A LINEAR DOWNLOAD URL FOR THE SCRIPT OR LEAVE BLANK $(echo -e '\\n : "
-"')"
+msgid " ◆ ADD A LINEAR DOWNLOAD URL FOR THE SCRIPT OR LEAVE BLANK $(echo -e '\\n : ')"
+msgstr " ◆ ADD A LINEAR DOWNLOAD URL FOR THE SCRIPT OR LEAVE BLANK $(echo -e '\\n : ')"
 
 #: am/modules/template.am:442
 #, fuzzy
@@ -2366,12 +2097,8 @@ msgstr ""
 #~ msgstr "Language already included"
 
 #, fuzzy
-#~ msgid ""
-#~ " Try again with another language, or run \\\"$AMCLI --translate\\\" to "
-#~ "update added translations"
-#~ msgstr ""
-#~ " Try again with another language, or run \\\"$AMCLI --translate\\\" to "
-#~ "update added translations"
+#~ msgid " Try again with another language, or run \\\"$AMCLI --translate\\\" to update added translations"
+#~ msgstr " Try again with another language, or run \\\"$AMCLI --translate\\\" to update added translations"
 
 #, fuzzy
 #~ msgid "Merging with old ${i}.po"
@@ -2404,6 +2131,3 @@ msgstr ""
 #, fuzzy
 #~ msgid "$HELP_MESSAGE"
 #~ msgstr "$HELP_MESSAGE"
-
-msgid "\\\"$AMCLIUPPER\\\" $AMVERSION:"
-msgstr ""
