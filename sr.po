@@ -2807,6 +2807,10 @@ msgstr " ◆ URL WEB APLIKACIJE: "
 msgid "\\n No valid argument was chosen: process aborted! \\n"
 msgstr "\\n Nijedan važeći argument nije odabran: proces obustavljen! \\n"
 
+#: am/modules/yad.am:13
+msgid "ERROR! yad is missing! Install it..."
+msgstr ""
+
 #~ msgid " Run the \\\"$AMCLI -h\\\" command to find out more"
 #~ msgstr " Pokreni \\\"$AMCLI -h\\\" komandu da saznaš više"
 
