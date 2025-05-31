@@ -12,454 +12,470 @@ msgstr  "Project-Id-Version: am 9.8\n"
         "Content-Transfer-Encoding: 8bit\n"
         "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: am/APP-MANAGER:91
+#: am/APP-MANAGER:92
 msgid   "Add a suitable locale code, for example \\\"it\\\" for Italian\\n\\n"
 msgstr  ""
 
-#: am/APP-MANAGER:92
+#: am/APP-MANAGER:93
 msgid   " Leave blank to use \\\"$CLI\\\" in English: "
 msgstr  ""
 
-#: am/APP-MANAGER:111
+#: am/APP-MANAGER:112
 msgid   "Setting locale to \\\"%b\\\"\\n"
 msgstr  ""
 
-#: am/APP-MANAGER:117
+#: am/APP-MANAGER:118
 msgid   "\\n Please do not use \\\"sudo\\\" to execute \\\"%b\\\", try again.\\n\\n"
 msgstr  ""
 
-#: am/APP-MANAGER:145
+#: am/APP-MANAGER:146
 msgid   "Install 'less' if you want to scroll this list"
 msgstr  ""
 
-#: am/APP-MANAGER:162
+#: am/APP-MANAGER:163
 msgid   "💀 ERROR: Your version of sed does not support '-i' flag without extension, we tried to workaround and failed"
 msgstr  ""
 
-#: am/APP-MANAGER:163
+#: am/APP-MANAGER:164
 msgid   " Please install gsed"
 msgstr  ""
 
-#: am/APP-MANAGER:191
+#: am/APP-MANAGER:192
 msgid   ">>> Configure AppMan"
 msgstr  ""
 
-#: am/APP-MANAGER:191
+#: am/APP-MANAGER:192
 msgid   ">>> Thank you for choosing AppMan!"
 msgstr  ""
 
-#: am/APP-MANAGER:195
+#: am/APP-MANAGER:196
 msgid   " Write the path or just press enter to use default:$(printf \"\\n\\n \")"
 msgstr  ""
 
-#: am/APP-MANAGER:203
+#: am/APP-MANAGER:204
 msgid   " 💀 ERROR, you can't install applications in \\\"$BINDIR\\\""
 msgstr  ""
 
-#: am/APP-MANAGER:204
+#: am/APP-MANAGER:205
 msgid   " $BINDIR is normally used for executables, Please choose a different path and retry!"
 msgstr  ""
 
-#: am/APP-MANAGER:208
+#: am/APP-MANAGER:209
 msgid   " 💀 ERROR: You don't have write access to $location or it is invalid"
 msgstr  ""
 
-#: am/APP-MANAGER:214
+#: am/APP-MANAGER:215
 msgid   " You are ready! Start installing your favorite apps locally!"
 msgstr  ""
 
-#: am/APP-MANAGER:215
+#: am/APP-MANAGER:216
 msgid   " All apps will be installed in $location"
 msgstr  ""
 
-#: am/APP-MANAGER:216
+#: am/APP-MANAGER:217
 msgid   " In case of problems, use the option \\\"-h\\\"."
 msgstr  ""
 
-#: am/APP-MANAGER:236
+#: am/APP-MANAGER:237
 msgid   "ERROR: You don't have write access to $APPSPATH"
 msgstr  ""
 
-#: am/APP-MANAGER:240
+#: am/APP-MANAGER:241
 msgid   "%b ⚠️ WARNING\\033[0m: \\\"%b%b\\033[0m\\\" is not in PATH, local apps may not run.\\n"
 msgstr  ""
 
-#: am/APP-MANAGER:339
+#: am/APP-MANAGER:340
 msgid   "\\\"$AMCLIUPPER\\\" $AMVERSION: DEVELOPER MODE"
 msgstr  ""
 
-#: am/APP-MANAGER:369
+#: am/APP-MANAGER:370
 msgid   " ${RED}💀 ERROR! MISSING ESSENTIAL COMMANDS\\033[0m: %s\\n\\n Install the above and try again! \\n"
 msgstr  ""
 
-#: am/APP-MANAGER:371
+#: am/APP-MANAGER:372
 msgid   "%bList of the %b core dependences\\033[0m:\\n\\n%b\\n"
 msgstr  ""
 
-#: am/APP-MANAGER:373
+#: am/APP-MANAGER:374
 msgid   "If this message appears it is because you are missing some dependency and if its the first time its because something new has been introduced.\\n\\n"
 msgstr  ""
 
-#: am/APP-MANAGER:374
+#: am/APP-MANAGER:375
 msgid   " See %bhttps://github.com/ivan-hc/AM#core-dependences\\033[0m for more information\\n"
 msgstr  ""
 
-#: am/APP-MANAGER:382
+#: am/APP-MANAGER:383
 msgid   "\\n%bWARNING: your distro maintainer ships \\\"wget2\\\" as \\\"wget\\\" \\033[0m\\n\\n"
 msgstr  ""
 
-#: am/APP-MANAGER:383
+#: am/APP-MANAGER:384
 msgid   "Please install \\\"%bwget1\\033[0m\\\" and \\\"%bwget1-wget\\033[0m\\\" (use %b--allowerasing\\033[0m if you have to)\\n\\nSee https://bugzilla.redhat.com/show_bug.cgi?id=2358792\\n\\n"
 msgstr  ""
 
-#: am/APP-MANAGER:390
+#: am/APP-MANAGER:391
 msgid   "\\n %b⚠️ WARNING: ACCESS TO USER NAMESPACES IS RESTRICTED! \\033[0m\\n\\n"
 msgstr  ""
 
-#: am/APP-MANAGER:391
+#: am/APP-MANAGER:392
 msgid   " Some apps may not run, you need to enable access to user namespaces, see"
 msgstr  ""
 
-#: am/APP-MANAGER:393
+#: am/APP-MANAGER:394
 msgid   " to know more."
 msgstr  ""
 
-#: am/APP-MANAGER:405
+#: am/APP-MANAGER:406
 msgid   "\\n %b is offline, please check your internet connection and try again\\n\\n"
 msgstr  ""
 
-#: am/APP-MANAGER:414
+#: am/APP-MANAGER:415
 msgid   "\\n %b💀WARNING! Detected \\\"%b\\\"\\033[0m\\n\\n"
 msgstr  ""
 
-#: am/APP-MANAGER:415
+#: am/APP-MANAGER:416
 msgid   "It will prevent \\\"$AMCLIUPPER\\\" from working correctly with AppImages, especially when extracting, integrating and updating them."
 msgstr  ""
 
-#: am/APP-MANAGER:419
+#: am/APP-MANAGER:420
 msgid   " Please remove \\\"AppImageLauncher\\\", reboot and retry!"
 msgstr  ""
 
-#: am/APP-MANAGER:421
+#: am/APP-MANAGER:422
 msgid   " Please remove \\\"$blacklisted_file\\\", reboot and retry!"
 msgstr  ""
 
-#: am/APP-MANAGER:440 am/modules/database.am:549 am/modules/database.am:637
+#: am/APP-MANAGER:441 am/modules/database.am:549 am/modules/database.am:637
 #: am/modules/install.am:432 am/modules/install.am:457
 #: am/modules/management.am:467 am/modules/sandboxes.am:249
 #: am/modules/template.am:351
 msgid   " USAGE: $AMCLI $1 [ARGUMENT]"
 msgstr  ""
 
-#: am/APP-MANAGER:444
+#: am/APP-MANAGER:445
 msgid   " USAGE:\t$AMCLI $1 $2 /path/to/dir"
 msgstr  ""
 
-#: am/APP-MANAGER:450 am/APP-MANAGER:454 am/APP-MANAGER:464
+#: am/APP-MANAGER:451 am/APP-MANAGER:455 am/APP-MANAGER:465
 msgid   " ERROR, \\\"$AMDATADIR/newrepo-lists\\\" file not found"
 msgstr  ""
 
-#: am/APP-MANAGER:451
+#: am/APP-MANAGER:452
 msgid   " New repo ON!"
 msgstr  ""
 
-#: am/APP-MANAGER:455
+#: am/APP-MANAGER:456
 msgid   " New repo OFF!"
 msgstr  ""
 
-#: am/APP-MANAGER:458
+#: am/APP-MANAGER:459
 msgid   " Source: %b\\n Apps: %b\\n List: %b\\n"
 msgstr  ""
 
-#: am/APP-MANAGER:461
+#: am/APP-MANAGER:462
 msgid   " Removed all 3rd party repositories"
 msgstr  ""
 
-#: am/APP-MANAGER:465
+#: am/APP-MANAGER:466
 msgid   "Select a repo from the list or press CTRL+C to abort:\\n%b\\n"
 msgstr  ""
 
-#: am/APP-MANAGER:468
+#: am/APP-MANAGER:469
 msgid   ">>> Invalid Selection"
 msgstr  ""
 
-#: am/APP-MANAGER:489
+#: am/APP-MANAGER:490
 msgid   " Source: $AMREPO"
 msgstr  ""
 
-#: am/APP-MANAGER:611
+#: am/APP-MANAGER:612
 msgid   "Shell completion has been enabled!"
 msgstr  ""
 
-#: am/APP-MANAGER:743
+#: am/APP-MANAGER:744
 msgid   "Validation successful!"
 msgstr  ""
 
-#: am/APP-MANAGER:746
+#: am/APP-MANAGER:747
 msgid   "ERROR: Invalid token or insufficient permissions!"
 msgstr  ""
 
-#: am/APP-MANAGER:749
+#: am/APP-MANAGER:750
 msgid   "ERROR: Unexpected response (HTTP $HTTP_STATUS)"
 msgstr  ""
 
-#: am/APP-MANAGER:757
+#: am/APP-MANAGER:758
 msgid   " ✖ No file named $ghapikey_file has been found"
 msgstr  ""
 
-#: am/APP-MANAGER:766
+#: am/APP-MANAGER:767
 msgid   " ✔ $ghapikey_file has been removed"
 msgstr  ""
 
-#: am/APP-MANAGER:767
+#: am/APP-MANAGER:768
 msgid   " ✔ Authorization headers removed from updater files"
 msgstr  ""
 
-#: am/APP-MANAGER:777
+#: am/APP-MANAGER:778
 msgid   "ERROR: Wrong expression, validation failed!"
 msgstr  ""
 
-#: am/APP-MANAGER:788
+#: am/APP-MANAGER:789
 msgid   " ⚠️ Warning: Stored GitHub API token is invalid or expired"
 msgstr  ""
 
-#: am/APP-MANAGER:790
+#: am/APP-MANAGER:791
 msgid   " Please either:"
 msgstr  ""
 
-#: am/APP-MANAGER:791
+#: am/APP-MANAGER:792
 msgid   "   1. Generate a new token and add it with: $AMCLI apikey YOUR_NEW_TOKEN"
 msgstr  ""
 
-#: am/APP-MANAGER:792
+#: am/APP-MANAGER:793
 msgid   "   2. Remove the invalid token with: $AMCLI apikey del"
 msgstr  ""
 
-#: am/APP-MANAGER:794
+#: am/APP-MANAGER:795
 msgid   " For instructions on creating GitHub tokens, see:"
 msgstr  ""
 
-#: am/APP-MANAGER:826
+#: am/APP-MANAGER:827
 msgid   " This function only works for AM"
 msgstr  ""
 
-#: am/APP-MANAGER:828
+#: am/APP-MANAGER:829
 msgid   " Do you wish to enter \\\"AppMan Mode\\\" (y,N)?"
 msgstr  ""
 
-#: am/APP-MANAGER:843
+#: am/APP-MANAGER:844
 msgid   " \\\"AM\\\" is read-only, want to use it in \\\"AppMan Mode\\\" (Y,n)? "
 msgstr  ""
 
-#: am/APP-MANAGER:847
+#: am/APP-MANAGER:848
 msgid   "\\\"AppMan Mode\\\" enabled!"
 msgstr  ""
 
-#: am/APP-MANAGER:859
+#: am/APP-MANAGER:860
 msgid   " ✔ Clear the contents of $CACHEDIR/am"
 msgstr  ""
 
-#: am/APP-MANAGER:860
+#: am/APP-MANAGER:861
 msgid   " ✔ Clear the contents of $CACHEDIR/appman"
 msgstr  ""
 
-#: am/APP-MANAGER:866
+#: am/APP-MANAGER:867
 msgid   " ✔ Clear the contents of $arg/*.home/.cache"
 msgstr  ""
 
-#: am/APP-MANAGER:875
+#: am/APP-MANAGER:876
 msgid   " ✔ Removed $arg/tmp"
 msgstr  ""
 
-#: am/APP-MANAGER:902
+#: am/APP-MANAGER:903
 msgid   " ✖ ERROR: cannot remove \\\"$(basename \"$var\")\\\""
 msgstr  ""
 
-#: am/APP-MANAGER:903
+#: am/APP-MANAGER:904
 msgid   "   related AppImage is located in an unmounted path of $unmounted_point"
 msgstr  ""
 
-#: am/APP-MANAGER:931
+#: am/APP-MANAGER:932
 msgid   " ✔ Removed obsolete module named \\\"$(basename -- \"$m\")\\\""
 msgstr  ""
 
-#: am/APP-MANAGER:937
+#: am/APP-MANAGER:938
 msgid   " Cleaning temporary files and folders..."
 msgstr  ""
 
-#: am/APP-MANAGER:960
+#: am/APP-MANAGER:961
 msgid   "✔ $argpath has been hidden"
 msgstr  ""
 
-#: am/APP-MANAGER:960
+#: am/APP-MANAGER:961
 msgid   "✖ Can't hide \\\"$arg\\\", app already hidden or non-existent"
 msgstr  ""
 
-#: am/APP-MANAGER:964
+#: am/APP-MANAGER:965
 msgid   "✔ /opt/$arg can be managed again"
 msgstr  ""
 
-#: am/APP-MANAGER:965
+#: am/APP-MANAGER:966
 msgid   "✔ $APPMAN_APPSPATH/$arg can be managed again"
 msgstr  ""
 
-#: am/APP-MANAGER:976
+#: am/APP-MANAGER:977
 msgid   "%b\\n Checking for changes of the installation scripts in the online database...\\n"
 msgstr  ""
 
-#: am/APP-MANAGER:989
-msgid   " ◆ %b%b\\033[0m has changed, you may need to reinstall it, see\\n   https://github.com/ivan-hc/AM/blob/main/programs/%b/%b\\n"
+#: am/APP-MANAGER:990
+msgid   " ◆ %b%b\\033[0m has changed, you may need to reinstall it, see\\n   https://github.com/$AM_THE_OWNER/AM/blob/main/programs/%b/%b\\n"
 msgstr  ""
 
-#: am/APP-MANAGER:994
+#: am/APP-MANAGER:995
 msgid   " ◆ No installation script for %b, downloading one...\\n"
 msgstr  ""
 
-#: am/APP-MANAGER:1003
+#: am/APP-MANAGER:1004
 msgid   "\\n To fix the above, just run \\\"%b%b reinstall\\033[0m\\\", without arguments\\n"
 msgstr  ""
 
-#: am/APP-MANAGER:1017
+#: am/APP-MANAGER:1018
 msgid   "%b\\n Check and update offline lists of additional databases...\\n"
 msgstr  ""
 
-#: am/APP-MANAGER:1026
+#: am/APP-MANAGER:1027
 msgid   "%b\\n Check and update localization...\\n"
 msgstr  ""
 
-#: am/APP-MANAGER:1033
+#: am/APP-MANAGER:1034
 msgid   "%b\\n Check for updates in modules...\\n"
 msgstr  ""
 
-#: am/APP-MANAGER:1038
+#: am/APP-MANAGER:1039
 msgid   " ◆ Downloading $module_name (not previously installed)..."
 msgstr  ""
 
-#: am/APP-MANAGER:1047
+#: am/APP-MANAGER:1048
 msgid   " ◆ Updating $module_name..."
 msgstr  ""
 
-#: am/APP-MANAGER:1057
+#: am/APP-MANAGER:1058
 msgid   "\\n ◆ SYNCHRONIZING \\\"$AMCLIUPPER\\\" VERSION \\\"$CURRENT_AM_VERSION\\\"...\\r"
 msgstr  ""
 
-#: am/APP-MANAGER:1064
+#: am/APP-MANAGER:1065
 msgid   " A new release of \\\"$AMCLIUPPER\\\" is available, please wait...\\r"
 msgstr  ""
 
-#: am/APP-MANAGER:1065
+#: am/APP-MANAGER:1066
 msgid   " ◆ \\\"$AMCLIUPPER\\\" IS NOW UPDATED TO THE BRAND NEW \\\"$NEW_AM_VERSION\\\" VERSION!"
 msgstr  ""
 
-#: am/APP-MANAGER:1066
+#: am/APP-MANAGER:1067
 msgid   "\\n  Replacement of version \\\"%b\\\" currently in use, COMPLETED! \\n"
 msgstr  ""
 
-#: am/APP-MANAGER:1067
-msgid   "\\n See https://github.com/ivan-hc/AM/commits/main\\n\\n"
-msgstr  ""
-
-#: am/APP-MANAGER:1069
-msgid   " ◆ \\\"$AMCLIUPPER\\\" IS ALREADY UPDATED, CURRENT VERSION \\\"$CURRENT_AM_VERSION\\\""
+#: am/APP-MANAGER:1068
+msgid   "\\n See https://github.com/$AM_THE_OWNER/AM/commits/main\\n\\n"
 msgstr  ""
 
 #: am/APP-MANAGER:1070
-msgid   "\\n See https://github.com/ivan-hc/AM/commits/%b\\n\\n"
+msgid   " ◆ \\\"$AMCLIUPPER\\\" IS ALREADY UPDATED, CURRENT VERSION \\\"$CURRENT_AM_VERSION\\\""
 msgstr  ""
 
-#: am/APP-MANAGER:1109
-msgid   " %b\\\"%b\\\" CAN MANAGE UPDATES FOR THE FOLLOWING PROGRAMS\\033[0m:\\n%b\\n\\n"
+#: am/APP-MANAGER:1071
+msgid   "\\n See https://github.com/$AM_THE_OWNER/AM/commits/%b\\n\\n"
 msgstr  ""
 
 #: am/APP-MANAGER:1110
-msgid   " None"
+msgid   " %b\\\"%b\\\" CAN MANAGE UPDATES FOR THE FOLLOWING PROGRAMS\\033[0m:\\n%b\\n\\n"
 msgstr  ""
 
 #: am/APP-MANAGER:1111
+msgid   " None"
+msgstr  ""
+
+#: am/APP-MANAGER:1112
 msgid   "\\n %bAll self-updatable programs are excluded\\033[0m\\n"
 msgstr  ""
 
-#: am/APP-MANAGER:1137
+#: am/APP-MANAGER:1138
 msgid   " Nothing to do here! \\n"
 msgstr  ""
 
-#: am/APP-MANAGER:1139
+#: am/APP-MANAGER:1140
 msgid   " The following apps have been updated:\\n\\n"
 msgstr  ""
 
-#: am/APP-MANAGER:1179
+#: am/APP-MANAGER:1180
 msgid   " %b✔\\033[0m $APPNAME is updated, $timelapsed second elapsed! \\n"
 msgstr  ""
 
-#: am/APP-MANAGER:1179
+#: am/APP-MANAGER:1180
 msgid   " %b✔\\033[0m $APPNAME is updated, $timelapsed seconds elapsed! \\n"
 msgstr  ""
 
-#: am/APP-MANAGER:1189
+#: am/APP-MANAGER:1190
 msgid   " %b✖\\033[0m %b is read-only, cannot update it!\\n"
 msgstr  ""
 
-#: am/APP-MANAGER:1222
+#: am/APP-MANAGER:1223
 msgid   " ◆ Update local AppImages integrated manually"
 msgstr  ""
 
-#: am/APP-MANAGER:1229
+#: am/APP-MANAGER:1230
 msgid   "(unmounted)"
 msgstr  ""
 
-#: am/APP-MANAGER:1255
+#: am/APP-MANAGER:1256
 msgid   "%b\\n >> %bSTART OF ALL PROCESSES\\033[0m << \\n%b\\n"
 msgstr  ""
 
-#: am/APP-MANAGER:1265
+#: am/APP-MANAGER:1266
 msgid   " >> %bEND OF ALL PROCESSES\\033[0m << \\n%b\\n"
 msgstr  ""
 
-#: am/APP-MANAGER:1269
+#: am/APP-MANAGER:1270
 msgid   "%b\\n >> %bEND OF ALL PROCESSES\\033[0m << \\n%b\\n"
 msgstr  ""
 
-#: am/APP-MANAGER:1281
+#: am/APP-MANAGER:1282
 msgid   " %b✖\\033[0m %b cannot be updated, program not found \\n"
 msgstr  ""
 
-#: am/APP-MANAGER:1285
+#: am/APP-MANAGER:1286
 msgid   " %b✖\\033[0m %b cannot be updated%b\\n"
 msgstr  ""
 
-#: am/APP-MANAGER:1300
+#: am/APP-MANAGER:1301
 msgid   " ERROR: \\\"$arg\\\" is not installed, see \\\"-f\\\""
 msgstr  ""
 
-#: am/APP-MANAGER:1302
+#: am/APP-MANAGER:1303
 msgid   " ERROR: \\\"$AMCLI\\\" cannot manage updates for \\\"$arg\\\""
 msgstr  ""
 
-#: am/APP-MANAGER:1304
+#: am/APP-MANAGER:1305
 msgid   " ERROR: \\\"$arg\\\" source is not on Github"
 msgstr  ""
 
-#: am/APP-MANAGER:1306
+#: am/APP-MANAGER:1307
 msgid   " ERROR: \\\"$arg\\\" does not redirect to a generic \\\"releases\\\""
 msgstr  ""
 
-#: am/APP-MANAGER:1331
+#: am/APP-MANAGER:1332
 msgid   " Module not found, run \\\"$AMCLI -s\\\" to update \\\"$AMCLIUPPER\\\""
 msgstr  ""
 
-#: am/APP-MANAGER:1349
+#: am/APP-MANAGER:1350
 msgid   " USAGE: $AMCLI [OPTION]"
 msgstr  ""
 
-#: am/APP-MANAGER:1350
+#: am/APP-MANAGER:1351
 msgid   "        $AMCLI [OPTION] [ARGUMENT]"
 msgstr  ""
 
-#: am/APP-MANAGER:1417
+#: am/APP-MANAGER:1353
+msgid   " Run the \\\"$AMCLI -h\\\" command to find out more"
+msgstr  ""
+
+#: am/APP-MANAGER:1355
+msgid   "   or try AM with GUI (Alpha version!)"
+msgstr  ""
+
+#: am/APP-MANAGER:1356
+msgid   " Run the \\\"$AMCLI --gui\\\" command"
+msgstr  ""
+
+#: am/APP-MANAGER:1357
+msgid   "   and help us catch the bugs please"
+msgstr  ""
+
+#: am/APP-MANAGER:1419
 msgid   "This feature is disabled by your organization"
 msgstr  ""
 
-#: am/APP-MANAGER:1485
+#: am/APP-MANAGER:1487
 msgid   "\n"
         "\t\t\tNAME: ${Green}$AMCLIUPPER\\033[0m\t\tVERSION: ${Green}$AMVERSION\\033[0m\n"
         "\n"
@@ -470,17 +486,17 @@ msgid   "\n"
         "\n"
         "\t\t\tOPTIONS:\n"
         "\n"
-        "\t\t\t${Gold}--gui\\033[0m\n"
-        "\n"
-        "\t\t\t\t\t${LightBlue}$AMCLI --gui {PROGRAM}\\033[0m\n"
-        "\n"
-        "\t\t\tDescription: Use AM with 3rd party GUI. (Alpha!) Using bash and ${LightBlue}Y\\033[0met ${LightBlue}A\\033[0mnother ${LightBlue}D\\033[0mialog.\n"
-        "\n"
         "\t\t\t${Gold}about, -a\\033[0m\n"
         "\n"
         "\t\t\t\t\t${LightBlue}$AMCLI -a {PROGRAM}\\033[0m\n"
         "\n"
         "\t\t\tDescription: Shows more info about one or more apps.\n"
+        "\n"
+        "\t\t\t${Gold}--gui\\033[0m\n"
+        "\n"
+        "\t\t\t\t\t${LightBlue}$AMCLI --gui {PROGRAM}\\033[0m\n"
+        "\n"
+        "\t\t\tDescription: Use AM with 3rd party GUI. (Alpha!) Using bash and ${LightBlue}Y\\033[0met ${LightBlue}A\\033[0mnother ${LightBlue}D\\033[0mialog.\n"
         "\n"
         "\t\t\t${Gold}apikey\\033[0m\n"
         "\n"
@@ -814,7 +830,7 @@ msgid   "\n"
         "\t\t\t\\n"
 msgstr  ""
 
-#: am/APP-MANAGER:1849
+#: am/APP-MANAGER:1851
 msgid   "ERROR: unknown option \\\"$1\\\", run the \\\"$AMCLI -h\\\" command to find out more"
 msgstr  ""
 
