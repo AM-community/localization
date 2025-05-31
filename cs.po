@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: am 9.7\n"
 "Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
 "POT-Creation-Date: 2025-05-31\n"
-"PO-Revision-Date: 2025-05-31 04:11+0000\n"
+"PO-Revision-Date: 2025-05-31 04:47+0000\n"
 "Last-Translator: zenobit <zenobit@disroot.org>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/am/am/cs/>\n"
 "Language: cs\n"
@@ -17,16 +17,10 @@ msgstr ""
 "X-Generator: Weblate 5.12-dev\n"
 
 #: am/APP-MANAGER:91
-#, fuzzy
-#| msgid ""
-#| "Add a two letters code for a language, for example \\\"it\\\" for "
-#| "Italian\\n\\nNote, you will need to export the LANGUAGE variable while "
-#| "running \\\"%b\\\"\\n\\n"
 msgid "Add a suitable locale code, for example \\\"it\\\" for Italian\\n\\n"
 msgstr ""
-"Přidat dvou písmenový kód pro jazyk, například \\\"it\\\" pro "
-"italštinu\\n\\nNezapomeňte, že budete muset exportovat proměnné LANGUAGE při "
-"běhu \\\"%b\\\"\\n\\n"
+"Přidejte vhodný kód jazyka, například \\\"it\\\" pro italštinu\\n"
+"\\n"
 
 #: am/APP-MANAGER:92
 msgid " Leave blank to use \\\"$CLI\\\" in English: "
@@ -478,10 +472,8 @@ msgid "\\n %bAll self-updatable programs are excluded\\033[0m\\n"
 msgstr "\\n %bVšechny samo aktualizovatelné programy jsou vyloučeny\\033[0m\\n"
 
 #: am/APP-MANAGER:1137
-#, fuzzy
-#| msgid " Nothing to do here! \\n%b\\n"
 msgid " Nothing to do here! \\n"
-msgstr " Zde není co dělat! \\n%b\\n"
+msgstr " Zde není co dělat! \\n"
 
 #: am/APP-MANAGER:1139
 msgid " The following apps have been updated:\\n\\n"
@@ -1639,7 +1631,7 @@ msgstr "\\n INSTALACE ZRUŠENA! \\n"
 
 #: am/modules/install.am:135
 msgid " ◆ $APPNAME: starting installation script"
-msgstr " ◆ $APPNAME: zaačátek instalačního skriptu"
+msgstr " ◆ $APPNAME: začínám instalační skript"
 
 #: am/modules/install.am:137
 msgid "\\n This script will create an AppImage on the fly, please wait...\\n"
@@ -2340,6 +2332,98 @@ msgstr "\\n Nevybrán validní argument: proces přerušen! \\n"
 msgid "ERROR! yad is missing! Install it..."
 msgstr "CHYBA! chybí yad! Nainstalujte ho..."
 
+#: am/modules/yad.am:26
+msgid ""
+"Testing Alpha release\n"
+"\n"
+"Using YAD to create simple and usable\n"
+"Graphical User Interface for\n"
+"AM: Application Manager\n"
+"for linux\n"
+"\n"
+"AM website:\n"
+"https://github.com/ivan-hc/am\n"
+"\n"
+"GUI:"
+msgstr ""
+"Testovací Alfa verze\n"
+"\n"
+"Pomocí YAD vytváří jednoduché a použitelné\n"
+"Grafické uživatelské rozhraní pro\n"
+"AM: Správce aplikací\n"
+"pro Linux\n"
+"\n"
+"Webové stránky AM:\n"
+"https://github.com/ivan-hc/am\n"
+"\n"
+"GUI:"
+
+#: am/modules/yad.am:142
+msgid "AppImage!Install only AppImages"
+msgstr "AppImage!Instalovat jen AppImage"
+
+#: am/modules/yad.am:143
+msgid "soarpkg!For installation from soar packages"
+msgstr "soarpkg!Pro instalaci ze soar balíčků"
+
+#: am/modules/yad.am:144
+msgid "toolpack!For installation of toolpacks"
+msgstr "toolpack!Pro instalaci nástrojů"
+
+#: am/modules/yad.am:145
+msgid "sandbox!Set also sandbox"
+msgstr "pískoviště!Nastavit také sandbox"
+
+#: am/modules/yad.am:146
+msgid "user (as AppMan)!Use it to install applications locally"
+msgstr "uživatel (jako AppMan)!Použijte pro instalaci aplikací lokálně"
+
+#: am/modules/yad.am:147
+msgid "force latest!Downgrade installed app from pre-release to latest"
+msgstr ""
+"Vynutit nejnovější! Snížit verzi instalované aplikaci z pre-release na "
+"nejnovější"
+
+#: am/modules/yad.am:148
+msgid "icons!Allow use of system theme"
+msgstr "ikony!Povolit použití systémového tématu"
+
+#: am/modules/yad.am:149
+msgid "debug!For installation debuging"
+msgstr "ladění!Pro ladění instalace"
+
+#: am/modules/yad.am:158
+msgid "!Choose app to install"
+msgstr "!Vyberte aplikaci k instalaci"
+
+#: am/modules/yad.am:187
+msgid "RUNNING: %s %s %s"
+msgstr "BĚŽÍ: %s %s %s"
+
+#: am/modules/yad.am:270 am/modules/yad.am:287
+msgid "📥 Install apps!!Install more apps"
+msgstr "📥 Instalovat aplikace!!Instalovat více aplikací"
+
+#: am/modules/yad.am:271 am/modules/yad.am:288
+msgid "📥 Install!!Install one app"
+msgstr "📥 Instalovat!!Instalovat jednu aplikaci"
+
+#: am/modules/yad.am:273 am/modules/yad.am:290
+msgid "📋 Installed!!List installed Apps and remove App"
+msgstr "📋 Nainstalované!!Zobrazit nainstalované aplikace pro jejich odstranění"
+
+#: am/modules/yad.am:274 am/modules/yad.am:291
+msgid "🗑️ Remove!!Uninstall App(s)"
+msgstr "🗑️ Odebrat!!Odinstalovat Apky"
+
+#: am/modules/yad.am:275 am/modules/yad.am:292
+msgid "About!ℹ️!Info about GUI"
+msgstr ""
+
+#: am/modules/yad.am:276 am/modules/yad.am:293
+msgid "yad-quit!!Exit GUI"
+msgstr "yad-quit!!OPUSTIT GUI"
+
 #~ msgid " Run the \\\"$AMCLI -h\\\" command to find out more"
 #~ msgstr " Spusťte příkaz \\\"$AMCLI -h\\\" a zjistíte více"
 
@@ -2456,3 +2540,6 @@ msgstr "CHYBA! chybí yad! Nainstalujte ho..."
 #~ msgstr ""
 #~ " 💀 CHYBA: cannot create \\\"$arg\\\" without \\\"convert\\\" (from \\"
 #~ "\"imagemagick\\\")"
+
+msgid "yad-quit!!"
+msgstr ""
