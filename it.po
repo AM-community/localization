@@ -4,7 +4,7 @@
 # LibreTranslate <noreply-mt-libretranslate@weblate.org>, 2025.
 # Glossary sync <noreply-glossary-sync@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: \nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-31\nPO-Revision-Date: 2025-05-31 06:07+0000\nLast-Translator: Glossary sync <noreply-glossary-sync@weblate.org>\nLanguage-Team: Italian <https://hosted.weblate.org/projects/am/am/it/>\nLanguage: it\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: \nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-31\nPO-Revision-Date: 2025-05-31 06:18+0000\nLast-Translator: LibreTranslate <noreply-mt-libretranslate@weblate.org>\nLanguage-Team: Italian <https://hosted.weblate.org/projects/am/am/it/>\nLanguage: it\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
 
 #: am/APP-MANAGER:92
 msgid "Add a suitable locale code, for example \\\"it\\\" for Italian\\n\\n"
@@ -460,8 +460,9 @@ msgid " Run the \\\"$AMCLI -h\\\" command to find out more"
 msgstr " Eseguire \\\"$AMCLI -h\\\" per saperne di più"
 
 #: am/APP-MANAGER:1355
+#, fuzzy
 msgid "   or try AM with GUI (Alpha version!)"
-msgstr ""
+msgstr "o provare AM con GUI (versione Alpha!)"
 
 #: am/APP-MANAGER:1356
 #, fuzzy
@@ -470,8 +471,9 @@ msgid " Run the \\\"$AMCLI --gui\\\" command"
 msgstr " Eseguire \\\"$AMCLI -h\\\" per saperne di più"
 
 #: am/APP-MANAGER:1357
+#, fuzzy
 msgid "   and help us catch the bugs please"
-msgstr ""
+msgstr "e aiutarci a catturare i bug per favore"
 
 #: am/APP-MANAGER:1419
 msgid "This feature is disabled by your organization"
@@ -2329,10 +2331,12 @@ msgid "\\n No valid argument was chosen: process aborted! \\n"
 msgstr "\\n Non è stato scelto alcun argomento valido: processo interrotto! \\n"
 
 #: am/modules/yad.am:13
+#, fuzzy
 msgid "ERROR! yad is missing! Install it..."
-msgstr ""
+msgstr "ERROR! Yad e' scomparso! Installalo..."
 
 #: am/modules/yad.am:26
+#, fuzzy
 msgid ""
 "Testing Alpha release\n"
 "\n"
@@ -2345,71 +2349,87 @@ msgid ""
 "https://github.com/ivan-hc/am\n"
 "\n"
 "GUI:"
-msgstr ""
+msgstr "Prova di rilascio Alpha\n\nUtilizzando YAD per creare semplice e utilizzabile\nInterfaccia utente grafica per\nAM: Gestione delle applicazioni\nper linux\n\nSito web AM:\nhttps://github.com/ivan-hc/am\n\nGUI:"
 
 #: am/modules/yad.am:142
+#, fuzzy
 msgid "AppImage!Install only AppImages"
-msgstr ""
+msgstr "AppImage! Installare solo appImages"
 
 #: am/modules/yad.am:143
+#, fuzzy
 msgid "soarpkg!For installation from soar packages"
-msgstr ""
+msgstr "soarpkg! Per l'installazione da pacchetti soar"
 
 #: am/modules/yad.am:144
+#, fuzzy
 msgid "toolpack!For installation of toolpacks"
-msgstr ""
+msgstr "toolpack! Per l'installazione di pacchetti di utensili"
 
 #: am/modules/yad.am:145
+#, fuzzy
 msgid "sandbox!Set also sandbox"
-msgstr ""
+msgstr "sandbox! Set anche sandbox"
 
 #: am/modules/yad.am:146
+#, fuzzy
 msgid "user (as AppMan)!Use it to install applications locally"
-msgstr ""
+msgstr "utente (come AppMan)! Usalo per installare applicazioni localmente"
 
 #: am/modules/yad.am:147
+#, fuzzy
 msgid "force latest!Downgrade installed app from pre-release to latest"
-msgstr ""
+msgstr "forza ultima! Downgrade installato app da pre-release a più tardi"
 
 #: am/modules/yad.am:148
+#, fuzzy
 msgid "icons!Allow use of system theme"
-msgstr ""
+msgstr "icone! Consentire l'uso del tema del sistema"
 
 #: am/modules/yad.am:149
+#, fuzzy
 msgid "debug!For installation debuging"
-msgstr ""
+msgstr "debug! Per il debuging di installazione"
 
 #: am/modules/yad.am:158
+#, fuzzy
 msgid "!Choose app to install"
-msgstr ""
+msgstr "! Scegli app per installare"
 
 #: am/modules/yad.am:187
+#, fuzzy
 msgid "RUNNING: %s %s %s"
-msgstr ""
+msgstr "RUNNING: % % % % %"
 
 #: am/modules/yad.am:270 am/modules/yad.am:287
+#, fuzzy
 msgid "📥 Install apps!!Install more apps"
-msgstr ""
+msgstr "📥 Installare applicazioni!! Installare più applicazioni"
 
 #: am/modules/yad.am:271 am/modules/yad.am:288
+#, fuzzy
 msgid "📥 Install!!Install one app"
-msgstr ""
+msgstr "📥 Installazione!! Installare un'app"
 
 #: am/modules/yad.am:273 am/modules/yad.am:290
+#, fuzzy
 msgid "📋 Installed!!List installed Apps and remove App"
-msgstr ""
+msgstr "📋 Installato!! Elenco app installate e rimuovere App"
 
 #: am/modules/yad.am:274 am/modules/yad.am:291
+#, fuzzy
 msgid "🗑️ Remove!!Uninstall App(s)"
-msgstr ""
+msgstr "🗑️ Rimuovere!!Uninstall App(s)"
 
 #: am/modules/yad.am:275 am/modules/yad.am:292
+#, fuzzy
 msgid "About!ℹ️!Info about GUI"
-msgstr ""
+msgstr "A proposito! Informazioni su GUI"
 
 #: am/modules/yad.am:276 am/modules/yad.am:293
+#, fuzzy
 msgid "yad-quit!!Exit GUI"
-msgstr ""
+msgstr "yad-quit!! Exit GUI"
 
 #~ msgid "Press y to continue, anything else to exit (timeout 15 seconds)"
 #~ msgstr "Premi y per continuare, qualsiasi altra cosa per uscire (timeout 15 secondi)"
@@ -2507,5 +2527,6 @@ msgstr ""
 #~ msgid " 💀 ERROR: cannot create \\\"$arg\\\" without \\\"convert\\\" (from \\\"imagemagick\\\")"
 #~ msgstr " 💀 ERRORE: impossibile creare \\\"$arg\\\" senza \\\"convert\\\" (da \\\"imagemagick\\\")"
 
+#, fuzzy
 msgid "\\\"$AMCLIUPPER\\\" $AMVERSION:"
-msgstr ""
+msgstr "\\\"$AMCLIUPPER\\\" $AMVERSION:"
