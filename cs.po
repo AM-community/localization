@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: am 9.7\n"
 "Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
 "POT-Creation-Date: 2025-05-31\n"
-"PO-Revision-Date: 2025-05-31 04:47+0000\n"
+"PO-Revision-Date: 2025-05-31 05:21+0000\n"
 "Last-Translator: zenobit <zenobit@disroot.org>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/am/am/cs/>\n"
 "Language: cs\n"
@@ -487,7 +487,7 @@ msgstr " Následující aplikace byly aktualizovány:\\n\\n"
 
 #: am/APP-MANAGER:1180
 msgid " %b✔\\033[0m $APPNAME is updated, $timelapsed second elapsed! \\n"
-msgstr " %b✔\\033[0m $APPNAME aktuální, $timelapsed vteřin uplynulo!"
+msgstr " %b✔\\033[0m $APPNAME aktuální, $timelapsed vteřin uplynulo! \\n"
 
 #: am/APP-MANAGER:1180
 msgid " %b✔\\033[0m $APPNAME is updated, $timelapsed seconds elapsed! \\n"
