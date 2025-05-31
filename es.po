@@ -3,20 +3,25 @@
 # zenobit <zenobit@disroot.org>, 2025.
 # Prefill add-on <noreply-addon-prefill@weblate.org>, 2025.
 # Glossary sync <noreply-glossary-sync@weblate.org>, 2025.
+# Apertium APy <noreply-mt-apertium-apy@weblate.org>, 2025.
+# LibreTranslate <noreply-mt-libretranslate@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: am 9.7.1-9\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-31\nPO-Revision-Date: 2025-05-31 06:07+0000\nLast-Translator: Glossary sync <noreply-glossary-sync@weblate.org>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/am/am/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: am 9.7.1-9\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-31\nPO-Revision-Date: 2025-05-31 06:18+0000\nLast-Translator: LibreTranslate <noreply-mt-libretranslate@weblate.org>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/am/am/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
 
 #: am/APP-MANAGER:92
+#, fuzzy
 msgid "Add a suitable locale code, for example \\\"it\\\" for Italian\\n\\n"
-msgstr ""
+msgstr "Añadir un código local adecuado, por ejemplo \\\"it\\\" para Italian\\n\\n"
 
 #: am/APP-MANAGER:93
+#, fuzzy
 msgid " Leave blank to use \\\"$CLI\\\" in English: "
-msgstr ""
+msgstr "Deja espacio para utilizar \\\"$CLI\\\" en inglés: "
 
 #: am/APP-MANAGER:112
+#, fuzzy
 msgid "Setting locale to \\\"%b\\\"\\n"
-msgstr ""
+msgstr "Ajuste locale a \\\"%b\\\"\\n"
 
 #: am/APP-MANAGER:118
 msgid "\\n Please do not use \\\"sudo\\\" to execute \\\"%b\\\", try again.\\n\\n"
@@ -464,8 +469,9 @@ msgid " Run the \\\"$AMCLI -h\\\" command to find out more"
 msgstr " Ejecute el comando \\\"$AMCLI -h\\\" para obtener más información"
 
 #: am/APP-MANAGER:1355
+#, fuzzy
 msgid "   or try AM with GUI (Alpha version!)"
-msgstr ""
+msgstr "O probar SOY con GUI (versión de Alfa!)"
 
 #: am/APP-MANAGER:1356
 #, fuzzy
@@ -474,14 +480,16 @@ msgid " Run the \\\"$AMCLI --gui\\\" command"
 msgstr " Ejecute el comando \\\"$AMCLI -h\\\" para obtener más información"
 
 #: am/APP-MANAGER:1357
+#, fuzzy
 msgid "   and help us catch the bugs please"
-msgstr ""
+msgstr "Y ayudarnos coger los bugs complacen"
 
 #: am/APP-MANAGER:1419
 msgid "This feature is disabled by your organization"
 msgstr "Esta característica está deshabilitada por su organización"
 
 #: am/APP-MANAGER:1487
+#, fuzzy
 msgid ""
 "\n"
 "\t\t\tNAME: ${Green}$AMCLIUPPER\\033[0m\t\tVERSION: ${Green}$AMVERSION\\033[0m\n"
@@ -835,7 +843,7 @@ msgid ""
 "\t\t\t https://portable-linux-apps.github.io\n"
 "\n"
 "\t\t\t\\n"
-msgstr ""
+msgstr "Nombre: ${Verde}$AMCLIUPPER\\033[0m\t\tVERSIÓN: ${Verde}$AMVERSION\\033[0m\n\n\t\t\tSINOPSIS:\t${LightBlue}$AMCLI {OPCIÓN}\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI {PROGRAMA} {de OPCIÓN}\\033[0m\n\n\t\t\tDESCRIPCIÓN: Una utilidad de línea de la orden para instalar y dirigir AppImages y otros programas portátiles para GNU/Linux gracias a su AUR-base de datos inspirada.\n\n\t\t\tOpciones:\n\n\t\t\t${Oro}aproximadamente, -un\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -un {PROGRAMA}\\033[0m\n\n\t\t\tDescripción: Espectáculos más info aproximadamente uno o más aplicaciones.\n\n\t\t\t${Oro}--gui\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI --gui {PROGRAMA}\\033[0m\n\n\t\t\tDescripción: el uso SOY con 3.ª fiesta GUI. (Alfa!) Utilizando bash y ${LightBlue}Y\\033[0cumplió ${LightBlue}Un\\033[0mnother ${LightBlue}D\\033[0mialog.\n\n\t\t\t${Oro}apikey\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI apikey {Github Token}\n\t\t\t\t\t${LightBlue}$AMCLI apikey eliminar\\033[0m\n\n\t\t\tDescripción: Accede a github APIs utilizando vuestro acceso personal tokens. La lima nombró \\\"ghapikey.txt\\\" Será salvado en $AMDATADIR. Uso \\\"del\\\" para  sacarlo.\n\n\t\t\t${Copia de seguridad}de oro, -b\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -b {PROGRAMA}\\033[0m\n\n\t\t\tDescripción: Crear un snapshot de la versión actual de un programa instalado.\n\n\t\t\t${El oro}limpio, -c\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -c\\033[0m\n\n\t\t\tDescripción: Saca todas las limas innecesarias y carpetas.\n\n\t\t\t${Oro}config, -C, --config\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -C {PROGRAMA}\\033[0m\n\n\t\t\tDescripción: Pone un dedicado \\$XDG_CONFIG_CASA para uno o más AppImages.\n\n\t\t\t${Oro}downgrade, --rollback\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI --rollback {PROGRAMA}\\033[0m\n\n\t\t\tDescripción: Descarga una aplicación más vieja o concreta versión.\n\n\t\t\t${Descarga}de oro, -d\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -d {PROGRAMA}\n\t\t\t\t\t${LightBlue}$AMCLI -d --convertir {PROGRAMA}\\033[0m\n\n\t\t\tDescripción: Descarga un o más guiones de instalación a vuestro desktop o convertirles a instaladores locales para \\\"AppMan\\\". Para probar los guiones, uso el \\\"${LightBlue}$AMCLI -i '/ruta/a/guión'\\033[0m\\\" orden o introducir el directorio del guión y correr el \\\"${LightBlue}$AMCLI -i ./Guión\\033[0m\\\" orden, incluso utilizando dedicó banderas, si es necesario (ve \\\"-i\\\").\n\n\t\t\t${Extra}de oro, -e\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -e proyecto/de usuario {APPNAME}\n\t\t\t\t\t${LightBlue}$AMCLI -e proyecto/de usuario {APPNAME} {PALABRA CLAVE}\\033[0m\n\n\t\t\tDescripción: Instala AppImages de github.com, fuera de la base de datos. Esto te dejas para instalar, actualización y dirigirles todo como el otros. Dónde \\\"proyecto/de usuario\\\" puede ser la totalidad  URL al github repositorio, dar un nombre al programa de modo que  puede ser utilizado de la línea de orden. Opcionalmente, añadir un \\\"univoque\\\" palabra clave si múltiple AppImages está listado.\n\n\t\t\t${Limas}de oro, -f, -fi\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -f\n\t\t\t\t\t${LightBlue}$AMCLI -f --byname\n\t\t\t\t\t${LightBlue}$AMCLI -f --menos\\033[0m\n\n\t\t\tDescripción: Espectáculos la lista de todos los programas  instalados, con medidas. Por default las aplicaciones están ordenadas por medida, uso \\\"--byname\\\" para ordenar por nombre. Con la opción \\\"--menos\\\"  asoma sólo el número de aplicaciones instaladas. Opción \\\"-fi\\\" espectáculos únicos aplicaciones instaladas, no el AppImages integrados con el \\\"--opción\\\" de lanzador.\n\n\t\t\t${Ayuda}de oro, -h\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -h\\033[0m\n\n\t\t\tDescripción: Huellas este mensaje.\n\n\t\t\t${Escondrijo}de oro\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI PROGRAMA {de escondrijo}\\033[0m\n\n\t\t\tDescripción: Impide una aplicación instalada de ser asomado o dirigido por \\\"$AMCLI\\\".\n\n\t\t\t${Casa}de oro, -H, --casa\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -H {PROGRAMA}\\033[0m\n\n\t\t\tDescripción: Pone un dedicado \\$directorio de CASA para uno o más AppImages.\n\n\t\t\t${Oro}-HC, -CH\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -HC {PROGRAMA}\\033[0m\n\n\t\t\tDescripción: Set dedicó \\$CASA y \\$XDG_CONFIG_directorios de CASA para uno o más AppImages.\n\n\t\t\t${Iconos}de oro, --iconos\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI --PROGRAMA {de iconos}\n\t\t\t\t\t${LightBlue}$AMCLI --iconos --todo\\033[0m\n\n\t\t\tDescripción: Deja aplicaciones instaladas para utilizar temas de icono del sistema.  Puedes especificar el nombre de las aplicaciones para cambiar o utilizar el \\\"--toda\\\" bandera para cambiar todo de ellos inmediatamente. Esto sacará la ruta de icono del .desktop Lima y añadir el enlace simbólico de todos los iconos  disponibles en el $DATADIR/iconos/hicolor/directorio/de aplicaciones escalables. El \\\"--opción\\\" de iconos puede ser utilizada tan \\\"bandera\\\" en el \\\"-i\\\" y \\\"-ia\\\" opciones.\n\n\t\t\t${El oro}instala, -i\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -i {PROGRAMA}\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI -i --depurar {PROGRAMA}\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI -i --fuerza-PROGRAMA {más tardío}\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI -i --PROGRAMA {de iconos}\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI -i --sandbox {PROGRAMA}\\033[0m\n\t\t\t$(si [ -n \"$terceras_banderas_de fiesta\" ]; entonces eco \"\" && de eco \"\tTercer-bases de datos de fiesta:\" && eco \"\" && para un en $terceras_banderas_de fiesta; hacer eco \"\t\t${LightBlue}$AMCLI -l $un {PROGRAMA}\\033[0m\"; hecho; fi)\n\n\t\t\tDescripción: Instala uno o más programas o bibliotecas de la lista. Con el \\\"--depurar\\\" opción  puedes ver mensajes de registro para depurar el guión. Para más detalles encima \\\"--fuerza-más tardío\\\", ver la opción dedicada, abajo. Uso el \\\"--bandera\\\" de iconos para dejar el programa para utilizar temas de icono. El \\\"--sandbox\\\" la bandera te dejas para poner sandboxes para AppImage envases. También puede ser extendido con banderas adicionales (ve tercer-banderas de fiesta, en el fondo de este mensaje).\n\n\t\t\t${El oro}instala-appimage, -ia, -ias\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -ia {PROGRAMA}\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI -ia --depurar {PROGRAMA}\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI -ia --fuerza-PROGRAMA {más tardío}\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI -ia --PROGRAMA {de iconos}\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI -ia --sandbox {PROGRAMA}\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI -ias {PROGRAMA}\\033[0m\n\n\t\t\tDescripción: Mismo como \\\"instala\\\" (ve encima) pero para AppImages sólo. Opción \\\"-ias\\\" (aka Instalar AppImage & Sandbox) es equivalente a \\\"-ia --sandbox\\\", para poner sandboxes para AppImage envases.\n\n\t\t\t${Lista}de oro, -l\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -l\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI -l --appimages\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI -l --portátil\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI -l --todo\\033[0m\n\t\t\t$(si [ -n \"$terceras_banderas_de fiesta\" ]; entonces eco \"\" && de eco \"\tTercer-bases de datos de fiesta:\" && eco \"\" && para un en $terceras_banderas_de fiesta; hacer eco \"\t\t${LightBlue}$AMCLI -l $un\\033[0m\"; hecho; fi)\n\n\t\t\tDescripción: Espectáculos la lista de todas las aplicaciones disponibles. Sin las banderas sólo asoma las aplicaciones en el \\\"SOY\\\" base de datos, añadir el \\\"--appimages\\\" para asomar sólo el AppImages o \\\"--portátil\\\" de asomar otros formatos del \\\"SOY\\\" base de datos. El \\\"--toda\\\" bandera te dejas para consultar el conjunto de todo tercio soportado-bases de datos de fiesta. También puede ser extendido con banderas adicionales (ve tercer-banderas de fiesta, en el fondo de este mensaje).\n\n\t\t\t${Cerradura}de oro\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI PROGRAMA {de cerradura}\\033[0m\n\n\t\t\tDescripción: Impedir un ser de aplicación actualizó, si  tiene un\\\"SOY-updater\\\" guión.\n\n\t\t\t${Oro}newrepo, neodb\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI newrepo añadir {URL}\\\\{RUTA}\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI newrepo seleccionar\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI newrepo encima\\\\fuera\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI newrepo purga\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI newrepo info\\033[0m\n\n\t\t\tDescripción: Pone un nuevo default repo, el uso \\\"añade\\\" para anexar la ruta a un directorio local o un on-line URL, entonces el uso \\\"selecciona\\\" para utilizar él por default, un mensaje te advertirá aproximadamente el uso de este repo en vez del default un. Uso \\\"encima\\\"/\\\"fuera\\\" para habilitar/inutilizarlo. Purga \\\"de uso\\\" para sacar todo 3.ª fiesta repos. Uso \\\"info\\\" para ver la fuente de donde guiones de instalación y las listas están tomados.\n\n\t\t\t${Oro}nolibfuse\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI nolibfuse {PROGRAMA}\\033[0m\n\n\t\t\tDescripción: Convierte viejo AppImages y coger librado de \\\"libfuse2\\\" dependencia.\n\n\t\t\t${Oro}overwrite, -o\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -o {PROGRAMA}\\033[0m\n\n\t\t\tDescripción: Overwrite aplicaciones con snapshots salvados anteriormente (ve \\\"-b\\\").\n\n\t\t\t${Consulta}de oro, -q\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -q {PALABRA CLAVE}\n\t\t\t\t\t${LightBlue}$AMCLI -q --toda {PALABRA CLAVE}\n\t\t\t\t\t${LightBlue}$AMCLI -q --appimages {PALABRA CLAVE}\n\t\t\t\t\t${LightBlue}$AMCLI -q --PALABRA CLAVE {portátil}\n\t\t\t\t\t${LightBlue}$AMCLI -q --pkg {PROGRAM1} {PROGRAM2}\\033[0m\n\n\t\t\tDescripción: Busca palabras clave en la lista de aplicaciones disponibles, añadir el \\\"--appimages\\\" opción para listar sólo el AppImages, \\\"--opción\\\" portátil para listar sólo las aplicaciones portátiles o añadir \\\"--pkg\\\" para listar programas múltiples inmediatamente. El \\\"--toda\\\" bandera te dejas para consultar el conjunto de todas las bases de datos  soportadas.\n\n\t\t\t${Oro}reinstall\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI reinstall\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI reinstall --todo\\033[0m\n\n\t\t\tDescripción: Reinstall programas únicos cuyo guión de instalación ha sido modificado en SOY es base de datos on-line. Uso el \\\"--todo\\\" flaf a reinstall todo en cambio.\n\n\t\t\tNota, estas obras únicas con el \\\"SOY\\\" base de datos. Las aplicaciones instaladas con el \\\"-e\\\" la opción y los guiones hechos de encargo crearon con el \\\"-t\\\" la opción no es apoyada.\n\n\t\t\t${El oro}saca, -r\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -r {PROGRAMA}\\033[0m\n\n\t\t\tDescripción: Saca uno o más aplicaciones, requiere confirmación.\n\n\t\t\t${Oro}-R\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -R {PROGRAMA}\\033[0m\n\n\t\t\tDescripción: Saca uno o más aplicaciones sin pedir.\n\n\t\t\t${Oro}sandbox, --sandbox\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI sandbox {PROGRAMA}\\033[0m\n\n\t\t\tDescripción: Corrido un AppImage en un sandbox utilizando Aisap.\n\n\t\t\tNota, \\\"--sandbox\\\" puede ser utilizado como bandera en \\\"-i\\\" y \\\"-ia\\\" o puede ser reemplazado utilizando la opción \\\"-ias\\\" (aka Instalar AppImage & Sandbox).\n\n\t\t\t${Oro}sync, -s\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -s\\033[0m\n\n\t\t\tDescripción: Actualizaciones este guión a la versión más tardía hosted.\n\n\t\t\t${Plantilla}de oro, -t\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -t {PROGRAMA}\\033[0m\n\n\t\t\tDescripción: Generar un guión de instalación hecho de encargo. Para probar los guiones, uso el \\\"${LightBlue}$AMCLI -i '/ruta/a/guión'\\033[0m\\\" orden o introducir el directorio del guión y correr el \\\"${LightBlue}$AMCLI -i ./Guión\\033[0m\\\" orden, incluso utilizando dedicó banderas, si es necesario (ve \\\"-i\\\").\n\n\t\t\t${El oro}traduce, --traducir\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI --traducir\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI --traducir {CÓDIGO}\\033[0m\n\n\t\t\tDescripción: Descarga y poner uno o más bandas de lengua (si disponibles), puestos \\\"$AMCLI\\\" a ingleses (default), vuestra lengua u otras lenguas.\\n\\nVisit https://github.com/am-community/localization Para aprender más encima cómo para entregar o mejorar traducciones.\n\n\t\t\t${Oro}unhide\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI unhide {PROGRAMA}\\033[0m\n\n\t\t\tDescripción: Dejar una aplicación escondida para ser asomada y dirigió otra vez (nulls \\\"escondrijo\\\").\n\n\t\t\t${Oro}unlock\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI unlock {PROGRAMA}\\033[0m\n\n\t\t\tDescripción: Unlock actualizaciones para el programa seleccionado (nulls \\\"cerradura\\\").\n\n\t\t\t${Actualización}de oro, -u, -U\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -u\n\t\t\t\t\t${LightBlue}$AMCLI -u --aplicaciones\n\t\t\t\t\t${LightBlue}$AMCLI -u --depurar\n\t\t\t\t\t${LightBlue}$AMCLI -u --aplicaciones --depurar\n\t\t\t\t\t${LightBlue}$AMCLI -u {PROGRAMA}\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI -u --depurar {PROGRAMA}\n\t\t\t\t\t${LightBlue}$AMCLI -u --lanzador\\033[0m\n\n\t\t\tDescripción: Actualización todo. Añade \\\"--aplicaciones\\\" para actualizar sólo las aplicaciones o escribir sólo las aplicaciones  quieres actualización por añadir sus nombres. Añadir el \\\"--depurar\\\" bandera para ver la salida de SOY-updater guiones. Añadir el \\\"--bandera\\\" de lanzador para probar para actualizar lugareño único AppImages integrado con el \\\"--opción\\\" de lanzador (ve \\\"--lanzador\\\").\n\n\t\t\t${Versión}de oro, -v\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -v\\033[0m\n\n\t\t\tDescripción: Espectáculos la versión.\n\n\t\t\t${Oro}--devmode-inutilizar\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI --devmode-inutilizar\\033[0m\n\n\t\t\tDescripción: Deshace \\\"--devmode-habilitar\\\" (ve abajo).\n\n\t\t\t${Oro}--devmode-habilitar\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI --devmode-habilitar\\033[0m\n\n\t\t\tDescripción: Uso la rama de desarrollo (en vuestro riesgo propio).\n\n\t\t\t${Oro}--inutilizar-notificaciones\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI --inutilizar-notificaciones\\033[0m\n\n\t\t\tDescripción: Inutiliza notificaciones durante actualización de aplicaciones.\n\n\t\t\t${Oro}--inutilizar-sandbox\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI --inutilizar-sandbox {PROGRAMA}\\033[0m\n\n\t\t\tDescripción: Inutilizar el sandbox para la aplicación seleccionada.\n\n\t\t\t${Oro}--habilitar-notificaciones\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI --habilitar-notificaciones\\033[0m\n\n\t\t\tDescripción: Habilita notificaciones durante actualización de aplicaciones (nulls \\\"--inutilizar-notificaciones\\\").\n\n\t\t\t${Oro}--fuerza-más tardío\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI --fuerza-PROGRAMA {más tardío}\\033[0m\n\n\t\t\tDescripción: Downgrades una aplicación instalada de pre-liberar a \\\"más tardío\\\".\n\n\t\t\t${Oro}--lanzador\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI --ruta /de lanzador/a/\\${APPIMAGE}\\033[0m\n\n\t\t\tDescripción: Arrastra/gota un o más AppImages en el terminal y embed les en la carta de aplicaciones y personalizar una orden para utilizar del CLI.\n\n\t\t\tNota aquello \\\"--el lanzador\\\" puede ser utilizado como bandera en \\\"-u\\\" para probar para actualizar el integrado AppImages (ve \\\"-u\\\"). Esto obra sólo si \\\"appimageupdatetool\\\" es instalado y actualizaciones de delta se mantienen. Esta bandera no obra milagros, fuertemente sugiero para utilizar opciones \\\"-ia\\\" y \\\"-e\\\" en cambio.\n\n\t\t\t${Oro}--sistema\\033[0m\n\n\t\t\t\t\t${LightBlue}soy --sistema\\033[0m\n\n\t\t\t${Oro}--usuario\\033[0m\n\n\t\t\t\t\t${LightBlue}soy --usuario\\033[0m\n\n\t\t\tDescripción: Hecho \\\"SOY\\\" corrido en \\\"AppMan Modo\\\", localmente, útil para unprivileged usuarios. Esta opción obras únicas con \\\"SOY\\\".\n\n\t\t\tEl \\\"--opción\\\" de usuario también puede ser utilizada tan una bandera para opciones de instalación. Por ejemplo:\n\n\t\t\t- Utilizarlo para instalar aplicaciones localmente, opción \\\"-i\\\" o \\\"instalar\\\":\n\n\t\t\t\t${LightBlue}soy -i --PROGRAMA {de usuario}\\033[0m\n\n\t\t\t- También suboptions de \\\"-i\\\" puede obrar con esta bandera:\n\n\t\t\t\t${LightBlue}soy -i --usuario --depurar {PROGRAMA}\\033[0m\n\t\t\t\t${LightBlue}soy -i --usuario --fuerza-PROGRAMA {más tardío}\n\t\t\t\t${LightBlue}soy -i --usuario --PROGRAMA {de iconos}\n\t\t\t\t${LightBlue}soy -i --usuario --depurar --fuerza-PROGRAMA {más tardío}\n\t\t\t\t${LightBlue}soy -i --usuario --depurar --fuerza-más tardío --PROGRAMA {de iconos}\\033[0m\n\n\t\t\t- Mismo para AppImages sólo, opción \\\"-ia\\\" o \\\"instalar-appimage\\\":\n\n\t\t\t\t${LightBlue}soy -ia --PROGRAMA {de usuario}\\033[0m\n\t\t\t\t${LightBlue}soy -ia --usuario --depurar {PROGRAMA}\n\t\t\t\t${LightBlue}soy -ia --usuario --fuerza-PROGRAMA {más tardío}\n\t\t\t\t${LightBlue}soy -ia --usuario --PROGRAMA {de iconos}\n\t\t\t\t${LightBlue}soy -ia --usuario --depurar --fuerza-PROGRAMA {más tardío}\\033[0m\n\t\t\t\t${LightBlue}soy -ia --usuario --depurar --fuerza-más tardío --PROGRAMA {de iconos}\\033[0m\n\n\t\t\t- Externo AppImages puede ser instalado así también, opción \\\"-e\\\" o \\\"extra\\\":\n\n\t\t\t\t${LightBlue}soy -e --proyecto de/usuario del usuario {APPNAME}\\033[0m\n\t\t\t\t${LightBlue}soy -e --proyecto de/usuario del usuario {APPNAME} {PALABRA CLAVE}\\033[0m\n\n\t\t\tNOTA, \\\"SOY\\\" 9 o más alto es también capaz a, actualización y dirigir aplicaciones localmente, por default, y sin teniendo que cambiar a \\\"AppMan Modo\\\".\n\n\t\t\tDescripción: el cambio \\\"SOY\\\" atrás a \\\"SOY\\\" de \\\"AppMan Modo\\\" (ve \\\"--usuario\\\").\n\n\t\t\t$Dividiendo_LÍNEA\n\n\t\t\tTERCER-BANDERAS de FIESTA: $tercer_mensaje_de_banderas de la fiesta\n\t\t\t$DIVIDIENDO_SITIOS\n\n\t\t\t de LÍNEA:\n\n\t\t\t https://github.com/ivan-hc/am\n\n\t\t\t https://portable-linux-apps.github.io\n\n\t\t\t\\n"
 
 #: am/APP-MANAGER:1851
 msgid "ERROR: unknown option \\\"$1\\\", run the \\\"$AMCLI -h\\\" command to find out more"
@@ -1634,10 +1642,12 @@ msgid "\\n No valid argument was chosen: process aborted! \\n"
 msgstr "\\n No se eligió ningún argumento válido: ¡proceso abortado! \\n"
 
 #: am/modules/yad.am:13
+#, fuzzy
 msgid "ERROR! yad is missing! Install it..."
-msgstr ""
+msgstr "Error! yad Falta! Lo instala..."
 
 #: am/modules/yad.am:26
+#, fuzzy
 msgid ""
 "Testing Alpha release\n"
 "\n"
@@ -1650,71 +1660,87 @@ msgid ""
 "https://github.com/ivan-hc/am\n"
 "\n"
 "GUI:"
-msgstr ""
+msgstr "Probando emisión de Alfa\n\nque Utiliza YAD para crear sencillo e interfaz\nde Usuario Gráfica utilizable para\nSOY: #Gerente de Aplicación\npara linux\n\nSOY sitio web:\nhttps://github.com/ivan-hc/am\n\nGUI:"
 
 #: am/modules/yad.am:142
+#, fuzzy
 msgid "AppImage!Install only AppImages"
-msgstr ""
+msgstr "AppImage!Instala sólo AppImages"
 
 #: am/modules/yad.am:143
+#, fuzzy
 msgid "soarpkg!For installation from soar packages"
-msgstr ""
+msgstr "soarpkg!Para instalación de soar envases"
 
 #: am/modules/yad.am:144
+#, fuzzy
 msgid "toolpack!For installation of toolpacks"
-msgstr ""
+msgstr "toolpack!Para instalación de toolpacks"
 
 #: am/modules/yad.am:145
+#, fuzzy
 msgid "sandbox!Set also sandbox"
-msgstr ""
+msgstr "sandbox!Pone también sandbox"
 
 #: am/modules/yad.am:146
+#, fuzzy
 msgid "user (as AppMan)!Use it to install applications locally"
-msgstr ""
+msgstr "Usuario (como AppMan)!Lo utiliza para instalar aplicaciones localmente"
 
 #: am/modules/yad.am:147
+#, fuzzy
 msgid "force latest!Downgrade installed app from pre-release to latest"
-msgstr ""
+msgstr "La fuerza más tardía!Downgrade Aplicación instalada de pre-liberar a más tardío"
 
 #: am/modules/yad.am:148
+#, fuzzy
 msgid "icons!Allow use of system theme"
-msgstr ""
+msgstr "Iconos!Deja uso de tema de sistema"
 
 #: am/modules/yad.am:149
+#, fuzzy
 msgid "debug!For installation debuging"
-msgstr ""
+msgstr "Depura!Para instalación debuging"
 
 #: am/modules/yad.am:158
+#, fuzzy
 msgid "!Choose app to install"
-msgstr ""
+msgstr "!Escoge aplicación para instalar"
 
 #: am/modules/yad.am:187
+#, fuzzy
 msgid "RUNNING: %s %s %s"
-msgstr ""
+msgstr "Corriendo: %s %s %s"
 
 #: am/modules/yad.am:270 am/modules/yad.am:287
+#, fuzzy
 msgid "📥 Install apps!!Install more apps"
-msgstr ""
+msgstr "📥 Instala aplicaciones!!Instala más aplicaciones"
 
 #: am/modules/yad.am:271 am/modules/yad.am:288
+#, fuzzy
 msgid "📥 Install!!Install one app"
-msgstr ""
+msgstr "¡Instalar! Instalar una aplicación"
 
 #: am/modules/yad.am:273 am/modules/yad.am:290
+#, fuzzy
 msgid "📋 Installed!!List installed Apps and remove App"
-msgstr ""
+msgstr "📋 Instalado!!Lista Aplicaciones instaladas y sacar Aplicación"
 
 #: am/modules/yad.am:274 am/modules/yad.am:291
+#, fuzzy
 msgid "🗑️ Remove!!Uninstall App(s)"
-msgstr ""
+msgstr "¡Desinstalar App(s)"
 
 #: am/modules/yad.am:275 am/modules/yad.am:292
+#, fuzzy
 msgid "About!ℹ️!Info about GUI"
-msgstr ""
+msgstr "Aproximadamente!ℹ️!Info Sobre GUI"
 
 #: am/modules/yad.am:276 am/modules/yad.am:293
+#, fuzzy
 msgid "yad-quit!!Exit GUI"
-msgstr ""
+msgstr "yad-Dejar!!Salida GUI"
 
 #~ msgid "Press y to continue, anything else to exit (timeout 15 seconds)"
 #~ msgstr "Presione s para continuar, cualquier otra tecla para salir (tiempo de espera 15 segundos)"
@@ -1800,5 +1826,6 @@ msgstr ""
 #~ msgid "$HELP_MESSAGE"
 #~ msgstr "$HELP_MESSAGE"
 
+#, fuzzy
 msgid "\\\"$AMCLIUPPER\\\" $AMVERSION:"
-msgstr ""
+msgstr "\\\"$AMCLIUPPER\\\" $AMVERSION:"
