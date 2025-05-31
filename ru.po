@@ -6,7 +6,7 @@
 # LibreTranslate <noreply-mt-libretranslate@weblate.org>, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: am 9.7.1-9\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-31\nPO-Revision-Date: 2025-05-31 08:25+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Russian <https://hosted.weblate.org/projects/am/am/ru/>\nLanguage: ru\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: am 9.7.1-9\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-31\nPO-Revision-Date: 2025-05-31 10:42+0000\nLast-Translator: LibreTranslate <noreply-mt-libretranslate@weblate.org>\nLanguage-Team: Russian <https://hosted.weblate.org/projects/am/am/ru/>\nLanguage: ru\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.12-dev\n"
 
 #: am/APP-MANAGER:92
 #, fuzzy
@@ -46,7 +46,7 @@ msgstr "Пожалуйста, установите gsed"
 #: am/APP-MANAGER:192
 #, fuzzy
 msgid ">>> Configure AppMan"
-msgstr ">>> Configure AppMan"
+msgstr ">>> Настроить AppMan"
 
 #: am/APP-MANAGER:192
 #, fuzzy
@@ -319,7 +319,7 @@ msgstr "Очистить содержимое $CACHEDIR/am"
 #: am/APP-MANAGER:861
 #, fuzzy
 msgid " ✔ Clear the contents of $CACHEDIR/appman"
-msgstr " ✔ Clear the contents of $CACHEDIR/appman"
+msgstr "Очистить содержимое $CACHEDIR/appman"
 
 #: am/APP-MANAGER:867
 #, fuzzy
@@ -374,7 +374,7 @@ msgstr "$APPMAN_APPSPATH/$arg можно снова управлять"
 #: am/APP-MANAGER:977
 #, fuzzy
 msgid "%b\\n Checking for changes of the installation scripts in the online database...\\n"
-msgstr "%b\\n Checking for changes of the installation scripts in the online database...\\n"
+msgstr "%b\\n Проверка изменений сценариев установки в онлайн-базе...\\n"
 
 #: am/APP-MANAGER:990
 #, fuzzy
@@ -434,7 +434,7 @@ msgstr "◆ \\\"$AMCLIUPPER\\\" СЕЙЧАС ВСТАЛИ В СТОРОНУ BRAN
 #: am/APP-MANAGER:1067
 #, fuzzy
 msgid "\\n  Replacement of version \\\"%b\\\" currently in use, COMPLETED! \\n"
-msgstr "\\n  Replacement of version \\\"%b\\\" currently in use, COMPLETED! \\n"
+msgstr "\\n Замена версии \\\"%b\\\" в настоящее время используется, КОМПЛЕКТИРОВАННЫЕ! \\n"
 
 #: am/APP-MANAGER:1068
 #, fuzzy
@@ -514,7 +514,7 @@ msgstr ">> %bEND ALL PROCESSES\\033[0m << \\n%b\\n"
 #: am/APP-MANAGER:1270
 #, fuzzy
 msgid "%b\\n >> %bEND OF ALL PROCESSES\\033[0m << \\n%b\\n"
-msgstr "%b\\n >> %bEND OF ALL PROCESSES\\033[0m << \\n%b\\n"
+msgstr "%b\\n >> %bEND ALL PROCESSES\\033[0m << \\n%b\\n"
 
 #: am/APP-MANAGER:1282
 #, fuzzy
@@ -534,7 +534,7 @@ msgstr "ERROR: \\\"$arg\\\" не установлен, см. \\\"-f\\\""
 #: am/APP-MANAGER:1303
 #, fuzzy
 msgid " ERROR: \\\"$AMCLI\\\" cannot manage updates for \\\"$arg\\\""
-msgstr " ERROR: \\\"$AMCLI\\\" cannot manage updates for \\\"$arg\\\""
+msgstr "ERROR: \"$AMCLI\" не может управлять обновлениями для \"$arg\\\""
 
 #: am/APP-MANAGER:1305
 #, fuzzy
@@ -549,7 +549,7 @@ msgstr "ERROR: \\\"$arg\\\" не перенаправляет на общий \\
 #: am/APP-MANAGER:1332
 #, fuzzy
 msgid " Module not found, run \\\"$AMCLI -s\\\" to update \\\"$AMCLIUPPER\\\""
-msgstr " Module not found, run \\\"$AMCLI -s\\\" to update \\\"$AMCLIUPPER\\\""
+msgstr "Модуль не найден, запустить \\\"$AMCLI -s\\\" для обновления \\\"$AMCLIUPPER\\\""
 
 #: am/APP-MANAGER:1350
 #, fuzzy
@@ -1041,7 +1041,7 @@ msgstr "◆ $arg | awk-script"
 #: am/modules/database.am:219
 #, fuzzy
 msgid " ◆ $arg\t|\tscript"
-msgstr " ◆ $arg\t|\tscript"
+msgstr "◆ $arg | сцена"
 
 #: am/modules/database.am:254
 #, fuzzy
@@ -1176,7 +1176,7 @@ msgstr "◆ $APPNAME: сценарий запуска установки"
 #: am/modules/install.am:137
 #, fuzzy
 msgid "\\n This script will create an AppImage on the fly, please wait...\\n"
-msgstr "\\n This script will create an AppImage on the fly, please wait...\\n"
+msgstr "\\n Этот сценарий создаст приложение на лету, пожалуйста, подождите.."
 
 #: am/modules/install.am:139
 #, fuzzy
@@ -1206,7 +1206,7 @@ msgstr "УСТАНОВЛЕНИЕ НАСЕЛ!"
 #: am/modules/install.am:284
 #, fuzzy
 msgid " ✖ \\\"$(echo \"$arg\" | sed 's/-appimage//g')\\\" is not an Appimage"
-msgstr " ✖ \\\"$(echo \"$arg\" | sed 's/-appimage//g')\\\" is not an Appimage"
+msgstr "✖ \\\"$(echo \"$arg\" | sed 's/-appimage//g')\\\" не является приложением"
 
 #: am/modules/install.am:360
 #, fuzzy
@@ -1251,7 +1251,7 @@ msgstr "УПРАВЛЕНИЕ: $AMCLI $1 - ошибка [УПРАВЛЕНИЕ]"
 #: am/modules/install.am:459
 #, fuzzy
 msgid " USAGE: $AMCLI $1 --force-latest [ARGUMENT]"
-msgstr " USAGE: $AMCLI $1 --force-latest [ARGUMENT]"
+msgstr "USAGE: $AMCLI $1 --force-latest [ARGUMENT]"
 
 #: am/modules/install.am:460
 #, fuzzy
@@ -1326,7 +1326,7 @@ msgstr "УПРАВЛЕНИЕ: $AMCLI $1 - пользователь/проект 
 #: am/modules/install.am:547
 #, fuzzy
 msgid " USAGE: $AMCLI $1 --user user/project [ARGUMENT] [KEYWORD]"
-msgstr " USAGE: $AMCLI $1 --user user/project [ARGUMENT] [KEYWORD]"
+msgstr "УПРАВЛЕНИЕ: $AMCLI $1 - пользователь/проект [УПРАВЛЕНИЕ] [KEYWORD]"
 
 #: am/modules/install.am:589
 #, fuzzy
@@ -1506,7 +1506,7 @@ msgstr "Новая команда: \\\"$appimage_cmd.appimage\\\" в $BINDIR"
 #: am/modules/management.am:262
 #, fuzzy
 msgid "New command: \\\"$appimage_cmd\\\" in $BINDIR"
-msgstr "New command: \\\"$appimage_cmd\\\" in $BINDIR"
+msgstr "Новая команда: \\\"$appimage_cmd\\\" в $BINDIR"
 
 #: am/modules/management.am:266
 #, fuzzy
@@ -1516,7 +1516,7 @@ msgstr "ВНИМАНИЕ, \\\"$BINDIR/$Response\\\" уже существует!
 #: am/modules/management.am:267
 #, fuzzy
 msgid " Do you Want to override it? (y,N) "
-msgstr " Do you Want to override it? (y,N) "
+msgstr "Хочешь перевернуть? (y,N) "
 
 #: am/modules/management.am:271
 #, fuzzy
@@ -1631,7 +1631,7 @@ msgstr "...загрузка приложенияimagetool\\r"
 #: am/modules/management.am:375
 #, fuzzy
 msgid " ...extracting the AppImage\\r"
-msgstr " ...extracting the AppImage\\r"
+msgstr "...исключение AppImage\\r"
 
 #: am/modules/management.am:388
 #, fuzzy
@@ -1701,7 +1701,7 @@ msgstr "◆ Желаете ли вы разрешить настраиваему
 #: am/modules/management.am:522
 #, fuzzy
 msgid " ✔ Success!"
-msgstr "Успешно!"
+msgstr "Успех!"
 
 #: am/modules/management.am:524
 #, fuzzy
@@ -1816,7 +1816,7 @@ msgstr "Хотите использовать repology.org для идентиф
 #: am/modules/template.am:161
 #, fuzzy
 msgid " LIST OF CATEGORIES:\\n 0) AudioVideo\\n 1) Audio\\n 2) Video\\n 3) Development\\n 4) Education\\n 5) Game\\n 6) Graphics\\n 7) Network\\n 8) Office\\n 9) Science\\n 10) Settings\\n 11) System\\n 12) Utility (default)\\n "
-msgstr " LIST OF CATEGORIES:\\n 0) AudioVideo\\n 1) Audio\\n 2) Video\\n 3) Development\\n 4) Education\\n 5) Game\\n 6) Graphics\\n 7) Network\\n 8) Office\\n 9) Science\\n 10) Settings\\n 11) System\\n 12) Utility (default)\\n "
+msgstr "СПИСОК КАТЕГОРИЙ:\\n 0) AudioVideo\\n 1) Аудио\\н 2) Видео\\н 3) Развитие\\н 4) Образование 5) Игра\\н 6) Графика\\н 7) Сеть\\n 8) Офис\\н 9) Наука\\н 10) Настройки\\н 11) Система\\н 12) Утильность (по умолчанию)\\н "
 
 #: am/modules/template.am:162
 #, fuzzy
