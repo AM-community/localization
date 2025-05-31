@@ -4,7 +4,7 @@
 # Glossary sync <noreply-glossary-sync@weblate.org>, 2025.
 # Apertium APy <noreply-mt-apertium-apy@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: am 9.7.1-9\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-31\nPO-Revision-Date: 2025-05-31 12:23+0000\nLast-Translator: Fifty Dinar <srbaizoki4@tuta.io>\nLanguage-Team: Serbian <https://hosted.weblate.org/projects/am/am/sr/>\nLanguage: sr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: am 9.7.1-9\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-31\nPO-Revision-Date: 2025-05-31 21:01+0000\nLast-Translator: Fifty Dinar <srbaizoki4@tuta.io>\nLanguage-Team: Serbian <https://hosted.weblate.org/projects/am/am/sr/>\nLanguage: sr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.12-dev\n"
 
 #: am/APP-MANAGER:92
 msgid "Add a suitable locale code, for example \\\"it\\\" for Italian\\n\\n"
@@ -863,7 +863,7 @@ msgstr " $APPSMESSAGE $LIBSMESSAGE LOKALNO, KAO \\\"APPMAN\\\""
 
 #: am/modules/database.am:179
 msgid " $APPSMESSAGE $LIBSMESSAGE MANAGED BY \\\"$AMCLIUPPER\\\""
-msgstr " $APPSMESSAGE $LIBSMESSAGE UPRAVLJAN OD \\\"$AMCLIUPPER\\\""
+msgstr " $APPSMESSAGE $LIBSMESSAGE UPRAVLJAN OD STRANE \\\"$AMCLIUPPER\\\""
 
 #: am/modules/database.am:181
 msgid " $APPSMESSAGE LOCALLY, AS \\\"APPMAN\\\""
@@ -871,7 +871,7 @@ msgstr " $APPSMESSAGE LOKALNO, KAO \\\"APPMAN\\\""
 
 #: am/modules/database.am:181
 msgid " $APPSMESSAGE MANAGED BY \\\"$AMCLIUPPER\\\""
-msgstr " $APPSMESSAGE UPRAVLJAN OD \\\"$AMCLIUPPER\\\""
+msgstr " $APPSMESSAGE UPRAVLJAN OD STRANE \\\"$AMCLIUPPER\\\""
 
 #: am/modules/database.am:197
 msgid " ◆ $arg\t|\tstatic-binary"
@@ -1043,7 +1043,7 @@ msgstr " Otkriveno više varijanti, odaberi jednu ili pritisni NULU da obustavi�
 
 #: am/modules/install.am:366
 msgid "%bPlease select another item or press \\\"ZERO\\\".\\n\\n"
-msgstr "%bMolim odaberi drugi izbor ili pritizni \\\"NULU\\\".\\n\\n"
+msgstr "%bMolim odaberi drugi izbor ili pritisni \\\"NULU\\\".\\n\\n"
 
 #: am/modules/install.am:371
 msgid "\\n Invalid selection. INSTALLATION ABORTED! \\n"
@@ -1187,7 +1187,7 @@ msgstr " SAČUVANO u $HOME/.am-snapshots/$2/$backupname"
 
 #: am/modules/management.am:60
 msgid " ERROR: No snapshot for \\\"$2\\\" found."
-msgstr " GREŠKA: Nijedan snapshot nije pronađen za \\\"$2\\\"."
+msgstr " GREŠKA: Nijedna rezervna kopija nije pronađena za \\\"$2\\\"."
 
 #: am/modules/management.am:64
 msgid " Do you wish to overwrite $2 with an older version? (y,N) "
@@ -1199,7 +1199,7 @@ msgstr "\\n OPERACIJA OBUSTAVLJENA! \\n\\n"
 
 #: am/modules/management.am:68
 msgid "\\n Please, select a snapshot or press ZERO to abort:\\n\\n"
-msgstr "\\n Molim, odaberi snapshot ili pritisni NULA da obustaviš:\\n\\n"
+msgstr "\\n Molim odaberi rezervnu kopiju ili pritisni NULU da obustaviš:\\n\\n"
 
 #: am/modules/management.am:74 am/modules/management.am:164
 msgid "\\n Invalid selection. ABORTED! \\n"
@@ -1223,7 +1223,7 @@ msgstr "✖ GREŠKA: \\\"$arg\\\" već sadrži config direktorijum"
 
 #: am/modules/management.am:102
 msgid "✔ \\$XDG_CONFIG_HOME set to \\\"$argpath.config\\\" for \\\"$arg\\\""
-msgstr "✔ \\$XDG_CONFIG_HOME podešen kao \\\"$argpath.config\\\" za \\\"$arg\\\""
+msgstr "✔ \\$XDG_CONFIG_HOME je podešen kao \\\"$argpath.config\\\" za \\\"$arg\\\""
 
 #: am/modules/management.am:107
 msgid "✖ ERROR: \\\"$arg\\\" already contains a home dir"
@@ -1231,7 +1231,7 @@ msgstr "✖ GREŠKA: \\\"$arg\\\" već sadrži home direktorijum"
 
 #: am/modules/management.am:110
 msgid "✔ \\$HOME set to \\\"$argpath.home\\\" for \\\"$arg\\\""
-msgstr "✔ \\$HOME podešen kao \\\"$argpath.home\\\" za \\\"$arg\\\""
+msgstr "✔ \\$HOME je podešen kao \\\"$argpath.home\\\" za \\\"$arg\\\""
 
 #: am/modules/management.am:137
 msgid " No AM-updater available for \\\"$2\\\", cannot detect any URL!"
