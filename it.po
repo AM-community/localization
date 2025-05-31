@@ -4,7 +4,7 @@
 # LibreTranslate <noreply-mt-libretranslate@weblate.org>, 2025.
 # Glossary sync <noreply-glossary-sync@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: \nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-31\nPO-Revision-Date: 2025-05-31 12:23+0000\nLast-Translator: zenobit <zenobit@disroot.org>\nLanguage-Team: Italian <https://hosted.weblate.org/projects/am/am/it/>\nLanguage: it\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: \nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-31\nPO-Revision-Date: 2025-05-31 12:42+0000\nLast-Translator: zenobit <zenobit@disroot.org>\nLanguage-Team: Italian <https://hosted.weblate.org/projects/am/am/it/>\nLanguage: it\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
 
 #: am/APP-MANAGER:92
 msgid "Add a suitable locale code, for example \\\"it\\\" for Italian\\n\\n"
