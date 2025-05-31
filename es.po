@@ -6,24 +6,12 @@
 # Apertium APy <noreply-mt-apertium-apy@weblate.org>, 2025.
 # LibreTranslate <noreply-mt-libretranslate@weblate.org>, 2025.
 msgid ""
-msgstr ""
-"Project-Id-Version: am 9.7.1-9\n"
-"Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
-"POT-Creation-Date: 2025-05-31\n"
-"PO-Revision-Date: 2025-05-31 06:18+0000\n"
-"Last-Translator: LibreTranslate <noreply-mt-libretranslate@weblate.org>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/am/am/es/>\n"
-"Language: es\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: am 9.7.1-9\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-31\nPO-Revision-Date: 2025-05-31 08:25+0000\nLast-Translator: Apertium APy <noreply-mt-apertium-apy@weblate.org>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/am/am/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
 
 #: am/APP-MANAGER:92
 #, fuzzy
 msgid "Add a suitable locale code, for example \\\"it\\\" for Italian\\n\\n"
-msgstr "Añadir un código local adecuado, por ejemplo \\\"it\\\" para Italian\\n\\n"
+msgstr "Añadir un adecuado locale código, por ejemplo \\\"él\\\" para italiano\\n\\n"
 
 #: am/APP-MANAGER:93
 #, fuzzy
@@ -33,7 +21,7 @@ msgstr "Deja espacio para utilizar \\\"$CLI\\\" en inglés: "
 #: am/APP-MANAGER:112
 #, fuzzy
 msgid "Setting locale to \\\"%b\\\"\\n"
-msgstr "Ajuste locale a \\\"%b\\\"\\n"
+msgstr "Encuadre locale a \\\"%b\\\"\\n"
 
 #: am/APP-MANAGER:118
 msgid "\\n Please do not use \\\"sudo\\\" to execute \\\"%b\\\", try again.\\n\\n"
@@ -322,7 +310,7 @@ msgstr "%b\\n Comprobando cambios en los scripts de instalación en la base de d
 #, fuzzy
 #| msgid " ◆ %b%b\\033[0m has changed, you may need to reinstall it, see\\n   https://github.com/ivan-hc/AM/blob/main/programs/%b/%b\\n"
 msgid " ◆ %b%b\\033[0m has changed, you may need to reinstall it, see\\n   https://github.com/$AM_THE_OWNER/AM/blob/main/programs/%b/%b\\n"
-msgstr " ◆ %b%b\\033[0m has changed, you may need to reinstall it, see\\n   https://github.com/ivan-hc/AM/blob/main/programs/%b/%b\\n"
+msgstr "◆ %b%b\\033[0m ha cambiado,  puedes necesitar a reinstall lo, ve\\n   https://github.com/$SOY_EL_DUEÑO/SOY/blob/programas/principales/%b/%b\\n"
 
 #: am/APP-MANAGER:995
 msgid " ◆ No installation script for %b, downloading one...\\n"
@@ -340,7 +328,7 @@ msgstr "%b\\n Comprobar y actualizar listas sin conexión de bases de datos adic
 #, fuzzy
 #| msgid "%b\\n Check and update offline lists of additional databases...\\n"
 msgid "%b\\n Check and update localization...\\n"
-msgstr "%b\\n Comprobar y actualizar listas sin conexión de bases de datos adicionales...\\n"
+msgstr "%b\\n Control y actualización localization...\\n"
 
 #: am/APP-MANAGER:1034
 msgid "%b\\n Check for updates in modules...\\n"
@@ -374,7 +362,7 @@ msgstr "\\n  Replacement of version \\\"%b\\\" currently in use, COMPLETED! \\n"
 #, fuzzy
 #| msgid "\\n See https://github.com/ivan-hc/AM/commits/main\\n\\n"
 msgid "\\n See https://github.com/$AM_THE_OWNER/AM/commits/main\\n\\n"
-msgstr "\\n Consulte https://github.com/ivan-hc/AM/commits/main\\n\\n"
+msgstr "\\n Ver https://github.com/$SOY_EL_DUEÑO/SOY/comete/principal\\n\\n"
 
 #: am/APP-MANAGER:1070
 msgid " ◆ \\\"$AMCLIUPPER\\\" IS ALREADY UPDATED, CURRENT VERSION \\\"$CURRENT_AM_VERSION\\\""
@@ -384,7 +372,7 @@ msgstr " ◆ \\\"$AMCLIUPPER\\\" YA ESTÁ ACTUALIZADO, VERSIÓN ACTUAL \\\"$CURR
 #, fuzzy
 #| msgid "\\n See https://github.com/ivan-hc/AM/commits/%b\\n\\n"
 msgid "\\n See https://github.com/$AM_THE_OWNER/AM/commits/%b\\n\\n"
-msgstr "\\n Consulte https://github.com/ivan-hc/AM/commits/%b\\n\\n"
+msgstr "\\n Ver https://github.com/$SOY_EL_DUEÑO/SOY/comete/%b\\n\\n"
 
 #: am/APP-MANAGER:1110
 msgid " %b\\\"%b\\\" CAN MANAGE UPDATES FOR THE FOLLOWING PROGRAMS\\033[0m:\\n%b\\n\\n"
@@ -402,7 +390,7 @@ msgstr "\\n %bTodos los programas autoactualizables están excluidos\\033[0m\\n"
 #, fuzzy
 #| msgid " Nothing to do here! \\n%b\\n"
 msgid " Nothing to do here! \\n"
-msgstr " ¡Nada que hacer aquí! \\n%b\\n"
+msgstr "Nada para hacer aquí! \\n"
 
 #: am/APP-MANAGER:1140
 msgid " The following apps have been updated:\\n\\n"
@@ -489,7 +477,7 @@ msgstr "O probar SOY con GUI (versión de Alfa!)"
 #, fuzzy
 #| msgid " Run the \\\"$AMCLI -h\\\" command to find out more"
 msgid " Run the \\\"$AMCLI --gui\\\" command"
-msgstr " Ejecute el comando \\\"$AMCLI -h\\\" para obtener más información"
+msgstr "Corrido el \\\"$AMCLI --gui\\\" orden"
 
 #: am/APP-MANAGER:1357
 #, fuzzy
@@ -2094,7 +2082,7 @@ msgstr "📥 Instala aplicaciones!!Instala más aplicaciones"
 #: am/modules/yad.am:271 am/modules/yad.am:288
 #, fuzzy
 msgid "📥 Install!!Install one app"
-msgstr "¡Instalar! Instalar una aplicación"
+msgstr "📥 Instala!!Instala una aplicación"
 
 #: am/modules/yad.am:273 am/modules/yad.am:290
 #, fuzzy
@@ -2104,7 +2092,7 @@ msgstr "📋 Instalado!!Lista Aplicaciones instaladas y sacar Aplicación"
 #: am/modules/yad.am:274 am/modules/yad.am:291
 #, fuzzy
 msgid "🗑️ Remove!!Uninstall App(s)"
-msgstr "¡Desinstalar App(s)"
+msgstr "🗑️ Saca!!Uninstall Aplicación(s)"
 
 #: am/modules/yad.am:275 am/modules/yad.am:292
 #, fuzzy
