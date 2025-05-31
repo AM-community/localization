@@ -2,20 +2,24 @@
 # Fifty Dinar <srbaizoki4@tuta.io>, 2025
 # zenobit <zenobit@disroot.org>, 2025.
 # Glossary sync <noreply-glossary-sync@weblate.org>, 2025.
+# Apertium APy <noreply-mt-apertium-apy@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: am 9.7.1-9\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-31\nPO-Revision-Date: 2025-05-31 06:07+0000\nLast-Translator: Glossary sync <noreply-glossary-sync@weblate.org>\nLanguage-Team: Serbian <https://hosted.weblate.org/projects/am/am/sr/>\nLanguage: sr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: am 9.7.1-9\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-31\nPO-Revision-Date: 2025-05-31 06:18+0000\nLast-Translator: Apertium APy <noreply-mt-apertium-apy@weblate.org>\nLanguage-Team: Serbian <https://hosted.weblate.org/projects/am/am/sr/>\nLanguage: sr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.12-dev\n"
 
 #: am/APP-MANAGER:92
+#, fuzzy
 msgid "Add a suitable locale code, for example \\\"it\\\" for Italian\\n\\n"
-msgstr ""
+msgstr "#Dodati @a #prikladan locale #kôd, @for example \\@parquote#free\\@parquote @for @Italian\\@n\\@n"
 
 #: am/APP-MANAGER:93
+#, fuzzy
 msgid " Leave blank to use \\\"$CLI\\\" in English: "
-msgstr ""
+msgstr "@Leave #bjelina #na #uporaba \\@parquote$CLI\\@parquote @in @English#: "
 
 #: am/APP-MANAGER:112
+#, fuzzy
 msgid "Setting locale to \\\"%b\\\"\\n"
-msgstr ""
+msgstr "@Setting locale #na \\@parquote%@b\\@parquote\\@n"
 
 #: am/APP-MANAGER:118
 msgid "\\n Please do not use \\\"sudo\\\" to execute \\\"%b\\\", try again.\\n\\n"
@@ -463,8 +467,9 @@ msgid " Run the \\\"$AMCLI -h\\\" command to find out more"
 msgstr " Pokreni \\\"$AMCLI -h\\\" komandu da saznaš više"
 
 #: am/APP-MANAGER:1355
+#, fuzzy
 msgid "   or try AM with GUI (Alpha version!)"
-msgstr ""
+msgstr "ili #pokušaj @AM #uz @GUI (Alpha #inačica!)"
 
 #: am/APP-MANAGER:1356
 #, fuzzy
@@ -473,8 +478,9 @@ msgid " Run the \\\"$AMCLI --gui\\\" command"
 msgstr " Pokreni \\\"$AMCLI -h\\\" komandu da saznaš više"
 
 #: am/APP-MANAGER:1357
+#, fuzzy
 msgid "   and help us catch the bugs please"
-msgstr ""
+msgstr "a #pomoć @u #kvaka @the @bug @please"
 
 #: am/APP-MANAGER:1419
 msgid "This feature is disabled by your organization"
@@ -2327,10 +2333,12 @@ msgid "\\n No valid argument was chosen: process aborted! \\n"
 msgstr "\\n Nijedan važeći argument nije odabran: proces obustavljen! \\n"
 
 #: am/modules/yad.am:13
+#, fuzzy
 msgid "ERROR! yad is missing! Install it..."
-msgstr ""
+msgstr "#ZABUNA! yad @be! @Install #free#..."
 
 #: am/modules/yad.am:26
+#, fuzzy
 msgid ""
 "Testing Alpha release\n"
 "\n"
@@ -2343,71 +2351,87 @@ msgid ""
 "https://github.com/ivan-hc/am\n"
 "\n"
 "GUI:"
-msgstr ""
+msgstr "@Testing Alpha #otpust\n\n#Uporabiti YAD #na #stvarati #jednostavan a #upotrebljiv\nGraphical #Korisnik @Interface @for\n@AM: #Prijava #Upravitelj\n@for linux\n\n@AM #stranica:\nhttps://github.@com/iv@a-hc/#biti\n\n@GUI#:"
 
 #: am/modules/yad.am:142
+#, fuzzy
 msgid "AppImage!Install only AppImages"
-msgstr ""
+msgstr "AppImage!@Install #sam AppImages"
 
 #: am/modules/yad.am:143
+#, fuzzy
 msgid "soarpkg!For installation from soar packages"
-msgstr ""
+msgstr "soarpkg!@For #instalacija @from soar #paket"
 
 #: am/modules/yad.am:144
+#, fuzzy
 msgid "toolpack!For installation of toolpacks"
-msgstr ""
+msgstr "toolpack!@For #instalacija @of toolpacks"
 
 #: am/modules/yad.am:145
+#, fuzzy
 msgid "sandbox!Set also sandbox"
-msgstr ""
+msgstr "@sandbox!#Pribor #i @sandbox"
 
 #: am/modules/yad.am:146
+#, fuzzy
 msgid "user (as AppMan)!Use it to install applications locally"
-msgstr ""
+msgstr "#korisnik (@as AppMan)!#Uporaba #free #na @install #prijava @locally"
 
 #: am/modules/yad.am:147
+#, fuzzy
 msgid "force latest!Downgrade installed app from pre-release to latest"
-msgstr ""
+msgstr "#sila #nov!Downgrade @install app @from pre-#otpust #na #nov"
 
 #: am/modules/yad.am:148
+#, fuzzy
 msgid "icons!Allow use of system theme"
-msgstr ""
+msgstr "@icon!#Odobriti #uporaba @of #sustav #tema"
 
 #: am/modules/yad.am:149
+#, fuzzy
 msgid "debug!For installation debuging"
-msgstr ""
+msgstr "@debug!@For #instalacija debuging"
 
 #: am/modules/yad.am:158
+#, fuzzy
 msgid "!Choose app to install"
-msgstr ""
+msgstr "!#Birati app #na @install"
 
 #: am/modules/yad.am:187
+#, fuzzy
 msgid "RUNNING: %s %s %s"
-msgstr ""
+msgstr "#TRČANJE: %@s %@s %@s"
 
 #: am/modules/yad.am:270 am/modules/yad.am:287
+#, fuzzy
 msgid "📥 Install apps!!Install more apps"
-msgstr ""
+msgstr "📥 @Install apps#!!@Install više apps"
 
 #: am/modules/yad.am:271 am/modules/yad.am:288
+#, fuzzy
 msgid "📥 Install!!Install one app"
-msgstr ""
+msgstr "📥 @Install#!!@Install #jedan app"
 
 #: am/modules/yad.am:273 am/modules/yad.am:290
+#, fuzzy
 msgid "📋 Installed!!List installed Apps and remove App"
-msgstr ""
+msgstr "📋 @Install#!!#Popis @install Apps a #brisati App"
 
 #: am/modules/yad.am:274 am/modules/yad.am:291
+#, fuzzy
 msgid "🗑️ Remove!!Uninstall App(s)"
-msgstr ""
+msgstr "🗑️ #Brisati#!!Uninstall App(@s)"
 
 #: am/modules/yad.am:275 am/modules/yad.am:292
+#, fuzzy
 msgid "About!ℹ️!Info about GUI"
-msgstr ""
+msgstr "@About!ℹ️!@Info @about @GUI"
 
 #: am/modules/yad.am:276 am/modules/yad.am:293
+#, fuzzy
 msgid "yad-quit!!Exit GUI"
-msgstr ""
+msgstr "yad-@quit#!!#Izlaz"
 
 #~ msgid "Press y to continue, anything else to exit (timeout 15 seconds)"
 #~ msgstr "Pritisni y da nastaviš, bilo šta drugo da izađeš (vreme za odabir 15 sekundi)"
@@ -2493,5 +2517,6 @@ msgstr ""
 #~ msgid "$HELP_MESSAGE"
 #~ msgstr "$HELP_MESSAGE"
 
+#, fuzzy
 msgid "\\\"$AMCLIUPPER\\\" $AMVERSION:"
-msgstr ""
+msgstr "\\@parquote$AMCLIUPPER\\@parquote $AMVERSION#:"
