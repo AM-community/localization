@@ -1,20 +1,9 @@
 # File with translation for AM
 # FIRST AUTHOR <zenobit@disroot.org>, 2025
 # Prefill add-on <noreply-addon-prefill@weblate.org>, 2025.
+# Glossary sync <noreply-glossary-sync@weblate.org>, 2025.
 msgid ""
-msgstr ""
-"Project-Id-Version: am 9.7\n"
-"Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
-"POT-Creation-Date: 2025-05-31\n"
-"PO-Revision-Date: 2025-05-31 06:01+0000\n"
-"Last-Translator: zenobit <zenobit@disroot.org>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/am/am/cs/>\n"
-"Language: cs\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: am 9.7\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-31\nPO-Revision-Date: 2025-05-31 06:07+0000\nLast-Translator: Glossary sync <noreply-glossary-sync@weblate.org>\nLanguage-Team: Czech <https://hosted.weblate.org/projects/am/am/cs/>\nLanguage: cs\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\nX-Generator: Weblate 5.12-dev\n"
 
 #: am/APP-MANAGER:92
 msgid "Add a suitable locale code, for example \\\"it\\\" for Italian\\n\\n"
@@ -2166,3 +2155,6 @@ msgstr "yad-quit!!OPUSTIT GUI"
 
 #~ msgid " 💀 ERROR: cannot create \\\"$arg\\\" without \\\"convert\\\" (from \\\"imagemagick\\\")"
 #~ msgstr " 💀 CHYBA: cannot create \\\"$arg\\\" without \\\"convert\\\" (from \\\"imagemagick\\\")"
+
+msgid "\\\"$AMCLIUPPER\\\" $AMVERSION:"
+msgstr ""
