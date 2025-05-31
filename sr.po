@@ -4,22 +4,19 @@
 # Glossary sync <noreply-glossary-sync@weblate.org>, 2025.
 # Apertium APy <noreply-mt-apertium-apy@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: am 9.7.1-9\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-31\nPO-Revision-Date: 2025-05-31 08:25+0000\nLast-Translator: Apertium APy <noreply-mt-apertium-apy@weblate.org>\nLanguage-Team: Serbian <https://hosted.weblate.org/projects/am/am/sr/>\nLanguage: sr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: am 9.7.1-9\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-31\nPO-Revision-Date: 2025-05-31 11:53+0000\nLast-Translator: Fifty Dinar <srbaizoki4@tuta.io>\nLanguage-Team: Serbian <https://hosted.weblate.org/projects/am/am/sr/>\nLanguage: sr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.12-dev\n"
 
 #: am/APP-MANAGER:92
-#, fuzzy
 msgid "Add a suitable locale code, for example \\\"it\\\" for Italian\\n\\n"
-msgstr "#Dodati @a #prikladan locale #kôd, @for example \\@parquote#free\\@parquote @for @Italian\\@n\\@n"
+msgstr "Dodaj prikladan kod za lokal, na primer \\\"cs\\\" za češki\\n\\n"
 
 #: am/APP-MANAGER:93
-#, fuzzy
 msgid " Leave blank to use \\\"$CLI\\\" in English: "
-msgstr "@Leave #bjelina #na #uporaba \\@parquote$CLI\\@parquote @in @English#: "
+msgstr " Ostavi prazno da koristiš \\\"$CLI\\\" na engleskom: "
 
 #: am/APP-MANAGER:112
-#, fuzzy
 msgid "Setting locale to \\\"%b\\\"\\n"
-msgstr "@Setting locale #na \\@parquote%@b\\@parquote\\@n"
+msgstr "Podešavam lokal na \\\"%b\\\"\\n"
 
 #: am/APP-MANAGER:118
 msgid "\\n Please do not use \\\"sudo\\\" to execute \\\"%b\\\", try again.\\n\\n"
@@ -305,10 +302,8 @@ msgid "%b\\n Checking for changes of the installation scripts in the online data
 msgstr "%b\\n Proveravam promene instalacijskih skripti u onlajn bazi podataka...\\n"
 
 #: am/APP-MANAGER:990
-#, fuzzy
-#| msgid " ◆ %b%b\\033[0m has changed, you may need to reinstall it, see\\n   https://github.com/ivan-hc/AM/blob/main/programs/%b/%b\\n"
 msgid " ◆ %b%b\\033[0m has changed, you may need to reinstall it, see\\n   https://github.com/$AM_THE_OWNER/AM/blob/main/programs/%b/%b\\n"
-msgstr "◆ %@b%@b\\033[0@m #ima @changed, #free @may #nužda #na reinstall #free, #vidjeti\\@n   https://github.@com/$@AM_@THE_#VLASNICA/@AM/#brboriti/#velik/@program/%@b/%@b\\@n"
+msgstr " ◆ %b%b\\033[0m je promenjen, možda ćeš morati da ga reinstaliraš, vidi\\n   https://github.com/$AM_THE_OWNER/AM/blob/main/programs/%b/%b\\n"
 
 #: am/APP-MANAGER:995
 msgid " ◆ No installation script for %b, downloading one...\\n"
@@ -323,10 +318,8 @@ msgid "%b\\n Check and update offline lists of additional databases...\\n"
 msgstr "%b\\n Proveravam i ažuriram oflajn listu dodatnih baza podataka...\\n"
 
 #: am/APP-MANAGER:1027
-#, fuzzy
-#| msgid "%b\\n Check and update offline lists of additional databases...\\n"
 msgid "%b\\n Check and update localization...\\n"
-msgstr "%@b\\@n #Pregled a #poboljšati localization#...\\@n"
+msgstr "%b\\n Proveravam i ažuriram lokalizaciju (prevode)...\\n"
 
 #: am/APP-MANAGER:1034
 msgid "%b\\n Check for updates in modules...\\n"
@@ -357,20 +350,16 @@ msgid "\\n  Replacement of version \\\"%b\\\" currently in use, COMPLETED! \\n"
 msgstr "\\n  Zamena verzije \\\"%b\\\" u trenutnom korišćenju, ZAVRŠENO! \\n"
 
 #: am/APP-MANAGER:1068
-#, fuzzy
-#| msgid "\\n See https://github.com/ivan-hc/AM/commits/main\\n\\n"
 msgid "\\n See https://github.com/$AM_THE_OWNER/AM/commits/main\\n\\n"
-msgstr "\\@n #Vidjeti https://github.@com/$@AM_@THE_#VLASNICA/@AM/#izvršiti/#velik\\@n\\@n"
+msgstr "\\n Vidi https://github.com/$AM_THE_OWNER/AM/commits/main\\n\\n"
 
 #: am/APP-MANAGER:1070
 msgid " ◆ \\\"$AMCLIUPPER\\\" IS ALREADY UPDATED, CURRENT VERSION \\\"$CURRENT_AM_VERSION\\\""
 msgstr " ◆ \\\"$AMCLIUPPER\\\" JE VEĆ AŽURIRAN, TRENUTNA VERZIJA \\\"$CURRENT_AM_VERSION\\\""
 
 #: am/APP-MANAGER:1071
-#, fuzzy
-#| msgid "\\n See https://github.com/ivan-hc/AM/commits/%b\\n\\n"
 msgid "\\n See https://github.com/$AM_THE_OWNER/AM/commits/%b\\n\\n"
-msgstr "\\@n #Vidjeti https://github.@com/$@AM_@THE_#VLASNICA/@AM/#izvršiti/%@b\\@n\\@n"
+msgstr "\\n Vidi https://github.com/$AM_THE_OWNER/AM/commits/%b\\n\\n"
 
 #: am/APP-MANAGER:1110
 msgid " %b\\\"%b\\\" CAN MANAGE UPDATES FOR THE FOLLOWING PROGRAMS\\033[0m:\\n%b\\n\\n"
@@ -385,10 +374,8 @@ msgid "\\n %bAll self-updatable programs are excluded\\033[0m\\n"
 msgstr "\\n %bSvi programi sopstvenog ažuriranja su izostavljeni\\033[0m\\n"
 
 #: am/APP-MANAGER:1138
-#, fuzzy
-#| msgid " Nothing to do here! \\n%b\\n"
 msgid " Nothing to do here! \\n"
-msgstr "#Ništica #na @do tuda! \\@n"
+msgstr " Ovde nema ništa da se radi! \\n"
 
 #: am/APP-MANAGER:1140
 msgid " The following apps have been updated:\\n\\n"
@@ -467,20 +454,16 @@ msgid " Run the \\\"$AMCLI -h\\\" command to find out more"
 msgstr " Pokreni \\\"$AMCLI -h\\\" komandu da saznaš više"
 
 #: am/APP-MANAGER:1355
-#, fuzzy
 msgid "   or try AM with GUI (Alpha version!)"
-msgstr "ili #pokušaj @AM #uz @GUI (Alpha #inačica!)"
+msgstr "   ili probaj AM sa grafičkim interfejsom - GUI (Alfa verzija!)"
 
 #: am/APP-MANAGER:1356
-#, fuzzy
-#| msgid " Run the \\\"$AMCLI -h\\\" command to find out more"
 msgid " Run the \\\"$AMCLI --gui\\\" command"
-msgstr "#Bijeg @the \\@parquote$AMCLI --gui\\@parquote #komanda"
+msgstr " Pokreni \\\"$AMCLI --gui\\\" komandu"
 
 #: am/APP-MANAGER:1357
-#, fuzzy
 msgid "   and help us catch the bugs please"
-msgstr "a #pomoć @u #kvaka @the @bug @please"
+msgstr "   i pomozi nam da uočimo greške"
 
 #: am/APP-MANAGER:1419
 msgid "This feature is disabled by your organization"
@@ -1987,12 +1970,10 @@ msgid "\\n No valid argument was chosen: process aborted! \\n"
 msgstr "\\n Nijedan važeći argument nije odabran: proces obustavljen! \\n"
 
 #: am/modules/yad.am:13
-#, fuzzy
 msgid "ERROR! yad is missing! Install it..."
-msgstr "#ZABUNA! yad @be! @Install #free#..."
+msgstr "GREŠKA! yad nedostaje! Instaliraj ga..."
 
 #: am/modules/yad.am:26
-#, fuzzy
 msgid ""
 "Testing Alpha release\n"
 "\n"
@@ -2005,98 +1986,71 @@ msgid ""
 "https://github.com/ivan-hc/am\n"
 "\n"
 "GUI:"
-msgstr ""
-"@Testing Alpha #otpust\n"
-"\n"
-"#Uporabiti YAD #na #stvarati #jednostavan a #upotrebljiv\n"
-"Graphical #Korisnik @Interface @for\n"
-"@AM: #Prijava #Upravitelj\n"
-"@for linux\n"
-"\n"
-"@AM #stranica:\n"
-"https://github.@com/iv@a-hc/#biti\n"
-"\n"
-"@GUI#:"
+msgstr "Testiram Alfa izdanje\n\nKoristeći YAD da pravim jednostavne i korisne\nGrafičke korisničke interfejse za\nAM: Aplikacijski Menadžer\nza Linux\n\nAM vebsajt:\nhttps://github.com/ivan-hc/am\n\nGUI:"
 
 #: am/modules/yad.am:142
-#, fuzzy
 msgid "AppImage!Install only AppImages"
-msgstr "AppImage!@Install #sam AppImages"
+msgstr "AppImage!Instaliraj isključivo AppImage-ove"
 
 #: am/modules/yad.am:143
-#, fuzzy
 msgid "soarpkg!For installation from soar packages"
-msgstr "soarpkg!@For #instalacija @from soar #paket"
+msgstr "soarpkg!Za instalaciju soar paketa"
 
 #: am/modules/yad.am:144
-#, fuzzy
 msgid "toolpack!For installation of toolpacks"
-msgstr "toolpack!@For #instalacija @of toolpacks"
+msgstr "toolpack!Za instalaciju toolpack-ova"
 
 #: am/modules/yad.am:145
-#, fuzzy
 msgid "sandbox!Set also sandbox"
-msgstr "@sandbox!#Pribor #i @sandbox"
+msgstr "sandbox!Takođe podesi sandbox"
 
 #: am/modules/yad.am:146
-#, fuzzy
 msgid "user (as AppMan)!Use it to install applications locally"
-msgstr "#korisnik (@as AppMan)!#Uporaba #free #na @install #prijava @locally"
+msgstr "korisnik (kao AppMan)!Koristi ga da lokalno instaliraš aplikacije"
 
 #: am/modules/yad.am:147
-#, fuzzy
 msgid "force latest!Downgrade installed app from pre-release to latest"
-msgstr "#sila #nov!Downgrade @install app @from pre-#otpust #na #nov"
+msgstr "Prinudi poslednje!Spusti instaliranu aplikaciju iz pre-izdanja u poslednju verziju"
 
 #: am/modules/yad.am:148
-#, fuzzy
 msgid "icons!Allow use of system theme"
-msgstr "@icon!#Odobriti #uporaba @of #sustav #tema"
+msgstr "ikone!Dozvoli korišćenje sistemske teme"
 
 #: am/modules/yad.am:149
-#, fuzzy
 msgid "debug!For installation debuging"
-msgstr "@debug!@For #instalacija debuging"
+msgstr "debug!Za uklanjanje grešaka (debug-ovanje) instalacije"
 
 #: am/modules/yad.am:158
-#, fuzzy
 msgid "!Choose app to install"
-msgstr "!#Birati app #na @install"
+msgstr "!Izaberi aplikaciju za instalaciju"
 
 #: am/modules/yad.am:187
-#, fuzzy
 msgid "RUNNING: %s %s %s"
-msgstr "#TRČANJE: %@s %@s %@s"
+msgstr "POKREĆEM: %s %s %s"
 
 #: am/modules/yad.am:270 am/modules/yad.am:287
-#, fuzzy
 msgid "📥 Install apps!!Install more apps"
-msgstr "📥 @Install apps#!!@Install više apps"
+msgstr "📥 Instaliraj aplikacije!!Instaliraj više aplikacija"
 
 #: am/modules/yad.am:271 am/modules/yad.am:288
-#, fuzzy
 msgid "📥 Install!!Install one app"
-msgstr "📥 @Install#!!@Install #jedan app"
+msgstr "📥 Instaliraj!!Instaliraj jednu aplikaciju"
 
 #: am/modules/yad.am:273 am/modules/yad.am:290
-#, fuzzy
 msgid "📋 Installed!!List installed Apps and remove App"
-msgstr "📋 @Install#!!#Popis @install Apps a #brisati App"
+msgstr "📋 Instalirano!!Vidi instalirane Aplikacije i obriši Aplikaciju"
 
 #: am/modules/yad.am:274 am/modules/yad.am:291
-#, fuzzy
 msgid "🗑️ Remove!!Uninstall App(s)"
-msgstr "🗑️ #Brisati#!!Uninstall App(@s)"
+msgstr "🗑️ Obriši!!Deinstaliraj Aplikaciju(e)"
 
 #: am/modules/yad.am:275 am/modules/yad.am:292
-#, fuzzy
 msgid "About!ℹ️!Info about GUI"
-msgstr "@About!ℹ️!@Info @about @GUI"
+msgstr "O nama!ℹ️!Informacije o GUI"
 
 #: am/modules/yad.am:276 am/modules/yad.am:293
-#, fuzzy
 msgid "yad-quit!!Exit GUI"
-msgstr "yad-@quit#!!#Izlaz"
+msgstr "yad-izađi!!Izađi iz GUI-ja"
 
 #~ msgid "Press y to continue, anything else to exit (timeout 15 seconds)"
 #~ msgstr "Pritisni y da nastaviš, bilo šta drugo da izađeš (vreme za odabir 15 sekundi)"
