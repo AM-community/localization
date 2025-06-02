@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: am 9.7.1-9\n"
 "Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
 "POT-Creation-Date: 2025-06-02\n"
-"PO-Revision-Date: 2025-06-01 00:01+0000\n"
-"Last-Translator: Fifty Dinar <srbaizoki4@tuta.io>\n"
+"PO-Revision-Date: 2025-06-02 05:59+0000\n"
+"Last-Translator: Apertium APy <noreply-mt-apertium-apy@weblate.org>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/am/am/sr/>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
@@ -389,7 +389,7 @@ msgstr "\\n Vidi https://github.com/$AM_THE_OWNER/AM/commits/%b\\n\\n"
 #, fuzzy
 #| msgid "%b\\n ABORTED! \\n%b\\n"
 msgid "%b\\n DONE! \\n"
-msgstr "%b\\n OBUSTAVLJENO! \\n%b\\n"
+msgstr "%@b\\@n #RADITI! \\@n"
 
 #: am/APP-MANAGER:1110
 msgid " %b\\\"%b\\\" CAN MANAGE UPDATES FOR THE FOLLOWING PROGRAMS\\033[0m:\\n%b\\n\\n"
@@ -1821,7 +1821,7 @@ msgstr "🗑️ Obriši!!Deinstaliraj Aplikaciju(e)"
 #, fuzzy
 #| msgid "About!ℹ️!Info about GUI"
 msgid "About!$LOGO!Info about GUI"
-msgstr "O nama!ℹ️!Informacije o GUI"
+msgstr "@About!$LOGO!@Info @about @GUI"
 
 #: am/modules/yad.am:300 am/modules/yad.am:317
 msgid "yad-quit!!Exit GUI"
@@ -1830,6 +1830,20 @@ msgstr "yad-izađi!!Izađi iz GUI-ja"
 #: am/modules/yad.am:303
 msgid "AM Graphical User Interface"
 msgstr ""
+
+#~ msgid "Can´t enter AMPATH $AMPATH"
+#~ msgstr "Ne mogu da uđeum u AMPATH $AMPATH"
+
+#~ msgid "Fixing strings"
+#~ msgstr "Popravljam stringove"
+
+#~ msgid "Fixing completed"
+#~ msgstr "Popravljanje završeno"
+
+#, fuzzy
+#~| msgid "Preparation for translation done."
+#~ msgid "Source for translations prepared"
+#~ msgstr "Priprema za prevod završena."
 
 #~ msgid "ERROR! yad is missing! Install it..."
 #~ msgstr "GREŠKA! yad nedostaje! Instaliraj ga..."
@@ -1842,9 +1856,6 @@ msgstr ""
 
 #~ msgid "Translating: $list"
 #~ msgstr "Prevodim: $list"
-
-#~ msgid "Can´t enter AMPATH $AMPATH"
-#~ msgstr "Ne mogu da uđeum u AMPATH $AMPATH"
 
 #~ msgid "am.pot removed"
 #~ msgstr "am.pot obrisan"
@@ -1860,12 +1871,6 @@ msgstr ""
 
 #~ msgid "Extraction completed"
 #~ msgstr "Ekstrakcija završena"
-
-#~ msgid "Fixing strings"
-#~ msgstr "Popravljam stringove"
-
-#~ msgid "Fixing completed"
-#~ msgstr "Popravljanje završeno"
 
 #~ msgid "Joining duplicities from ${1} into ${2}"
 #~ msgstr "Spajam duplicate od ${1} u ${2}"
@@ -1905,9 +1910,6 @@ msgstr ""
 
 #~ msgid "${i} done"
 #~ msgstr "${i} završen"
-
-#~ msgid "Preparation for translation done."
-#~ msgstr "Priprema za prevod završena."
 
 #~ msgid "Now is up to translators, or AI..."
 #~ msgstr "Sada je sve na prevodiocima, ili na veštačkoj inteligenciji..."
