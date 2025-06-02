@@ -1642,7 +1642,35 @@ msgstr  ""
 msgid   "\\n No valid argument was chosen: process aborted! \\n"
 msgstr  ""
 
-#: am/modules/yad.am:11
+#: modules/translate.am:15
+msgid   "Press y to continue, anything else to exit (timeout 15 seconds)"
+msgstr  ""
+
+#: modules/translate.am:33
+msgid   "Can´t enter AMPATH $AMPATH"
+msgstr  ""
+
+#: modules/translate.am:126
+msgid   "Enter your name..."
+msgstr  ""
+
+#: modules/translate.am:127
+msgid   "Enter your email..."
+msgstr  ""
+
+#: modules/translate.am:131
+msgid   "Language already included. Try again with another language, or run \\\"$AMCLI --translate\\\" to update added translations"
+msgstr  ""
+
+#: modules/translate.am:161
+msgid   "Copy files to $HOME/.local/share/?"
+msgstr  ""
+
+#: modules/translate.am:169
+msgid   "No language added, run \\\"$AMCLI --translate-new\\\" first!"
+msgstr  ""
+
+#: modules/yad.am:11
 msgid   "ERROR! Sorry, I can't work without yad installed, exiting."
 msgstr  ""
 
