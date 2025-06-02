@@ -2081,6 +2081,10 @@ msgstr ""
 "\n"
 "GUI:"
 
+#: am/modules/yad.am:55
+msgid "on GitHub"
+msgstr ""
+
 #: am/modules/yad.am:124
 msgid "List installed for removing"
 msgstr ""
@@ -2101,7 +2105,7 @@ msgstr ""
 msgid "size"
 msgstr ""
 
-#: am/modules/yad.am:134
+#: am/modules/yad.am:134 am/modules/yad.am:249
 msgid "Alert"
 msgstr ""
 
@@ -2167,15 +2171,23 @@ msgid "Install application(s) (with about)"
 msgstr ""
 
 #: am/modules/yad.am:228
-msgid "install"
+msgid "install?"
 msgstr ""
 
 #: am/modules/yad.am:230
-msgid "about"
+msgid "about app"
 msgstr ""
 
 #: am/modules/yad.am:241
 msgid "Remove application(s)"
+msgstr ""
+
+#: am/modules/yad.am:245
+msgid "remove?"
+msgstr ""
+
+#: am/modules/yad.am:246
+msgid "name"
 msgstr ""
 
 #: am/modules/yad.am:286
@@ -2184,12 +2196,12 @@ msgstr ""
 
 #: am/modules/yad.am:294 am/modules/yad.am:311
 #, fuzzy
-msgid "📥 Install apps!!Install more apps"
+msgid "📥 Install apps!!Install application(s) (with about)"
 msgstr "📥 Instala aplicaciones!!Instala más aplicaciones"
 
 #: am/modules/yad.am:295 am/modules/yad.am:312
 #, fuzzy
-msgid "📥 Install!!Install one app"
+msgid "📥 Install!!Install application (with options)"
 msgstr "📥 Instala!!Instala una aplicación"
 
 #: am/modules/yad.am:297 am/modules/yad.am:314
@@ -2204,7 +2216,7 @@ msgstr "🗑️ Saca!!Uninstall Aplicación(s)"
 
 #: am/modules/yad.am:299 am/modules/yad.am:316
 #, fuzzy
-msgid "About!$LOGO!Info about GUI"
+msgid "About $progname!$LOGO!Info about GUI"
 msgstr "Aproximadamente!$Logotipo!Info Sobre GUI"
 
 #: am/modules/yad.am:300 am/modules/yad.am:317
