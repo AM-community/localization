@@ -6,19 +6,7 @@
 # Apertium APy <noreply-mt-apertium-apy@weblate.org>, 2025.
 # LibreTranslate <noreply-mt-libretranslate@weblate.org>, 2025.
 msgid ""
-msgstr ""
-"Project-Id-Version: am 9.7.1-9\n"
-"Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
-"POT-Creation-Date: 2025-06-02\n"
-"PO-Revision-Date: 2025-06-02 05:59+0000\n"
-"Last-Translator: Apertium APy <noreply-mt-apertium-apy@weblate.org>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/am/am/es/>\n"
-"Language: es\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: am 9.7.1-9\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-06-02\nPO-Revision-Date: 2025-06-02 10:23+0000\nLast-Translator: Apertium APy <noreply-mt-apertium-apy@weblate.org>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/am/am/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
 
 #: am/APP-MANAGER:75
 msgid "%b\\n No locale available for you, consider adding one\\n Visit https://github.com/AM-community/localization for more information\\n"
@@ -2197,12 +2185,12 @@ msgstr ""
 #: am/modules/yad.am:294 am/modules/yad.am:311
 #, fuzzy
 msgid "📥 Install apps!!Install application(s) (with about)"
-msgstr "📥 Instala aplicaciones!!Instala más aplicaciones"
+msgstr "📥 Instala aplicaciones!!Instala aplicación(s) (con aproximadamente)"
 
 #: am/modules/yad.am:295 am/modules/yad.am:312
 #, fuzzy
 msgid "📥 Install!!Install application (with options)"
-msgstr "📥 Instala!!Instala una aplicación"
+msgstr "📥 Instala!!Instala aplicación (con opciones)"
 
 #: am/modules/yad.am:297 am/modules/yad.am:314
 #, fuzzy
@@ -2217,7 +2205,7 @@ msgstr "🗑️ Saca!!Uninstall Aplicación(s)"
 #: am/modules/yad.am:299 am/modules/yad.am:316
 #, fuzzy
 msgid "About $progname!$LOGO!Info about GUI"
-msgstr "Aproximadamente!$Logotipo!Info Sobre GUI"
+msgstr "Sobre $progname!$Logotipo!Info Sobre GUI"
 
 #: am/modules/yad.am:300 am/modules/yad.am:317
 #, fuzzy
