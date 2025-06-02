@@ -2322,7 +2322,42 @@ msgstr "◆ URL WEBAPP: "
 msgid "\\n No valid argument was chosen: process aborted! \\n"
 msgstr "\\n Не было выбрано ни одного аргумента: процесс прерван! \\n"
 
-#: am/modules/yad.am:11
+#: modules/translate.am:15
+#, fuzzy
+msgid "Press y to continue, anything else to exit (timeout 15 seconds)"
+msgstr "Press y to continue, anything else to exit (timeout 15 seconds)"
+
+#: modules/translate.am:33
+#, fuzzy
+msgid "Can´t enter AMPATH $AMPATH"
+msgstr "Can´t enter AMPATH $AMPATH"
+
+#: modules/translate.am:126
+#, fuzzy
+msgid "Enter your name..."
+msgstr "Enter your name..."
+
+#: modules/translate.am:127
+#, fuzzy
+msgid "Enter your email..."
+msgstr "Enter your email..."
+
+#: modules/translate.am:131
+#, fuzzy
+msgid "Language already included. Try again with another language, or run \\\"$AMCLI --translate\\\" to update added translations"
+msgstr " Try again with another language, or run \\\"$AMCLI --translate\\\" to update added translations"
+
+#: modules/translate.am:161
+#, fuzzy
+msgid "Copy files to $HOME/.local/share/?"
+msgstr "Copy files to $HOME/.local/share/ for use with AppMan?"
+
+#: modules/translate.am:169
+#, fuzzy
+msgid "No language added, run \\\"$AMCLI --translate-new\\\" first!"
+msgstr "No language added, run \\\"$AMCLI --translate-new\\\" first!"
+
+#: modules/yad.am:11
 msgid "ERROR! Sorry, I can't work without yad installed, exiting."
 msgstr ""
 
@@ -2509,10 +2544,6 @@ msgid "AM Graphical User Interface"
 msgstr ""
 
 #, fuzzy
-#~ msgid "Can´t enter AMPATH $AMPATH"
-#~ msgstr "Can´t enter AMPATH $AMPATH"
-
-#, fuzzy
 #~ msgid "Fixing strings"
 #~ msgstr "Fixing strings"
 
@@ -2531,10 +2562,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "RUNNING: %s %s %s"
 #~ msgstr "%s %s %s"
-
-#, fuzzy
-#~ msgid "Press y to continue, anything else to exit (timeout 15 seconds)"
-#~ msgstr "Press y to continue, anything else to exit (timeout 15 seconds)"
 
 #, fuzzy
 #~ msgid "Translating: $list"
@@ -2577,16 +2604,8 @@ msgstr ""
 #~ msgstr "Translator name"
 
 #, fuzzy
-#~ msgid "Enter your name..."
-#~ msgstr "Enter your name..."
-
-#, fuzzy
 #~ msgid "Translator email"
 #~ msgstr "Translator email"
-
-#, fuzzy
-#~ msgid "Enter your email..."
-#~ msgstr "Enter your email..."
 
 #, fuzzy
 #~ msgid "Is it ${NLANG} correct language?"
@@ -2595,10 +2614,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Language already included"
 #~ msgstr "Language already included"
-
-#, fuzzy
-#~ msgid " Try again with another language, or run \\\"$AMCLI --translate\\\" to update added translations"
-#~ msgstr " Try again with another language, or run \\\"$AMCLI --translate\\\" to update added translations"
 
 #, fuzzy
 #~ msgid "Merging with old ${i}.po"
@@ -2615,14 +2630,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Now is up to translators, or AI..."
 #~ msgstr "Now is up to translators, or AI..."
-
-#, fuzzy
-#~ msgid "Copy files to $HOME/.local/share/ for use with AppMan?"
-#~ msgstr "Copy files to $HOME/.local/share/ for use with AppMan?"
-
-#, fuzzy
-#~ msgid "No language added, run \\\"$AMCLI --translate-new\\\" first!"
-#~ msgstr "No language added, run \\\"$AMCLI --translate-new\\\" first!"
 
 #, fuzzy
 #~ msgid "$HELP_MESSAGE"
