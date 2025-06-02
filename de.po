@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: am 9.7.1-9\n"
 "Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
 "POT-Creation-Date: 2025-06-02\n"
-"PO-Revision-Date: 2025-06-02 08:04+0000\n"
-"Last-Translator: LibreTranslate <noreply-mt-libretranslate@weblate.org>\n"
+"PO-Revision-Date: 2025-06-02 09:11+0000\n"
+"Last-Translator: Apertium APy <noreply-mt-apertium-apy@weblate.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/am/am/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -46,7 +46,7 @@ msgstr ""
 #: am/APP-MANAGER:119
 #, fuzzy
 msgid "Setting locale to \\\"%b\\\"\\n"
-msgstr "Setzend Schauplatz zu \\\"%b\\\"\\n"
+msgstr "Lokalisieren zu \\\"%b\\\"\\n"
 
 #: am/APP-MANAGER:125
 #, fuzzy
@@ -91,12 +91,12 @@ msgstr "💀 ERROR, Sie können keine Anwendungen in \\\"$BINDIR\\\" installiere
 #: am/APP-MANAGER:212
 #, fuzzy
 msgid " $BINDIR is normally used for executables, Please choose a different path and retry!"
-msgstr "$BINDIR wird normalerweise für Ausführbare verwendet, Bitte wählen Sie einen anderen Weg und Retry!"
+msgstr "$BINDIR Ist in der Regel für #Programmdatei benutzt, Bitte auswählen einen verschiedenen Pfad und Wiederholung!"
 
 #: am/APP-MANAGER:216
 #, fuzzy
 msgid " 💀 ERROR: You don't have write access to $location or it is invalid"
-msgstr "💀 FEHLER: Du hast nicht schreiben Zugang zu $Drehort oder es ist Kranker"
+msgstr "💀 ERROR: Sie haben keinen Zugriff auf $location oder es ist ungültig"
 
 #: am/APP-MANAGER:222
 #, fuzzy
@@ -116,7 +116,7 @@ msgstr "#Im Fall von Probleme, benutzt die Option \\\"-h\\\"."
 #: am/APP-MANAGER:244
 #, fuzzy
 msgid "ERROR: You don't have write access to $APPSPATH"
-msgstr "ERROR: Sie haben keinen Zugriff auf $APPSPATH"
+msgstr "FEHLER: Du hast nicht schreiben Zugang zu $APPSPATH"
 
 #: am/APP-MANAGER:248
 #, fuzzy
@@ -126,7 +126,7 @@ msgstr "%b ◆⚠ WARNING\\033[0m: \\\"%b%b\\033[0m\\\" ist nicht in PATH, lokal
 #: am/APP-MANAGER:340
 #, fuzzy
 msgid "\\\"$AMCLIUPPER\\\" $AMVERSION: DEVELOPER MODE"
-msgstr "\\\"$AMCLIUPPER\\\" $AMVERSION: ENTWICKLER VERFAHREN"
+msgstr "\\\"$AMCLIUPPER\\\" $AMVERSION: DEVELOPER MODE"
 
 #: am/APP-MANAGER:370
 #, fuzzy
@@ -166,7 +166,7 @@ msgstr "\\n %b⚠️ WARNUNG: ZUGANG ZU NUTZER NAMENSRÄUME SIND BEGRENZT! \\033
 #: am/APP-MANAGER:392
 #, fuzzy
 msgid " Some apps may not run, you need to enable access to user namespaces, see"
-msgstr "Einige Apps können nicht ausgeführt werden, Sie müssen Zugriff auf Benutzernamenspaces aktivieren, siehe"
+msgstr "Einige #App dürfen nicht rennen, du brauchst zu aktivieren Zugang zu Nutzer Namensräume, seht"
 
 #: am/APP-MANAGER:394
 #, fuzzy
@@ -264,7 +264,7 @@ msgstr "Validierung erfolgreich!"
 #: am/APP-MANAGER:747
 #, fuzzy
 msgid "ERROR: Invalid token or insufficient permissions!"
-msgstr "FEHLER: Kränkliche Automatenmünze oder unzureichende Erlaubnisse!"
+msgstr "ERROR: Ungültiges Token oder unzureichende Berechtigungen!"
 
 #: am/APP-MANAGER:750
 #, fuzzy
@@ -274,7 +274,7 @@ msgstr "FEHLER: Unerwartete Antwort (HTTP $HTTP_ZUSTAND)"
 #: am/APP-MANAGER:758
 #, fuzzy
 msgid " ✖ No file named $ghapikey_file has been found"
-msgstr "✖ Keine Datei geheißen $ghapikey_Datei hat gewesen gefunden"
+msgstr " Keine Datei namens $ghapikey_file wurde gefunden"
 
 #: am/APP-MANAGER:767
 #, fuzzy
@@ -294,7 +294,7 @@ msgstr "ERROR: Falscher Ausdruck, Validierung versagt!"
 #: am/APP-MANAGER:789
 #, fuzzy
 msgid " ⚠️ Warning: Stored GitHub API token is invalid or expired"
-msgstr "⚠️ Warnen: Gelagert GitHub API Automatenmünze ist kränklich oder #abgelaufen"
+msgstr "Warnung: Gespeichert GitHub API-Token ist ungültig oder abgelaufen"
 
 #: am/APP-MANAGER:791
 #, fuzzy
@@ -324,7 +324,7 @@ msgstr "Diese Funktion funktioniert nur für AM"
 #: am/APP-MANAGER:829
 #, fuzzy
 msgid " Do you wish to enter \\\"AppMan Mode\\\" (y,N)?"
-msgstr "Möchten Sie \\\"AppMan Mode\\\" (y,N) eingeben?"
+msgstr "#Wünschen du zu betreten \\\"AppMan Verfahren\\\" (y,N)?"
 
 #: am/APP-MANAGER:844
 #, fuzzy
@@ -464,7 +464,7 @@ msgstr "\\n Ersatz der Version \\\"%b\\\" derzeit in Gebrauch, VEREINIGTES! Ware
 #: am/APP-MANAGER:1068
 #, fuzzy
 msgid "\\n See https://github.com/$AM_THE_OWNER/AM/commits/main\\n\\n"
-msgstr "\\n Sieht https://github.com/$BIN_DAS_EIGENTÜMER/#AM/begeht/hauptsächlich\\n\\n"
+msgstr "Siehe https://github.com/$AM_THE_OWNER/AM/commits/main\\n\\n"
 
 #: am/APP-MANAGER:1070
 #, fuzzy
@@ -588,7 +588,7 @@ msgstr "Modul nicht gefunden, führen Sie \\\"$AMCLI -s\\\" um \\\"$AMCLIUPPER\\
 #: am/APP-MANAGER:1350
 #, fuzzy
 msgid " USAGE: $AMCLI [OPTION]"
-msgstr "GEBRAUCH: $AMCLI [OPTION]"
+msgstr "USAGE: $AMCLI [OPTION]"
 
 #: am/APP-MANAGER:1351
 #, fuzzy
@@ -1450,7 +1450,7 @@ msgstr "TOTALE GRÖßE: $TOTALE_GRÖßE von Scheibe Weltraum in benutz"
 #: am/modules/database.am:394
 #, fuzzy
 msgid "-\tAPPIMAGE | PATH | SIZE "
-msgstr "- APPIMAGE | PATH | SIZE "
+msgstr "-\tAPPIMAGE | PFAD | GRÖßE "
 
 #: am/modules/database.am:426
 #, fuzzy
@@ -1500,7 +1500,7 @@ msgstr "\\n Suchergebnisse für pakete: %s\\n\\n"
 #: am/modules/install.am:32
 #, fuzzy
 msgid " Converting %s to an AppMan-compatible script.\\r"
-msgstr "#Umrechnen %s zu ein AppMan-vereinbares Skript.\\r"
+msgstr "Konvertieren von % in ein AppMan-kompatibles Skript.\\r"
 
 #: am/modules/install.am:43
 #, fuzzy
@@ -1790,7 +1790,7 @@ msgstr "FEHLER: Kein Schnappschuss für \\\"$2\\\" fand."
 #: am/modules/management.am:64
 #, fuzzy
 msgid " Do you wish to overwrite $2 with an older version? (y,N) "
-msgstr "Möchten Sie $2 mit einer älteren Version überschreiben? (y,N) "
+msgstr "#Wünschen du zu überschreiben $2 mit einer älteren Version? (y,N) "
 
 #: am/modules/management.am:66
 #, fuzzy
@@ -1925,7 +1925,7 @@ msgstr "%b\\n FEHLER: \\\"%b\\\" Nicht gefunden\\n%b\\n"
 #: am/modules/management.am:286 am/modules/sandboxes.am:36
 #, fuzzy
 msgid "%b\\n ERROR: \\\"%b\\\" is NOT an AppImage\\n%b\\n"
-msgstr "%b\\n ERROR: \\\"%b\\\" ist NICHT ein AppImage\\n%b\\n"
+msgstr "%b\\n FEHLER: \\\"%b\\\" Ist NICHT ein AppImage\\n%b\\n"
 
 #: am/modules/management.am:288
 #, fuzzy
@@ -2200,7 +2200,7 @@ msgstr "◆ FOR \\\"WGET\\\", ADD A COMMAND AS \\\"\\$( ... )\\\" ODER A LINEAR 
 #: am/modules/template.am:115
 #, fuzzy
 msgid " Do you want to use repology.org to identify version (y,N)? "
-msgstr "#Mögen du benutzen repology.org Zu identifizieren Version (y,N)? "
+msgstr "Möchten Sie repology.org verwenden, um die Version (y,N) zu identifizieren? "
 
 #: am/modules/template.am:161
 #, fuzzy
@@ -2279,13 +2279,13 @@ msgid ""
 "\n"
 " URL: ')"
 msgstr ""
-"◆ FÜG ZU DAS URL VON DER STÄTTE (BESSER OB IT KOMMT AUS GITHUB), BEISPIELSWEISE: $(Widerhall -e s\n"
+"◆ ADD THE URL of THE SITE (BETTER IF IT COME FROM GITHUB), FÜR Beispiel: $(echo -e '\n"
 "\n"
-" - ob von github.com, Benutz \"https://github.com/NUTZER/PROJEKT\"\n"
+"- wenn von github.com \"https://github.com/USER/PROJECT\" verwendet wird\n"
 "\n"
-" - ob von anderen Quellen, benutzt \"https://www.SITENAME.com\" Oder #irgendetwas\n"
+"- wenn aus anderen Quellen \"https://www.SITENAME.com\" oder so etwas verwendet wird\n"
 "\n"
-" URL: ')"
+"URL:"
 
 #: am/modules/template.am:398 am/modules/template.am:419
 #: am/modules/template.am:471 am/modules/template.am:511
@@ -2316,7 +2316,7 @@ msgstr "◆ NAME DER APP: "
 #: am/modules/template.am:495
 #, fuzzy
 msgid " ◆ URL OF THE WEBAPP: "
-msgstr "◆ URL DES WEBAPP: "
+msgstr "◆ URL VON DAS WEBAPP: "
 
 #: am/modules/template.am:516
 #, fuzzy
@@ -2362,17 +2362,21 @@ msgid ""
 "\n"
 "GUI:"
 msgstr ""
-"Testing Alpha Release\n"
+"Testend Alpha Freigabe\n"
 "\n"
-"Mit YAD einfach und nutzbar zu erstellen\n"
-"grafische Benutzeroberfläche für\n"
-"AM: Anwendungsmanager\n"
+"Benutzend YAD zu schaffen simpel und nutzbar\n"
+"Graphische Nutzer Schnittstelle für\n"
+"IST: Antrag Manager\n"
 "für linux\n"
 "\n"
-"AM Website:\n"
-"https://github.com/ivan-hc/am\n"
+"#AM Website:\n"
+"Https://github.com/ivan-hc/Bin\n"
 "\n"
-"GUI:"
+"#grafische Benutzeroberfläche:"
+
+#: am/modules/yad.am:55
+msgid "on GitHub"
+msgstr ""
 
 #: am/modules/yad.am:124
 msgid "List installed for removing"
@@ -2394,7 +2398,7 @@ msgstr ""
 msgid "size"
 msgstr ""
 
-#: am/modules/yad.am:134
+#: am/modules/yad.am:134 am/modules/yad.am:249
 msgid "Alert"
 msgstr ""
 
@@ -2460,15 +2464,23 @@ msgid "Install application(s) (with about)"
 msgstr ""
 
 #: am/modules/yad.am:228
-msgid "install"
+msgid "install?"
 msgstr ""
 
 #: am/modules/yad.am:230
-msgid "about"
+msgid "about app"
 msgstr ""
 
 #: am/modules/yad.am:241
 msgid "Remove application(s)"
+msgstr ""
+
+#: am/modules/yad.am:245
+msgid "remove?"
+msgstr ""
+
+#: am/modules/yad.am:246
+msgid "name"
 msgstr ""
 
 #: am/modules/yad.am:286
@@ -2477,12 +2489,12 @@ msgstr ""
 
 #: am/modules/yad.am:294 am/modules/yad.am:311
 #, fuzzy
-msgid "📥 Install apps!!Install more apps"
+msgid "📥 Install apps!!Install application(s) (with about)"
 msgstr "📥 Installier #App!!Installier #mehr #App"
 
 #: am/modules/yad.am:295 am/modules/yad.am:312
 #, fuzzy
-msgid "📥 Install!!Install one app"
+msgid "📥 Install!!Install application (with options)"
 msgstr "📥 Installieren! Installieren Sie eine App"
 
 #: am/modules/yad.am:297 am/modules/yad.am:314
@@ -2497,7 +2509,7 @@ msgstr "🗑️ Entfernen!!Deinstallieren App(s)"
 
 #: am/modules/yad.am:299 am/modules/yad.am:316
 #, fuzzy
-msgid "About!$LOGO!Info about GUI"
+msgid "About $progname!$LOGO!Info about GUI"
 msgstr "Über! Infos Ã1⁄4ber GUI"
 
 #: am/modules/yad.am:300 am/modules/yad.am:317
