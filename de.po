@@ -7,7 +7,19 @@
 # Glossary sync <noreply-glossary-sync@weblate.org>, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: am 9.7.1-9\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-06-02\nPO-Revision-Date: 2025-06-02 08:04+0000\nLast-Translator: LibreTranslate <noreply-mt-libretranslate@weblate.org>\nLanguage-Team: German <https://hosted.weblate.org/projects/am/am/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
+msgstr ""
+"Project-Id-Version: am 9.7.1-9\n"
+"Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
+"POT-Creation-Date: 2025-06-02\n"
+"PO-Revision-Date: 2025-06-02 08:04+0000\n"
+"Last-Translator: LibreTranslate <noreply-mt-libretranslate@weblate.org>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/am/am/de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: am/APP-MANAGER:75
 msgid "%b\\n No locale available for you, consider adding one\\n Visit https://github.com/AM-community/localization for more information\\n"
@@ -2311,7 +2323,42 @@ msgstr "◆ URL DES WEBAPP: "
 msgid "\\n No valid argument was chosen: process aborted! \\n"
 msgstr "\\n Kein gültiger Streit war ausgewählt: Arbeitsgang trieb ab! \\n"
 
-#: am/modules/yad.am:11
+#: modules/translate.am:15
+#, fuzzy
+msgid "Press y to continue, anything else to exit (timeout 15 seconds)"
+msgstr "Press y to continue, anything else to exit (timeout 15 seconds)"
+
+#: modules/translate.am:33
+#, fuzzy
+msgid "Can´t enter AMPATH $AMPATH"
+msgstr "Can´t enter AMPATH $AMPATH"
+
+#: modules/translate.am:126
+#, fuzzy
+msgid "Enter your name..."
+msgstr "Enter your name..."
+
+#: modules/translate.am:127
+#, fuzzy
+msgid "Enter your email..."
+msgstr "Enter your email..."
+
+#: modules/translate.am:131
+#, fuzzy
+msgid "Language already included. Try again with another language, or run \\\"$AMCLI --translate\\\" to update added translations"
+msgstr " Try again with another language, or run \\\"$AMCLI --translate\\\" to update added translations"
+
+#: modules/translate.am:161
+#, fuzzy
+msgid "Copy files to $HOME/.local/share/?"
+msgstr "Copy files to $HOME/.local/share/ for use with AppMan?"
+
+#: modules/translate.am:169
+#, fuzzy
+msgid "No language added, run \\\"$AMCLI --translate-new\\\" first!"
+msgstr "No language added, run \\\"$AMCLI --translate-new\\\" first!"
+
+#: modules/yad.am:11
 msgid "ERROR! Sorry, I can't work without yad installed, exiting."
 msgstr ""
 
@@ -2349,7 +2396,18 @@ msgid ""
 "https://github.com/ivan-hc/am\n"
 "\n"
 "GUI:"
-msgstr "Testing Alpha Release\n\nMit YAD einfach und nutzbar zu erstellen\ngrafische Benutzeroberfläche für\nAM: Anwendungsmanager\nfür linux\n\nAM Website:\nhttps://github.com/ivan-hc/am\n\nGUI:"
+msgstr ""
+"Testing Alpha Release\n"
+"\n"
+"Mit YAD einfach und nutzbar zu erstellen\n"
+"grafische Benutzeroberfläche für\n"
+"AM: Anwendungsmanager\n"
+"für linux\n"
+"\n"
+"AM Website:\n"
+"https://github.com/ivan-hc/am\n"
+"\n"
+"GUI:"
 
 #: am/modules/yad.am:124
 msgid "List installed for removing"
@@ -2487,10 +2545,6 @@ msgid "AM Graphical User Interface"
 msgstr ""
 
 #, fuzzy
-#~ msgid "Can´t enter AMPATH $AMPATH"
-#~ msgstr "Can´t enter AMPATH $AMPATH"
-
-#, fuzzy
 #~ msgid "Fixing strings"
 #~ msgstr "Fixing strings"
 
@@ -2509,10 +2563,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "RUNNING: %s %s %s"
 #~ msgstr "RENNEN: %s %s %s"
-
-#, fuzzy
-#~ msgid "Press y to continue, anything else to exit (timeout 15 seconds)"
-#~ msgstr "Press y to continue, anything else to exit (timeout 15 seconds)"
 
 #, fuzzy
 #~ msgid "Translating: $list"
@@ -2555,16 +2605,8 @@ msgstr ""
 #~ msgstr "Translator name"
 
 #, fuzzy
-#~ msgid "Enter your name..."
-#~ msgstr "Enter your name..."
-
-#, fuzzy
 #~ msgid "Translator email"
 #~ msgstr "Translator email"
-
-#, fuzzy
-#~ msgid "Enter your email..."
-#~ msgstr "Enter your email..."
 
 #, fuzzy
 #~ msgid "Is it ${NLANG} correct language?"
@@ -2573,10 +2615,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Language already included"
 #~ msgstr "Language already included"
-
-#, fuzzy
-#~ msgid " Try again with another language, or run \\\"$AMCLI --translate\\\" to update added translations"
-#~ msgstr " Try again with another language, or run \\\"$AMCLI --translate\\\" to update added translations"
 
 #, fuzzy
 #~ msgid "Merging with old ${i}.po"
@@ -2593,14 +2631,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Now is up to translators, or AI..."
 #~ msgstr "Now is up to translators, or AI..."
-
-#, fuzzy
-#~ msgid "Copy files to $HOME/.local/share/ for use with AppMan?"
-#~ msgstr "Copy files to $HOME/.local/share/ for use with AppMan?"
-
-#, fuzzy
-#~ msgid "No language added, run \\\"$AMCLI --translate-new\\\" first!"
-#~ msgstr "No language added, run \\\"$AMCLI --translate-new\\\" first!"
 
 #, fuzzy
 #~ msgid "$HELP_MESSAGE"
