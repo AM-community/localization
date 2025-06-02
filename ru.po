@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: am 9.7.1-9\n"
 "Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
 "POT-Creation-Date: 2025-06-02\n"
-"PO-Revision-Date: 2025-05-31 10:42+0000\n"
+"PO-Revision-Date: 2025-06-02 05:59+0000\n"
 "Last-Translator: LibreTranslate <noreply-mt-libretranslate@weblate.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/am/am/ru/>\n"
 "Language: ru\n"
@@ -478,7 +478,7 @@ msgstr "\\n See https://github.com/$AM_THE_OWNER/AM/commits/%b\\n\\n"
 #: am/APP-MANAGER:1090
 #, fuzzy
 msgid "%b\\n DONE! \\n"
-msgstr "%b\\n ABORTED! \\n%b\\n"
+msgstr "%b\\n DONE"
 
 #: am/APP-MANAGER:1110
 #, fuzzy
@@ -2509,6 +2509,22 @@ msgid "AM Graphical User Interface"
 msgstr ""
 
 #, fuzzy
+#~ msgid "Can´t enter AMPATH $AMPATH"
+#~ msgstr "Can´t enter AMPATH $AMPATH"
+
+#, fuzzy
+#~ msgid "Fixing strings"
+#~ msgstr "Fixing strings"
+
+#, fuzzy
+#~ msgid "Fixing completed"
+#~ msgstr "Fixing completed"
+
+#, fuzzy
+#~ msgid "Source for translations prepared"
+#~ msgstr "Preparation for translation done."
+
+#, fuzzy
 #~ msgid "ERROR! yad is missing! Install it..."
 #~ msgstr "Эйрор! Яд пропал! Установить его..."
 
@@ -2523,10 +2539,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Translating: $list"
 #~ msgstr "Translating: $list"
-
-#, fuzzy
-#~ msgid "Can´t enter AMPATH $AMPATH"
-#~ msgstr "Can´t enter AMPATH $AMPATH"
 
 #, fuzzy
 #~ msgid "am.pot removed"
@@ -2547,14 +2559,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Extraction completed"
 #~ msgstr "Extraction completed"
-
-#, fuzzy
-#~ msgid "Fixing strings"
-#~ msgstr "Fixing strings"
-
-#, fuzzy
-#~ msgid "Fixing completed"
-#~ msgstr "Fixing completed"
 
 #, fuzzy
 #~ msgid "Joining duplicities from ${1} into ${2}"
@@ -2607,10 +2611,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "${i} done"
 #~ msgstr "${i} done"
-
-#, fuzzy
-#~ msgid "Preparation for translation done."
-#~ msgstr "Preparation for translation done."
 
 #, fuzzy
 #~ msgid "Now is up to translators, or AI..."
