@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: am 9.7\n"
 "Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
-"POT-Creation-Date: 2025-05-31\n"
+"POT-Creation-Date: 2025-06-02\n"
 "PO-Revision-Date: 2025-05-31 06:18+0000\n"
 "Last-Translator: LibreTranslate <noreply-mt-libretranslate@weblate.org>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/am/am/cs/>\n"
@@ -18,75 +18,87 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12-dev\n"
 
-#: am/APP-MANAGER:92
+#: am/APP-MANAGER:75
+msgid "%b\\n No locale available for you, consider adding one\\n Visit https://github.com/AM-community/localization for more information\\n"
+msgstr ""
+
+#: am/APP-MANAGER:76
+msgid " For now, we set the locale to \\\"en\\\" (default) to further avoid this message\\n Run \\\"$CLI language\\\" to set an alternative language\\n%b\\n"
+msgstr ""
+
+#: am/APP-MANAGER:99
 msgid "Add a suitable locale code, for example \\\"it\\\" for Italian\\n\\n"
 msgstr "Přidejte vhodný kód jazyka, například \\\"it\\\" pro italštinu\\n\\n"
 
-#: am/APP-MANAGER:93
+#: am/APP-MANAGER:100
 msgid " Leave blank to use \\\"$CLI\\\" in English: "
 msgstr " Nechte prázdné pro použití \\\"$CLI\\\" v angličtině: "
 
-#: am/APP-MANAGER:112
+#: am/APP-MANAGER:104 am/APP-MANAGER:113
+msgid "ERROR, \\\"%b\\\" is not a valid locale code\\n\\nList of valid locale codes:\\n\\n%b\\n\\n"
+msgstr ""
+
+#: am/APP-MANAGER:119
 msgid "Setting locale to \\\"%b\\\"\\n"
 msgstr "Nastavuji lokalizaci na \\\"%b\\\"\\n"
 
-#: am/APP-MANAGER:118
+#: am/APP-MANAGER:125
 msgid "\\n Please do not use \\\"sudo\\\" to execute \\\"%b\\\", try again.\\n\\n"
 msgstr "\\n Prosím nepoužívejte \\\"sudo\\\" ke spouštění \\\"%b\\\", zkuste znovu.\\n\\n"
 
-#: am/APP-MANAGER:146
+#: am/APP-MANAGER:153
 msgid "Install 'less' if you want to scroll this list"
 msgstr "Nainstalujte 'less' pokud chcete listovat tímto seznamem"
 
-#: am/APP-MANAGER:163
+#: am/APP-MANAGER:170
 msgid "💀 ERROR: Your version of sed does not support '-i' flag without extension, we tried to workaround and failed"
 msgstr "💀 CHYBA: Vaše verze sed nepodporuje '-i' argument bez rozšíření, snažili jsme se to obejít a selhali"
 
-#: am/APP-MANAGER:164
+#: am/APP-MANAGER:171
 msgid " Please install gsed"
 msgstr " Prosím nainstalujte gsed"
 
-#: am/APP-MANAGER:192
+#: am/APP-MANAGER:199
 msgid ">>> Configure AppMan"
 msgstr ">>> Nastavit AppMan"
 
-#: am/APP-MANAGER:192
+#: am/APP-MANAGER:199
 msgid ">>> Thank you for choosing AppMan!"
 msgstr ">>> Děkujeme že jste si zvolili AppMan!"
 
-#: am/APP-MANAGER:196
+#: am/APP-MANAGER:203
 msgid " Write the path or just press enter to use default:$(printf \"\\n\\n \")"
 msgstr " Napište cestu nebo jen stiskněte Enter pro použití doporučeného:$(printf \"\\n\\n \")"
 
-#: am/APP-MANAGER:204
+#: am/APP-MANAGER:211
 msgid " 💀 ERROR, you can't install applications in \\\"$BINDIR\\\""
 msgstr " 💀 CHYBA, nemůžete nainstalovat aplikace do \\\"$BINDIR\\\""
 
-#: am/APP-MANAGER:205
+#: am/APP-MANAGER:212
 msgid " $BINDIR is normally used for executables, Please choose a different path and retry!"
 msgstr " $BINDIR je normálně používán pro spustitelné, Prosím vyberte jinou cestu a zkuste znovu!"
 
-#: am/APP-MANAGER:209
+#: am/APP-MANAGER:216
 msgid " 💀 ERROR: You don't have write access to $location or it is invalid"
 msgstr " 💀 CHYBA: Nemůžete zapisovat do $location nebo je chybná"
 
-#: am/APP-MANAGER:215
+#: am/APP-MANAGER:222
 msgid " You are ready! Start installing your favorite apps locally!"
 msgstr " Jste připraven! Začněte instalovat Vaše oblíbené aplikace lokálně!"
 
-#: am/APP-MANAGER:216
+#: am/APP-MANAGER:223
 msgid " All apps will be installed in $location"
 msgstr " Všechny aplikace budou nainstalovány do $location"
 
-#: am/APP-MANAGER:217
+#: am/APP-MANAGER:224
 msgid " In case of problems, use the option \\\"-h\\\"."
 msgstr " V případě problémů, použijte argument \\\"-h\\\"."
 
-#: am/APP-MANAGER:237
+#: am/APP-MANAGER:244
 msgid "ERROR: You don't have write access to $APPSPATH"
 msgstr "CHYBA: Nemůžete zapisovat do $APPSPATH"
 
-#: am/APP-MANAGER:241
+#: am/APP-MANAGER:248
 msgid "%b ⚠️ WARNING\\033[0m: \\\"%b%b\\033[0m\\\" is not in PATH, local apps may not run.\\n"
 msgstr "%b ⚠️ UPOZORNĚNÍ\\033[0m: \\\"%b%b\\033[0m\\\" není v PATH, lokální aplikace nemusí běžet.\\n"
 
@@ -373,6 +385,12 @@ msgstr " ◆ \\\"$AMCLIUPPER\\\" JE JIŽ AKTUALIZOVÁN, AKTUÁLNÍ VERZE \\\"$CU
 msgid "\\n See https://github.com/$AM_THE_OWNER/AM/commits/%b\\n\\n"
 msgstr "\\n Viz https://github.com/$AM_THE_OWNER/AM/commits/%b\\n\\n"
 
+#: am/APP-MANAGER:1090
+#, fuzzy
+#| msgid "%b\\n ABORTED! \\n%b\\n"
+msgid "%b\\n DONE! \\n"
+msgstr "%b\\n ZRUŠENO! \\n%b\\n"
+
 #: am/APP-MANAGER:1110
 msgid " %b\\\"%b\\\" CAN MANAGE UPDATES FOR THE FOLLOWING PROGRAMS\\033[0m:\\n%b\\n\\n"
 msgstr " %b\\\"%b\\\" MŮŽE SPRAVOVAT AKTUALIZACE PRO NÁSLEDUJÍCÍ PROGRAMY\\033[0m:\\n%b\\n\\n"
@@ -408,6 +426,10 @@ msgstr " %b✖\\033[0m %b je jen pro čtení, nelze aktualizovat!\\n"
 #: am/APP-MANAGER:1223
 msgid " ◆ Update local AppImages integrated manually"
 msgstr " ◆ Aktualizace místních AppImage integrovány manuálně"
+
+#: am/APP-MANAGER:1228
+msgid "%b\\n File: %b%b\\033[0m\\n Path: %b"
+msgstr ""
 
 #: am/APP-MANAGER:1230
 msgid "(unmounted)"
@@ -481,7 +503,365 @@ msgstr "   a pomozte nám vychytat chyby prosím"
 msgid "This feature is disabled by your organization"
 msgstr "Tato funkce je zakázána vaší organizací"
 
-#: am/APP-MANAGER:1487
+#: am/APP-MANAGER:1597
+msgid "\tThird-party databases:"
+msgstr ""
+
+#: am/APP-MANAGER:1484
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "\t\t\tNAME: ${Green}$AMCLIUPPER\\033[0m\t\tVERSION: ${Green}$AMVERSION\\033[0m\n"
+#| "\n"
+#| "\t\t\tSYNOPSIS:\t${LightBlue}$AMCLI {OPTION}\\033[0m\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI {OPTION} {PROGRAM}\\033[0m\n"
+#| "\n"
+#| "\t\t\tDESCRIPTION: A command line utility to install and manage AppImages and other portable programs for GNU/Linux thanks to its AUR-inspired database.\n"
+#| "\n"
+#| "\t\t\tOPTIONS:\n"
+#| "\n"
+#| "\t\t\t${Gold}about, -a\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -a {PROGRAM}\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Shows more info about one or more apps.\n"
+#| "\n"
+#| "\t\t\t${Gold}--gui\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI --gui {PROGRAM}\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Use AM with 3rd party GUI. (Alpha!) Using bash and ${LightBlue}Y\\033[0met ${LightBlue}A\\033[0mnother ${LightBlue}D\\033[0mialog.\n"
+#| "\n"
+#| "\t\t\t${Gold}apikey\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI apikey {Github Token}\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI apikey delete\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Accede to github APIs using your personal access tokens. The file named \\\"ghapikey.txt\\\" will be saved in $AMDATADIR. Use \\\"del\\\" to remove it.\n"
+#| "\n"
+#| "\t\t\t${Gold}backup, -b\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -b {PROGRAM}\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Create a snapshot of the current version of an installed program.\n"
+#| "\n"
+#| "\t\t\t${Gold}clean, -c\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -c\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Removes all the unnecessary files and folders.\n"
+#| "\n"
+#| "\t\t\t${Gold}config, -C, --config\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -C {PROGRAM}\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Set a dedicated \\$XDG_CONFIG_HOME for one or more AppImages.\n"
+#| "\n"
+#| "\t\t\t${Gold}downgrade, --rollback\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI --rollback {PROGRAM}\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Download an older or specific app version.\n"
+#| "\n"
+#| "\t\t\t${Gold}download, -d\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -d {PROGRAM}\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -d --convert {PROGRAM}\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Download one or more installation scripts to your desktop or convert them to local installers for \\\"AppMan\\\". To test the scripts, use the \\\"${LightBlue}$AMCLI -i '/path/to/script'\\033[0m\\\" command or enter the directory of the script and run the \\\"${LightBlue}$AMCLI -i ./script\\033[0m\\\" command, even using dedicated flags, if necessary (see \\\"-i\\\").\n"
+#| "\n"
+#| "\t\t\t${Gold}extra, -e\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -e user/project {APPNAME}\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -e user/project {APPNAME} {KEYWORD}\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Install AppImages from github.com, outside the database. This allows you to install, update and manage them all like the others. Where \\\"user/project\\\" can be the whole URL to the github repository, give a name to the program so that it can be used from the command line. Optionally, add an \\\"univoque\\\" keyword if multiple AppImages are listed.\n"
+#| "\n"
+#| "\t\t\t${Gold}files, -f, -fi\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -f\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -f --byname\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -f --less\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Shows the list of all installed programs, with sizes. By default apps are sorted by size, use \\\"--byname\\\" to sort by name. With the option \\\"--less\\\" it shows only the number of installed apps. Option \\\"-fi\\\" only shows installed apps, not the AppImages integrated with the \\\"--launcher\\\" option.\n"
+#| "\n"
+#| "\t\t\t${Gold}help, -h\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -h\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Prints this message.\n"
+#| "\n"
+#| "\t\t\t${Gold}hide\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI hide {PROGRAM}\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Prevents an installed application from being shown or managed by \\\"$AMCLI\\\".\n"
+#| "\n"
+#| "\t\t\t${Gold}home, -H, --home\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -H {PROGRAM}\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Set a dedicated \\$HOME directory for one or more AppImages.\n"
+#| "\n"
+#| "\t\t\t${Gold}-HC, -CH\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -HC {PROGRAM}\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Set dedicated \\$HOME and \\$XDG_CONFIG_HOME directories for one or more AppImages.\n"
+#| "\n"
+#| "\t\t\t${Gold}icons, --icons\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI --icons {PROGRAM}\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI --icons --all\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Allow installed apps to use system icon themes. You can specify the name of the apps to change or use the \\\"--all\\\" flag to change all of them at once. This will remove the icon path from the .desktop file and add the symbolic link of all available icons in the $DATADIR/icons/hicolor/scalable/apps directory. The \\\"--icons\\\" option can be used as \\\"flag\\\" in the \\\"-i\\\" and \\\"-ia\\\" options.\n"
+#| "\n"
+#| "\t\t\t${Gold}install, -i\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -i {PROGRAM}\\033[0m\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -i --debug {PROGRAM}\\033[0m\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -i --force-latest {PROGRAM}\\033[0m\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -i --icons {PROGRAM}\\033[0m\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -i --sandbox {PROGRAM}\\033[0m\n"
+#| "\t\t\t$(if [ -n \"$third_party_flags\" ]; then echo \"\" && echo \"\tThird-party databases:\" && echo \"\" && for a in $third_party_flags; do echo \"\t\t${LightBlue}$AMCLI -l $a {PROGRAM}\\033[0m\"; done; fi)\n"
+#| "\n"
+#| "\t\t\tDescription: Install one or more programs or libraries from the list. With the \\\"--debug\\\" option you can see log messages to debug the script. For more details on \\\"--force-latest\\\", see the dedicated option, below. Use the \\\"--icons\\\" flag to allow the program to use icon themes. The \\\"--sandbox\\\" flag allows you to set sandboxes for AppImage packages. It can also be extended with additional flags (see third-party flags, at the bottom of this message).\n"
+#| "\n"
+#| "\t\t\t${Gold}install-appimage, -ia, -ias\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -ia {PROGRAM}\\033[0m\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -ia --debug {PROGRAM}\\033[0m\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -ia --force-latest {PROGRAM}\\033[0m\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -ia --icons {PROGRAM}\\033[0m\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -ia --sandbox {PROGRAM}\\033[0m\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -ias {PROGRAM}\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Same as \\\"install\\\" (see above) but for AppImages only. Option \\\"-ias\\\" (aka Install AppImage & Sandbox) is equivalent to \\\"-ia --sandbox\\\", to set sandboxes for AppImage packages.\n"
+#| "\n"
+#| "\t\t\t${Gold}list, -l\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -l\\033[0m\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -l --appimages\\033[0m\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -l --portable\\033[0m\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -l --all\\033[0m\n"
+#| "\t\t\t$(if [ -n \"$third_party_flags\" ]; then echo \"\" && echo \"\tThird-party databases:\" && echo \"\" && for a in $third_party_flags; do echo \"\t\t${LightBlue}$AMCLI -l $a\\033[0m\"; done; fi)\n"
+#| "\n"
+#| "\t\t\tDescription: Shows the list of all the apps available. Without flags only shows the apps in the \\\"AM\\\" database, add the \\\"--appimages\\\" to show only the AppImages or \\\"--portable\\\" to show other formats from the \\\"AM\\\" database. The \\\"--all\\\" flag allows you to consult the set of all supported third-party databases. It can also be extended with additional flags (see third-party flags, at the bottom of this message).\n"
+#| "\n"
+#| "\t\t\t${Gold}lock\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI lock {PROGRAM}\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Prevent an application being updated, if it has an\\\"AM-updater\\\" script.\n"
+#| "\n"
+#| "\t\t\t${Gold}newrepo, neodb\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI newrepo add {URL}\\\\{PATH}\\033[0m\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI newrepo select\\033[0m\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI newrepo on\\\\off\\033[0m\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI newrepo purge\\033[0m\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI newrepo info\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Set a new default repo, use \\\"add\\\" to append the path to a local directory or an online URL, then use \\\"select\\\" to use it by default, a message will warn you about the usage of this repo instead of the default one. Use \\\"on\\\"/\\\"off\\\" to enable/disable it. Use \\\"purge\\\" to remove all 3rd party repos. Use \\\"info\\\" to see the source from where installation scripts and lists are taken.\n"
+#| "\n"
+#| "\t\t\t${Gold}nolibfuse\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI nolibfuse {PROGRAM}\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Convert old AppImages and get rid of \\\"libfuse2\\\" dependence.\n"
+#| "\n"
+#| "\t\t\t${Gold}overwrite, -o\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -o {PROGRAM}\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Overwrite apps with snapshots saved previously (see \\\"-b\\\").\n"
+#| "\n"
+#| "\t\t\t${Gold}query, -q\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -q {KEYWORD}\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -q --all {KEYWORD}\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -q --appimages {KEYWORD}\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -q --portable {KEYWORD}\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -q --pkg {PROGRAM1} {PROGRAM2}\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Search for keywords in the list of available applications, add the \\\"--appimages\\\" option to list only the AppImages, \\\"--portable\\\" option to list only the portable apps or add \\\"--pkg\\\" to list multiple programs at once. The \\\"--all\\\" flag allows you to consult the set of all supported databases.\n"
+#| "\n"
+#| "\t\t\t${Gold}reinstall\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI reinstall\\033[0m\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI reinstall --all\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Reinstall only programs whose installation script has been modified in AM's online database. Use the \\\"--all\\\" flaf to reinstall everything instead.\n"
+#| "\n"
+#| "\t\t\tNOTE, this only works with the \\\"AM\\\" database. Apps installed with the \\\"-e\\\" option and custom scripts created with the \\\"-t\\\" option are not supported.\n"
+#| "\n"
+#| "\t\t\t${Gold}remove, -r\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -r {PROGRAM}\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Removes one or more apps, requires confirmation.\n"
+#| "\n"
+#| "\t\t\t${Gold}-R\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -R {PROGRAM}\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Removes one or more apps without asking.\n"
+#| "\n"
+#| "\t\t\t${Gold}sandbox, --sandbox\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI sandbox {PROGRAM}\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Run an AppImage in a sandbox using Aisap.\n"
+#| "\n"
+#| "\t\t\tNOTE, \\\"--sandbox\\\" can be used as a flag in \\\"-i\\\" and \\\"-ia\\\" or can be replaced using the option \\\"-ias\\\" (aka Install AppImage & Sandbox).\n"
+#| "\n"
+#| "\t\t\t${Gold}sync, -s\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -s\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Updates this script to the latest version hosted.\n"
+#| "\n"
+#| "\t\t\t${Gold}template, -t\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -t {PROGRAM}\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Generate a custom installation script. To test the scripts, use the \\\"${LightBlue}$AMCLI -i '/path/to/script'\\033[0m\\\" command or enter the directory of the script and run the \\\"${LightBlue}$AMCLI -i ./script\\033[0m\\\" command, even using dedicated flags, if necessary (see \\\"-i\\\").\n"
+#| "\n"
+#| "\t\t\t${Gold}translate, --translate\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI --translate\\033[0m\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI --translate {CODE}\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Download and set one or more language packs (if available), set \\\"$AMCLI\\\" to English (default), your language or other languages.\\n\\nVisit https://github.com/AM-community/localization to learn more on how to submit or improve translations.\n"
+#| "\n"
+#| "\t\t\t${Gold}unhide\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI unhide {PROGRAM}\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Allow a hidden app to be shown and managed again (nulls \\\"hide\\\").\n"
+#| "\n"
+#| "\t\t\t${Gold}unlock\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI unlock {PROGRAM}\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Unlock updates for the selected program (nulls \\\"lock\\\").\n"
+#| "\n"
+#| "\t\t\t${Gold}update, -u, -U\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -u\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -u --apps\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -u --debug\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -u --apps --debug\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -u {PROGRAM}\\033[0m\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -u --debug {PROGRAM}\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -u --launcher\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Update everything. Add \\\"--apps\\\" to update only the apps or write only the apps you want to update by adding their names. Add the \\\"--debug\\\" flag to view the output of AM-updater scripts. Add the \\\"--launcher\\\" flag to try to update only local AppImages integrated with the \\\"--launcher\\\" option (see \\\"--launcher\\\").\n"
+#| "\n"
+#| "\t\t\t${Gold}version, -v\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI -v\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Shows the version.\n"
+#| "\n"
+#| "\t\t\t${Gold}--devmode-disable\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI --devmode-disable\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Undo \\\"--devmode-enable\\\" (see below).\n"
+#| "\n"
+#| "\t\t\t${Gold}--devmode-enable\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI --devmode-enable\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Use the development branch (at your own risk).\n"
+#| "\n"
+#| "\t\t\t${Gold}--disable-notifications\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI --disable-notifications\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Disable notifications during apps update.\n"
+#| "\n"
+#| "\t\t\t${Gold}--disable-sandbox\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI --disable-sandbox {PROGRAM}\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Disable the sandbox for the selected app.\n"
+#| "\n"
+#| "\t\t\t${Gold}--enable-notifications\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI --enable-notifications\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Enable notifications during apps update (nulls \\\"--disable-notifications\\\").\n"
+#| "\n"
+#| "\t\t\t${Gold}--force-latest\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI --force-latest {PROGRAM}\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Downgrades an installed app from pre-release to \\\"latest\\\".\n"
+#| "\n"
+#| "\t\t\t${Gold}--launcher\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}$AMCLI --launcher /path/to/\\${APPIMAGE}\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Drag/drop one or more AppImages in the terminal and embed them in the apps menu and customize a command to use from the CLI.\n"
+#| "\n"
+#| "\t\t\tNOTE that \\\"--launcher\\\" can be used as a flag in \\\"-u\\\" to try to update the integrated AppImages (see \\\"-u\\\"). This works only if \\\"appimageupdatetool\\\" is installed and delta updates are supported. This flag does not work miracles, I strongly suggest to use options \\\"-ia\\\" and \\\"-e\\\" instead.\n"
+#| "\n"
+#| "\t\t\t${Gold}--system\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}am --system\\033[0m\n"
+#| "\n"
+#| "\t\t\t${Gold}--user\\033[0m\n"
+#| "\n"
+#| "\t\t\t\t\t${LightBlue}am --user\\033[0m\n"
+#| "\n"
+#| "\t\t\tDescription: Made \\\"AM\\\" run in \\\"AppMan Mode\\\", locally, useful for unprivileged users. This option only works with \\\"AM\\\".\n"
+#| "\n"
+#| "\t\t\tThe \\\"--user\\\" option can also be used just as a flag for installation options. For example:\n"
+#| "\n"
+#| "\t\t\t- Use it to install applications locally, option \\\"-i\\\" or \\\"install\\\":\n"
+#| "\n"
+#| "\t\t\t\t${LightBlue}am -i --user {PROGRAM}\\033[0m\n"
+#| "\n"
+#| "\t\t\t- Also suboptions of \\\"-i\\\" can work with this flag:\n"
+#| "\n"
+#| "\t\t\t\t${LightBlue}am -i --user --debug {PROGRAM}\\033[0m\n"
+#| "\t\t\t\t${LightBlue}am -i --user --force-latest {PROGRAM}\n"
+#| "\t\t\t\t${LightBlue}am -i --user --icons {PROGRAM}\n"
+#| "\t\t\t\t${LightBlue}am -i --user --debug --force-latest {PROGRAM}\n"
+#| "\t\t\t\t${LightBlue}am -i --user --debug --force-latest --icons {PROGRAM}\\033[0m\n"
+#| "\n"
+#| "\t\t\t- Same for AppImages only, option \\\"-ia\\\" or \\\"install-appimage\\\":\n"
+#| "\n"
+#| "\t\t\t\t${LightBlue}am -ia --user {PROGRAM}\\033[0m\n"
+#| "\t\t\t\t${LightBlue}am -ia --user --debug {PROGRAM}\n"
+#| "\t\t\t\t${LightBlue}am -ia --user --force-latest {PROGRAM}\n"
+#| "\t\t\t\t${LightBlue}am -ia --user --icons {PROGRAM}\n"
+#| "\t\t\t\t${LightBlue}am -ia --user --debug --force-latest {PROGRAM}\\033[0m\n"
+#| "\t\t\t\t${LightBlue}am -ia --user --debug --force-latest --icons {PROGRAM}\\033[0m\n"
+#| "\n"
+#| "\t\t\t- External AppImages can be installed like this as well, option \\\"-e\\\" or \\\"extra\\\":\n"
+#| "\n"
+#| "\t\t\t\t${LightBlue}am -e --user user/project {APPNAME}\\033[0m\n"
+#| "\t\t\t\t${LightBlue}am -e --user user/project {APPNAME} {KEYWORD}\\033[0m\n"
+#| "\n"
+#| "\t\t\tNOTE, \\\"AM\\\" 9 or higher is also able to, update and manage apps locally, by default, and without having to switch to \\\"AppMan Mode\\\".\n"
+#| "\n"
+#| "\t\t\tDescription: Switch \\\"AM\\\" back to \\\"AM\\\" from \\\"AppMan Mode\\\" (see \\\"--user\\\").\n"
+#| "\n"
+#| "\t\t\t$DIVIDING_LINE\n"
+#| "\n"
+#| "\t\t\tTHIRD-PARTY FLAGS: $third_party_flags_message\n"
+#| "\t\t\t$DIVIDING_LINE\n"
+#| "\n"
+#| "\t\t\t SITES:\n"
+#| "\n"
+#| "\t\t\t https://github.com/ivan-hc/AM\n"
+#| "\n"
+#| "\t\t\t https://portable-linux-apps.github.io\n"
+#| "\n"
+#| "\t\t\t\\n"
 msgid ""
 "\n"
 "\t\t\tNAME: ${Green}$AMCLIUPPER\\033[0m\t\tVERSION: ${Green}$AMVERSION\\033[0m\n"
@@ -700,10 +1080,10 @@ msgid ""
 "\n"
 "\t\t\tDescription: Generate a custom installation script. To test the scripts, use the \\\"${LightBlue}$AMCLI -i '/path/to/script'\\033[0m\\\" command or enter the directory of the script and run the \\\"${LightBlue}$AMCLI -i ./script\\033[0m\\\" command, even using dedicated flags, if necessary (see \\\"-i\\\").\n"
 "\n"
-"\t\t\t${Gold}translate, --translate\\033[0m\n"
+"\t\t\t${Gold}language, --language\\033[0m\n"
 "\n"
-"\t\t\t\t\t${LightBlue}$AMCLI --translate\\033[0m\n"
-"\t\t\t\t\t${LightBlue}$AMCLI --translate {CODE}\\033[0m\n"
+"\t\t\t\t\t${LightBlue}$AMCLI --language\\033[0m\n"
+"\t\t\t\t\t${LightBlue}$AMCLI --language {CODE}\\033[0m\n"
 "\n"
 "\t\t\tDescription: Download and set one or more language packs (if available), set \\\"$AMCLI\\\" to English (default), your language or other languages.\\n\\nVisit https://github.com/AM-community/localization to learn more on how to submit or improve translations.\n"
 "\n"
@@ -785,6 +1165,8 @@ msgid ""
 "\n"
 "\t\t\t\t\t${LightBlue}am --system\\033[0m\n"
 "\n"
+"\t\t\tDescription: Switch \\\"AM\\\" back to \\\"AM\\\" from \\\"AppMan Mode\\\" (see \\\"--user\\\").\n"
+"\n"
 "\t\t\t${Gold}--user\\033[0m\n"
 "\n"
 "\t\t\t\t\t${LightBlue}am --user\\033[0m\n"
@@ -820,8 +1202,6 @@ msgid ""
 "\t\t\t\t${LightBlue}am -e --user user/project {APPNAME} {KEYWORD}\\033[0m\n"
 "\n"
 "\t\t\tNOTE, \\\"AM\\\" 9 or higher is also able to, update and manage apps locally, by default, and without having to switch to \\\"AppMan Mode\\\".\n"
-"\n"
-"\t\t\tDescription: Switch \\\"AM\\\" back to \\\"AM\\\" from \\\"AppMan Mode\\\" (see \\\"--user\\\").\n"
 "\n"
 "\t\t\t$DIVIDING_LINE\n"
 "\n"
@@ -1183,7 +1563,7 @@ msgstr ""
 "\n"
 "Čeština"
 
-#: am/APP-MANAGER:1851
+#: am/APP-MANAGER:1848
 msgid "ERROR: unknown option \\\"$1\\\", run the \\\"$AMCLI -h\\\" command to find out more"
 msgstr "CHYBA: unknown option \\\"$1\\\", run the \\\"$AMCLI -h\\\" command to find out more"
 
@@ -1979,11 +2359,31 @@ msgstr " ◆ WEBAPP ADRESA: "
 msgid "\\n No valid argument was chosen: process aborted! \\n"
 msgstr "\\n Nevybrán validní argument: proces přerušen! \\n"
 
-#: am/modules/yad.am:13
-msgid "ERROR! yad is missing! Install it..."
-msgstr "CHYBA! chybí yad! Nainstalujte ho..."
+#: am/modules/yad.am:11
+msgid "ERROR! Sorry, I can't work without yad installed, exiting."
+msgstr ""
 
-#: am/modules/yad.am:26
+#: am/modules/yad.am:14
+msgid "WARNING! To see the icons you will need to install Google Noto Emoji Fonts"
+msgstr ""
+
+#: am/modules/yad.am:15
+msgid "Note: The package name 'noto-fonts-emoji' may be different depending on your distribution."
+msgstr ""
+
+#: am/modules/yad.am:16
+msgid "Look here: https://repology.org/project/fonts%3Anoto-emoji/versions"
+msgstr ""
+
+#: am/modules/yad.am:28
+msgid "Running in DEBUG mode!"
+msgstr ""
+
+#: am/modules/yad.am:36
+msgid "About $progname"
+msgstr ""
+
+#: am/modules/yad.am:41
 msgid ""
 "Testing Alpha release\n"
 "\n"
@@ -2009,69 +2409,133 @@ msgstr ""
 "\n"
 "GUI:"
 
-#: am/modules/yad.am:142
+#: am/modules/yad.am:124
+msgid "List installed for removing"
+msgstr ""
+
+#: am/modules/yad.am:127 am/modules/yad.am:229
+msgid "app"
+msgstr ""
+
+#: am/modules/yad.am:128
+msgid "version"
+msgstr ""
+
+#: am/modules/yad.am:129
+msgid "type"
+msgstr ""
+
+#: am/modules/yad.am:130
+msgid "size"
+msgstr ""
+
+#: am/modules/yad.am:134
+msgid "Alert"
+msgstr ""
+
+#: am/modules/yad.am:137 am/modules/yad.am:252
+msgid "Remove\\\" $(<\"$GUIcacheDIR/am-toremove\")?"
+msgstr ""
+
+#: am/modules/yad.am:155
+msgid "Install application (with options)"
+msgstr ""
+
+#: am/modules/yad.am:160
 msgid "AppImage!Install only AppImages"
 msgstr "AppImage!Instalovat jen AppImage"
 
-#: am/modules/yad.am:143
+#: am/modules/yad.am:161
 msgid "soarpkg!For installation from soar packages"
 msgstr "soarpkg!Pro instalaci ze soar balíčků"
 
-#: am/modules/yad.am:144
+#: am/modules/yad.am:162
 msgid "toolpack!For installation of toolpacks"
 msgstr "toolpack!Pro instalaci nástrojů"
 
-#: am/modules/yad.am:145
+#: am/modules/yad.am:163
 msgid "sandbox!Set also sandbox"
 msgstr "pískoviště!Nastavit také sandbox"
 
-#: am/modules/yad.am:146
+#: am/modules/yad.am:164
 msgid "user (as AppMan)!Use it to install applications locally"
 msgstr "uživatel (jako AppMan)!Použijte pro instalaci aplikací lokálně"
 
-#: am/modules/yad.am:147
+#: am/modules/yad.am:165
 msgid "force latest!Downgrade installed app from pre-release to latest"
 msgstr "Vynutit nejnovější! Snížit verzi instalované aplikaci z pre-release na nejnovější"
 
-#: am/modules/yad.am:148
+#: am/modules/yad.am:166
 msgid "icons!Allow use of system theme"
 msgstr "ikony!Povolit použití systémového tématu"
 
-#: am/modules/yad.am:149
+#: am/modules/yad.am:167
 msgid "debug!For installation debuging"
 msgstr "ladění!Pro ladění instalace"
 
-#: am/modules/yad.am:158
+#: am/modules/yad.am:176
 msgid "!Choose app to install"
 msgstr "!Vyberte aplikaci k instalaci"
 
-#: am/modules/yad.am:187
-msgid "RUNNING: %s %s %s"
-msgstr "BĚŽÍ: %s %s %s"
+#: am/modules/yad.am:208
+msgid "WARNING! No application has been selected for installation"
+msgstr ""
 
-#: am/modules/yad.am:270 am/modules/yad.am:287
+#: am/modules/yad.am:222
+msgid "Install application(s) (with about)"
+msgstr ""
+
+#: am/modules/yad.am:228
+msgid "install"
+msgstr ""
+
+#: am/modules/yad.am:230
+msgid "about"
+msgstr ""
+
+#: am/modules/yad.am:241
+msgid "Remove application(s)"
+msgstr ""
+
+#: am/modules/yad.am:286
+msgid "AppMan Graphical User Interface"
+msgstr ""
+
+#: am/modules/yad.am:294 am/modules/yad.am:311
 msgid "📥 Install apps!!Install more apps"
 msgstr "📥 Instalovat aplikace!!Instalovat více aplikací"
 
-#: am/modules/yad.am:271 am/modules/yad.am:288
+#: am/modules/yad.am:295 am/modules/yad.am:312
 msgid "📥 Install!!Install one app"
 msgstr "📥 Instalovat!!Instalovat jednu aplikaci"
 
-#: am/modules/yad.am:273 am/modules/yad.am:290
+#: am/modules/yad.am:297 am/modules/yad.am:314
 msgid "📋 Installed!!List installed Apps and remove App"
 msgstr "📋 Nainstalované!!Zobrazit nainstalované aplikace pro jejich odstranění"
 
-#: am/modules/yad.am:274 am/modules/yad.am:291
+#: am/modules/yad.am:298 am/modules/yad.am:315
 msgid "🗑️ Remove!!Uninstall App(s)"
 msgstr "🗑️ Odebrat!!Odinstalovat Apky"
 
-#: am/modules/yad.am:275 am/modules/yad.am:292
-msgid "About!ℹ️!Info about GUI"
+#: am/modules/yad.am:299 am/modules/yad.am:316
+#, fuzzy
+#| msgid "About!ℹ️!Info about GUI"
+msgid "About!$LOGO!Info about GUI"
 msgstr "O!ℹ️!Informace o GUI"
 
-#: am/modules/yad.am:276 am/modules/yad.am:293
+#: am/modules/yad.am:300 am/modules/yad.am:317
 msgid "yad-quit!!Exit GUI"
 msgstr "yad-quit!!OPUSTIT GUI"
+
+#: am/modules/yad.am:303
+msgid "AM Graphical User Interface"
+msgstr ""
+
+#~ msgid "ERROR! yad is missing! Install it..."
+#~ msgstr "CHYBA! chybí yad! Nainstalujte ho..."
+
+#~ msgid "RUNNING: %s %s %s"
+#~ msgstr "BĚŽÍ: %s %s %s"
 
 #~ msgid "Press y to continue, anything else to exit (timeout 15 seconds)"
 #~ msgstr "Stiskněte y pro pokračování, cokoli jiného pro odchod (limit 15 vteřin)"
