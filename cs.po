@@ -383,7 +383,7 @@ msgstr "\\n Viz https://github.com/$AM_THE_OWNER/AM/commits/%b\\n\\n"
 
 #: am/APP-MANAGER:1090
 msgid "%b\\n DONE! \\n"
-msgstr "%b\\n HOTOVO! \\n"
+msgstr "%b\\n ZRUŠENO! \\n%b\\n"
 
 #: am/APP-MANAGER:1110
 msgid " %b\\\"%b\\\" CAN MANAGE UPDATES FOR THE FOLLOWING PROGRAMS\\033[0m:\\n%b\\n\\n"
@@ -501,8 +501,7 @@ msgstr "Tato funkce je zakázána vaší organizací"
 msgid "\tThird-party databases:"
 msgstr "\tDatábáze třetích stran:"
 
-#: am/APP-MANAGER:1484
-#, fuzzy
+#: APP-MANAGER:1484
 msgid ""
 "\n"
 "\t\t\tNAME: ${Green}$AMCLIUPPER\\033[0m\t\tVERSION: ${Green}$AMVERSION\\033[0m\n"
@@ -2000,7 +1999,35 @@ msgstr " ◆ WEBAPP ADRESA: "
 msgid "\\n No valid argument was chosen: process aborted! \\n"
 msgstr "\\n Nevybrán validní argument: proces přerušen! \\n"
 
-#: am/modules/yad.am:11
+#: modules/translate.am:15
+msgid "Press y to continue, anything else to exit (timeout 15 seconds)"
+msgstr "Stiskněte y pro pokračování, cokoli jiného pro odchod (limit 15 vteřin)"
+
+#: modules/translate.am:33
+msgid "Can´t enter AMPATH $AMPATH"
+msgstr "Nemohu vstoupit do AMPATH $AMPATH"
+
+#: modules/translate.am:126
+msgid "Enter your name..."
+msgstr "Vložte vaše jméno..."
+
+#: modules/translate.am:127
+msgid "Enter your email..."
+msgstr "Vložte váš mail..."
+
+#: modules/translate.am:131
+msgid "Language already included. Try again with another language, or run \\\"$AMCLI --translate\\\" to update added translations"
+msgstr "Jazyk již přidán. Zkuste jiný, nebo spusťte \\\"$AMCLI translate\\\" pro aktualizaci překladů"
+
+#: modules/translate.am:161
+msgid "Copy files to $HOME/.local/share/?"
+msgstr "Kopírovat soubory do $HOME/.local/share/?"
+
+#: modules/translate.am:169
+msgid "No language added, run \\\"$AMCLI --translate-new\\\" first!"
+msgstr "Žádný jazyk nepřidán, spusťte \\\"$AMCLI translate-new\\\" jako první!"
+
+#: modules/yad.am:11
 msgid "ERROR! Sorry, I can't work without yad installed, exiting."
 msgstr "CHYBA! Omluvám se, ale memůžu pracovat bez nainstalovaného yad, vypínám se."
 
@@ -2010,7 +2037,7 @@ msgstr "VAROVÁNÍ! Pro zobrazení ikon budete potřebovat nainstalovat Google N
 
 #: am/modules/yad.am:15
 msgid "Note: The package name 'noto-fonts-emoji' may be different depending on your distribution."
-msgstr "Poznámka: Jméno balíčku 'noto-fonts-emoji' může být jiné v závislosti na vaší distribuci."
+msgstr "Poznámka: Jméno balíčku 'noto-fonts-emoji' může být jiný v závislosti na vaší distribuci"
 
 #: am/modules/yad.am:16
 msgid "Look here: https://repology.org/project/fonts%3Anoto-emoji/versions"
@@ -2050,7 +2077,11 @@ msgstr ""
 "\n"
 "GUI:"
 
-#: am/modules/yad.am:124
+#: modules/yad.am:55
+msgid "on GitHub"
+msgstr "na GitHubu"
+
+#: modules/yad.am:124
 msgid "List installed for removing"
 msgstr "Seznam nainstalovaných pro odtranění"
 
@@ -2070,7 +2101,7 @@ msgstr "typ"
 msgid "size"
 msgstr "velikost"
 
-#: am/modules/yad.am:134
+#: modules/yad.am:134 modules/yad.am:249
 msgid "Alert"
 msgstr "Pozor"
 
@@ -2128,29 +2159,37 @@ msgstr "VAROVÁNÍ! Žádná aplikace nebyla vybrána pro instalaci"
 msgid "Install application(s) (with about)"
 msgstr "Instalovat aplikace (s popisem)"
 
-#: am/modules/yad.am:228
-msgid "install"
-msgstr "instalovat"
+#: modules/yad.am:228
+msgid "install?"
+msgstr "instalovat?"
 
-#: am/modules/yad.am:230
-msgid "about"
-msgstr "o"
+#: modules/yad.am:230
+msgid "about app"
+msgstr "o apce"
 
 #: am/modules/yad.am:241
 msgid "Remove application(s)"
 msgstr "Odebrat aplikace"
 
-#: am/modules/yad.am:286
+#: modules/yad.am:245
+msgid "remove?"
+msgstr "odebrat?"
+
+#: modules/yad.am:246
+msgid "name"
+msgstr "jméno"
+
+#: modules/yad.am:286
 msgid "AppMan Graphical User Interface"
 msgstr "Grafické rozhranní pro AppMan"
 
-#: am/modules/yad.am:294 am/modules/yad.am:311
-msgid "📥 Install apps!!Install more apps"
-msgstr "📥 Instalovat aplikace!!Instalovat více aplikací"
+#: modules/yad.am:294 modules/yad.am:311
+msgid "📥 Install apps!!Install application(s) (with about)"
+msgstr "📥 Instalovat apky!!Instalovat aplikace (s popisem)"
 
-#: am/modules/yad.am:295 am/modules/yad.am:312
-msgid "📥 Install!!Install one app"
-msgstr "📥 Instalovat!!Instalovat jednu aplikaci"
+#: modules/yad.am:295 modules/yad.am:312
+msgid "📥 Install!!Install application (with options)"
+msgstr "📥 Instalovat!!Instalovat aplikaci (s možnostmi)"
 
 #: am/modules/yad.am:297 am/modules/yad.am:314
 msgid "📋 Installed!!List installed Apps and remove App"
@@ -2160,9 +2199,9 @@ msgstr "📋 Nainstalované!!Zobrazit nainstalované aplikace pro jejich odstran
 msgid "🗑️ Remove!!Uninstall App(s)"
 msgstr "🗑️ Odebrat!!Odinstalovat Apky"
 
-#: am/modules/yad.am:299 am/modules/yad.am:316
-msgid "About!$LOGO!Info about GUI"
-msgstr "O!ℹ️!Informace o GUI"
+#: modules/yad.am:299 modules/yad.am:316
+msgid "About $progname!$LOGO!Info about GUI"
+msgstr "O $progname!$LOGO️!Informace o GUI"
 
 #: am/modules/yad.am:300 am/modules/yad.am:317
 msgid "yad-quit!!Exit GUI"
