@@ -7,94 +7,118 @@
 # Glossary sync <noreply-glossary-sync@weblate.org>, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: am 9.7.1-9\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-05-31\nPO-Revision-Date: 2025-05-31 10:42+0000\nLast-Translator: Apertium APy <noreply-mt-apertium-apy@weblate.org>\nLanguage-Team: German <https://hosted.weblate.org/projects/am/am/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
+msgstr ""
+"Project-Id-Version: am 9.7.1-9\n"
+"Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
+"POT-Creation-Date: 2025-06-02\n"
+"PO-Revision-Date: 2025-05-31 10:42+0000\n"
+"Last-Translator: Apertium APy <noreply-mt-apertium-apy@weblate.org>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/am/am/de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12-dev\n"
 
-#: am/APP-MANAGER:92
+#: am/APP-MANAGER:75
+msgid "%b\\n No locale available for you, consider adding one\\n Visit https://github.com/AM-community/localization for more information\\n"
+msgstr ""
+
+#: am/APP-MANAGER:76
+msgid " For now, we set the locale to \\\"en\\\" (default) to further avoid this message\\n Run \\\"$CLI language\\\" to set an alternative language\\n%b\\n"
+msgstr ""
+
+#: am/APP-MANAGER:99
 #, fuzzy
 msgid "Add a suitable locale code, for example \\\"it\\\" for Italian\\n\\n"
 msgstr "Füg zu einen passenden Schauplatz Code, beispielsweise \\\"es\\\" für italienisch\\n\\n"
 
-#: am/APP-MANAGER:93
+#: am/APP-MANAGER:100
 #, fuzzy
 msgid " Leave blank to use \\\"$CLI\\\" in English: "
 msgstr "Verlass Lücke zu benutzen \\\"$CLI\\\" auf Englisch: "
 
-#: am/APP-MANAGER:112
+#: am/APP-MANAGER:104 am/APP-MANAGER:113
+msgid "ERROR, \\\"%b\\\" is not a valid locale code\\n\\nList of valid locale codes:\\n\\n%b\\n\\n"
+msgstr ""
+
+#: am/APP-MANAGER:119
 #, fuzzy
 msgid "Setting locale to \\\"%b\\\"\\n"
 msgstr "Setzend Schauplatz zu \\\"%b\\\"\\n"
 
-#: am/APP-MANAGER:118
+#: am/APP-MANAGER:125
 #, fuzzy
 msgid "\\n Please do not use \\\"sudo\\\" to execute \\\"%b\\\", try again.\\n\\n"
 msgstr "\\n Bitte benutzen nicht \\\"sudo\\\" zu exekutieren \\\"%b\\\", probier nochmal.\\n\\n"
 
-#: am/APP-MANAGER:146
+#: am/APP-MANAGER:153
 #, fuzzy
 msgid "Install 'less' if you want to scroll this list"
 msgstr "Installier 'wenig' ob du möchtest #Buchrolle diese Liste"
 
-#: am/APP-MANAGER:163
+#: am/APP-MANAGER:170
 #, fuzzy
 msgid "💀 ERROR: Your version of sed does not support '-i' flag without extension, we tried to workaround and failed"
 msgstr "💀 FEHLER: Eure Version von sed unterstützt nicht '-ich' Fahne ohne Extension, wir probierten zu workaround und #verkracht"
 
-#: am/APP-MANAGER:164
+#: am/APP-MANAGER:171
 #, fuzzy
 msgid " Please install gsed"
 msgstr "Bitte installier gsed"
 
-#: am/APP-MANAGER:192
+#: am/APP-MANAGER:199
 #, fuzzy
 msgid ">>> Configure AppMan"
 msgstr ">>> Konfigurier AppMan"
 
-#: am/APP-MANAGER:192
+#: am/APP-MANAGER:199
 #, fuzzy
 msgid ">>> Thank you for choosing AppMan!"
 msgstr ">>> Dankeschön für #auswählen AppMan!"
 
-#: am/APP-MANAGER:196
+#: am/APP-MANAGER:203
 #, fuzzy
 msgid " Write the path or just press enter to use default:$(printf \"\\n\\n \")"
 msgstr "Schreib den Pfad oder einfache Presse betritt zu benutzen Vorgabe:$(printf \"\\n\\n \")"
 
-#: am/APP-MANAGER:204
+#: am/APP-MANAGER:211
 #, fuzzy
 msgid " 💀 ERROR, you can't install applications in \\\"$BINDIR\\\""
 msgstr "💀 ERROR, Sie können keine Anwendungen in \\\"$BINDIR\\\" installieren"
 
-#: am/APP-MANAGER:205
+#: am/APP-MANAGER:212
 #, fuzzy
 msgid " $BINDIR is normally used for executables, Please choose a different path and retry!"
 msgstr "$BINDIR Ist in der Regel für #Programmdatei benutzt, Bitte auswählen einen verschiedenen Pfad und Wiederholung!"
 
-#: am/APP-MANAGER:209
+#: am/APP-MANAGER:216
 #, fuzzy
 msgid " 💀 ERROR: You don't have write access to $location or it is invalid"
 msgstr "💀 FEHLER: Du hast nicht schreiben Zugang zu $Drehort oder es ist Kranker"
 
-#: am/APP-MANAGER:215
+#: am/APP-MANAGER:222
 #, fuzzy
 msgid " You are ready! Start installing your favorite apps locally!"
 msgstr "Du bist bereit! Start installierend örtlich eure favorisierten #App!"
 
-#: am/APP-MANAGER:216
+#: am/APP-MANAGER:223
 #, fuzzy
 msgid " All apps will be installed in $location"
 msgstr "Alle #App wollen sein installiert in $Drehort"
 
-#: am/APP-MANAGER:217
+#: am/APP-MANAGER:224
 #, fuzzy
 msgid " In case of problems, use the option \\\"-h\\\"."
 msgstr "#Im Fall von Probleme, benutzt die Option \\\"-h\\\"."
 
-#: am/APP-MANAGER:237
+#: am/APP-MANAGER:244
 #, fuzzy
 msgid "ERROR: You don't have write access to $APPSPATH"
 msgstr "FEHLER: Du hast nicht schreiben Zugang zu $APPSPATH"
 
-#: am/APP-MANAGER:241
+#: am/APP-MANAGER:248
 #, fuzzy
 msgid "%b ⚠️ WARNING\\033[0m: \\\"%b%b\\033[0m\\\" is not in PATH, local apps may not run.\\n"
 msgstr "%b ⚠️ WARNUNG\\033[0m: \\\"%b%b\\033[0m\\\" ist nicht in PFAD, lokale #App dürfen nicht rennen.\\n"
@@ -452,6 +476,11 @@ msgstr "◆ \\\"$AMCLIUPPER\\\" IST SCHON VERBESSERT, GÄNGIGE VERSION \\\"$GÄN
 msgid "\\n See https://github.com/$AM_THE_OWNER/AM/commits/%b\\n\\n"
 msgstr "\\n Sieht https://github.com/$BIN_DAS_EIGENTÜMER/#AM/begeht/%b\\n\\n"
 
+#: am/APP-MANAGER:1090
+#, fuzzy
+msgid "%b\\n DONE! \\n"
+msgstr "%b\\n TRIEBEN AB! \\n%b\\n"
+
 #: am/APP-MANAGER:1110
 #, fuzzy
 msgid " %b\\\"%b\\\" CAN MANAGE UPDATES FOR THE FOLLOWING PROGRAMS\\033[0m:\\n%b\\n\\n"
@@ -496,6 +525,10 @@ msgstr "%b‡\\033[0m %b ist nur gelesen, kann es nicht aktualisieren!\\n"
 #, fuzzy
 msgid " ◆ Update local AppImages integrated manually"
 msgstr "◆ Update Einheimische AppImages integriert manuell"
+
+#: am/APP-MANAGER:1228
+msgid "%b\\n File: %b%b\\033[0m\\n Path: %b"
+msgstr ""
 
 #: am/APP-MANAGER:1230
 #, fuzzy
@@ -587,7 +620,11 @@ msgstr "und helfen sie uns, die fehler zu fangen bitte"
 msgid "This feature is disabled by your organization"
 msgstr "Dieser Charakterzug ist #ausschalten #bei eurer Organisation"
 
-#: am/APP-MANAGER:1487
+#: am/APP-MANAGER:1597
+msgid "\tThird-party databases:"
+msgstr ""
+
+#: am/APP-MANAGER:1484
 #, fuzzy
 msgid ""
 "\n"
@@ -807,10 +844,10 @@ msgid ""
 "\n"
 "\t\t\tDescription: Generate a custom installation script. To test the scripts, use the \\\"${LightBlue}$AMCLI -i '/path/to/script'\\033[0m\\\" command or enter the directory of the script and run the \\\"${LightBlue}$AMCLI -i ./script\\033[0m\\\" command, even using dedicated flags, if necessary (see \\\"-i\\\").\n"
 "\n"
-"\t\t\t${Gold}translate, --translate\\033[0m\n"
+"\t\t\t${Gold}language, --language\\033[0m\n"
 "\n"
-"\t\t\t\t\t${LightBlue}$AMCLI --translate\\033[0m\n"
-"\t\t\t\t\t${LightBlue}$AMCLI --translate {CODE}\\033[0m\n"
+"\t\t\t\t\t${LightBlue}$AMCLI --language\\033[0m\n"
+"\t\t\t\t\t${LightBlue}$AMCLI --language {CODE}\\033[0m\n"
 "\n"
 "\t\t\tDescription: Download and set one or more language packs (if available), set \\\"$AMCLI\\\" to English (default), your language or other languages.\\n\\nVisit https://github.com/AM-community/localization to learn more on how to submit or improve translations.\n"
 "\n"
@@ -892,6 +929,8 @@ msgid ""
 "\n"
 "\t\t\t\t\t${LightBlue}am --system\\033[0m\n"
 "\n"
+"\t\t\tDescription: Switch \\\"AM\\\" back to \\\"AM\\\" from \\\"AppMan Mode\\\" (see \\\"--user\\\").\n"
+"\n"
 "\t\t\t${Gold}--user\\033[0m\n"
 "\n"
 "\t\t\t\t\t${LightBlue}am --user\\033[0m\n"
@@ -927,8 +966,6 @@ msgid ""
 "\t\t\t\t${LightBlue}am -e --user user/project {APPNAME} {KEYWORD}\\033[0m\n"
 "\n"
 "\t\t\tNOTE, \\\"AM\\\" 9 or higher is also able to, update and manage apps locally, by default, and without having to switch to \\\"AppMan Mode\\\".\n"
-"\n"
-"\t\t\tDescription: Switch \\\"AM\\\" back to \\\"AM\\\" from \\\"AppMan Mode\\\" (see \\\"--user\\\").\n"
 "\n"
 "\t\t\t$DIVIDING_LINE\n"
 "\n"
@@ -1295,7 +1332,7 @@ msgstr ""
 "\n"
 "\t\t\t\\n"
 
-#: am/APP-MANAGER:1851
+#: am/APP-MANAGER:1848
 #, fuzzy
 msgid "ERROR: unknown option \\\"$1\\\", run the \\\"$AMCLI -h\\\" command to find out more"
 msgstr "FEHLER: Unbekannte Option \\\"$1\\\", gerannt die \\\"$AMCLI -h\\\" gebietet zu herausfinden More"
@@ -2241,7 +2278,14 @@ msgid ""
 " - if from other sources, use \"https://www.SITENAME.com\" or something\n"
 "\n"
 " URL: ')"
-msgstr "◆ FÜG ZU DAS URL VON DER STÄTTE (BESSER OB IT KOMMT AUS GITHUB), BEISPIELSWEISE: $(Widerhall -e s\n\n - ob von github.com, Benutz \"https://github.com/NUTZER/PROJEKT\"\n\n - ob von anderen Quellen, benutzt \"https://www.SITENAME.com\" Oder #irgendetwas\n\n URL: ')"
+msgstr ""
+"◆ FÜG ZU DAS URL VON DER STÄTTE (BESSER OB IT KOMMT AUS GITHUB), BEISPIELSWEISE: $(Widerhall -e s\n"
+"\n"
+" - ob von github.com, Benutz \"https://github.com/NUTZER/PROJEKT\"\n"
+"\n"
+" - ob von anderen Quellen, benutzt \"https://www.SITENAME.com\" Oder #irgendetwas\n"
+"\n"
+" URL: ')"
 
 #: am/modules/template.am:398 am/modules/template.am:419
 #: am/modules/template.am:471 am/modules/template.am:511
@@ -2279,12 +2323,31 @@ msgstr "◆ URL VON DAS WEBAPP: "
 msgid "\\n No valid argument was chosen: process aborted! \\n"
 msgstr "\\n Kein gültiger Streit war ausgewählt: Arbeitsgang trieb ab! \\n"
 
-#: am/modules/yad.am:13
-#, fuzzy
-msgid "ERROR! yad is missing! Install it..."
-msgstr "FEHLER! yad Fehlt! Installier ihm..."
+#: am/modules/yad.am:11
+msgid "ERROR! Sorry, I can't work without yad installed, exiting."
+msgstr ""
 
-#: am/modules/yad.am:26
+#: am/modules/yad.am:14
+msgid "WARNING! To see the icons you will need to install Google Noto Emoji Fonts"
+msgstr ""
+
+#: am/modules/yad.am:15
+msgid "Note: The package name 'noto-fonts-emoji' may be different depending on your distribution."
+msgstr ""
+
+#: am/modules/yad.am:16
+msgid "Look here: https://repology.org/project/fonts%3Anoto-emoji/versions"
+msgstr ""
+
+#: am/modules/yad.am:28
+msgid "Running in DEBUG mode!"
+msgstr ""
+
+#: am/modules/yad.am:36
+msgid "About $progname"
+msgstr ""
+
+#: am/modules/yad.am:41
 #, fuzzy
 msgid ""
 "Testing Alpha release\n"
@@ -2298,87 +2361,161 @@ msgid ""
 "https://github.com/ivan-hc/am\n"
 "\n"
 "GUI:"
-msgstr "Testend Alpha Freigabe\n\nBenutzend YAD zu schaffen simpel und nutzbar\nGraphische Nutzer Schnittstelle für\nIST: Antrag Manager\nfür linux\n\n#AM Website:\nHttps://github.com/ivan-hc/Bin\n\n#grafische Benutzeroberfläche:"
+msgstr ""
+"Testend Alpha Freigabe\n"
+"\n"
+"Benutzend YAD zu schaffen simpel und nutzbar\n"
+"Graphische Nutzer Schnittstelle für\n"
+"IST: Antrag Manager\n"
+"für linux\n"
+"\n"
+"#AM Website:\n"
+"Https://github.com/ivan-hc/Bin\n"
+"\n"
+"#grafische Benutzeroberfläche:"
 
-#: am/modules/yad.am:142
+#: am/modules/yad.am:124
+msgid "List installed for removing"
+msgstr ""
+
+#: am/modules/yad.am:127 am/modules/yad.am:229
+msgid "app"
+msgstr ""
+
+#: am/modules/yad.am:128
+msgid "version"
+msgstr ""
+
+#: am/modules/yad.am:129
+msgid "type"
+msgstr ""
+
+#: am/modules/yad.am:130
+msgid "size"
+msgstr ""
+
+#: am/modules/yad.am:134
+msgid "Alert"
+msgstr ""
+
+#: am/modules/yad.am:137 am/modules/yad.am:252
+msgid "Remove\\\" $(<\"$GUIcacheDIR/am-toremove\")?"
+msgstr ""
+
+#: am/modules/yad.am:155
+msgid "Install application (with options)"
+msgstr ""
+
+#: am/modules/yad.am:160
 #, fuzzy
 msgid "AppImage!Install only AppImages"
 msgstr "AppImage!Installier nur AppImages"
 
-#: am/modules/yad.am:143
+#: am/modules/yad.am:161
 #, fuzzy
 msgid "soarpkg!For installation from soar packages"
 msgstr "soarpkg! Für die Installation von Soar-Paketen"
 
-#: am/modules/yad.am:144
+#: am/modules/yad.am:162
 #, fuzzy
 msgid "toolpack!For installation of toolpacks"
 msgstr "toolpack!Für Installation von toolpacks"
 
-#: am/modules/yad.am:145
+#: am/modules/yad.am:163
 #, fuzzy
 msgid "sandbox!Set also sandbox"
 msgstr "Sandkasten!Apparat auch Sandkasten"
 
-#: am/modules/yad.am:146
+#: am/modules/yad.am:164
 #, fuzzy
 msgid "user (as AppMan)!Use it to install applications locally"
 msgstr "Nutzer (wie AppMan)!Benutz ihm zu installieren örtlich Anträge"
 
-#: am/modules/yad.am:147
+#: am/modules/yad.am:165
 #, fuzzy
 msgid "force latest!Downgrade installed app from pre-release to latest"
 msgstr "kraft neu! Downgrade installierte App von Pre-Release bis neueste"
 
-#: am/modules/yad.am:148
+#: am/modules/yad.am:166
 #, fuzzy
 msgid "icons!Allow use of system theme"
 msgstr "Ikonen!Erlaub Nutzung von System Thema"
 
-#: am/modules/yad.am:149
+#: am/modules/yad.am:167
 #, fuzzy
 msgid "debug!For installation debuging"
 msgstr "Entwanz!Für Installation debuging"
 
-#: am/modules/yad.am:158
+#: am/modules/yad.am:176
 #, fuzzy
 msgid "!Choose app to install"
 msgstr "!Wähl aus #App zu installieren"
 
-#: am/modules/yad.am:187
-#, fuzzy
-msgid "RUNNING: %s %s %s"
-msgstr "RENNEN: %s %s %s"
+#: am/modules/yad.am:208
+msgid "WARNING! No application has been selected for installation"
+msgstr ""
 
-#: am/modules/yad.am:270 am/modules/yad.am:287
+#: am/modules/yad.am:222
+msgid "Install application(s) (with about)"
+msgstr ""
+
+#: am/modules/yad.am:228
+msgid "install"
+msgstr ""
+
+#: am/modules/yad.am:230
+msgid "about"
+msgstr ""
+
+#: am/modules/yad.am:241
+msgid "Remove application(s)"
+msgstr ""
+
+#: am/modules/yad.am:286
+msgid "AppMan Graphical User Interface"
+msgstr ""
+
+#: am/modules/yad.am:294 am/modules/yad.am:311
 #, fuzzy
 msgid "📥 Install apps!!Install more apps"
 msgstr "📥 Installier #App!!Installier #mehr #App"
 
-#: am/modules/yad.am:271 am/modules/yad.am:288
+#: am/modules/yad.am:295 am/modules/yad.am:312
 #, fuzzy
 msgid "📥 Install!!Install one app"
 msgstr "📥 Installier!!Installier eins #App"
 
-#: am/modules/yad.am:273 am/modules/yad.am:290
+#: am/modules/yad.am:297 am/modules/yad.am:314
 #, fuzzy
 msgid "📋 Installed!!List installed Apps and remove App"
 msgstr "📋 Installiert!!Liste installierte #App und entfernen #App"
 
-#: am/modules/yad.am:274 am/modules/yad.am:291
+#: am/modules/yad.am:298 am/modules/yad.am:315
 #, fuzzy
 msgid "🗑️ Remove!!Uninstall App(s)"
 msgstr "🗑️ Entfern!!Uninstall #App(s)"
 
-#: am/modules/yad.am:275 am/modules/yad.am:292
+#: am/modules/yad.am:299 am/modules/yad.am:316
 #, fuzzy
-msgid "About!ℹ️!Info about GUI"
+msgid "About!$LOGO!Info about GUI"
 msgstr "Etwa!ℹ️!Info Von #grafische Benutzeroberfläche"
 
-#: am/modules/yad.am:276 am/modules/yad.am:293
+#: am/modules/yad.am:300 am/modules/yad.am:317
 #, fuzzy
 msgid "yad-quit!!Exit GUI"
 msgstr "hey! Exit GUI"
+
+#: am/modules/yad.am:303
+msgid "AM Graphical User Interface"
+msgstr ""
+
+#, fuzzy
+#~ msgid "ERROR! yad is missing! Install it..."
+#~ msgstr "FEHLER! yad Fehlt! Installier ihm..."
+
+#, fuzzy
+#~ msgid "RUNNING: %s %s %s"
+#~ msgstr "RENNEN: %s %s %s"
 
 #, fuzzy
 #~ msgid "Press y to continue, anything else to exit (timeout 15 seconds)"
