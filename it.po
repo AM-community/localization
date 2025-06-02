@@ -2554,6 +2554,20 @@ msgstr "yad-quit!! Exit GUI"
 msgid "AM Graphical User Interface"
 msgstr ""
 
+#~ msgid "Can´t enter AMPATH $AMPATH"
+#~ msgstr "Impossibile entrare in $AMPATH"
+
+#~ msgid "Fixing strings"
+#~ msgstr "Aggiustamento delle stringhe"
+
+#~ msgid "Fixing completed"
+#~ msgstr "Fissaggio completato"
+
+#, fuzzy
+#~| msgid "Preparation for translation done."
+#~ msgid "Source for translations prepared"
+#~ msgstr "Preparazione per la traduzione completata."
+
 #, fuzzy
 #~ msgid "ERROR! yad is missing! Install it..."
 #~ msgstr "ERROR! Yad e' scomparso! Installalo..."
@@ -2567,9 +2581,6 @@ msgstr ""
 
 #~ msgid "Translating: $list"
 #~ msgstr "Tradurre: $list"
-
-#~ msgid "Can´t enter AMPATH $AMPATH"
-#~ msgstr "Impossibile entrare in $AMPATH"
 
 #~ msgid "am.pot removed"
 #~ msgstr "am.pot rimosso"
@@ -2585,12 +2596,6 @@ msgstr ""
 
 #~ msgid "Extraction completed"
 #~ msgstr "Estrazione completata"
-
-#~ msgid "Fixing strings"
-#~ msgstr "Aggiustamento delle stringhe"
-
-#~ msgid "Fixing completed"
-#~ msgstr "Fissaggio completato"
 
 #~ msgid "Joining duplicities from ${1} into ${2}"
 #~ msgstr "Unire le duplicità da ${1} in ${2}"
@@ -2630,9 +2635,6 @@ msgstr ""
 
 #~ msgid "${i} done"
 #~ msgstr "${i} creato"
-
-#~ msgid "Preparation for translation done."
-#~ msgstr "Preparazione per la traduzione completata."
 
 #~ msgid "Now is up to translators, or AI..."
 #~ msgstr "Adesso tocca ai traduttori..."
