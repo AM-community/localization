@@ -2,7 +2,7 @@
 # zenobit <zenobit@disroot.org>, 2025
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: am 9.8\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-06-02\nPO-Revision-Date: 2025-06-02 09:57+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Czech <https://hosted.weblate.org/projects/am/am/cs/>\nLanguage: cs\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\nX-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: am 9.8\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-06-02\nPO-Revision-Date: 2025-06-02 10:23+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Czech <https://hosted.weblate.org/projects/am/am/cs/>\nLanguage: cs\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\nX-Generator: Weblate 5.12-dev\n"
 
 #: am/APP-MANAGER:75
 msgid "%b\\n No locale available for you, consider adding one\\n Visit https://github.com/AM-community/localization for more information\\n"
@@ -1684,7 +1684,7 @@ msgstr "VAROVÁNÍ! Pro zobrazení ikon budete potřebovat nainstalovat Google N
 #: am/modules/yad.am:15
 #, fuzzy
 msgid "Note: The package name 'noto-fonts-emoji' may be different depending on your distribution."
-msgstr "Poznámka: Jméno balíčku 'noto-fonts-emoji' může být jiný v závislosti na vaší distribuci"
+msgstr "Poznámka: Jméno balíčku 'noto-fonts-emoji' může být jiné v závislosti na vaší distribuci."
 
 #: am/modules/yad.am:16
 msgid "Look here: https://repology.org/project/fonts%3Anoto-emoji/versions"
