@@ -2030,39 +2030,7 @@ msgstr " ◆ URL DE LA APLICACIÓN WEB: "
 msgid "\\n No valid argument was chosen: process aborted! \\n"
 msgstr "\\n No se eligió ningún argumento válido: ¡proceso abortado! \\n"
 
-#: modules/translate.am:15
-msgid "Press y to continue, anything else to exit (timeout 15 seconds)"
-msgstr "Presione s para continuar, cualquier otra tecla para salir (tiempo de espera 15 segundos)"
-
-#: modules/translate.am:33
-msgid "Can´t enter AMPATH $AMPATH"
-msgstr "No se puede acceder a AMPATH $AMPATH"
-
-#: modules/translate.am:126
-msgid "Enter your name..."
-msgstr "Introduzca su nombre..."
-
-#: modules/translate.am:127
-msgid "Enter your email..."
-msgstr "Introduzca su correo electrónico..."
-
-#: modules/translate.am:131
-#, fuzzy
-#| msgid " Try again with another language, or run \\\"$AMCLI --translate\\\" to update added translations"
-msgid "Language already included. Try again with another language, or run \\\"$AMCLI --translate\\\" to update added translations"
-msgstr " Inténtelo de nuevo con otro idioma, o ejecute \\\"$AMCLI --translate\\\" para actualizar las traducciones añadidas"
-
-#: modules/translate.am:161
-#, fuzzy
-#| msgid "Copy files to $HOME/.local/share/ for use with AppMan?"
-msgid "Copy files to $HOME/.local/share/?"
-msgstr "¿Copiar archivos a $HOME/.local/share/ para usarlos con AppMan?"
-
-#: modules/translate.am:169
-msgid "No language added, run \\\"$AMCLI --translate-new\\\" first!"
-msgstr "¡Ningún idioma añadido, ejecute \\\"$AMCLI --translate-new\\\" primero!"
-
-#: modules/yad.am:11
+#: am/modules/yad.am:11
 msgid "ERROR! Sorry, I can't work without yad installed, exiting."
 msgstr ""
 
@@ -2247,6 +2215,31 @@ msgstr "yad-Dejar!!Salida GUI"
 #: am/modules/yad.am:303
 msgid "AM Graphical User Interface"
 msgstr ""
+
+#~ msgid "Press y to continue, anything else to exit (timeout 15 seconds)"
+#~ msgstr "Presione s para continuar, cualquier otra tecla para salir (tiempo de espera 15 segundos)"
+
+#~ msgid "Can´t enter AMPATH $AMPATH"
+#~ msgstr "No se puede acceder a AMPATH $AMPATH"
+
+#~ msgid "Enter your name..."
+#~ msgstr "Introduzca su nombre..."
+
+#~ msgid "Enter your email..."
+#~ msgstr "Introduzca su correo electrónico..."
+
+#, fuzzy
+#~| msgid " Try again with another language, or run \\\"$AMCLI --translate\\\" to update added translations"
+#~ msgid "Language already included. Try again with another language, or run \\\"$AMCLI --translate\\\" to update added translations"
+#~ msgstr " Inténtelo de nuevo con otro idioma, o ejecute \\\"$AMCLI --translate\\\" para actualizar las traducciones añadidas"
+
+#, fuzzy
+#~| msgid "Copy files to $HOME/.local/share/ for use with AppMan?"
+#~ msgid "Copy files to $HOME/.local/share/?"
+#~ msgstr "¿Copiar archivos a $HOME/.local/share/ para usarlos con AppMan?"
+
+#~ msgid "No language added, run \\\"$AMCLI --translate-new\\\" first!"
+#~ msgstr "¡Ningún idioma añadido, ejecute \\\"$AMCLI --translate-new\\\" primero!"
 
 #~ msgid "Fixing strings"
 #~ msgstr "Corrigiendo cadenas"
