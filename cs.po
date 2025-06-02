@@ -2000,36 +2000,7 @@ msgstr " ◆ WEBAPP ADRESA: "
 msgid "\\n No valid argument was chosen: process aborted! \\n"
 msgstr "\\n Nevybrán validní argument: proces přerušen! \\n"
 
-#: modules/translate.am:15
-msgid "Press y to continue, anything else to exit (timeout 15 seconds)"
-msgstr "Stiskněte y pro pokračování, cokoli jiného pro odchod (limit 15 vteřin)"
-
-#: modules/translate.am:33
-msgid "Can´t enter AMPATH $AMPATH"
-msgstr "Nemohu vstoupit do AMPATH $AMPATH"
-
-#: modules/translate.am:126
-msgid "Enter your name..."
-msgstr "Vložte vaše jméno..."
-
-#: modules/translate.am:127
-msgid "Enter your email..."
-msgstr "Vložte váš mail..."
-
-#: modules/translate.am:131
-msgid "Language already included. Try again with another language, or run \\\"$AMCLI --translate\\\" to update added translations"
-msgstr "Jazyk již přidán. Zkuste jiný, nebo spusťte \\\"$AMCLI translate\\\" pro aktualizaci překladů"
-
-#: modules/translate.am:161
-#, fuzzy
-msgid "Copy files to $HOME/.local/share/?"
-msgstr "Kopírovat soubory do $HOME/.local/share/?"
-
-#: modules/translate.am:169
-msgid "No language added, run \\\"$AMCLI --translate-new\\\" first!"
-msgstr "Žádný jazyk nepřidán, spusťte \\\"$AMCLI translate-new\\\" jako první!"
-
-#: modules/yad.am:11
+#: am/modules/yad.am:11
 msgid "ERROR! Sorry, I can't work without yad installed, exiting."
 msgstr "CHYBA! Omluvám se, ale memůžu pracovat bez nainstalovaného yad, vypínám se."
 
@@ -2200,3 +2171,25 @@ msgstr "yad-quit!!Opustit GUI"
 #: am/modules/yad.am:303
 msgid "AM Graphical User Interface"
 msgstr "Grafické rozhranní pro AM"
+
+#~ msgid "Press y to continue, anything else to exit (timeout 15 seconds)"
+#~ msgstr "Stiskněte y pro pokračování, cokoli jiného pro odchod (limit 15 vteřin)"
+
+#~ msgid "Can´t enter AMPATH $AMPATH"
+#~ msgstr "Nemohu vstoupit do AMPATH $AMPATH"
+
+#~ msgid "Enter your name..."
+#~ msgstr "Vložte vaše jméno..."
+
+#~ msgid "Enter your email..."
+#~ msgstr "Vložte váš mail..."
+
+#~ msgid "Language already included. Try again with another language, or run \\\"$AMCLI --translate\\\" to update added translations"
+#~ msgstr "Jazyk již přidán. Zkuste jiný, nebo spusťte \\\"$AMCLI translate\\\" pro aktualizaci překladů"
+
+#, fuzzy
+#~ msgid "Copy files to $HOME/.local/share/?"
+#~ msgstr "Kopírovat soubory do $HOME/.local/share/?"
+
+#~ msgid "No language added, run \\\"$AMCLI --translate-new\\\" first!"
+#~ msgstr "Žádný jazyk nepřidán, spusťte \\\"$AMCLI translate-new\\\" jako první!"
