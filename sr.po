@@ -1659,7 +1659,39 @@ msgstr " ◆ URL WEB APLIKACIJE: "
 msgid "\\n No valid argument was chosen: process aborted! \\n"
 msgstr "\\n Nijedan važeći argument nije odabran: proces obustavljen! \\n"
 
-#: am/modules/yad.am:11
+#: modules/translate.am:15
+msgid "Press y to continue, anything else to exit (timeout 15 seconds)"
+msgstr "Pritisni y da nastaviš, bilo šta drugo da izađeš (vreme za odabir 15 sekundi)"
+
+#: modules/translate.am:33
+msgid "Can´t enter AMPATH $AMPATH"
+msgstr "Ne mogu da uđeum u AMPATH $AMPATH"
+
+#: modules/translate.am:126
+msgid "Enter your name..."
+msgstr "Ukucaj svoje ime..."
+
+#: modules/translate.am:127
+msgid "Enter your email..."
+msgstr "Ukucaj svoj email..."
+
+#: modules/translate.am:131
+#, fuzzy
+#| msgid " Try again with another language, or run \\\"$AMCLI --translate\\\" to update added translations"
+msgid "Language already included. Try again with another language, or run \\\"$AMCLI --translate\\\" to update added translations"
+msgstr " Pokušaj opet sa drugim jezikom, ili pokreni \\\"$AMCLI --translate\\\" da ažuriraš dodate prevode"
+
+#: modules/translate.am:161
+#, fuzzy
+#| msgid "Copy files to $HOME/.local/share/ for use with AppMan?"
+msgid "Copy files to $HOME/.local/share/?"
+msgstr "Kopiraj fajlove u $HOME/.local/share/ za korišćenje u AppMan?"
+
+#: modules/translate.am:169
+msgid "No language added, run \\\"$AMCLI --translate-new\\\" first!"
+msgstr "Nijedan jezik nije dodat, prvo pokreni \\\"$AMCLI --translate-new\\\"!"
+
+#: modules/yad.am:11
 msgid "ERROR! Sorry, I can't work without yad installed, exiting."
 msgstr ""
 
@@ -1831,9 +1863,6 @@ msgstr "yad-izađi!!Izađi iz GUI-ja"
 msgid "AM Graphical User Interface"
 msgstr ""
 
-#~ msgid "Can´t enter AMPATH $AMPATH"
-#~ msgstr "Ne mogu da uđeum u AMPATH $AMPATH"
-
 #~ msgid "Fixing strings"
 #~ msgstr "Popravljam stringove"
 
@@ -1850,9 +1879,6 @@ msgstr ""
 
 #~ msgid "RUNNING: %s %s %s"
 #~ msgstr "POKREĆEM: %s %s %s"
-
-#~ msgid "Press y to continue, anything else to exit (timeout 15 seconds)"
-#~ msgstr "Pritisni y da nastaviš, bilo šta drugo da izađeš (vreme za odabir 15 sekundi)"
 
 #~ msgid "Translating: $list"
 #~ msgstr "Prevodim: $list"
@@ -1884,23 +1910,14 @@ msgstr ""
 #~ msgid "Translator name"
 #~ msgstr "Ime prevodioca"
 
-#~ msgid "Enter your name..."
-#~ msgstr "Ukucaj svoje ime..."
-
 #~ msgid "Translator email"
 #~ msgstr "Email prevodioca"
-
-#~ msgid "Enter your email..."
-#~ msgstr "Ukucaj svoj email..."
 
 #~ msgid "Is it ${NLANG} correct language?"
 #~ msgstr "Da li je ${NLANG} tačan jezik?"
 
 #~ msgid "Language already included"
 #~ msgstr "Jezik je već ubačen"
-
-#~ msgid " Try again with another language, or run \\\"$AMCLI --translate\\\" to update added translations"
-#~ msgstr " Pokušaj opet sa drugim jezikom, ili pokreni \\\"$AMCLI --translate\\\" da ažuriraš dodate prevode"
 
 #~ msgid "Merging with old ${i}.po"
 #~ msgstr "Spajam sa starim ${i}.po"
@@ -1913,12 +1930,6 @@ msgstr ""
 
 #~ msgid "Now is up to translators, or AI..."
 #~ msgstr "Sada je sve na prevodiocima, ili na veštačkoj inteligenciji..."
-
-#~ msgid "Copy files to $HOME/.local/share/ for use with AppMan?"
-#~ msgstr "Kopiraj fajlove u $HOME/.local/share/ za korišćenje u AppMan?"
-
-#~ msgid "No language added, run \\\"$AMCLI --translate-new\\\" first!"
-#~ msgstr "Nijedan jezik nije dodat, prvo pokreni \\\"$AMCLI --translate-new\\\"!"
 
 #~ msgid "$HELP_MESSAGE"
 #~ msgstr "$HELP_MESSAGE"
