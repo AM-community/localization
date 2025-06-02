@@ -7,19 +7,7 @@
 # Glossary sync <noreply-glossary-sync@weblate.org>, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 msgid ""
-msgstr ""
-"Project-Id-Version: am 9.7.1-9\n"
-"Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
-"POT-Creation-Date: 2025-06-02\n"
-"PO-Revision-Date: 2025-06-02 09:11+0000\n"
-"Last-Translator: Apertium APy <noreply-mt-apertium-apy@weblate.org>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/am/am/de/>\n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: am 9.7.1-9\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-06-02\nPO-Revision-Date: 2025-06-02 09:57+0000\nLast-Translator: Apertium APy <noreply-mt-apertium-apy@weblate.org>\nLanguage-Team: German <https://hosted.weblate.org/projects/am/am/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
 
 #: am/APP-MANAGER:75
 msgid "%b\\n No locale available for you, consider adding one\\n Visit https://github.com/AM-community/localization for more information\\n"
@@ -91,12 +79,12 @@ msgstr "💀 ERROR, Sie können keine Anwendungen in \\\"$BINDIR\\\" installiere
 #: am/APP-MANAGER:212
 #, fuzzy
 msgid " $BINDIR is normally used for executables, Please choose a different path and retry!"
-msgstr "$BINDIR Ist in der Regel für #Programmdatei benutzt, Bitte auswählen einen verschiedenen Pfad und Wiederholung!"
+msgstr "$BINDIR wird normalerweise für Ausführbare verwendet, Bitte wählen Sie einen anderen Weg und Retry!"
 
 #: am/APP-MANAGER:216
 #, fuzzy
 msgid " 💀 ERROR: You don't have write access to $location or it is invalid"
-msgstr "💀 ERROR: Sie haben keinen Zugriff auf $location oder es ist ungültig"
+msgstr "💀 FEHLER: Du hast nicht schreiben Zugang zu $Drehort oder es ist Kranker"
 
 #: am/APP-MANAGER:222
 #, fuzzy
@@ -116,7 +104,7 @@ msgstr "#Im Fall von Probleme, benutzt die Option \\\"-h\\\"."
 #: am/APP-MANAGER:244
 #, fuzzy
 msgid "ERROR: You don't have write access to $APPSPATH"
-msgstr "FEHLER: Du hast nicht schreiben Zugang zu $APPSPATH"
+msgstr "ERROR: Sie haben keinen Zugriff auf $APPSPATH"
 
 #: am/APP-MANAGER:248
 #, fuzzy
@@ -126,7 +114,7 @@ msgstr "%b ◆⚠ WARNING\\033[0m: \\\"%b%b\\033[0m\\\" ist nicht in PATH, lokal
 #: am/APP-MANAGER:340
 #, fuzzy
 msgid "\\\"$AMCLIUPPER\\\" $AMVERSION: DEVELOPER MODE"
-msgstr "\\\"$AMCLIUPPER\\\" $AMVERSION: DEVELOPER MODE"
+msgstr "\\\"$AMCLIUPPER\\\" $AMVERSION: ENTWICKLER VERFAHREN"
 
 #: am/APP-MANAGER:370
 #, fuzzy
@@ -166,7 +154,7 @@ msgstr "\\n %b⚠️ WARNUNG: ZUGANG ZU NUTZER NAMENSRÄUME SIND BEGRENZT! \\033
 #: am/APP-MANAGER:392
 #, fuzzy
 msgid " Some apps may not run, you need to enable access to user namespaces, see"
-msgstr "Einige #App dürfen nicht rennen, du brauchst zu aktivieren Zugang zu Nutzer Namensräume, seht"
+msgstr "Einige Apps können nicht ausgeführt werden, Sie müssen Zugriff auf Benutzernamenspaces aktivieren, siehe"
 
 #: am/APP-MANAGER:394
 #, fuzzy
@@ -196,7 +184,7 @@ msgstr "Bitte entfern \\\"AppImageLauncher\\\", reboot und Wiederholung!"
 #: am/APP-MANAGER:422
 #, fuzzy
 msgid " Please remove \\\"$blacklisted_file\\\", reboot and retry!"
-msgstr "Bitte entfern \\\"$blacklisted_Datei\\\", reboot und Wiederholung!"
+msgstr "Bitte entfernen Sie \\\"$blacklisted_file\\\", rebooten und retry!"
 
 #: am/APP-MANAGER:441 am/modules/database.am:549 am/modules/database.am:637
 #: am/modules/install.am:432 am/modules/install.am:457
@@ -204,12 +192,12 @@ msgstr "Bitte entfern \\\"$blacklisted_Datei\\\", reboot und Wiederholung!"
 #: am/modules/template.am:351
 #, fuzzy
 msgid " USAGE: $AMCLI $1 [ARGUMENT]"
-msgstr "GEBRAUCH: $AMCLI $1 [STREIT]"
+msgstr "USAGE: $AMCLI $1 [ARGUMENT]"
 
 #: am/APP-MANAGER:445
 #, fuzzy
 msgid " USAGE:\t$AMCLI $1 $2 /path/to/dir"
-msgstr "GEBRAUCH:\t$AMCLI $1 $2 /Pfad/zu/dir"
+msgstr "USAGE: $AMCLI $1 $2 /path/to/dir"
 
 #: am/APP-MANAGER:451 am/APP-MANAGER:455 am/APP-MANAGER:465
 #, fuzzy
@@ -309,7 +297,7 @@ msgstr "1. Erstellen Sie ein neues Zeichen und fügen Sie es mit: $AMCLI apikey 
 #: am/APP-MANAGER:793
 #, fuzzy
 msgid "   2. Remove the invalid token with: $AMCLI apikey del"
-msgstr "2. Entfern die kränkliche Automatenmünze mit: $AMCLI apikey del"
+msgstr "2. Entfernen Sie den ungültigen Token mit: $AMCLI apikey del"
 
 #: am/APP-MANAGER:795
 #, fuzzy
@@ -324,7 +312,7 @@ msgstr "Diese Funktion funktioniert nur für AM"
 #: am/APP-MANAGER:829
 #, fuzzy
 msgid " Do you wish to enter \\\"AppMan Mode\\\" (y,N)?"
-msgstr "#Wünschen du zu betreten \\\"AppMan Verfahren\\\" (y,N)?"
+msgstr "Möchten Sie \\\"AppMan Mode\\\" (y,N) eingeben?"
 
 #: am/APP-MANAGER:844
 #, fuzzy
@@ -1385,7 +1373,7 @@ msgstr "$APPSMESSAGE $LIBSMESSAGE BRACHTEN FERTIG MAL \\\"$AMCLIUPPER\\\""
 #: am/modules/database.am:181
 #, fuzzy
 msgid " $APPSMESSAGE LOCALLY, AS \\\"APPMAN\\\""
-msgstr "$APPSMESSAGE ÖRTLICH, WIE \\\"APPMAN\\\""
+msgstr "$APPSMESSAGE LOCALLY, AS \\\"APPMAN\\\""
 
 #: am/modules/database.am:181
 #, fuzzy
@@ -1435,7 +1423,7 @@ msgstr "◆ $arg | script"
 #: am/modules/database.am:254
 #, fuzzy
 msgid " ◆ $arg\t|\tother"
-msgstr "◆ $arg\t|\t#Andere"
+msgstr "◆ $arg | sonstige"
 
 #: am/modules/database.am:340
 #, fuzzy
@@ -1450,7 +1438,7 @@ msgstr "TOTALE GRÖßE: $TOTALE_GRÖßE von Scheibe Weltraum in benutz"
 #: am/modules/database.am:394
 #, fuzzy
 msgid "-\tAPPIMAGE | PATH | SIZE "
-msgstr "-\tAPPIMAGE | PFAD | GRÖßE "
+msgstr "- APPIMAGE | PATH | SIZE "
 
 #: am/modules/database.am:426
 #, fuzzy
@@ -1500,7 +1488,7 @@ msgstr "\\n Suchergebnisse für pakete: %s\\n\\n"
 #: am/modules/install.am:32
 #, fuzzy
 msgid " Converting %s to an AppMan-compatible script.\\r"
-msgstr "Konvertieren von % in ein AppMan-kompatibles Skript.\\r"
+msgstr "#Umrechnen %s zu ein AppMan-vereinbares Skript.\\r"
 
 #: am/modules/install.am:43
 #, fuzzy
@@ -1535,7 +1523,7 @@ msgstr "💀 FEHLER: #Können nicht installieren \\\"$arg\\\" ohne \\\"$Kolonie_
 #: am/modules/install.am:99
 #, fuzzy
 msgid " ◆ $APPNAME IS PART OF \\\"$LASTDIR\\\", ALREADY INSTALLED"
-msgstr "◆ $APPNAME IST TEIL VON \\\"$LASTDIR\\\", SCHON INSTALLIERTE"
+msgstr "◆ $APPNAME IS PART OF \\\"$LASTDIR\\\", ALREADY INSTALLED"
 
 #: am/modules/install.am:123
 #, fuzzy
@@ -1600,7 +1588,7 @@ msgstr "‡ \\\"$(echo \"$arg\" ✖ sed 's/-appimage//g')\\\" ist kein Appimage"
 #: am/modules/install.am:360
 #, fuzzy
 msgid " Detected multiple variants, choose one or press ZERO to abort:\\n\\n"
-msgstr "Herausgefunden mehrfache Varianten, wählt aus eins oder Presse NULL zu abtreiben:\\n\\n"
+msgstr "Erkennt mehrere Varianten, wählen Sie eine oder drücken Sie ZERO abort:\\n\\n\\n"
 
 #: am/modules/install.am:366
 #, fuzzy
@@ -1635,7 +1623,7 @@ msgstr "USAGE: $AMCLI $1 --convert [ARGUMENT]"
 #: am/modules/install.am:458
 #, fuzzy
 msgid " USAGE: $AMCLI $1 --debug [ARGUMENT]"
-msgstr "GEBRAUCH: $AMCLI $1 --entwanzen [STREIT]"
+msgstr "USAGE: $AMCLI $1 --debug [ARGUMENT]"
 
 #: am/modules/install.am:459
 #, fuzzy
@@ -1790,7 +1778,7 @@ msgstr "FEHLER: Kein Schnappschuss für \\\"$2\\\" fand."
 #: am/modules/management.am:64
 #, fuzzy
 msgid " Do you wish to overwrite $2 with an older version? (y,N) "
-msgstr "#Wünschen du zu überschreiben $2 mit einer älteren Version? (y,N) "
+msgstr "Möchten Sie $2 mit einer älteren Version überschreiben? (y,N) "
 
 #: am/modules/management.am:66
 #, fuzzy
@@ -1910,7 +1898,7 @@ msgstr "Willst du es übertreiben? (y,N) "
 #: am/modules/management.am:271
 #, fuzzy
 msgid " You have chosen not to assign a command."
-msgstr "Du hast ausgewählt nicht ein Befehl zu zuweisen."
+msgstr "Sie haben gewählt, keinen Befehl zuzuordnen."
 
 #: am/modules/management.am:274
 #, fuzzy
@@ -1925,7 +1913,7 @@ msgstr "%b\\n FEHLER: \\\"%b\\\" Nicht gefunden\\n%b\\n"
 #: am/modules/management.am:286 am/modules/sandboxes.am:36
 #, fuzzy
 msgid "%b\\n ERROR: \\\"%b\\\" is NOT an AppImage\\n%b\\n"
-msgstr "%b\\n FEHLER: \\\"%b\\\" Ist NICHT ein AppImage\\n%b\\n"
+msgstr "%b\\n ERROR: \\\"%b\\\" ist NICHT ein AppImage\\n%b\\n"
 
 #: am/modules/management.am:288
 #, fuzzy
@@ -2110,7 +2098,7 @@ msgstr "%b\\n \\\"%b\\\" Ist schon sandboxed!\\n%b\\n"
 #: am/modules/sandboxes.am:33
 #, fuzzy
 msgid "%b\\n ERROR: \\\"%b\\\" is not installed\\n%b\\n"
-msgstr "%b\\n FEHLER: \\\"%b\\\" Ist nicht installiert\\n%b\\n"
+msgstr "%b\\n ERROR: \\\"%b\\\" ist nicht installiert\\n%b\\n"
 
 #: am/modules/sandboxes.am:44
 #, fuzzy
@@ -2221,7 +2209,7 @@ msgstr "\\n Das URL droben ist ein Beispiel von was sowohl\\n das installieren u
 #: am/modules/template.am:306
 #, fuzzy
 msgid " ◆ ADD THE NAME OF THE PROJECT OR LEAVE BLANK IF ITS THE SAME $(echo -e '\\n : ')"
-msgstr "◆ FÜG ZU DEN NAMEN VON DEM PROJEKT ODER ABSCHIED LÜCKE OB sein #DIESELBE $(Widerhall -e s\\n : ')"
+msgstr "◆ DANN DIE NAME DER PROJEKT ODER LEAVE BLANK IF SAME $(echo -e '\\n : ')"
 
 #: am/modules/template.am:316
 #, fuzzy
@@ -2278,14 +2266,7 @@ msgid ""
 " - if from other sources, use \"https://www.SITENAME.com\" or something\n"
 "\n"
 " URL: ')"
-msgstr ""
-"◆ ADD THE URL of THE SITE (BETTER IF IT COME FROM GITHUB), FÜR Beispiel: $(echo -e '\n"
-"\n"
-"- wenn von github.com \"https://github.com/USER/PROJECT\" verwendet wird\n"
-"\n"
-"- wenn aus anderen Quellen \"https://www.SITENAME.com\" oder so etwas verwendet wird\n"
-"\n"
-"URL:"
+msgstr "◆ FÜG ZU DAS URL VON DER STÄTTE (BESSER OB IT KOMMT AUS GITHUB), BEISPIELSWEISE: $(Widerhall -e s\n\n - ob von github.com, Benutz \"https://github.com/NUTZER/PROJEKT\"\n\n - ob von anderen Quellen, benutzt \"https://www.SITENAME.com\" Oder #irgendetwas\n\n URL: ')"
 
 #: am/modules/template.am:398 am/modules/template.am:419
 #: am/modules/template.am:471 am/modules/template.am:511
@@ -2316,7 +2297,7 @@ msgstr "◆ NAME DER APP: "
 #: am/modules/template.am:495
 #, fuzzy
 msgid " ◆ URL OF THE WEBAPP: "
-msgstr "◆ URL VON DAS WEBAPP: "
+msgstr "◆ URL DES WEBAPP: "
 
 #: am/modules/template.am:516
 #, fuzzy
@@ -2361,18 +2342,7 @@ msgid ""
 "https://github.com/ivan-hc/am\n"
 "\n"
 "GUI:"
-msgstr ""
-"Testend Alpha Freigabe\n"
-"\n"
-"Benutzend YAD zu schaffen simpel und nutzbar\n"
-"Graphische Nutzer Schnittstelle für\n"
-"IST: Antrag Manager\n"
-"für linux\n"
-"\n"
-"#AM Website:\n"
-"Https://github.com/ivan-hc/Bin\n"
-"\n"
-"#grafische Benutzeroberfläche:"
+msgstr "Testing Alpha Release\n\nMit YAD einfach und nutzbar zu erstellen\ngrafische Benutzeroberfläche für\nAM: Anwendungsmanager\nfür linux\n\nAM Website:\nhttps://github.com/ivan-hc/am\n\nGUI:"
 
 #: am/modules/yad.am:55
 msgid "on GitHub"
@@ -2423,7 +2393,7 @@ msgstr "soarpkg! Für die Installation von Soar-Paketen"
 #: am/modules/yad.am:162
 #, fuzzy
 msgid "toolpack!For installation of toolpacks"
-msgstr "toolpack!Für Installation von toolpacks"
+msgstr "toolpack! Für den Einbau von Werkzeugpaketen"
 
 #: am/modules/yad.am:163
 #, fuzzy
@@ -2490,12 +2460,12 @@ msgstr ""
 #: am/modules/yad.am:294 am/modules/yad.am:311
 #, fuzzy
 msgid "📥 Install apps!!Install application(s) (with about)"
-msgstr "📥 Installier #App!!Installier #mehr #App"
+msgstr "📥 Apps installieren!! Installieren von Anwendungen (mit ca.)"
 
 #: am/modules/yad.am:295 am/modules/yad.am:312
 #, fuzzy
 msgid "📥 Install!!Install application (with options)"
-msgstr "📥 Installieren! Installieren Sie eine App"
+msgstr "📥 Installier!!Installier Antrag (mit Optionen)"
 
 #: am/modules/yad.am:297 am/modules/yad.am:314
 #, fuzzy
@@ -2510,7 +2480,7 @@ msgstr "🗑️ Entfernen!!Deinstallieren App(s)"
 #: am/modules/yad.am:299 am/modules/yad.am:316
 #, fuzzy
 msgid "About $progname!$LOGO!Info about GUI"
-msgstr "Über! Infos Ã1⁄4ber GUI"
+msgstr "Über $progname!$LOGO! Infos Ã1⁄4ber GUI"
 
 #: am/modules/yad.am:300 am/modules/yad.am:317
 #, fuzzy
