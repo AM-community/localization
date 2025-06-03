@@ -21,184 +21,184 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.12-dev\n"
 
-#: am/APP-MANAGER:91
+#: am/APP-MANAGER:81
 msgid "%b\\n No locale available for you, consider adding one\\n Visit https://github.com/AM-community/localization for more information\\n"
 msgstr ""
 
-#: am/APP-MANAGER:92
+#: am/APP-MANAGER:82
 msgid " For now, we set the locale to \\\"en\\\" (default) to further avoid this message\\n Run \\\"$CLI language\\\" to set an alternative language\\n%b\\n"
 msgstr ""
 
-#: am/APP-MANAGER:115
+#: am/APP-MANAGER:118
 #, fuzzy
 msgid "Add a suitable locale code, for example \\\"it\\\" for Italian\\n\\n"
 msgstr "Fügen Sie einen geeigneten lokalen Code, zum Beispiel \\\"it\\\" für Italienisch\\n\\n"
 
-#: am/APP-MANAGER:116
+#: am/APP-MANAGER:119
 #, fuzzy
 msgid " Leave blank to use \\\"$CLI\\\" in English: "
 msgstr "Blättern Sie leer, um \\\"$CLI\\\" in Englisch zu verwenden: "
 
-#: am/APP-MANAGER:120 am/APP-MANAGER:129
+#: am/APP-MANAGER:123 am/APP-MANAGER:132
 msgid "ERROR, \\\"%b\\\" is not a valid locale code\\n\\nList of valid locale codes:\\n\\n%b\\n\\n"
 msgstr ""
 
-#: am/APP-MANAGER:135
+#: am/APP-MANAGER:138
 #, fuzzy
 msgid "Setting locale to \\\"%b\\\"\\n"
 msgstr "Setzend Schauplatz zu \\\"%b\\\"\\n"
 
-#: am/APP-MANAGER:141
+#: am/APP-MANAGER:144
 #, fuzzy
 msgid "\\n Please do not use \\\"sudo\\\" to execute \\\"%b\\\", try again.\\n\\n"
 msgstr "\\n Bitte benutzen nicht \\\"sudo\\\" zu exekutieren \\\"%b\\\", probier nochmal.\\n\\n"
 
-#: am/APP-MANAGER:169
+#: am/APP-MANAGER:172
 #, fuzzy
 msgid "Install 'less' if you want to scroll this list"
 msgstr "Installieren Sie 'less', wenn Sie diese Liste durchsuchen möchten"
 
-#: am/APP-MANAGER:186
+#: am/APP-MANAGER:189
 #, fuzzy
 msgid "💀 ERROR: Your version of sed does not support '-i' flag without extension, we tried to workaround and failed"
 msgstr "💀 FEHLER: Eure Version von sed unterstützt nicht '-ich' Fahne ohne Extension, wir probierten zu workaround und #verkracht"
 
-#: am/APP-MANAGER:187
+#: am/APP-MANAGER:190
 #, fuzzy
 msgid " Please install gsed"
 msgstr "Bitte installieren Sie gsed"
 
-#: am/APP-MANAGER:215
+#: am/APP-MANAGER:218
 #, fuzzy
 msgid ">>> Configure AppMan"
 msgstr "> > AppMan konfigurieren"
 
-#: am/APP-MANAGER:215
+#: am/APP-MANAGER:218
 #, fuzzy
 msgid ">>> Thank you for choosing AppMan!"
 msgstr ">>> Dankeschön für #auswählen AppMan!"
 
-#: am/APP-MANAGER:219
+#: am/APP-MANAGER:222
 #, fuzzy
 msgid " Write the path or just press enter to use default:$(printf \"\\n\\n \")"
 msgstr "Schreib den Pfad oder einfache Presse betritt zu benutzen Vorgabe:$(printf \"\\n\\n \")"
 
-#: am/APP-MANAGER:227
+#: am/APP-MANAGER:230
 #, fuzzy
 msgid " 💀 ERROR, you can't install applications in \\\"$BINDIR\\\""
 msgstr "💀 ERROR, Sie können keine Anwendungen in \\\"$BINDIR\\\" installieren"
 
-#: am/APP-MANAGER:228
+#: am/APP-MANAGER:231
 #, fuzzy
 msgid " $BINDIR is normally used for executables, Please choose a different path and retry!"
 msgstr "$BINDIR wird normalerweise für Ausführbare verwendet, Bitte wählen Sie einen anderen Weg und Retry!"
 
-#: am/APP-MANAGER:232
+#: am/APP-MANAGER:235
 #, fuzzy
 msgid " 💀 ERROR: You don't have write access to $location or it is invalid"
 msgstr "💀 FEHLER: Du hast nicht schreiben Zugang zu $Drehort oder es ist Kranker"
 
-#: am/APP-MANAGER:238
+#: am/APP-MANAGER:241
 #, fuzzy
 msgid " You are ready! Start installing your favorite apps locally!"
 msgstr "Du bist bereit! Start installierend örtlich eure favorisierten #App!"
 
-#: am/APP-MANAGER:239
+#: am/APP-MANAGER:242
 #, fuzzy
 msgid " All apps will be installed in $location"
 msgstr "Alle Apps werden in $location installiert"
 
-#: am/APP-MANAGER:240
+#: am/APP-MANAGER:243
 #, fuzzy
 msgid " In case of problems, use the option \\\"-h\\\"."
 msgstr "#Im Fall von Probleme, benutzt die Option \\\"-h\\\"."
 
-#: am/APP-MANAGER:260
+#: am/APP-MANAGER:263
 #, fuzzy
 msgid "ERROR: You don't have write access to $APPSPATH"
 msgstr "ERROR: Sie haben keinen Zugriff auf $APPSPATH"
 
-#: am/APP-MANAGER:264
+#: am/APP-MANAGER:267
 #, fuzzy
 msgid "%b ⚠️ WARNING\\033[0m: \\\"%b%b\\033[0m\\\" is not in PATH, local apps may not run.\\n"
 msgstr "%b ◆⚠ WARNING\\033[0m: \\\"%b%b\\033[0m\\\" ist nicht in PATH, lokale Apps können nicht laufen.\\n"
 
-#: am/APP-MANAGER:356
+#: am/APP-MANAGER:359
 #, fuzzy
 msgid "\\\"$AMCLIUPPER\\\" $AMVERSION: DEVELOPER MODE"
 msgstr "\\\"$AMCLIUPPER\\\" $AMVERSION: DEVELOPER MODE"
 
-#: am/APP-MANAGER:386
+#: am/APP-MANAGER:389
 #, fuzzy
 msgid " ${RED}💀 ERROR! MISSING ESSENTIAL COMMANDS\\033[0m: %s\\n\\n Install the above and try again! \\n"
 msgstr "${ROTER}💀 FEHLER! VERSCHOLLENE HAUPTSACHE BEFEHLE\\033[0m: %s\\n\\n Installieren das droben und probieren nochmal! \\n"
 
-#: am/APP-MANAGER:388
+#: am/APP-MANAGER:391
 #, fuzzy
 msgid "%bList of the %b core dependences\\033[0m:\\n\\n%b\\n"
 msgstr "%bList Von das %b Innenteil Anlehnungen\\033[0m:\\n\\n%b\\n"
 
-#: am/APP-MANAGER:390
+#: am/APP-MANAGER:393
 #, fuzzy
 msgid "If this message appears it is because you are missing some dependency and if its the first time its because something new has been introduced.\\n\\n"
 msgstr "Wenn diese Nachricht erscheint, ist es, weil Sie eine gewisse Abhängigkeit vermissen und wenn sie das erste Mal, weil etwas Neues eingeführt wurde. ,"
 
-#: am/APP-MANAGER:391
+#: am/APP-MANAGER:394
 #, fuzzy
-msgid " See %bhttps://github.com/ivan-hc/AM#core-dependences\\033[0m for more information\\n"
+msgid " See %bhttps://github.com/$AMOWNER/AM#core-dependences\\033[0m for more information\\n"
 msgstr "Siehe %bhttps://github.com/ivan-hc/AM#core-dependences\\033[0m für weitere Informationen\\n"
 
-#: am/APP-MANAGER:399
+#: am/APP-MANAGER:402
 #, fuzzy
 msgid "\\n%bWARNING: your distro maintainer ships \\\"wget2\\\" as \\\"wget\\\" \\033[0m\\n\\n"
 msgstr "\\n%bWARNING: Eure distro maintainer Schiffe \\\"wget2\\\" wie \\\"wget\\\" \\033[0m\\n\\n"
 
-#: am/APP-MANAGER:400
+#: am/APP-MANAGER:403
 #, fuzzy
 msgid "Please install \\\"%bwget1\\033[0m\\\" and \\\"%bwget1-wget\\033[0m\\\" (use %b--allowerasing\\033[0m if you have to)\\n\\nSee https://bugzilla.redhat.com/show_bug.cgi?id=2358792\\n\\n"
 msgstr "Bitte installieren Sie \\\"%bwget1\\033[0m\\\" und \\\"%bwget1-wget\\033[0m\\\" (verwenden Sie %b-allowerasing\\033[0m, wenn Sie müssen)\\n\\n\\n Siehe https://bugzilla.redhat.com/show_bug.cgi?id=2358792\\n\\n"
 
-#: am/APP-MANAGER:407
+#: am/APP-MANAGER:410
 #, fuzzy
 msgid "\\n %b⚠️ WARNING: ACCESS TO USER NAMESPACES IS RESTRICTED! \\033[0m\\n\\n"
 msgstr "\\n %b⚠️ WARNUNG: ZUGANG ZU NUTZER NAMENSRÄUME SIND BEGRENZT! \\033[0m\\n\\n"
 
-#: am/APP-MANAGER:408
+#: am/APP-MANAGER:411
 #, fuzzy
 msgid " Some apps may not run, you need to enable access to user namespaces, see"
 msgstr "Einige Apps können nicht ausgeführt werden, Sie müssen Zugriff auf Benutzernamenspaces aktivieren, siehe"
 
-#: am/APP-MANAGER:410
+#: am/APP-MANAGER:413
 #, fuzzy
 msgid " to know more."
 msgstr "mehr wissen."
 
-#: am/APP-MANAGER:422
+#: am/APP-MANAGER:425
 #, fuzzy
 msgid "\\n %b is offline, please check your internet connection and try again\\n\\n"
 msgstr "\\n %b ist offline, bitte überprüfen sie ihre internetverbindung und versuchen sie es wieder\\n\\n"
 
-#: am/APP-MANAGER:431
+#: am/APP-MANAGER:434
 #, fuzzy
 msgid "\\n %b💀WARNING! Detected \\\"%b\\\"\\033[0m\\n\\n"
 msgstr "In % WARNING! Entdeckt \\\"%b\\\"\\033[0m\\n\\n"
 
-#: am/APP-MANAGER:432
+#: am/APP-MANAGER:435
 #, fuzzy
 msgid "It will prevent \\\"$AMCLIUPPER\\\" from working correctly with AppImages, especially when extracting, integrating and updating them."
 msgstr "Es will verhindern \\\"$AMCLIUPPER\\\" von arbeiten richtig mit AppImages, besonders #wann gewinnend, integrierend und verbessernd jene."
 
-#: am/APP-MANAGER:436
+#: am/APP-MANAGER:439
 #, fuzzy
 msgid " Please remove \\\"AppImageLauncher\\\", reboot and retry!"
 msgstr "Bitte entfern \\\"AppImageLauncher\\\", reboot und Wiederholung!"
 
-#: am/APP-MANAGER:438
+#: am/APP-MANAGER:441
 #, fuzzy
 msgid " Please remove \\\"$blacklisted_file\\\", reboot and retry!"
 msgstr "Bitte entfern \\\"$blacklisted_Datei\\\", reboot und Wiederholung!"
 
-#: am/APP-MANAGER:457 am/modules/database.am:549 am/modules/database.am:637
+#: am/APP-MANAGER:460 am/modules/database.am:549 am/modules/database.am:637
 #: am/modules/install.am:432 am/modules/install.am:457
 #: am/modules/management.am:467 am/modules/sandboxes.am:249
 #: am/modules/template.am:351
@@ -206,425 +206,425 @@ msgstr "Bitte entfern \\\"$blacklisted_Datei\\\", reboot und Wiederholung!"
 msgid " USAGE: $AMCLI $1 [ARGUMENT]"
 msgstr "GEBRAUCH: $AMCLI $1 [STREIT]"
 
-#: am/APP-MANAGER:461
+#: am/APP-MANAGER:464
 #, fuzzy
 msgid " USAGE:\t$AMCLI $1 $2 /path/to/dir"
 msgstr "GEBRAUCH:\t$AMCLI $1 $2 /Pfad/zu/dir"
 
-#: am/APP-MANAGER:467 am/APP-MANAGER:471 am/APP-MANAGER:481
+#: am/APP-MANAGER:470 am/APP-MANAGER:474 am/APP-MANAGER:484
 #, fuzzy
 msgid " ERROR, \\\"$AMDATADIR/newrepo-lists\\\" file not found"
 msgstr "ERROR, \\\"$AMDATADIR/newrepo-lists\\\" Datei nicht gefunden"
 
-#: am/APP-MANAGER:468
+#: am/APP-MANAGER:471
 #, fuzzy
 msgid " New repo ON!"
 msgstr "Neu repo WEITER!"
 
-#: am/APP-MANAGER:472
+#: am/APP-MANAGER:475
 #, fuzzy
 msgid " New repo OFF!"
 msgstr "Neues Repo aus!"
 
-#: am/APP-MANAGER:475
+#: am/APP-MANAGER:478
 #, fuzzy
 msgid " Source: %b\\n Apps: %b\\n List: %b\\n"
 msgstr "Quelle: %b\\n #App: %b\\n Liste: %b\\n"
 
-#: am/APP-MANAGER:478
+#: am/APP-MANAGER:481
 #, fuzzy
 msgid " Removed all 3rd party repositories"
 msgstr "Alle 3rd Party Repositories entfernt"
 
-#: am/APP-MANAGER:482
+#: am/APP-MANAGER:485
 #, fuzzy
 msgid "Select a repo from the list or press CTRL+C to abort:\\n%b\\n"
 msgstr "Wähl aus ein repo von der Liste oder Presse CTRL+C zu abtreiben:\\n%b\\n"
 
-#: am/APP-MANAGER:485
+#: am/APP-MANAGER:488
 #, fuzzy
 msgid ">>> Invalid Selection"
 msgstr ">>> Kränkliche Auslese"
 
-#: am/APP-MANAGER:506
+#: am/APP-MANAGER:509
 #, fuzzy
 msgid " Source: $AMREPO"
 msgstr "Quelle: $AMREPO"
 
-#: am/APP-MANAGER:628
+#: am/APP-MANAGER:631
 #, fuzzy
 msgid "Shell completion has been enabled!"
 msgstr "Muschel Abschluss hat gewesen aktiviert!"
 
-#: am/APP-MANAGER:760
+#: am/APP-MANAGER:763
 #, fuzzy
 msgid "Validation successful!"
 msgstr "Bestätigung erfolgreich!"
 
-#: am/APP-MANAGER:763
+#: am/APP-MANAGER:766
 #, fuzzy
 msgid "ERROR: Invalid token or insufficient permissions!"
 msgstr "FEHLER: Kränkliche Automatenmünze oder unzureichende Erlaubnisse!"
 
-#: am/APP-MANAGER:766
+#: am/APP-MANAGER:769
 #, fuzzy
 msgid "ERROR: Unexpected response (HTTP $HTTP_STATUS)"
 msgstr "FEHLER: Unerwartete Antwort (HTTP $HTTP_ZUSTAND)"
 
-#: am/APP-MANAGER:774
+#: am/APP-MANAGER:777
 #, fuzzy
 msgid " ✖ No file named $ghapikey_file has been found"
 msgstr "✖ Keine Datei geheißen $ghapikey_Datei hat gewesen gefunden"
 
-#: am/APP-MANAGER:783
+#: am/APP-MANAGER:786
 #, fuzzy
 msgid " ✔ $ghapikey_file has been removed"
 msgstr "✔ $ghapikey_file wurde entfernt"
 
-#: am/APP-MANAGER:784
+#: am/APP-MANAGER:787
 #, fuzzy
 msgid " ✔ Authorization headers removed from updater files"
 msgstr "✔ Berechtigung Kopfbälle entfernten von updater Dateien"
 
-#: am/APP-MANAGER:794
+#: am/APP-MANAGER:797
 #, fuzzy
 msgid "ERROR: Wrong expression, validation failed!"
 msgstr "ERROR: Falscher Ausdruck, Validierung versagt!"
 
-#: am/APP-MANAGER:805
+#: am/APP-MANAGER:808
 #, fuzzy
 msgid " ⚠️ Warning: Stored GitHub API token is invalid or expired"
 msgstr "⚠️ Warnen: Gelagert GitHub API Automatenmünze ist kränklich oder #abgelaufen"
 
-#: am/APP-MANAGER:807
+#: am/APP-MANAGER:810
 #, fuzzy
 msgid " Please either:"
 msgstr "Bitte #jeder:"
 
-#: am/APP-MANAGER:808
+#: am/APP-MANAGER:811
 #, fuzzy
 msgid "   1. Generate a new token and add it with: $AMCLI apikey YOUR_NEW_TOKEN"
 msgstr "1. Erstellen Sie ein neues Zeichen und fügen Sie es mit: $AMCLI apikey YOUR_NEW_TOKEN"
 
-#: am/APP-MANAGER:809
+#: am/APP-MANAGER:812
 #, fuzzy
 msgid "   2. Remove the invalid token with: $AMCLI apikey del"
 msgstr "2. Entfern die kränkliche Automatenmünze mit: $AMCLI apikey del"
 
-#: am/APP-MANAGER:811
+#: am/APP-MANAGER:814
 #, fuzzy
 msgid " For instructions on creating GitHub tokens, see:"
 msgstr "Für Weisungen auf schaffen GitHub Automatenmünzen, seht:"
 
-#: am/APP-MANAGER:843
+#: am/APP-MANAGER:846
 #, fuzzy
 msgid " This function only works for AM"
 msgstr "Diese Funktion funktioniert nur für AM"
 
-#: am/APP-MANAGER:845
+#: am/APP-MANAGER:848
 #, fuzzy
 msgid " Do you wish to enter \\\"AppMan Mode\\\" (y,N)?"
 msgstr "Möchten Sie \\\"AppMan Mode\\\" (y,N) eingeben?"
 
-#: am/APP-MANAGER:860
+#: am/APP-MANAGER:863
 #, fuzzy
 msgid " \\\"AM\\\" is read-only, want to use it in \\\"AppMan Mode\\\" (Y,n)? "
 msgstr "\\\"BIN\\\" ist gelesen-einzige, möchten benutzen es herein \\\"AppMan Verfahren\\\" (Y,n)? "
 
-#: am/APP-MANAGER:864
+#: am/APP-MANAGER:867
 #, fuzzy
 msgid "\\\"AppMan Mode\\\" enabled!"
 msgstr "\\\"AppMan Verfahren\\\" aktiviert!"
 
-#: am/APP-MANAGER:876
+#: am/APP-MANAGER:879
 #, fuzzy
 msgid " ✔ Clear the contents of $CACHEDIR/am"
 msgstr "✔ Räum die Inhalte von $CACHEDIR/sind"
 
-#: am/APP-MANAGER:877
+#: am/APP-MANAGER:880
 #, fuzzy
 msgid " ✔ Clear the contents of $CACHEDIR/appman"
 msgstr "✔ Löschen Sie den Inhalt von $CACHEDIR/appman"
 
-#: am/APP-MANAGER:883
+#: am/APP-MANAGER:886
 #, fuzzy
 msgid " ✔ Clear the contents of $arg/*.home/.cache"
 msgstr "✔ Räum die Inhalte von $arg/*.Heim/.Versteck"
 
-#: am/APP-MANAGER:892
+#: am/APP-MANAGER:895
 #, fuzzy
 msgid " ✔ Removed $arg/tmp"
 msgstr "✔ Entfernt $arg/tmp"
 
-#: am/APP-MANAGER:919
+#: am/APP-MANAGER:922
 #, fuzzy
 msgid " ✖ ERROR: cannot remove \\\"$(basename \"$var\")\\\""
 msgstr "✖ FEHLER: #Können nicht entfernen \\\"$(basename \"$var\")\\\""
 
-#: am/APP-MANAGER:920
+#: am/APP-MANAGER:923
 #, fuzzy
 msgid "   related AppImage is located in an unmounted path of $unmounted_point"
 msgstr "verwandte AppImage befindet sich in einem unmounted Pfad von $unmounted_point"
 
-#: am/APP-MANAGER:948
+#: am/APP-MANAGER:951
 #, fuzzy
 msgid " ✔ Removed obsolete module named \\\"$(basename -- \"$m\")\\\""
 msgstr "✔ entfernte veraltete Modul namens \\\"$(Basisname -- \"$m\")\\\""
 
-#: am/APP-MANAGER:954
+#: am/APP-MANAGER:957
 #, fuzzy
 msgid " Cleaning temporary files and folders..."
 msgstr "Reinigung temporärer Dateien und Ordner..."
 
-#: am/APP-MANAGER:977
+#: am/APP-MANAGER:980
 #, fuzzy
 msgid "✔ $argpath has been hidden"
 msgstr "✔ $argpath Hat Gewesen versteckt"
 
-#: am/APP-MANAGER:977
+#: am/APP-MANAGER:980
 #, fuzzy
 msgid "✖ Can't hide \\\"$arg\\\", app already hidden or non-existent"
 msgstr "✖ #Können nicht verstecken \\\"$arg\\\", #App schon unsichtbar oder #nicht bestehend"
 
-#: am/APP-MANAGER:981
+#: am/APP-MANAGER:984
 #, fuzzy
 msgid "✔ /opt/$arg can be managed again"
 msgstr "✔ /Wähl/$arg können sein fertiggebracht nochmal"
 
-#: am/APP-MANAGER:982
+#: am/APP-MANAGER:985
 #, fuzzy
 msgid "✔ $APPMAN_APPSPATH/$arg can be managed again"
 msgstr "✔ $APPMAN_APPSPATH/$arg Können sein fertiggebracht nochmal"
 
-#: am/APP-MANAGER:993
+#: am/APP-MANAGER:996
 #, fuzzy
 msgid "%b\\n Checking for changes of the installation scripts in the online database...\\n"
 msgstr "%b\\n Überprüfen von Änderungen der Installationsskripte in der Online-Datenbank...\\n"
 
-#: am/APP-MANAGER:1006
+#: am/APP-MANAGER:1009
 #, fuzzy
 msgid " ◆ %b%b\\033[0m has changed, you may need to reinstall it, see\\n   https://github.com/$AMOWNER/AM/blob/main/programs/%b/%b\\n"
 msgstr "◆ %b%b\\033[0m hat gewechselt, du darfst brauchen zu #neuinstallieren ihm, sieh\\n   https://github.com/$AMOWNER/#AM/blob/hauptsächliche/Programmhefte/%b/%b\\n"
 
-#: am/APP-MANAGER:1011
+#: am/APP-MANAGER:1014
 #, fuzzy
 msgid " ◆ No installation script for %b, downloading one...\\n"
 msgstr "◆ Kein Installationsskript für %b, ein Download...\\n"
 
-#: am/APP-MANAGER:1020
+#: am/APP-MANAGER:1023
 #, fuzzy
 msgid "\\n To fix the above, just run \\\"%b%b reinstall\\033[0m\\\", without arguments\\n"
 msgstr "Waren Um das oben zu beheben, führen Sie einfach \\\"%b%b reinstall\\033[0m\\\", ohne Argumente\\n"
 
-#: am/APP-MANAGER:1034
+#: am/APP-MANAGER:1037
 #, fuzzy
 msgid "%b\\n Check and update offline lists of additional databases...\\n"
 msgstr "%b\\n Kontrolle und verbessert #offline Listen von zuzüglich Datenbanken...\\n"
 
-#: am/APP-MANAGER:1043
+#: am/APP-MANAGER:1046
 #, fuzzy
 msgid "%b\\n Check and update localization...\\n"
 msgstr "%b\\n Überprüfen und aktualisieren Sie die Lokalisierung...\\n"
 
-#: am/APP-MANAGER:1055
+#: am/APP-MANAGER:1058
 #, fuzzy
 msgid "%b\\n Check for updates in modules...\\n"
 msgstr "%b\\n Kontrolle für Updates in Module...\\n"
 
-#: am/APP-MANAGER:1060
+#: am/APP-MANAGER:1063
 #, fuzzy
 msgid " ◆ Downloading $module_name (not previously installed)..."
 msgstr "◆ #Herunterladen $Modul_Namen (nicht vorher installiert)..."
 
-#: am/APP-MANAGER:1069
+#: am/APP-MANAGER:1072
 #, fuzzy
 msgid " ◆ Updating $module_name..."
 msgstr "◆ Verbessernd $Modul_Namen..."
 
-#: am/APP-MANAGER:1079
+#: am/APP-MANAGER:1082
 #, fuzzy
 msgid "\\n ◆ SYNCHRONIZING \\\"$AMCLIUPPER\\\" VERSION \\\"$CURRENT_AM_VERSION\\\"...\\r"
 msgstr "\\n ◆ SYNCHRONIZIERUNG \\\"$AMCLIUPPER\\\" VERSION \\\"$CURRENT_AM_VERSION\\\"...\\r"
 
-#: am/APP-MANAGER:1086
+#: am/APP-MANAGER:1089
 #, fuzzy
 msgid " A new release of \\\"$AMCLIUPPER\\\" is available, please wait...\\r"
 msgstr "Eine neue Version von \\\"$AMCLIUPPER\\\" ist verfügbar, bitte warten...\\r"
 
-#: am/APP-MANAGER:1087
+#: am/APP-MANAGER:1090
 #, fuzzy
 msgid " ◆ \\\"$AMCLIUPPER\\\" IS NOW UPDATED TO THE BRAND NEW \\\"$NEW_AM_VERSION\\\" VERSION!"
 msgstr "◆ \\\"$AMCLIUPPER\\\" IST JETZT ZU DEM BRANDZEICHEN VERBESSERT NEUES \\\"$NEUES_#AM_VERSION\\\" VERSION!"
 
-#: am/APP-MANAGER:1088
+#: am/APP-MANAGER:1091
 #, fuzzy
 msgid "\\n  Replacement of version \\\"%b\\\" currently in use, COMPLETED! \\n"
 msgstr "\\n Ersatz der Version \\\"%b\\\" derzeit in Gebrauch, VEREINIGTES! Waren"
 
-#: am/APP-MANAGER:1089
+#: am/APP-MANAGER:1092
 #, fuzzy
 msgid "\\n See https://github.com/$AMOWNER/AM/commits/main\\n\\n"
 msgstr "\\n Sieht https://github.com/$AMOWNER/#AM/begeht/hauptsächlich\\n\\n"
 
-#: am/APP-MANAGER:1091
+#: am/APP-MANAGER:1094
 #, fuzzy
 msgid " ◆ \\\"$AMCLIUPPER\\\" IS ALREADY UPDATED, CURRENT VERSION \\\"$CURRENT_AM_VERSION\\\""
 msgstr "◆ \\\"$AMCLIUPPER\\\" IST SCHON VERBESSERT, GÄNGIGE VERSION \\\"$GÄNGIGE_#AM_VERSION\\\""
 
-#: am/APP-MANAGER:1092
+#: am/APP-MANAGER:1095
 #, fuzzy
 msgid "\\n See https://github.com/$AMOWNER/AM/commits/%b\\n\\n"
 msgstr "\\n Sieht https://github.com/$BIN_DAS_EIGENTÜMER/#AM/begeht/%b\\n\\n"
 
-#: am/APP-MANAGER:1111
+#: am/APP-MANAGER:1114
 #, fuzzy
 msgid "%b\\n DONE! \\n"
 msgstr "%b\\n GETAN! \\n"
 
-#: am/APP-MANAGER:1131
+#: am/APP-MANAGER:1134
 #, fuzzy
 msgid " %b\\\"%b\\\" CAN MANAGE UPDATES FOR THE FOLLOWING PROGRAMS\\033[0m:\\n%b\\n\\n"
 msgstr "%b\\\"%b\\\" KÖNNEN FERTIGBRINGEN UPDATES FÜR DIE FOLGENDEN PROGRAMMHEFTE\\033[0m:\\n%b\\n\\n"
 
-#: am/APP-MANAGER:1132
+#: am/APP-MANAGER:1135
 #, fuzzy
 msgid " None"
 msgstr "Keine"
 
-#: am/APP-MANAGER:1133
+#: am/APP-MANAGER:1136
 #, fuzzy
 msgid "\\n %bAll self-updatable programs are excluded\\033[0m\\n"
 msgstr "\\n %Ball #Ich-updatable Programmhefte sind herausgenommen\\033[0m\\n"
 
-#: am/APP-MANAGER:1159
+#: am/APP-MANAGER:1162
 #, fuzzy
 msgid " Nothing to do here! \\n"
 msgstr "Nichts zu tun! Waren"
 
-#: am/APP-MANAGER:1161
+#: am/APP-MANAGER:1164
 #, fuzzy
 msgid " The following apps have been updated:\\n\\n"
 msgstr "Die folgenden #App haben gewesen verbessert:\\n\\n"
 
-#: am/APP-MANAGER:1201
+#: am/APP-MANAGER:1204
 #, fuzzy
 msgid " %b✔\\033[0m $APPNAME is updated, $timelapsed second elapsed! \\n"
 msgstr "%b✔\\033[0m $APPNAME ist verbessert, $timelapsed Sekunde verging! \\n"
 
-#: am/APP-MANAGER:1201
+#: am/APP-MANAGER:1204
 #, fuzzy
 msgid " %b✔\\033[0m $APPNAME is updated, $timelapsed seconds elapsed! \\n"
 msgstr "%b✔\\033[0m $APPNAME wird aktualisiert, $timelapsed Sekunden verstrichen! Waren"
 
-#: am/APP-MANAGER:1211
+#: am/APP-MANAGER:1214
 #, fuzzy
 msgid " %b✖\\033[0m %b is read-only, cannot update it!\\n"
 msgstr "%b✖\\033[0m %b ist gelesen-einzige, #können nicht verbessern ihm!\\n"
 
-#: am/APP-MANAGER:1244
+#: am/APP-MANAGER:1247
 #, fuzzy
 msgid " ◆ Update local AppImages integrated manually"
 msgstr "◆ Update Einheimische AppImages integriert manuell"
 
-#: am/APP-MANAGER:1249
+#: am/APP-MANAGER:1252
 msgid "%b\\n File: %b%b\\033[0m\\n Path: %b"
 msgstr ""
 
-#: am/APP-MANAGER:1251
+#: am/APP-MANAGER:1254
 #, fuzzy
 msgid "(unmounted)"
 msgstr "(unbezahlt)"
 
-#: am/APP-MANAGER:1277
+#: am/APP-MANAGER:1280
 #, fuzzy
 msgid "%b\\n >> %bSTART OF ALL PROCESSES\\033[0m << \\n%b\\n"
 msgstr "%b\\n >> %bSTART VON ALLE ARBEITSGÄNGEN\\033[0m << \\n%b\\n"
 
-#: am/APP-MANAGER:1287
+#: am/APP-MANAGER:1290
 #, fuzzy
 msgid " >> %bEND OF ALL PROCESSES\\033[0m << \\n%b\\n"
 msgstr ">> %Biegung VON ALLE ARBEITSGÄNGEN\\033[0m << \\n%b\\n"
 
-#: am/APP-MANAGER:1291
+#: am/APP-MANAGER:1294
 #, fuzzy
 msgid "%b\\n >> %bEND OF ALL PROCESSES\\033[0m << \\n%b\\n"
 msgstr "% b >> %BENDEN ALLEN PROZESSEN"
 
-#: am/APP-MANAGER:1303
+#: am/APP-MANAGER:1306
 #, fuzzy
 msgid " %b✖\\033[0m %b cannot be updated, program not found \\n"
 msgstr "%b‡\\033[0m %b nicht aktualisiert, programm nicht gefunden \\n"
 
-#: am/APP-MANAGER:1307
+#: am/APP-MANAGER:1310
 #, fuzzy
 msgid " %b✖\\033[0m %b cannot be updated%b\\n"
 msgstr "%b✖\\033[0m %b #können nicht sein verbessert%b\\n"
 
-#: am/APP-MANAGER:1322
+#: am/APP-MANAGER:1325
 #, fuzzy
 msgid " ERROR: \\\"$arg\\\" is not installed, see \\\"-f\\\""
 msgstr "FEHLER: \\\"$arg\\\" Ist nicht installiert, sieh \\\"-f\\\""
 
-#: am/APP-MANAGER:1324
+#: am/APP-MANAGER:1327
 #, fuzzy
 msgid " ERROR: \\\"$AMCLI\\\" cannot manage updates for \\\"$arg\\\""
 msgstr "ERROR: \\\"$AMCLI\\\" kann Updates für \\\"$arg\\\" nicht verwalten"
 
-#: am/APP-MANAGER:1326
+#: am/APP-MANAGER:1329
 #, fuzzy
 msgid " ERROR: \\\"$arg\\\" source is not on Github"
 msgstr "ERROR: \\\"$arg\\\" Quelle ist nicht auf Github"
 
-#: am/APP-MANAGER:1328
+#: am/APP-MANAGER:1331
 #, fuzzy
 msgid " ERROR: \\\"$arg\\\" does not redirect to a generic \\\"releases\\\""
 msgstr "FEHLER: \\\"$arg\\\" #Umleiten nicht zu #ein typischen \\\"Freigaben\\\""
 
-#: am/APP-MANAGER:1353
+#: am/APP-MANAGER:1356
 #, fuzzy
 msgid " Module not found, run \\\"$AMCLI -s\\\" to update \\\"$AMCLIUPPER\\\""
 msgstr "Modul nicht gefunden, führen Sie \\\"$AMCLI -s\\\" um \\\"$AMCLIUPPER\\\" zu aktualisieren"
 
-#: am/APP-MANAGER:1371
+#: am/APP-MANAGER:1374
 #, fuzzy
 msgid " USAGE: $AMCLI [OPTION]"
 msgstr "USAGE: $AMCLI [OPTION]"
 
-#: am/APP-MANAGER:1372
+#: am/APP-MANAGER:1375
 #, fuzzy
 msgid "        $AMCLI [OPTION] [ARGUMENT]"
 msgstr "$AMCLI [OPTION] (ARGUMENT)"
 
-#: am/APP-MANAGER:1374
+#: am/APP-MANAGER:1377
 #, fuzzy
 msgid " Run the \\\"$AMCLI -h\\\" command to find out more"
 msgstr "Gerannt das \\\"$AMCLI -h\\\" Befehl zu herausfinden More"
 
-#: am/APP-MANAGER:1376
+#: am/APP-MANAGER:1379
 #, fuzzy
 msgid "   or try AM with GUI (Alpha version!)"
 msgstr "Oder probieren #AM mit #grafische Benutzeroberfläche (Alpha Version!)"
 
-#: am/APP-MANAGER:1377
+#: am/APP-MANAGER:1380
 #, fuzzy
 msgid " Run the \\\"$AMCLI --gui\\\" command"
 msgstr "Führen Sie den Befehl \\\"$AMCLI --gui\\\" aus"
 
-#: am/APP-MANAGER:1378
+#: am/APP-MANAGER:1381
 #, fuzzy
 msgid "   and help us catch the bugs please"
 msgstr "und helfen sie uns, die fehler zu fangen bitte"
 
-#: am/APP-MANAGER:1440
+#: am/APP-MANAGER:1448
 #, fuzzy
 msgid "This feature is disabled by your organization"
 msgstr "Diese Funktion wird von Ihrer Organisation deaktiviert"
 
-#: am/APP-MANAGER:1619
+#: am/APP-MANAGER:1621 am/APP-MANAGER:1642
 msgid "\tThird-party databases:"
 msgstr ""
 
-#: am/APP-MANAGER:1505
+#: am/APP-MANAGER:1508
 #, fuzzy
 msgid ""
 "\n"
@@ -740,8 +740,7 @@ msgid ""
 "\t\t\t\t\t${LightBlue}$AMCLI -i --force-latest {PROGRAM}\\033[0m\n"
 "\t\t\t\t\t${LightBlue}$AMCLI -i --icons {PROGRAM}\\033[0m\n"
 "\t\t\t\t\t${LightBlue}$AMCLI -i --sandbox {PROGRAM}\\033[0m\n"
-"\n"
-"\t\t\t$(if [ -n \"$third_party_flags\" ]; then echo \"\" && echo \"\tThird-party databases:\" && echo \"\" && for a in $third_party_flags; do echo \"\t\t${LightBlue}$AMCLI -l $a {PROGRAM}\\033[0m\"; done; fi)\n"
+"\t\t\t$(if [ -n \"$third_party_flags\" ]; then echo \"\" && echo \"\tThird-party databases:\" && echo \"\" && for a in $third_party_flags; do echo \"\t\t${LightBlue}$AMCLI -i $a {PROGRAM}\\033[0m\"; done; fi)\n"
 "\n"
 "\t\t\tDescription: Install one or more programs or libraries from the list. With the \\\"--debug\\\" option you can see log messages to debug the script. For more details on \\\"--force-latest\\\", see the dedicated option, below. Use the \\\"--icons\\\" flag to allow the program to use icon themes. The \\\"--sandbox\\\" flag allows you to set sandboxes for AppImage packages. It can also be extended with additional flags (see third-party flags, at the bottom of this message).\n"
 "\n"
@@ -850,7 +849,7 @@ msgid ""
 "\t\t\t\t\t${LightBlue}$AMCLI --language\\033[0m\n"
 "\t\t\t\t\t${LightBlue}$AMCLI --language {CODE}\\033[0m\n"
 "\n"
-"\t\t\tDescription: Download and set one or more language packs (if available), set \\\"$AMCLI\\\" to English (default), your language or other languages.\\n\\nVisit https://github.com/ivan-hc/AM/tree/$AMBRANCH/translations to get source files needed to submit new translations or to improve the existing ones.\n"
+"\t\t\tDescription: Download and set one or more language packs (if available), set \\\"$AMCLI\\\" to English (default), your language or other languages.\\n\\nVisit https://github.com/$AMOWNER/AM/tree/$AMBRANCH/translations to get source files needed to submit new translations or to improve the existing ones.\n"
 "\n"
 "\t\t\t${Gold}unhide\\033[0m\n"
 "\n"
@@ -975,7 +974,7 @@ msgid ""
 "\n"
 "\t\t\t SITES:\n"
 "\n"
-"\t\t\t https://github.com/ivan-hc/AM\n"
+"\t\t\t $AMREPO\n"
 "\n"
 "\t\t\t https://portable-linux-apps.github.io\n"
 "\n"
@@ -1333,7 +1332,7 @@ msgstr ""
 "\n"
 "\t\t\t\\n"
 
-#: am/APP-MANAGER:1870
+#: am/APP-MANAGER:1872
 #, fuzzy
 msgid "ERROR: unknown option \\\"$1\\\", run the \\\"$AMCLI -h\\\" command to find out more"
 msgstr "FEHLER: Unbekannte Option \\\"$1\\\", gerannt die \\\"$AMCLI -h\\\" gebietet zu herausfinden More"
