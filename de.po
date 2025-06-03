@@ -7,19 +7,7 @@
 # Glossary sync <noreply-glossary-sync@weblate.org>, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 msgid ""
-msgstr ""
-"Project-Id-Version: am 9.7.1-9\n"
-"Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
-"POT-Creation-Date: 2025-06-03\n"
-"PO-Revision-Date: 2025-06-02 09:57+0000\n"
-"Last-Translator: Apertium APy <noreply-mt-apertium-apy@weblate.org>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/am/am/de/>\n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: am 9.7.1-9\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-06-03\nPO-Revision-Date: 2025-06-03 06:05+0000\nLast-Translator: LibreTranslate <noreply-mt-libretranslate@weblate.org>\nLanguage-Team: German <https://hosted.weblate.org/projects/am/am/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
 
 #: am/APP-MANAGER:91
 msgid "%b\\n No locale available for you, consider adding one\\n Visit https://github.com/AM-community/localization for more information\\n"
@@ -37,7 +25,7 @@ msgstr "Fügen Sie einen geeigneten lokalen Code, zum Beispiel \\\"it\\\" für I
 #: am/APP-MANAGER:116
 #, fuzzy
 msgid " Leave blank to use \\\"$CLI\\\" in English: "
-msgstr "Verlass Lücke zu benutzen \\\"$CLI\\\" auf Englisch: "
+msgstr "Blättern Sie leer, um \\\"$CLI\\\" in Englisch zu verwenden: "
 
 #: am/APP-MANAGER:120 am/APP-MANAGER:129
 msgid "ERROR, \\\"%b\\\" is not a valid locale code\\n\\nList of valid locale codes:\\n\\n%b\\n\\n"
@@ -46,7 +34,7 @@ msgstr ""
 #: am/APP-MANAGER:135
 #, fuzzy
 msgid "Setting locale to \\\"%b\\\"\\n"
-msgstr "Lokalisieren zu \\\"%b\\\"\\n"
+msgstr "Setzend Schauplatz zu \\\"%b\\\"\\n"
 
 #: am/APP-MANAGER:141
 #, fuzzy
@@ -66,7 +54,7 @@ msgstr "💀 FEHLER: Eure Version von sed unterstützt nicht '-ich' Fahne ohne E
 #: am/APP-MANAGER:187
 #, fuzzy
 msgid " Please install gsed"
-msgstr "Bitte installier gsed"
+msgstr "Bitte installieren Sie gsed"
 
 #: am/APP-MANAGER:215
 #, fuzzy
@@ -106,7 +94,7 @@ msgstr "Du bist bereit! Start installierend örtlich eure favorisierten #App!"
 #: am/APP-MANAGER:239
 #, fuzzy
 msgid " All apps will be installed in $location"
-msgstr "Alle #App wollen sein installiert in $Drehort"
+msgstr "Alle Apps werden in $location installiert"
 
 #: am/APP-MANAGER:240
 #, fuzzy
@@ -126,7 +114,7 @@ msgstr "%b ◆⚠ WARNING\\033[0m: \\\"%b%b\\033[0m\\\" ist nicht in PATH, lokal
 #: am/APP-MANAGER:356
 #, fuzzy
 msgid "\\\"$AMCLIUPPER\\\" $AMVERSION: DEVELOPER MODE"
-msgstr "\\\"$AMCLIUPPER\\\" $AMVERSION: ENTWICKLER VERFAHREN"
+msgstr "\\\"$AMCLIUPPER\\\" $AMVERSION: DEVELOPER MODE"
 
 #: am/APP-MANAGER:386
 #, fuzzy
@@ -196,7 +184,7 @@ msgstr "Bitte entfern \\\"AppImageLauncher\\\", reboot und Wiederholung!"
 #: am/APP-MANAGER:438
 #, fuzzy
 msgid " Please remove \\\"$blacklisted_file\\\", reboot and retry!"
-msgstr "Bitte entfernen Sie \\\"$blacklisted_file\\\", rebooten und retry!"
+msgstr "Bitte entfern \\\"$blacklisted_Datei\\\", reboot und Wiederholung!"
 
 #: am/APP-MANAGER:457 am/modules/database.am:549 am/modules/database.am:637
 #: am/modules/install.am:432 am/modules/install.am:457
@@ -204,12 +192,12 @@ msgstr "Bitte entfernen Sie \\\"$blacklisted_file\\\", rebooten und retry!"
 #: am/modules/template.am:351
 #, fuzzy
 msgid " USAGE: $AMCLI $1 [ARGUMENT]"
-msgstr "USAGE: $AMCLI $1 [ARGUMENT]"
+msgstr "GEBRAUCH: $AMCLI $1 [STREIT]"
 
 #: am/APP-MANAGER:461
 #, fuzzy
 msgid " USAGE:\t$AMCLI $1 $2 /path/to/dir"
-msgstr "USAGE: $AMCLI $1 $2 /path/to/dir"
+msgstr "GEBRAUCH:\t$AMCLI $1 $2 /Pfad/zu/dir"
 
 #: am/APP-MANAGER:467 am/APP-MANAGER:471 am/APP-MANAGER:481
 #, fuzzy
@@ -244,7 +232,7 @@ msgstr "Wähl aus ein repo von der Liste oder Presse CTRL+C zu abtreiben:\\n%b\\
 #: am/APP-MANAGER:485
 #, fuzzy
 msgid ">>> Invalid Selection"
-msgstr "> > Invalide Auswahl"
+msgstr ">>> Kränkliche Auslese"
 
 #: am/APP-MANAGER:506
 #, fuzzy
@@ -259,12 +247,12 @@ msgstr "Muschel Abschluss hat gewesen aktiviert!"
 #: am/APP-MANAGER:760
 #, fuzzy
 msgid "Validation successful!"
-msgstr "Validierung erfolgreich!"
+msgstr "Bestätigung erfolgreich!"
 
 #: am/APP-MANAGER:763
 #, fuzzy
 msgid "ERROR: Invalid token or insufficient permissions!"
-msgstr "ERROR: Ungültiges Token oder unzureichende Berechtigungen!"
+msgstr "FEHLER: Kränkliche Automatenmünze oder unzureichende Erlaubnisse!"
 
 #: am/APP-MANAGER:766
 #, fuzzy
@@ -274,7 +262,7 @@ msgstr "FEHLER: Unerwartete Antwort (HTTP $HTTP_ZUSTAND)"
 #: am/APP-MANAGER:774
 #, fuzzy
 msgid " ✖ No file named $ghapikey_file has been found"
-msgstr " Keine Datei namens $ghapikey_file wurde gefunden"
+msgstr "✖ Keine Datei geheißen $ghapikey_Datei hat gewesen gefunden"
 
 #: am/APP-MANAGER:783
 #, fuzzy
@@ -294,7 +282,7 @@ msgstr "ERROR: Falscher Ausdruck, Validierung versagt!"
 #: am/APP-MANAGER:805
 #, fuzzy
 msgid " ⚠️ Warning: Stored GitHub API token is invalid or expired"
-msgstr "Warnung: Gespeichert GitHub API-Token ist ungültig oder abgelaufen"
+msgstr "⚠️ Warnen: Gelagert GitHub API Automatenmünze ist kränklich oder #abgelaufen"
 
 #: am/APP-MANAGER:807
 #, fuzzy
@@ -309,7 +297,7 @@ msgstr "1. Erstellen Sie ein neues Zeichen und fügen Sie es mit: $AMCLI apikey 
 #: am/APP-MANAGER:809
 #, fuzzy
 msgid "   2. Remove the invalid token with: $AMCLI apikey del"
-msgstr "2. Entfernen Sie den ungültigen Token mit: $AMCLI apikey del"
+msgstr "2. Entfern die kränkliche Automatenmünze mit: $AMCLI apikey del"
 
 #: am/APP-MANAGER:811
 #, fuzzy
@@ -329,7 +317,7 @@ msgstr "Möchten Sie \\\"AppMan Mode\\\" (y,N) eingeben?"
 #: am/APP-MANAGER:860
 #, fuzzy
 msgid " \\\"AM\\\" is read-only, want to use it in \\\"AppMan Mode\\\" (Y,n)? "
-msgstr "\\\"AM\\\" ist nur gelesen, wollen es in \\\"AppMan Mode\\\" (Y,n) verwenden? "
+msgstr "\\\"BIN\\\" ist gelesen-einzige, möchten benutzen es herein \\\"AppMan Verfahren\\\" (Y,n)? "
 
 #: am/APP-MANAGER:864
 #, fuzzy
@@ -339,7 +327,7 @@ msgstr "\\\"AppMan Verfahren\\\" aktiviert!"
 #: am/APP-MANAGER:876
 #, fuzzy
 msgid " ✔ Clear the contents of $CACHEDIR/am"
-msgstr "✔ Löschen Sie den Inhalt von $CACHEDIR/am"
+msgstr "✔ Räum die Inhalte von $CACHEDIR/sind"
 
 #: am/APP-MANAGER:877
 #, fuzzy
@@ -384,7 +372,7 @@ msgstr "✔ $argpath Hat Gewesen versteckt"
 #: am/APP-MANAGER:977
 #, fuzzy
 msgid "✖ Can't hide \\\"$arg\\\", app already hidden or non-existent"
-msgstr " Kann nicht verstecken \\\"$arg\\\", App bereits versteckt oder nicht vorhanden"
+msgstr "✖ #Können nicht verstecken \\\"$arg\\\", #App schon unsichtbar oder #nicht bestehend"
 
 #: am/APP-MANAGER:981
 #, fuzzy
@@ -404,7 +392,7 @@ msgstr "%b\\n Überprüfen von Änderungen der Installationsskripte in der Onlin
 #: am/APP-MANAGER:1006
 #, fuzzy
 msgid " ◆ %b%b\\033[0m has changed, you may need to reinstall it, see\\n   https://github.com/$AMOWNER/AM/blob/main/programs/%b/%b\\n"
-msgstr "◆ %b%b\\033[0m hat sich geändert, können Sie es neu installieren müssen, siehe\\n https://github.com/$AM_THE_OWNER/AM/blob/main/programs/%b/%b\\n"
+msgstr "◆ %b%b\\033[0m hat gewechselt, du darfst brauchen zu #neuinstallieren ihm, sieh\\n   https://github.com/$AMOWNER/#AM/blob/hauptsächliche/Programmhefte/%b/%b\\n"
 
 #: am/APP-MANAGER:1011
 #, fuzzy
@@ -429,12 +417,12 @@ msgstr "%b\\n Überprüfen und aktualisieren Sie die Lokalisierung...\\n"
 #: am/APP-MANAGER:1055
 #, fuzzy
 msgid "%b\\n Check for updates in modules...\\n"
-msgstr "%b\\n Überprüfen Sie Updates in Modulen...\\n"
+msgstr "%b\\n Kontrolle für Updates in Module...\\n"
 
 #: am/APP-MANAGER:1060
 #, fuzzy
 msgid " ◆ Downloading $module_name (not previously installed)..."
-msgstr "◆ Download von $module_name (nicht zuvor installiert)..."
+msgstr "◆ #Herunterladen $Modul_Namen (nicht vorher installiert)..."
 
 #: am/APP-MANAGER:1069
 #, fuzzy
@@ -454,7 +442,7 @@ msgstr "Eine neue Version von \\\"$AMCLIUPPER\\\" ist verfügbar, bitte warten..
 #: am/APP-MANAGER:1087
 #, fuzzy
 msgid " ◆ \\\"$AMCLIUPPER\\\" IS NOW UPDATED TO THE BRAND NEW \\\"$NEW_AM_VERSION\\\" VERSION!"
-msgstr "◆ \\\"$AMCLIUPPER\\\" IST JETZT ZU DEM BRAND NEW \\\"$NEW_AM_VERSION\\\" VERSION!"
+msgstr "◆ \\\"$AMCLIUPPER\\\" IST JETZT ZU DEM BRANDZEICHEN VERBESSERT NEUES \\\"$NEUES_#AM_VERSION\\\" VERSION!"
 
 #: am/APP-MANAGER:1088
 #, fuzzy
@@ -464,7 +452,7 @@ msgstr "\\n Ersatz der Version \\\"%b\\\" derzeit in Gebrauch, VEREINIGTES! Ware
 #: am/APP-MANAGER:1089
 #, fuzzy
 msgid "\\n See https://github.com/$AMOWNER/AM/commits/main\\n\\n"
-msgstr "Siehe https://github.com/$AM_THE_OWNER/AM/commits/main\\n\\n"
+msgstr "\\n Sieht https://github.com/$AMOWNER/#AM/begeht/hauptsächlich\\n\\n"
 
 #: am/APP-MANAGER:1091
 #, fuzzy
@@ -519,7 +507,7 @@ msgstr "%b✔\\033[0m $APPNAME wird aktualisiert, $timelapsed Sekunden verstrich
 #: am/APP-MANAGER:1211
 #, fuzzy
 msgid " %b✖\\033[0m %b is read-only, cannot update it!\\n"
-msgstr "%b‡\\033[0m %b ist nur gelesen, kann es nicht aktualisieren!\\n"
+msgstr "%b✖\\033[0m %b ist gelesen-einzige, #können nicht verbessern ihm!\\n"
 
 #: am/APP-MANAGER:1244
 #, fuzzy
@@ -538,7 +526,7 @@ msgstr "(unbezahlt)"
 #: am/APP-MANAGER:1277
 #, fuzzy
 msgid "%b\\n >> %bSTART OF ALL PROCESSES\\033[0m << \\n%b\\n"
-msgstr "% b >> % START DER ALLEN PROZESSE \\033[0m < < < \\n%b\\n"
+msgstr "%b\\n >> %bSTART VON ALLE ARBEITSGÄNGEN\\033[0m << \\n%b\\n"
 
 #: am/APP-MANAGER:1287
 #, fuzzy
@@ -578,7 +566,7 @@ msgstr "ERROR: \\\"$arg\\\" Quelle ist nicht auf Github"
 #: am/APP-MANAGER:1328
 #, fuzzy
 msgid " ERROR: \\\"$arg\\\" does not redirect to a generic \\\"releases\\\""
-msgstr "ERROR: \\\"$arg\\\" wird nicht auf eine generische \\\"Releases\\\" umgeleitet"
+msgstr "FEHLER: \\\"$arg\\\" #Umleiten nicht zu #ein typischen \\\"Freigaben\\\""
 
 #: am/APP-MANAGER:1353
 #, fuzzy
@@ -593,12 +581,12 @@ msgstr "USAGE: $AMCLI [OPTION]"
 #: am/APP-MANAGER:1372
 #, fuzzy
 msgid "        $AMCLI [OPTION] [ARGUMENT]"
-msgstr "$AMCLI [OPTION] [STREIT]"
+msgstr "$AMCLI [OPTION] (ARGUMENT)"
 
 #: am/APP-MANAGER:1374
 #, fuzzy
 msgid " Run the \\\"$AMCLI -h\\\" command to find out more"
-msgstr "Führen Sie den Befehl \\\"$AMCLI -h\\\" aus, um mehr zu erfahren"
+msgstr "Gerannt das \\\"$AMCLI -h\\\" Befehl zu herausfinden More"
 
 #: am/APP-MANAGER:1376
 #, fuzzy
@@ -618,7 +606,7 @@ msgstr "und helfen sie uns, die fehler zu fangen bitte"
 #: am/APP-MANAGER:1440
 #, fuzzy
 msgid "This feature is disabled by your organization"
-msgstr "Dieser Charakterzug ist #ausschalten #bei eurer Organisation"
+msgstr "Diese Funktion wird von Ihrer Organisation deaktiviert"
 
 #: am/APP-MANAGER:1619
 msgid "\tThird-party databases:"
@@ -1376,7 +1364,7 @@ msgstr "STATUS: %b"
 #: am/modules/database.am:179
 #, fuzzy
 msgid " $APPSMESSAGE $LIBSMESSAGE LOCALLY, AS \\\"APPMAN\\\""
-msgstr "$APPSMESSAGE $LIBSMESSAGE ÖRTLICH, WIE \\\"APPMAN\\\""
+msgstr "$APPSMESSAGE $LIBSMESSAGE LOCALLY, AS \\\"APPMAN\\\""
 
 #: am/modules/database.am:179
 #, fuzzy
@@ -1386,7 +1374,7 @@ msgstr "$APPSMESSAGE $LIBSMESSAGE BRACHTEN FERTIG MAL \\\"$AMCLIUPPER\\\""
 #: am/modules/database.am:181
 #, fuzzy
 msgid " $APPSMESSAGE LOCALLY, AS \\\"APPMAN\\\""
-msgstr "$APPSMESSAGE LOCALLY, AS \\\"APPMAN\\\""
+msgstr "$APPSMESSAGE ÖRTLICH, WIE \\\"APPMAN\\\""
 
 #: am/modules/database.am:181
 #, fuzzy
@@ -1396,7 +1384,7 @@ msgstr "$APPSMESSAGE BRACHTEN FERTIG MAL \\\"$AMCLIUPPER\\\""
 #: am/modules/database.am:197
 #, fuzzy
 msgid " ◆ $arg\t|\tstatic-binary"
-msgstr "◆ $arg | statisch-binary"
+msgstr "◆ $arg\t|\tStatisch-Dual"
 
 #: am/modules/database.am:199
 #, fuzzy
@@ -1416,7 +1404,7 @@ msgstr "◆ $arg | bash-script"
 #: am/modules/database.am:213
 #, fuzzy
 msgid " ◆ $arg\t|\tdash-script"
-msgstr "◆ $arg\t|\tSchleudern-#skripten"
+msgstr "◆ $arg | dash-script"
 
 #: am/modules/database.am:215
 #, fuzzy
@@ -1436,12 +1424,12 @@ msgstr "◆ $arg | script"
 #: am/modules/database.am:254
 #, fuzzy
 msgid " ◆ $arg\t|\tother"
-msgstr "◆ $arg | sonstige"
+msgstr "◆ $arg\t|\t#Andere"
 
 #: am/modules/database.am:340
 #, fuzzy
 msgid " *has dependency to EOL libfuse2 library, please ask the creator to update\\n"
-msgstr "Hat Kolonie zu EOL libfuse2 Bibliothek, bitte fragen den Schöpfer zu verbessern\\n"
+msgstr "*hat Abhängigkeit von EOL libfuse2 Bibliothek, bitte fragen Sie den Schöpfer zu aktualisieren\\n"
 
 #: am/modules/database.am:357
 #, fuzzy
@@ -1451,7 +1439,7 @@ msgstr "TOTALE GRÖßE: $TOTALE_GRÖßE von Scheibe Weltraum in benutz"
 #: am/modules/database.am:394
 #, fuzzy
 msgid "-\tAPPIMAGE | PATH | SIZE "
-msgstr "- APPIMAGE | PATH | SIZE "
+msgstr "-\tAPPIMAGE | PFAD | GRÖßE "
 
 #: am/modules/database.am:426
 #, fuzzy
@@ -1501,7 +1489,7 @@ msgstr "\\n Suchergebnisse für pakete: %s\\n\\n"
 #: am/modules/install.am:32
 #, fuzzy
 msgid " Converting %s to an AppMan-compatible script.\\r"
-msgstr "#Umrechnen %s zu ein AppMan-vereinbares Skript.\\r"
+msgstr "Konvertieren von % in ein AppMan-kompatibles Skript.\\r"
 
 #: am/modules/install.am:43
 #, fuzzy
@@ -1521,7 +1509,7 @@ msgstr "💀 ERROR: \\\"$arg\\\" ist kein gültiges Argument"
 #: am/modules/install.am:64
 #, fuzzy
 msgid " 💀 ERROR: cannot create \\\"$arg\\\", the builder does not exists"
-msgstr "💀 FEHLER: #Können nicht schaffen \\\"$arg\\\", der Bauunternehmer tut nicht existiert"
+msgstr "💀 ERROR: nicht erstellen \\\"$arg\\\", der Builder existiert nicht"
 
 #: am/modules/install.am:72
 #, fuzzy
@@ -1536,7 +1524,7 @@ msgstr "💀 FEHLER: #Können nicht installieren \\\"$arg\\\" ohne \\\"$Kolonie_
 #: am/modules/install.am:99
 #, fuzzy
 msgid " ◆ $APPNAME IS PART OF \\\"$LASTDIR\\\", ALREADY INSTALLED"
-msgstr "◆ $APPNAME IS PART OF \\\"$LASTDIR\\\", ALREADY INSTALLED"
+msgstr "◆ $APPNAME IST TEIL VON \\\"$LASTDIR\\\", SCHON INSTALLIERTE"
 
 #: am/modules/install.am:123
 #, fuzzy
@@ -1571,7 +1559,7 @@ msgstr "Waren Dieses Skript wird eine AppImage auf der Fliege erstellen, bitte w
 #: am/modules/install.am:139
 #, fuzzy
 msgid " 💀 ERROR: \\\"$arg\\\" already exists in /usr/local/lib"
-msgstr "💀 ERROR: \\\"$arg\\\" existiert bereits in /usr/local/lib"
+msgstr "💀 FEHLER: \\\"$arg\\\" Schon existiert herein /usr/lokal/lib"
 
 #: am/modules/install.am:140
 #, fuzzy
@@ -1591,7 +1579,7 @@ msgstr "%"
 #: am/modules/install.am:242
 #, fuzzy
 msgid " INSTALLATION ABORTED!"
-msgstr "INSTALLATION TRIEB AB!"
+msgstr "INSTALLATION ABORT!"
 
 #: am/modules/install.am:284
 #, fuzzy
@@ -1601,7 +1589,7 @@ msgstr "‡ \\\"$(echo \"$arg\" ✖ sed 's/-appimage//g')\\\" ist kein Appimage"
 #: am/modules/install.am:360
 #, fuzzy
 msgid " Detected multiple variants, choose one or press ZERO to abort:\\n\\n"
-msgstr "Erkennt mehrere Varianten, wählen Sie eine oder drücken Sie ZERO abort:\\n\\n\\n"
+msgstr "Herausgefunden mehrfache Varianten, wählt aus eins oder Presse NULL zu abtreiben:\\n\\n"
 
 #: am/modules/install.am:366
 #, fuzzy
@@ -1611,7 +1599,7 @@ msgstr "% Bitte wählen Sie einen anderen Artikel oder drücken Sie \\\"ZERO\\\"
 #: am/modules/install.am:371
 #, fuzzy
 msgid "\\n Invalid selection. INSTALLATION ABORTED! \\n"
-msgstr "\\n Invalide Auswahl. INSTALLATION ABORT! Waren"
+msgstr "\\n Kränkliche Auslese. INSTALLATION TRIEB AB! \\n"
 
 #: am/modules/install.am:416
 #, fuzzy
@@ -1636,7 +1624,7 @@ msgstr "USAGE: $AMCLI $1 --convert [ARGUMENT]"
 #: am/modules/install.am:458
 #, fuzzy
 msgid " USAGE: $AMCLI $1 --debug [ARGUMENT]"
-msgstr "USAGE: $AMCLI $1 --debug [ARGUMENT]"
+msgstr "GEBRAUCH: $AMCLI $1 --entwanzen [STREIT]"
 
 #: am/modules/install.am:459
 #, fuzzy
@@ -1751,7 +1739,7 @@ msgstr "#Nichts zu tun hier! \\n%b\\n"
 #: am/modules/management.am:14
 #, fuzzy
 msgid "\\n ◆ To set date and time as a name, press ENTER (default)\\n ◆ To set the version as a name, press \\\"1\\\"\\n ◆ To set a custom name, write anything else\\n\\n"
-msgstr "\\n ◆ Zu setzen Datum und Zeit da einen Namen, #drücken BETRITT (#voreinstellen)\\n ◆ Zu setzen die Version da einen Namen, drück \\\"1\\\"\\n ◆ Zu setzen einen #benutzerdefiniert Namen, schreib #irgendwas sonst\\n\\n"
+msgstr "◆ Um Datum und Uhrzeit als Name festzulegen, drücken Sie ENTER (Standard)\\n ◆ Um die Version als Namen zu setzen, drücken Sie \\\"1\\\"\\n ◆ Um einen benutzerdefinierten Namen zu setzen, schreiben Sie etwas anderes\\n\\n"
 
 #: am/modules/management.am:15
 #, fuzzy
@@ -1791,7 +1779,7 @@ msgstr "FEHLER: Kein Schnappschuss für \\\"$2\\\" fand."
 #: am/modules/management.am:64
 #, fuzzy
 msgid " Do you wish to overwrite $2 with an older version? (y,N) "
-msgstr "Möchten Sie $2 mit einer älteren Version überschreiben? (y,N) "
+msgstr "#Wünschen du zu überschreiben $2 mit einer älteren Version? (y,N) "
 
 #: am/modules/management.am:66
 #, fuzzy
@@ -1911,7 +1899,7 @@ msgstr "Willst du es übertreiben? (y,N) "
 #: am/modules/management.am:271
 #, fuzzy
 msgid " You have chosen not to assign a command."
-msgstr "Sie haben gewählt, keinen Befehl zuzuordnen."
+msgstr "Du hast ausgewählt nicht ein Befehl zu zuweisen."
 
 #: am/modules/management.am:274
 #, fuzzy
@@ -1921,7 +1909,7 @@ msgstr "ERROR: der Befehl \\\"$response\\\" existiert, retry!"
 #: am/modules/management.am:284
 #, fuzzy
 msgid "%b\\n ERROR: \\\"%b\\\" not found\\n%b\\n"
-msgstr "%b\\n FEHLER: \\\"%b\\\" Nicht gefunden\\n%b\\n"
+msgstr "%b\\n ERROR: \\\"%b\\\" nicht gefunden\\n%b\\n"
 
 #: am/modules/management.am:286 am/modules/sandboxes.am:36
 #, fuzzy
@@ -1986,7 +1974,7 @@ msgstr "💀Error, \\\"%b\\\" ist NICHT ein AppImage\\n"
 #: am/modules/management.am:353
 #, fuzzy
 msgid " ◆ \\\"%b\\\" is already a new generation AppImage.\\n"
-msgstr "◆ \\\"%b\\\" Ist schon eine neue Erzeugung AppImage.\\n"
+msgstr "◆ \\\"%b\\\" ist bereits eine neue Generation AppImage.\\n"
 
 #: am/modules/management.am:356
 #, fuzzy
@@ -2011,12 +1999,12 @@ msgstr "durch vergleich der alten vs neuen version url, aber es ist nicht garant
 #: am/modules/management.am:360
 #, fuzzy
 msgid " Do you want to proceede anyway? (N/y) "
-msgstr "Willst du überhaupt fortfahren? (N/y) "
+msgstr "#Mögen du proceede eh? (N/y) "
 
 #: am/modules/management.am:369
 #, fuzzy
 msgid " ...downloading appimagetool\\r"
-msgstr "...#Herunterladen appimagetool\\r"
+msgstr "...das herunterladen von appimagetool\\r"
 
 #: am/modules/management.am:375
 #, fuzzy
@@ -2111,7 +2099,7 @@ msgstr "%b\\n \\\"%b\\\" Ist schon sandboxed!\\n%b\\n"
 #: am/modules/sandboxes.am:33
 #, fuzzy
 msgid "%b\\n ERROR: \\\"%b\\\" is not installed\\n%b\\n"
-msgstr "%b\\n ERROR: \\\"%b\\\" ist nicht installiert\\n%b\\n"
+msgstr "%b\\n FEHLER: \\\"%b\\\" Ist nicht installiert\\n%b\\n"
 
 #: am/modules/sandboxes.am:44
 #, fuzzy
@@ -2156,7 +2144,7 @@ msgstr "Erlaub $1 Zugang zu \\\"$XDG_DIR\\\"? (y/N) "
 #: am/modules/sandboxes.am:198
 #, fuzzy
 msgid " Allow $1 access to a specific directory? (y/N) "
-msgstr "Erlaub $1 greif zu zu einem spezifischen Telefonbuch? (y/N) "
+msgstr "Erlauben Sie $1 Zugriff auf ein bestimmtes Verzeichnis? (y/N) "
 
 #: am/modules/sandboxes.am:200
 #, fuzzy
@@ -2201,7 +2189,7 @@ msgstr "◆ FOR \\\"WGET\\\", ADD A COMMAND AS \\\"\\$( ... )\\\" ODER A LINEAR 
 #: am/modules/template.am:115
 #, fuzzy
 msgid " Do you want to use repology.org to identify version (y,N)? "
-msgstr "Möchten Sie repology.org verwenden, um die Version (y,N) zu identifizieren? "
+msgstr "#Mögen du benutzen repology.org Zu identifizieren Version (y,N)? "
 
 #: am/modules/template.am:161
 #, fuzzy
@@ -2222,7 +2210,7 @@ msgstr "\\n Das URL droben ist ein Beispiel von was sowohl\\n das installieren u
 #: am/modules/template.am:306
 #, fuzzy
 msgid " ◆ ADD THE NAME OF THE PROJECT OR LEAVE BLANK IF ITS THE SAME $(echo -e '\\n : ')"
-msgstr "◆ DANN DIE NAME DER PROJEKT ODER LEAVE BLANK IF SAME $(echo -e '\\n : ')"
+msgstr "◆ FÜG ZU DEN NAMEN VON DEM PROJEKT ODER ABSCHIED LÜCKE OB sein #DIESELBE $(Widerhall -e s\\n : ')"
 
 #: am/modules/template.am:316
 #, fuzzy
@@ -2279,14 +2267,7 @@ msgid ""
 " - if from other sources, use \"https://www.SITENAME.com\" or something\n"
 "\n"
 " URL: ')"
-msgstr ""
-"◆ FÜG ZU DAS URL VON DER STÄTTE (BESSER OB IT KOMMT AUS GITHUB), BEISPIELSWEISE: $(Widerhall -e s\n"
-"\n"
-" - ob von github.com, Benutz \"https://github.com/NUTZER/PROJEKT\"\n"
-"\n"
-" - ob von anderen Quellen, benutzt \"https://www.SITENAME.com\" Oder #irgendetwas\n"
-"\n"
-" URL: ')"
+msgstr "◆ ADD THE URL of THE SITE (BETTER IF IT COME FROM GITHUB), FÜR Beispiel: $(echo -e '\n\n- wenn von github.com \"https://github.com/USER/PROJECT\" verwendet wird\n\n- wenn aus anderen Quellen \"https://www.SITENAME.com\" oder so etwas verwendet wird\n\nURL:"
 
 #: am/modules/template.am:398 am/modules/template.am:419
 #: am/modules/template.am:471 am/modules/template.am:511
@@ -2424,7 +2405,7 @@ msgstr "soarpkg! Für die Installation von Soar-Paketen"
 #: am/modules/yad.am:162
 #, fuzzy
 msgid "toolpack!For installation of toolpacks"
-msgstr "toolpack! Für den Einbau von Werkzeugpaketen"
+msgstr "toolpack!Für Installation von toolpacks"
 
 #: am/modules/yad.am:163
 #, fuzzy
@@ -2516,7 +2497,7 @@ msgstr "Über $progname!$LOGO! Infos Ã1⁄4ber GUI"
 #: am/modules/yad.am:300 am/modules/yad.am:317
 #, fuzzy
 msgid "yad-quit!!Exit GUI"
-msgstr "hey! Exit GUI"
+msgstr "yad-Verlassen!!Ausgang #grafische Benutzeroberfläche"
 
 #: am/modules/yad.am:303
 msgid "AM Graphical User Interface"
