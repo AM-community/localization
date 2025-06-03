@@ -7,19 +7,7 @@
 # Glossary sync <noreply-glossary-sync@weblate.org>, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 msgid ""
-msgstr ""
-"Project-Id-Version: am 9.7.1-9\n"
-"Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
-"POT-Creation-Date: 2025-06-03\n"
-"PO-Revision-Date: 2025-06-03 06:05+0000\n"
-"Last-Translator: LibreTranslate <noreply-mt-libretranslate@weblate.org>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/am/am/de/>\n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: am 9.7.1-9\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-06-03\nPO-Revision-Date: 2025-06-03 10:01+0000\nLast-Translator: Apertium APy <noreply-mt-apertium-apy@weblate.org>\nLanguage-Team: German <https://hosted.weblate.org/projects/am/am/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
 
 #: am/APP-MANAGER:81
 msgid "%b\\n No locale available for you, consider adding one\\n Visit https://github.com/AM-community/localization for more information\\n"
@@ -46,7 +34,7 @@ msgstr ""
 #: am/APP-MANAGER:138
 #, fuzzy
 msgid "Setting locale to \\\"%b\\\"\\n"
-msgstr "Setzend Schauplatz zu \\\"%b\\\"\\n"
+msgstr "Lokalisieren zu \\\"%b\\\"\\n"
 
 #: am/APP-MANAGER:144
 #, fuzzy
@@ -56,7 +44,7 @@ msgstr "\\n Bitte benutzen nicht \\\"sudo\\\" zu exekutieren \\\"%b\\\", probier
 #: am/APP-MANAGER:172
 #, fuzzy
 msgid "Install 'less' if you want to scroll this list"
-msgstr "Installieren Sie 'less', wenn Sie diese Liste durchsuchen möchten"
+msgstr "Installier 'wenig' ob du möchtest #Buchrolle diese Liste"
 
 #: am/APP-MANAGER:189
 #, fuzzy
@@ -76,7 +64,7 @@ msgstr "> > AppMan konfigurieren"
 #: am/APP-MANAGER:218
 #, fuzzy
 msgid ">>> Thank you for choosing AppMan!"
-msgstr ">>> Dankeschön für #auswählen AppMan!"
+msgstr "> > Vielen Dank für die Auswahl von AppMan!"
 
 #: am/APP-MANAGER:222
 #, fuzzy
@@ -96,7 +84,7 @@ msgstr "$BINDIR wird normalerweise für Ausführbare verwendet, Bitte wählen Si
 #: am/APP-MANAGER:235
 #, fuzzy
 msgid " 💀 ERROR: You don't have write access to $location or it is invalid"
-msgstr "💀 FEHLER: Du hast nicht schreiben Zugang zu $Drehort oder es ist Kranker"
+msgstr "💀 ERROR: Sie haben keinen Zugriff auf $location oder es ist ungültig"
 
 #: am/APP-MANAGER:241
 #, fuzzy
@@ -116,7 +104,7 @@ msgstr "#Im Fall von Probleme, benutzt die Option \\\"-h\\\"."
 #: am/APP-MANAGER:263
 #, fuzzy
 msgid "ERROR: You don't have write access to $APPSPATH"
-msgstr "ERROR: Sie haben keinen Zugriff auf $APPSPATH"
+msgstr "FEHLER: Du hast nicht schreiben Zugang zu $APPSPATH"
 
 #: am/APP-MANAGER:267
 #, fuzzy
@@ -136,7 +124,7 @@ msgstr "${ROTER}💀 FEHLER! VERSCHOLLENE HAUPTSACHE BEFEHLE\\033[0m: %s\\n\\n I
 #: am/APP-MANAGER:391
 #, fuzzy
 msgid "%bList of the %b core dependences\\033[0m:\\n\\n%b\\n"
-msgstr "%bList Von das %b Innenteil Anlehnungen\\033[0m:\\n\\n%b\\n"
+msgstr "%bList der %b-Kernabhängigkeiten\\033[0m:\\n\\n%b\\n"
 
 #: am/APP-MANAGER:393
 #, fuzzy
@@ -146,7 +134,7 @@ msgstr "Wenn diese Nachricht erscheint, ist es, weil Sie eine gewisse Abhängigk
 #: am/APP-MANAGER:394
 #, fuzzy
 msgid " See %bhttps://github.com/$AMOWNER/AM#core-dependences\\033[0m for more information\\n"
-msgstr "Siehe %bhttps://github.com/ivan-hc/AM#core-dependences\\033[0m für weitere Informationen\\n"
+msgstr "Siehe %bhttps://github.com/$AMOWNER/AM#core-dependences\\033[0m für weitere Informationen\\n"
 
 #: am/APP-MANAGER:402
 #, fuzzy
@@ -196,7 +184,7 @@ msgstr "Bitte entfern \\\"AppImageLauncher\\\", reboot und Wiederholung!"
 #: am/APP-MANAGER:441
 #, fuzzy
 msgid " Please remove \\\"$blacklisted_file\\\", reboot and retry!"
-msgstr "Bitte entfern \\\"$blacklisted_Datei\\\", reboot und Wiederholung!"
+msgstr "Bitte entfernen Sie \\\"$blacklisted_file\\\", rebooten und retry!"
 
 #: am/APP-MANAGER:460 am/modules/database.am:549 am/modules/database.am:637
 #: am/modules/install.am:432 am/modules/install.am:457
@@ -204,12 +192,12 @@ msgstr "Bitte entfern \\\"$blacklisted_Datei\\\", reboot und Wiederholung!"
 #: am/modules/template.am:351
 #, fuzzy
 msgid " USAGE: $AMCLI $1 [ARGUMENT]"
-msgstr "GEBRAUCH: $AMCLI $1 [STREIT]"
+msgstr "USAGE: $AMCLI $1 [ARGUMENT]"
 
 #: am/APP-MANAGER:464
 #, fuzzy
 msgid " USAGE:\t$AMCLI $1 $2 /path/to/dir"
-msgstr "GEBRAUCH:\t$AMCLI $1 $2 /Pfad/zu/dir"
+msgstr "USAGE: $AMCLI $1 $2 /path/to/dir"
 
 #: am/APP-MANAGER:470 am/APP-MANAGER:474 am/APP-MANAGER:484
 #, fuzzy
@@ -224,12 +212,12 @@ msgstr "Neu repo WEITER!"
 #: am/APP-MANAGER:475
 #, fuzzy
 msgid " New repo OFF!"
-msgstr "Neues Repo aus!"
+msgstr "Neu repo AB!"
 
 #: am/APP-MANAGER:478
 #, fuzzy
 msgid " Source: %b\\n Apps: %b\\n List: %b\\n"
-msgstr "Quelle: %b\\n #App: %b\\n Liste: %b\\n"
+msgstr "Quelle: %b\\n Apps: %b\\n Liste: %b\\n"
 
 #: am/APP-MANAGER:481
 #, fuzzy
@@ -244,7 +232,7 @@ msgstr "Wähl aus ein repo von der Liste oder Presse CTRL+C zu abtreiben:\\n%b\\
 #: am/APP-MANAGER:488
 #, fuzzy
 msgid ">>> Invalid Selection"
-msgstr ">>> Kränkliche Auslese"
+msgstr "> > Invalide Auswahl"
 
 #: am/APP-MANAGER:509
 #, fuzzy
@@ -259,12 +247,12 @@ msgstr "Muschel Abschluss hat gewesen aktiviert!"
 #: am/APP-MANAGER:763
 #, fuzzy
 msgid "Validation successful!"
-msgstr "Bestätigung erfolgreich!"
+msgstr "Validierung erfolgreich!"
 
 #: am/APP-MANAGER:766
 #, fuzzy
 msgid "ERROR: Invalid token or insufficient permissions!"
-msgstr "FEHLER: Kränkliche Automatenmünze oder unzureichende Erlaubnisse!"
+msgstr "ERROR: Ungültiges Token oder unzureichende Berechtigungen!"
 
 #: am/APP-MANAGER:769
 #, fuzzy
@@ -274,7 +262,7 @@ msgstr "FEHLER: Unerwartete Antwort (HTTP $HTTP_ZUSTAND)"
 #: am/APP-MANAGER:777
 #, fuzzy
 msgid " ✖ No file named $ghapikey_file has been found"
-msgstr "✖ Keine Datei geheißen $ghapikey_Datei hat gewesen gefunden"
+msgstr " Keine Datei namens $ghapikey_file wurde gefunden"
 
 #: am/APP-MANAGER:786
 #, fuzzy
@@ -289,12 +277,12 @@ msgstr "✔ Berechtigung Kopfbälle entfernten von updater Dateien"
 #: am/APP-MANAGER:797
 #, fuzzy
 msgid "ERROR: Wrong expression, validation failed!"
-msgstr "ERROR: Falscher Ausdruck, Validierung versagt!"
+msgstr "FEHLER: Falscher Ausdruck, Bestätigung gescheitert!"
 
 #: am/APP-MANAGER:808
 #, fuzzy
 msgid " ⚠️ Warning: Stored GitHub API token is invalid or expired"
-msgstr "⚠️ Warnen: Gelagert GitHub API Automatenmünze ist kränklich oder #abgelaufen"
+msgstr "Warnung: Gespeichert GitHub API-Token ist ungültig oder abgelaufen"
 
 #: am/APP-MANAGER:810
 #, fuzzy
@@ -309,7 +297,7 @@ msgstr "1. Erstellen Sie ein neues Zeichen und fügen Sie es mit: $AMCLI apikey 
 #: am/APP-MANAGER:812
 #, fuzzy
 msgid "   2. Remove the invalid token with: $AMCLI apikey del"
-msgstr "2. Entfern die kränkliche Automatenmünze mit: $AMCLI apikey del"
+msgstr "2. Entfernen Sie den ungültigen Token mit: $AMCLI apikey del"
 
 #: am/APP-MANAGER:814
 #, fuzzy
@@ -329,7 +317,7 @@ msgstr "Möchten Sie \\\"AppMan Mode\\\" (y,N) eingeben?"
 #: am/APP-MANAGER:863
 #, fuzzy
 msgid " \\\"AM\\\" is read-only, want to use it in \\\"AppMan Mode\\\" (Y,n)? "
-msgstr "\\\"BIN\\\" ist gelesen-einzige, möchten benutzen es herein \\\"AppMan Verfahren\\\" (Y,n)? "
+msgstr "\\\"AM\\\" ist nur gelesen, wollen es in \\\"AppMan Mode\\\" (Y,n) verwenden? "
 
 #: am/APP-MANAGER:867
 #, fuzzy
@@ -339,7 +327,7 @@ msgstr "\\\"AppMan Verfahren\\\" aktiviert!"
 #: am/APP-MANAGER:879
 #, fuzzy
 msgid " ✔ Clear the contents of $CACHEDIR/am"
-msgstr "✔ Räum die Inhalte von $CACHEDIR/sind"
+msgstr "✔ Löschen Sie den Inhalt von $CACHEDIR/am"
 
 #: am/APP-MANAGER:880
 #, fuzzy
@@ -359,7 +347,7 @@ msgstr "✔ Entfernt $arg/tmp"
 #: am/APP-MANAGER:922
 #, fuzzy
 msgid " ✖ ERROR: cannot remove \\\"$(basename \"$var\")\\\""
-msgstr "✖ FEHLER: #Können nicht entfernen \\\"$(basename \"$var\")\\\""
+msgstr "‡ ERROR: nicht entfernen \\\"$(Basisname \"$var\")\\\""
 
 #: am/APP-MANAGER:923
 #, fuzzy
@@ -384,7 +372,7 @@ msgstr "✔ $argpath Hat Gewesen versteckt"
 #: am/APP-MANAGER:980
 #, fuzzy
 msgid "✖ Can't hide \\\"$arg\\\", app already hidden or non-existent"
-msgstr "✖ #Können nicht verstecken \\\"$arg\\\", #App schon unsichtbar oder #nicht bestehend"
+msgstr " Kann nicht verstecken \\\"$arg\\\", App bereits versteckt oder nicht vorhanden"
 
 #: am/APP-MANAGER:984
 #, fuzzy
@@ -399,12 +387,12 @@ msgstr "✔ $APPMAN_APPSPATH/$arg Können sein fertiggebracht nochmal"
 #: am/APP-MANAGER:996
 #, fuzzy
 msgid "%b\\n Checking for changes of the installation scripts in the online database...\\n"
-msgstr "%b\\n Überprüfen von Änderungen der Installationsskripte in der Online-Datenbank...\\n"
+msgstr "%b\\n Überprüfen für Änderungen von die Installation Skripten in der #online Datenbank...\\n"
 
 #: am/APP-MANAGER:1009
 #, fuzzy
 msgid " ◆ %b%b\\033[0m has changed, you may need to reinstall it, see\\n   https://github.com/$AMOWNER/AM/blob/main/programs/%b/%b\\n"
-msgstr "◆ %b%b\\033[0m hat gewechselt, du darfst brauchen zu #neuinstallieren ihm, sieh\\n   https://github.com/$AMOWNER/#AM/blob/hauptsächliche/Programmhefte/%b/%b\\n"
+msgstr "◆ %b%b\\033[0m hat sich geändert, können Sie es neu installieren müssen, siehe\\n https://github.com/$AMOWNER/AM/blob/main/programs/%b/%b\\n"
 
 #: am/APP-MANAGER:1014
 #, fuzzy
@@ -429,12 +417,12 @@ msgstr "%b\\n Überprüfen und aktualisieren Sie die Lokalisierung...\\n"
 #: am/APP-MANAGER:1058
 #, fuzzy
 msgid "%b\\n Check for updates in modules...\\n"
-msgstr "%b\\n Kontrolle für Updates in Module...\\n"
+msgstr "%b\\n Überprüfen Sie Updates in Modulen...\\n"
 
 #: am/APP-MANAGER:1063
 #, fuzzy
 msgid " ◆ Downloading $module_name (not previously installed)..."
-msgstr "◆ #Herunterladen $Modul_Namen (nicht vorher installiert)..."
+msgstr "◆ Download von $module_name (nicht zuvor installiert)..."
 
 #: am/APP-MANAGER:1072
 #, fuzzy
@@ -454,7 +442,7 @@ msgstr "Eine neue Version von \\\"$AMCLIUPPER\\\" ist verfügbar, bitte warten..
 #: am/APP-MANAGER:1090
 #, fuzzy
 msgid " ◆ \\\"$AMCLIUPPER\\\" IS NOW UPDATED TO THE BRAND NEW \\\"$NEW_AM_VERSION\\\" VERSION!"
-msgstr "◆ \\\"$AMCLIUPPER\\\" IST JETZT ZU DEM BRANDZEICHEN VERBESSERT NEUES \\\"$NEUES_#AM_VERSION\\\" VERSION!"
+msgstr "◆ \\\"$AMCLIUPPER\\\" IST JETZT ZU DEM BRAND NEW \\\"$NEW_AM_VERSION\\\" VERSION!"
 
 #: am/APP-MANAGER:1091
 #, fuzzy
@@ -464,7 +452,7 @@ msgstr "\\n Ersatz der Version \\\"%b\\\" derzeit in Gebrauch, VEREINIGTES! Ware
 #: am/APP-MANAGER:1092
 #, fuzzy
 msgid "\\n See https://github.com/$AMOWNER/AM/commits/main\\n\\n"
-msgstr "\\n Sieht https://github.com/$AMOWNER/#AM/begeht/hauptsächlich\\n\\n"
+msgstr "Siehe https://github.com/$AMOWNER/AM/commits/main\\n\\n"
 
 #: am/APP-MANAGER:1094
 #, fuzzy
@@ -474,12 +462,12 @@ msgstr "◆ \\\"$AMCLIUPPER\\\" IST SCHON VERBESSERT, GÄNGIGE VERSION \\\"$GÄN
 #: am/APP-MANAGER:1095
 #, fuzzy
 msgid "\\n See https://github.com/$AMOWNER/AM/commits/%b\\n\\n"
-msgstr "\\n Sieht https://github.com/$BIN_DAS_EIGENTÜMER/#AM/begeht/%b\\n\\n"
+msgstr "Siehe https://github.com/$AMOWNER/AM/commits/%b\\n"
 
 #: am/APP-MANAGER:1114
 #, fuzzy
 msgid "%b\\n DONE! \\n"
-msgstr "%b\\n GETAN! \\n"
+msgstr "%b\\n DONE"
 
 #: am/APP-MANAGER:1134
 #, fuzzy
@@ -489,7 +477,7 @@ msgstr "%b\\\"%b\\\" KÖNNEN FERTIGBRINGEN UPDATES FÜR DIE FOLGENDEN PROGRAMMHE
 #: am/APP-MANAGER:1135
 #, fuzzy
 msgid " None"
-msgstr "Keine"
+msgstr "#Nichts"
 
 #: am/APP-MANAGER:1136
 #, fuzzy
@@ -504,7 +492,7 @@ msgstr "Nichts zu tun! Waren"
 #: am/APP-MANAGER:1164
 #, fuzzy
 msgid " The following apps have been updated:\\n\\n"
-msgstr "Die folgenden #App haben gewesen verbessert:\\n\\n"
+msgstr "Folgende Apps wurden aktualisiert:\\n\\n"
 
 #: am/APP-MANAGER:1204
 #, fuzzy
@@ -519,7 +507,7 @@ msgstr "%b✔\\033[0m $APPNAME wird aktualisiert, $timelapsed Sekunden verstrich
 #: am/APP-MANAGER:1214
 #, fuzzy
 msgid " %b✖\\033[0m %b is read-only, cannot update it!\\n"
-msgstr "%b✖\\033[0m %b ist gelesen-einzige, #können nicht verbessern ihm!\\n"
+msgstr "%b‡\\033[0m %b ist nur gelesen, kann es nicht aktualisieren!\\n"
 
 #: am/APP-MANAGER:1247
 #, fuzzy
@@ -538,12 +526,12 @@ msgstr "(unbezahlt)"
 #: am/APP-MANAGER:1280
 #, fuzzy
 msgid "%b\\n >> %bSTART OF ALL PROCESSES\\033[0m << \\n%b\\n"
-msgstr "%b\\n >> %bSTART VON ALLE ARBEITSGÄNGEN\\033[0m << \\n%b\\n"
+msgstr "% b >> % START DER ALLEN PROZESSE \\033[0m < < < \\n%b\\n"
 
 #: am/APP-MANAGER:1290
 #, fuzzy
 msgid " >> %bEND OF ALL PROCESSES\\033[0m << \\n%b\\n"
-msgstr ">> %Biegung VON ALLE ARBEITSGÄNGEN\\033[0m << \\n%b\\n"
+msgstr "> %BENDEN ALLEN PROZESSEN"
 
 #: am/APP-MANAGER:1294
 #, fuzzy
@@ -573,12 +561,12 @@ msgstr "ERROR: \\\"$AMCLI\\\" kann Updates für \\\"$arg\\\" nicht verwalten"
 #: am/APP-MANAGER:1329
 #, fuzzy
 msgid " ERROR: \\\"$arg\\\" source is not on Github"
-msgstr "ERROR: \\\"$arg\\\" Quelle ist nicht auf Github"
+msgstr "FEHLER: \\\"$arg\\\" Quelle ist nicht weiter Github"
 
 #: am/APP-MANAGER:1331
 #, fuzzy
 msgid " ERROR: \\\"$arg\\\" does not redirect to a generic \\\"releases\\\""
-msgstr "FEHLER: \\\"$arg\\\" #Umleiten nicht zu #ein typischen \\\"Freigaben\\\""
+msgstr "ERROR: \\\"$arg\\\" wird nicht auf eine generische \\\"Releases\\\" umgeleitet"
 
 #: am/APP-MANAGER:1356
 #, fuzzy
@@ -598,7 +586,7 @@ msgstr "$AMCLI [OPTION] (ARGUMENT)"
 #: am/APP-MANAGER:1377
 #, fuzzy
 msgid " Run the \\\"$AMCLI -h\\\" command to find out more"
-msgstr "Gerannt das \\\"$AMCLI -h\\\" Befehl zu herausfinden More"
+msgstr "Führen Sie den Befehl \\\"$AMCLI -h\\\" aus, um mehr zu erfahren"
 
 #: am/APP-MANAGER:1379
 #, fuzzy
@@ -979,358 +967,7 @@ msgid ""
 "\t\t\t https://portable-linux-apps.github.io\n"
 "\n"
 "\t\t\t\\n"
-msgstr ""
-"NAME: ${Grün}$AMCLIUPPER\\033[0m\t\tVERSION: ${Grün}$AMVERSION\\033[0m\n"
-"\n"
-"\t\t\tZUSAMMENFASSUNG:\t${LightBlue}$AMCLI {OPTION}\\033[0m\n"
-"\t\t\t\t\t${LightBlue}$AMCLI {OPTION} {PROGRAMMHEFT}\\033[0m\n"
-"\n"
-"\t\t\tSTECKBRIEF: Eine Befehl Linie Nutzen zu installieren und fertigbringen AppImages und #andere tragbaren Programmhefte für GNU/Linux aufgrund von sein AUR-inspiriert Datenbank.\n"
-"\n"
-"\t\t\tOPTIONEN:\n"
-"\n"
-"\t\t\t${Gold}etwa, -ein\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -ein {PROGRAMMHEFT}\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Zeigt More info von #man oder #mehr #App.\n"
-"\n"
-"\t\t\t${Gold}--gui\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI --gui {PROGRAMMHEFT}\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Nutzung #AM mit 3rd Party #grafische Benutzeroberfläche. (Alpha!) Benutzend Schlag und ${LightBlue}Y\\033[0traf ${LightBlue}Einen\\033[0mnother ${LightBlue}D\\033[0mialog.\n"
-"\n"
-"\t\t\t${Gold}apikey\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI apikey {Github Automatenmünze}\n"
-"\t\t\t\t\t${LightBlue}$AMCLI apikey streicht\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Pflichte bei zu github APIs benutzend euren persönlichen Zugang Automatenmünzen. Die Datei geheißen \\\"ghapikey.txt\\\" Wollen sein gespeichert herein $AMDATADIR. Nutzung \\\"del\\\" zu entfernen ihm.\n"
-"\n"
-"\t\t\t${Gold}Sicherheitskopie, -b\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -b {PROGRAMMHEFT}\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Schaff einen Schnappschuss von der gängigen Version von einer installiert Programmheft.\n"
-"\n"
-"\t\t\t${Gold}total, -c\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -c\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Entfernt alle die unnötigen Dateien und Ordner.\n"
-"\n"
-"\t\t\t${Gold}config, -C, --config\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -C {PROGRAMMHEFT}\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Gesetzt ein #hingebungsvoll \\$XDG_CONFIG_HEIM für #man oder More AppImages.\n"
-"\n"
-"\t\t\t${Gold}Niedergang, --rollback\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI --rollback {PROGRAMMHEFT}\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Lade herunter ein älteres oder spezifische #App Version.\n"
-"\n"
-"\t\t\t${Gold}#Herunterladen, -d\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -d {PROGRAMMHEFT}\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -d --umrechnen {PROGRAMMHEFT}\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Lade herunter eins oder #mehr Installation Skripten zu eurem Desktop oder umrechnen jene zu lokal Installateure für \\\"AppMan\\\". Zu testen die Skripten, benutzen die \\\"${LightBlue}$AMCLI -ich '/Pfad/zu/#skripten'\\033[0m\\\" gebieten oder betreten das Telefonbuch von dem Skript und rennen dem \\\"${LightBlue}$AMCLI -ich ./#Skripten\\033[0m\\\" Befehl, sogar benutzend #hingebungsvoll Fahnen, notfalls (sehen \\\"-ich\\\").\n"
-"\n"
-"\t\t\t${Gold}Komparse, -e\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -e Nutzer/Projekt {APPNAME}\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -e Nutzer/projiziert {APPNAME} {STICHWORT}\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Installier AppImages von github.com, Außerhalb der Datenbank. Dies erlaubt du zu installieren, verbesser und fertigbringen jene jede wie das andere. Wo \\\"Nutzer/Projekt\\\" kann sein das ganzes URL zu das github Aufbewahrungsort, gib einen Namen zu dem Programmheft #damit kann es sein benutzt von die Befehl Linie. Gegebenenfalls, füg zu ein \\\"univoque\\\" Stichwort ob mehrfach AppImages ist gelistet.\n"
-"\n"
-"\t\t\t${Gold}Dateien, -f, -fi\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -f\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -f --byname\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -f --wenig\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Zeigt die Liste von jede installierte Programmhefte, mit Größen. Bei #voreingestellt #App sind geordnet bei Größe, Nutzung \\\"--byname\\\" zu ordnen #namhaft. Mit der Option \\\"--wenig\\\" zeigt es nur die Nummer von installierte #App. Option \\\"-fi\\\" einzige Vorstellungen installierten #App, nicht die AppImages integrativ mit die \\\"--#Abschussgerät\\\" Option.\n"
-"\n"
-"\t\t\t${Gold}Hilfe, -h\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -h\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Druckt diese Meldung.\n"
-"\n"
-"\t\t\t${Gold}Hube\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI Hube {PROGRAMMHEFT}\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Verhindert ein installiert Antrag von sein gezeigt oder brachte fertig mal \\\"$AMCLI\\\".\n"
-"\n"
-"\t\t\t${Gold}Heim, -H, --Heim\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -H {PROGRAMMHEFT}\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Gesetzt ein #hingebungsvoll \\$HEIM Telefonbuch für #man oder More AppImages.\n"
-"\n"
-"\t\t\t${Gold}-HC, -CH\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -HC {PROGRAMMHEFT}\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Setz #hingebungsvoll \\$HEIM und \\$XDG_CONFIG_HEIM Telefonbücher für #man oder More AppImages.\n"
-"\n"
-"\t\t\t${Gold}Ikonen, --Ikonen\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI --Ikonen {PROGRAMMHEFT}\n"
-"\t\t\t\t\t${LightBlue}$AMCLI --Ikonen --jede\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: #Erlauben #installieren #App zu benutzen System Ikone Themen. Du kannst den Namen von den #App präzisieren zu wechseln oder benutzen den \\\"--alle\\\" Fahne zu wechseln alle von jene sofort. Dies will den Ikone Pfad entfernen von den .Desktop feilt und zufügen das symbolische Band von alle verfügbaren Ikonen herein den $DATADIR/Ikonen/hicolor/scalable/#App Telefonbuch. Das \\\"--Ikonen\\\" Option kann sein benutzt da \\\"#beflaggen\\\" herein die \\\"-ich\\\" und \\\"-ia\\\" Optionen.\n"
-"\n"
-"\t\t\t${Gold}installiert, -ich\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -ich {PROGRAMMIERE}\\033[0m\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -ich --entwanzen {PROGRAMMHEFT}\\033[0m\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -ich --Streitkraft-#spät {PROGRAMMHEFT}\\033[0m\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -ich --Ikonen {PROGRAMMHEFT}\\033[0m\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -ich --Sandkästen {PROGRAMMHEFT}\\033[0m\n"
-"\t\t\t$(ob [ -n \"$dritte_Party_Fahnen\" ]; Dann widerhallt \"\" && Widerhall \"\t#Dritter-Party Datenbanken:\" && Widerhall \"\" && für ein in $dritte_Party_Fahnen; #Tun widerhallen \"\t\t${LightBlue}$AMCLI -l $ein {PROGRAMMHEFT}\\033[0m\"; Getan; fi)\n"
-"\n"
-"\t\t\tSteckbrief: Installier eins oder #mehr Programmhefte oder Bibliotheken von der Liste. Mit das \\\"--entwanzen\\\" Option du kannst Log Meldungen sehen zu entwanzen das Skript. Für #mehr Details weiter \\\"--Streitkraft-späteste\\\", sieh die #hingebungsvoll Option, unten. Benutz das \\\"--Ikonen\\\" #beflaggen zu erlauben das Programmheft zu benutzen Ikone Themen. Das \\\"--Sandkästen\\\" #beflaggen erlauben du zu setzen Sandkästen für AppImage Päckchen. Es kann auch sein erweitert mit zuzüglich Fahnen (sehen #Dritter-Party Fahnen, an dem Boden von dieser Meldung).\n"
-"\n"
-"\t\t\t${Gold}installiert-appimage, -ia, -ias\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -ia {PROGRAMMHEFT}\\033[0m\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -ia --entwanzen {PROGRAMMHEFT}\\033[0m\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -ia --Streitkraft-#spät {PROGRAMMHEFT}\\033[0m\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -ia --Ikonen {PROGRAMMHEFT}\\033[0m\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -ia --Sandkästen {PROGRAMMHEFT}\\033[0m\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -ias {PROGRAMMHEFT}\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Da gleich \\\"installieren\\\" (sehen droben) aber für AppImages einzige. Option \\\"-ias\\\" (aka Installieren AppImage & Sandkasten) ist gleichwertig zu \\\"-ia --Sandkästen\\\", zu setzen Sandkästen für AppImage Päckchen.\n"
-"\n"
-"\t\t\t${Gold}Liste, -l\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -l\\033[0m\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -l --appimages\\033[0m\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -l --tragbar\\033[0m\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -l --jede\\033[0m\n"
-"\t\t\t$(ob [ -n \"$dritte_Party_Fahnen\" ]; Dann widerhallt \"\" && Widerhall \"\t#Dritter-Party Datenbanken:\" && Widerhall \"\" && für ein in $dritte_Party_Fahnen; #Tun widerhallen \"\t\t${LightBlue}$AMCLI -l $ein\\033[0m\"; Getan; fi)\n"
-"\n"
-"\t\t\tSteckbrief: Zeigt die Liste von jede die #App verfügbar. Ohne Fahnen einzige Vorstellungen die #App in die \\\"#AM\\\" Datenbank, füg zu die \\\"--appimages\\\" zu zeigen nur die AppImages oder \\\"--tragbar\\\" zu zeigen anderen Formate von die \\\"#AM\\\" Datenbank. Das \\\"--alle\\\" Fahne erlaubt du zu konsultieren den Apparat von alle #abgestützt #Dritter-Party Datenbanken. Es kann auch sein erweitert mit zuzüglich Fahnen (sehen #Dritter-Party Fahnen, an dem Boden von dieser Meldung).\n"
-"\n"
-"\t\t\t${Gold}Locke\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI Locke {PROGRAMMHEFT}\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: #Zurückhalten verbessert ein Antrag Wesen, ob ihm hat ein\\\"#AM-updater\\\" Skript.\n"
-"\n"
-"\t\t\t${Gold}newrepo, neodb\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI newrepo zufügen {URL}\\\\{PFAD}\\033[0m\n"
-"\t\t\t\t\t${LightBlue}$AMCLI newrepo #ausgewählt\\033[0m\n"
-"\t\t\t\t\t${LightBlue}$AMCLI newrepo weiter\\\\ab\\033[0m\n"
-"\t\t\t\t\t${LightBlue}$AMCLI newrepo Abführmittel\\033[0m\n"
-"\t\t\t\t\t${LightBlue}$AMCLI newrepo info\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Gesetzt eine neue Vorgabe repo, Nutzung \\\"fügt zu\\\" zu #beiheften den Pfad zu einem lokalen Telefonbuch oder ein #online URL, dann wählt aus \\\"Nutzung\\\" zu benutzen ihm mal #voreinstellen, eine Meldung will du von den Gebrauch warnen von dies repo statt die Vorgabe eins. Nutzung \\\"weiter\\\"/\\\"ab\\\" zu aktivieren/ausschalten ihm. Nutzung \\\"Abführmittel\\\" zu entfernen alle 3rd Party repos. Nutzung \\\"info\\\" zu sehen woher die Quelle Installation Skripten und Listen sind genommen.\n"
-"\n"
-"\t\t\t${Gold}nolibfuse\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI nolibfuse {PROGRAMMHEFT}\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Rechne um alt AppImages und bekommen befreit von \\\"libfuse2\\\" Anlehnung.\n"
-"\n"
-"\t\t\t${Gold}überschreibt, -o\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -o {PROGRAMMHEFT}\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Überschreib #App mit Schnappschüsse speicherten vorher (sehen \\\"-b\\\").\n"
-"\n"
-"\t\t\t${Gold}Anfrage, -q\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -q {STICHWORT}\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -q --alle {STICHWORT}\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -q --appimages {STICHWORT}\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -q --tragbares {STICHWORT}\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -q --pkg {PROGRAM1} {PROGRAM2}\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: #Suchen Stichwörter in der Liste von verfügbar Anträge, fügt zu die \\\"--appimages\\\" Option zu listen nur die AppImages, \\\"--tragbare\\\" Option zu listen nur die tragbaren #App oder zufügen \\\"--pkg\\\" zu listen sofort mehrfache Programmhefte. Das \\\"--alle\\\" Fahne erlaubt du zu konsultieren den Apparat von alle #abgestützt Datenbanken.\n"
-"\n"
-"\t\t\t${Gold}#neuinstallieren\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI #neuinstallieren\\033[0m\n"
-"\t\t\t\t\t${LightBlue}$AMCLI #neuinstallieren --jede\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: #Neuinstallieren einzige Programmhefte wessen Installation Skript gewesen hat modifiziert in #AMs #online Datenbank. Nutzung die \\\"--jede\\\" flaf zu #neuinstallieren #alles stattdessen.\n"
-"\n"
-"\t\t\tNOTE, diese einzigen Arbeiten mit die \\\"#AM\\\" Datenbank. #App installierten mit die \\\"-e\\\" Option und #benutzerdefiniert Skripten geschafft mit die \\\"-t\\\" Option ist nicht unterstützt.\n"
-"\n"
-"\t\t\t${Gold}entfernt, -r\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -r {PROGRAMMHEFT}\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Entfernt eins oder #mehr #App, bedürfen Bestätigung.\n"
-"\n"
-"\t\t\t${Gold}-R\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -R {PROGRAMMHEFT}\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Entfernt eins oder #mehr #App ohne fragen.\n"
-"\n"
-"\t\t\t${Gold}Sandkasten, --Sandkästen\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI Sandkasten {PROGRAMMHEFT}\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Gerannt ein AppImage in einem Sandkasten benutzend Aisap.\n"
-"\n"
-"\t\t\tNOTE, \\\"--Sandkästen\\\" können sein benutzt herein da eine Fahne \\\"-ich\\\" und \\\"-ia\\\" oder kann sein ausgetauscht benutzen die Option \\\"-ias\\\" (aka Installieren AppImage & Sandkasten).\n"
-"\n"
-"\t\t\t${Gold}synchronisiert, -s\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -s\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Verbessert dieses Skript zu der spätesten Version brachte unter.\n"
-"\n"
-"\t\t\t${Gold}Vorlage, -t\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -t {PROGRAMMHEFT}\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Generier eine #benutzerdefiniert Installation Skript. Zu testen die Skripten, benutzen die \\\"${LightBlue}$AMCLI -ich '/Pfad/zu/#skripten'\\033[0m\\\" gebieten oder betreten das Telefonbuch von dem Skript und rennen dem \\\"${LightBlue}$AMCLI -ich ./#Skripten\\033[0m\\\" Befehl, sogar benutzend #hingebungsvoll Fahnen, notfalls (sehen \\\"-ich\\\").\n"
-"\n"
-"\t\t\t${Gold}Sprache, --Sprache\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI --Sprache\\033[0m\n"
-"\t\t\t\t\t${LightBlue}$AMCLI --Sprache {CODE}\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: #Herunterladen und Apparat eins oder #mehr Sprache Packe (ob verfügbar), Apparat \\\"$AMCLI\\\" zu englisch (#voreinstellen), eure Sprache oder anderen Sprachen.\\n\\nVisit Https://github.com/#AM-Gemeinsamkeit/Lokalisierung zu lernen #mehr weiter wie zu unterziehen oder verbessern Übersetzungen.\n"
-"\n"
-"\t\t\t${Gold}unhide\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI unhide {PROGRAMMHEFT}\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Erlaub ein unsichtbares #App zu sein gezeigt und brachte fertig nochmal (Nullen \\\"Hube\\\").\n"
-"\n"
-"\t\t\t${Gold}entsperrt\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI entsperrt {PROGRAMMHEFT}\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Entsperr Updates für das exklusive Programmheft (Nullen \\\"Locke\\\").\n"
-"\n"
-"\t\t\t${Gold}Update, -u, -U\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -u\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -u --#App\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -u --entwanzen\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -u --#App --entwanzen\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -u {PROGRAMMHEFT}\\033[0m\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -u --entwanzen {PROGRAMMHEFT}\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -u --#Abschussgerät\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Update #alles. Füg zu \\\"--#App\\\" zu verbessern nur die #App oder schreiben nur die #App möchtest du verbessern mal ihre Namen zufügen. Füg zu das \\\"--entwanzen\\\" Fahne zu anschauen die Ausgabe #AM-updater Skripten. Füg zu das \\\"--#Abschussgerät\\\" Fahne zu probieren zu verbessern einzige Einheimische AppImages integriert mit die \\\"--#Abschussgerät\\\" Option (sieht \\\"--#Abschussgerät\\\").\n"
-"\n"
-"\t\t\t${Gold}Version, -v\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI -v\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Zeigt die Version.\n"
-"\n"
-"\t\t\t${Gold}--devmode-ausschalten\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI --devmode-ausschalten\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Annullier \\\"--devmode-aktivieren\\\" (sehen unten).\n"
-"\n"
-"\t\t\t${Gold}--devmode-aktivieren\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI --devmode-aktivieren\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Benutz den Entwicklung Zweig (an eurem eigenen Risiko).\n"
-"\n"
-"\t\t\t${Gold}--ausschalten-Mitteilungen\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI --ausschalten-Mitteilungen\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Schalte aus Mitteilungen während #App Update.\n"
-"\n"
-"\t\t\t${Gold}--ausschalten-Sandkästen\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI --ausschalten-Sandkästen {PROGRAMMHEFT}\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Schalte aus den Sandkasten für das exklusive #App.\n"
-"\n"
-"\t\t\t${Gold}--aktivieren-Mitteilungen\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI --aktivieren-Mitteilungen\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Aktivier Mitteilungen während #App Update (Nullen \\\"--ausschalten-Mitteilungen\\\").\n"
-"\n"
-"\t\t\t${Gold}--Streitkraft-späteste\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI --Streitkraft-#spät {PROGRAMMHEFT}\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Niedergänge #ein installiert #App von pre-befreit zu \\\"späteste\\\".\n"
-"\n"
-"\t\t\t${Gold}--#Abschussgerät\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}$AMCLI --#Abschussgerät /Pfad/zu/\\${APPIMAGE}\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: Zieh/Tropfen eins oder More AppImages in das endständiges und #eingraben jene in die #App Speisekarte und anpassen einen Befehl zu benutzen von den CLI.\n"
-"\n"
-"\t\t\tBEACHTE jener \\\"--#Abschussgerät\\\" kann sein benutzt herein da eine Fahne \\\"-u\\\" zu probieren zu verbessern die integriert AppImages (sieht \\\"-u\\\"). Diese Arbeiten nur ob \\\"appimageupdatetool\\\" sind installiert und Delta Updates sind unterstützt. Diese Fahne arbeitet nicht Wunder, ich empfehlen kräftig zu benutzen Optionen \\\"-ia\\\" und \\\"-e\\\" stattdessen.\n"
-"\n"
-"\t\t\t${Gold}--System\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}ist --System\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: #Schalten \\\"BIN\\\" rückwärtig zu \\\"#AM\\\" von \\\"AppMan Verfahren\\\" (sieht \\\"--Nutzer\\\").\n"
-"\n"
-"\t\t\t${Gold}--Nutzer\\033[0m\n"
-"\n"
-"\t\t\t\t\t${LightBlue}ist --Nutzer\\033[0m\n"
-"\n"
-"\t\t\tSteckbrief: #Gemacht \\\"#AM\\\" Lauf herein \\\"AppMan Verfahren\\\", örtlich, nützlich für unprivileged Nutzer. Diese Option einzige Arbeiten mit \\\"SIND\\\".\n"
-"\n"
-"\t\t\tDas \\\"--Nutzer\\\" Option kann auch sein benutzt ebenso eine Fahne für Installation Optionen. Beispielsweise:\n"
-"\n"
-"\t\t\t- Benutzen ihm zu installieren örtlich Anträge, Option \\\"-ich\\\" oder \\\"installieren\\\":\n"
-"\n"
-"\t\t\t\t${LightBlue}Bin -ich --Nutzer {PROGRAMMHEFT}\\033[0m\n"
-"\n"
-"\t\t\t- Auch suboptions von \\\"-ich\\\" kann mit dieser Fahne arbeiten:\n"
-"\n"
-"\t\t\t\t${LightBlue}Bin -ich --Nutzer --entwanzen {PROGRAMMHEFT}\\033[0m\n"
-"\t\t\t\t${LightBlue}ist -ich --Nutzer --Streitkraft-#spät {PROGRAMMHEFT}\n"
-"\t\t\t\t${LightBlue}ist -ich --Nutzer --Ikonen {PROGRAMMHEFT}\n"
-"\t\t\t\t${LightBlue}ist -ich --Nutzer --entwanzen --Streitkraft-#spät {PROGRAMMHEFT}\n"
-"\t\t\t\t${LightBlue}ist -ich --Nutzer --entwanzen --Streitkraft-späteste --Ikonen {PROGRAMMHEFT}\\033[0m\n"
-"\n"
-"\t\t\t- Gleich für AppImages einzige, Option \\\"-ia\\\" oder \\\"installieren-appimage\\\":\n"
-"\n"
-"\t\t\t\t${LightBlue}Bin -ia --Nutzer {PROGRAMMHEFT}\\033[0m\n"
-"\t\t\t\t${LightBlue}ist -ia --Nutzer --entwanzen {PROGRAMMHEFT}\n"
-"\t\t\t\t${LightBlue}ist -ia --Nutzer --Streitkraft-#spät {PROGRAMMHEFT}\n"
-"\t\t\t\t${LightBlue}ist -ia --Nutzer --Ikonen {PROGRAMMHEFT}\n"
-"\t\t\t\t${LightBlue}ist -ia --Nutzer --entwanzen --Streitkraft-#spät {PROGRAMMHEFT}\\033[0m\n"
-"\t\t\t\t${LightBlue}ist -ia --Nutzer --entwanzen --Streitkraft-späteste --Ikonen {PROGRAMMHEFT}\\033[0m\n"
-"\n"
-"\t\t\t- Extern AppImages kann sein installiert so ebenso, Option \\\"-e\\\" oder \\\"#extra\\\":\n"
-"\n"
-"\t\t\t\t${LightBlue}Bin -e --Nutzer Nutzer/Projekt {APPNAME}\\033[0m\n"
-"\t\t\t\t${LightBlue}ist -e --Nutzer Nutzer/projiziert {APPNAME} {STICHWORT}\\033[0m\n"
-"\n"
-"\t\t\tNOTE, \\\"#AM\\\" 9 oder höher ist auch #imstande zu, verbesser und fertigbringen örtlich #App, bei #voreingestellt, und ohne haben zu schalten zu \\\"AppMan Verfahren\\\".\n"
-"\n"
-"\t\t\t$ENTZWEIEND_LINIE\n"
-"\n"
-"\t\t\t#DRITTER-PARTY FAHNEN: $Dritte_Party_Fahnen_Meldung\n"
-"\t\t\t$ENTZWEIEND_LINIE\n"
-"\n"
-"\t\t\t STÄTTEN:\n"
-"\n"
-"\t\t\t Https://github.com/ivan-hc/#AM\n"
-"\n"
-"\t\t\t https://Tragbar-linux-#App.github.io\n"
-"\n"
-"\t\t\t\\n"
+msgstr "NAME: ${Grün}$AMCLIUPPER\\033[0m\t\tVERSION: ${Grün}$AMVERSION\\033[0m\n\n\t\t\tZUSAMMENFASSUNG:\t${LightBlue}$AMCLI {OPTION}\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI {OPTION} {PROGRAMMHEFT}\\033[0m\n\n\t\t\tSTECKBRIEF: Eine Befehl Linie Nutzen zu installieren und fertigbringen AppImages und #andere tragbaren Programmhefte für GNU/Linux aufgrund von sein AUR-inspiriert Datenbank.\n\n\t\t\tOPTIONEN:\n\n\t\t\t${Gold}etwa, -ein\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -ein {PROGRAMMHEFT}\\033[0m\n\n\t\t\tSteckbrief: Zeigt #mehr info von #man oder #mehr #App.\n\n\t\t\t${Gold}--gui\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI --gui {PROGRAMMHEFT}\\033[0m\n\n\t\t\tSteckbrief: Nutzung #AM mit 3rd Party #grafische Benutzeroberfläche. (Alpha!) Benutzend Schlag und ${LightBlue}Y\\033[0traf ${LightBlue}Einen\\033[0mnother ${LightBlue}D\\033[0mialog.\n\n\t\t\t${Gold}apikey\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI apikey {Github Automatenmünze}\n\t\t\t\t\t${LightBlue}$AMCLI apikey streicht\\033[0m\n\n\t\t\tSteckbrief: Pflichte bei zu github APIs benutzend euren persönlichen Zugang Automatenmünzen. Die Datei geheißen \\\"ghapikey.txt\\\" Wollen sein gespeichert herein $AMDATADIR. Nutzung \\\"del\\\" zu entfernen ihm.\n\n\t\t\t${Gold}Sicherheitskopie, -b\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -b {PROGRAMMHEFT}\\033[0m\n\n\t\t\tSteckbrief: Schaff einen Schnappschuss von der gängigen Version von einer installiert Programmheft.\n\n\t\t\t${Gold}total, -c\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -c\\033[0m\n\n\t\t\tSteckbrief: Entfernt alle die unnötigen Dateien und Ordner.\n\n\t\t\t${Gold}config, -C, --config\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -C {PROGRAMMHEFT}\\033[0m\n\n\t\t\tSteckbrief: Gesetzt ein #hingebungsvoll \\$XDG_CONFIG_HEIM für #man oder #mehr AppImages.\n\n\t\t\t${Gold}Niedergang, --rollback\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI --rollback {PROGRAMMHEFT}\\033[0m\n\n\t\t\tSteckbrief: Lade herunter ein älteres oder spezifische #App Version.\n\n\t\t\t${Gold}#Herunterladen, -d\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -d {PROGRAMMHEFT}\n\t\t\t\t\t${LightBlue}$AMCLI -d --umrechnen {PROGRAMMHEFT}\\033[0m\n\n\t\t\tSteckbrief: Lade herunter eins oder #mehr Installation Skripten zu eurem Desktop oder umrechnen jene zu lokal Installateure für \\\"AppMan\\\". Zu testen die Skripten, benutzen die \\\"${LightBlue}$AMCLI -ich '/Pfad/zu/#skripten'\\033[0m\\\" gebietet oder betreten das Telefonbuch von dem Skript und rennen dem \\\"${LightBlue}$AMCLI -ich ./#Skripten\\033[0m\\\" Befehl, sogar benutzend #hingebungsvoll Fahnen, notfalls (sehen \\\"-ich\\\").\n\n\t\t\t${Gold}Komparse, -e\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -e Nutzer/projiziert {APPNAME}\n\t\t\t\t\t${LightBlue}$AMCLI -e Nutzer/Projekt {APPNAME} {STICHWORT}\\033[0m\n\n\t\t\tSteckbrief: Installier AppImages von github.com, Außerhalb der Datenbank. Dies erlaubt du zu installieren, verbesser und fertigbringen jene jede wie das andere. Wo \\\"Nutzer/Projekt\\\" kann sein das ganzes URL zu das github Aufbewahrungsort, gib einen Namen zu dem Programmheft #damit kann es sein benutzt von die Befehl Linie. Gegebenenfalls, füg zu ein \\\"univoque\\\" Stichwort ob mehrfach AppImages ist gelistet.\n\n\t\t\t${Gold}Dateien, -f, -fi\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -f\n\t\t\t\t\t${LightBlue}$AMCLI -f --byname\n\t\t\t\t\t${LightBlue}$AMCLI -f --wenig\\033[0m\n\n\t\t\tSteckbrief: Zeigt die Liste von jede installierte Programmhefte, mit Größen. Bei #voreingestellt #App sind geordnet bei Größe, Nutzung \\\"--byname\\\" zu ordnen #namhaft. Mit der Option \\\"--wenig\\\" zeigt es nur die Nummer von installierte #App. Option \\\"-fi\\\" einzige Vorstellungen installierten #App, nicht die AppImages integrativ mit die \\\"--#Abschussgerät\\\" Option.\n\n\t\t\t${Gold}Hilfe, -h\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -h\\033[0m\n\n\t\t\tSteckbrief: Druckt diese Meldung.\n\n\t\t\t${Gold}Hube\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI Hube {PROGRAMMHEFT}\\033[0m\n\n\t\t\tSteckbrief: Verhindert ein installiert Antrag von sein gezeigt oder brachte fertig mal \\\"$AMCLI\\\".\n\n\t\t\t${Gold}Heim, -H, --Heim\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -H {PROGRAMMHEFT}\\033[0m\n\n\t\t\tSteckbrief: Gesetzt ein #hingebungsvoll \\$HEIM Telefonbuch für #man oder #mehr AppImages.\n\n\t\t\t${Gold}-HC, -CH\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -HC {PROGRAMMHEFT}\\033[0m\n\n\t\t\tSteckbrief: Setz #hingebungsvoll \\$HEIM und \\$XDG_CONFIG_HEIM Telefonbücher für #man oder #mehr AppImages.\n\n\t\t\t${Gold}Ikonen, --Ikonen\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI --Ikonen {PROGRAMMIEREN}\n\t\t\t\t\t${LightBlue}$AMCLI --Ikonen --jede\\033[0m\n\n\t\t\tSteckbrief: #Erlauben #installieren #App zu benutzen System Ikone Themen. Du kannst den Namen von den #App präzisieren zu wechseln oder benutzen den \\\"--alle\\\" Fahne zu wechseln alle von jene sofort. Dies will den Ikone Pfad entfernen von den .Desktop feilt und zufügen das symbolische Band von alle verfügbaren Ikonen herein den $DATADIR/Ikonen/hicolor/scalable/#App Telefonbuch. Das \\\"--Ikonen\\\" Option kann sein benutzt da \\\"#beflaggen\\\" herein die \\\"-ich\\\" und \\\"-ia\\\" Optionen.\n\n\t\t\t${Gold}installiert, -ich\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -ich {PROGRAMMIERE}\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI -ich --entwanzen {PROGRAMMHEFT}\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI -ich --Streitkraft-#spät {PROGRAMMHEFT}\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI -ich --Ikonen {PROGRAMMHEFT}\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI -ich --Sandkästen {PROGRAMMHEFT}\\033[0m\n\t\t\t$(ob [ -n \"$dritte_Party_Fahnen\" ]; Dann widerhallt \"\" && Widerhall \"\t#Dritter-Party Datenbanken:\" && Widerhall \"\" && für ein in $dritte_Party_Fahnen; #Tun widerhallen \"\t\t${LightBlue}$AMCLI -ich $ein {PROGRAMMHEFT}\\033[0m\"; Getan; fi)\n\n\t\t\tSteckbrief: Installier eins oder #mehr Programmhefte oder Bibliotheken von der Liste. Mit das \\\"--entwanzen\\\" Option du kannst Log Meldungen sehen zu entwanzen das Skript. Für #mehr Details weiter \\\"--Streitkraft-späteste\\\", sieh die #hingebungsvoll Option, unten. Benutz das \\\"--Ikonen\\\" #beflaggen zu erlauben das Programmheft zu benutzen Ikone Themen. Das \\\"--Sandkästen\\\" #beflaggen erlauben du zu setzen Sandkästen für AppImage Päckchen. Es kann auch sein erweitert mit zuzüglich Fahnen (sehen #Dritter-Party Fahnen, an dem Boden von dieser Meldung).\n\n\t\t\t${Gold}installiert-appimage, -ia, -ias\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -ia {PROGRAMMHEFT}\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI -ia --entwanzen {PROGRAMMHEFT}\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI -ia --Streitkraft-#spät {PROGRAMMHEFT}\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI -ia --Ikonen {PROGRAMMHEFT}\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI -ia --Sandkästen {PROGRAMMHEFT}\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI -ias {PROGRAMMHEFT}\\033[0m\n\n\t\t\tSteckbrief: Da gleich \\\"installieren\\\" (sehen droben) aber für AppImages nur. Option \\\"-ias\\\" (aka Installiert AppImage & Sandkasten) ist gleichwertig zu \\\"-ia --Sandkästen\\\", zu setzen Sandkästen für AppImage Päckchen.\n\n\t\t\t${Gold}Liste, -l\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -l\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI -l --appimages\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI -l --tragbar\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI -l --jede\\033[0m\n\t\t\t$(ob [ -n \"$dritte_Party_Fahnen\" ]; Dann widerhallt \"\" && Widerhall \"\t#Dritter-Party Datenbanken:\" && Widerhall \"\" && für ein in $dritte_Party_Fahnen; #Tun widerhallen \"\t\t${LightBlue}$AMCLI -l $ein\\033[0m\"; Getan; fi)\n\n\t\t\tSteckbrief: Zeigt die Liste von jede die #App verfügbar. Ohne Fahnen einzige Vorstellungen die #App in die \\\"#AM\\\" Datenbank, füg zu die \\\"--appimages\\\" zu zeigen nur die AppImages oder \\\"--tragbar\\\" zu zeigen anderen Formate von die \\\"#AM\\\" Datenbank. Das \\\"--alle\\\" Fahne erlaubt du zu konsultieren den Apparat von alle #abgestützt #Dritter-Party Datenbanken. Es kann auch sein erweitert mit zuzüglich Fahnen (sehen #Dritter-Party Fahnen, an dem Boden von dieser Meldung).\n\n\t\t\t${Gold}Locke\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI Locke {PROGRAMMHEFT}\\033[0m\n\n\t\t\tSteckbrief: #Zurückhalten verbessert ein Antrag Wesen, ob ihm hat ein\\\"#AM-updater\\\" Skript.\n\n\t\t\t${Gold}newrepo, neodb\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI newrepo fügt zu {URL}\\\\{PFAD}\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI newrepo wählt aus\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI newrepo weiter\\\\ab\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI newrepo Abführmittel\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI newrepo info\\033[0m\n\n\t\t\tSteckbrief: Gesetzt eine neue Vorgabe repo, Nutzung \\\"fügt zu\\\" zu #beiheften den Pfad zu einem lokalen Telefonbuch oder ein #online URL, dann wählt aus \\\"Nutzung\\\" zu benutzen ihm mal #voreinstellen, eine Meldung will du von den Gebrauch warnen von dies repo statt die Vorgabe eins. Nutzung \\\"weiter\\\"/\\\"ab\\\" zu aktivieren/ausschalten ihm. Nutzung \\\"Abführmittel\\\" zu entfernen alle 3rd Party repos. Benutz \\\"info\\\" zu sehen woher die Quelle Installation Skripten und Listen sind genommen.\n\n\t\t\t${Gold}nolibfuse\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI nolibfuse {PROGRAMMHEFT}\\033[0m\n\n\t\t\tSteckbrief: Rechne um alt AppImages und bekommen befreit von \\\"libfuse2\\\" Anlehnung.\n\n\t\t\t${Gold}überschreibt, -o\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -o {PROGRAMMHEFT}\\033[0m\n\n\t\t\tSteckbrief: Überschreib #App mit Schnappschüsse speicherten vorher (sehen \\\"-b\\\").\n\n\t\t\t${Gold}Anfrage, -q\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -q {STICHWORT}\n\t\t\t\t\t${LightBlue}$AMCLI -q --alle {STICHWORT}\n\t\t\t\t\t${LightBlue}$AMCLI -q --appimages {STICHWORT}\n\t\t\t\t\t${LightBlue}$AMCLI -q --tragbares {STICHWORT}\n\t\t\t\t\t${LightBlue}$AMCLI -q --pkg {PROGRAM1} {PROGRAM2}\\033[0m\n\n\t\t\tSteckbrief: #Suchen Stichwörter in der Liste von verfügbar Anträge, fügt zu die \\\"--appimages\\\" Option zu listen nur die AppImages, \\\"--tragbare\\\" Option zu listen nur die tragbaren #App oder zufügen \\\"--pkg\\\" zu listen sofort mehrfache Programmhefte. Das \\\"--alle\\\" Fahne erlaubt du zu konsultieren den Apparat von alle #abgestützt Datenbanken.\n\n\t\t\t${Gold}#neuinstallieren\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI #neuinstallieren\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI #neuinstallieren --jede\\033[0m\n\n\t\t\tSteckbrief: #Neuinstallieren einzige Programmhefte wessen Installation Skript gewesen hat modifiziert in #AMs #online Datenbank. Nutzung die \\\"--jede\\\" flaf zu #neuinstallieren #alles stattdessen.\n\n\t\t\tNOTE, diese einzigen Arbeiten mit die \\\"#AM\\\" Datenbank. #App installierten mit die \\\"-e\\\" Option und #benutzerdefiniert Skripten geschafft mit die \\\"-t\\\" Option ist nicht unterstützt.\n\n\t\t\t${Gold}entfernt, -r\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -r {PROGRAMMHEFT}\\033[0m\n\n\t\t\tSteckbrief: Entfernt eins oder #mehr #App, bedürfen Bestätigung.\n\n\t\t\t${Gold}-R\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -R {PROGRAMMHEFT}\\033[0m\n\n\t\t\tSteckbrief: Entfernt eins oder #mehr #App ohne fragen.\n\n\t\t\t${Gold}Sandkasten, --Sandkästen\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI Sandkasten {PROGRAMMHEFT}\\033[0m\n\n\t\t\tSteckbrief: Gerannt ein AppImage in einem Sandkasten benutzend Aisap.\n\n\t\t\tNOTE, \\\"--Sandkästen\\\" können sein benutzt herein da eine Fahne \\\"-ich\\\" und \\\"-ia\\\" oder kann sein ausgetauscht benutzen die Option \\\"-ias\\\" (aka Installiert AppImage & Sandkasten).\n\n\t\t\t${Gold}synchronisiert, -s\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -s\\033[0m\n\n\t\t\tSteckbrief: Verbessert dieses Skript zu der spätesten Version brachte unter.\n\n\t\t\t${Gold}Vorlage, -t\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -t {PROGRAMMHEFT}\\033[0m\n\n\t\t\tSteckbrief: Generier eine #benutzerdefiniert Installation Skript. Zu testen die Skripten, benutzen die \\\"${LightBlue}$AMCLI -ich '/Pfad/zu/#skripten'\\033[0m\\\" gebietet oder betreten das Telefonbuch von dem Skript und rennen dem \\\"${LightBlue}$AMCLI -ich ./#Skripten\\033[0m\\\" Befehl, sogar benutzend #hingebungsvoll Fahnen, notfalls (sehen \\\"-ich\\\").\n\n\t\t\t${Gold}Sprache, --Sprache\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI --Sprache\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI --Sprache {CODE}\\033[0m\n\n\t\t\tSteckbrief: #Herunterladen und Apparat eins oder #mehr Sprache Packe (ob verfügbar), setzten \\\"$AMCLI\\\" zu englisch (#voreinstellen), eure Sprache oder anderen Sprachen.\\n\\nVisit Https://github.com/$AMOWNER/#AM/Baum/$AMBRANCH/Übersetzungen zu bekommen Quelle Dateien brauchten zu unterziehen neue Übersetzungen oder zu verbessern das #existierend #man.\n\n\t\t\t${Gold}unhide\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI unhide {PROGRAMMHEFT}\\033[0m\n\n\t\t\tSteckbrief: Erlaub ein unsichtbares #App zu sein gezeigt und brachte fertig nochmal (Nullen \\\"Hube\\\").\n\n\t\t\t${Gold}entsperrt\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI entsperrt {PROGRAMMHEFT}\\033[0m\n\n\t\t\tSteckbrief: Entsperr Updates für das exklusive Programmheft (Nullen \\\"Locke\\\").\n\n\t\t\t${Gold}Update, -u, -U\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -u\n\t\t\t\t\t${LightBlue}$AMCLI -u --#App\n\t\t\t\t\t${LightBlue}$AMCLI -u --entwanzen\n\t\t\t\t\t${LightBlue}$AMCLI -u --#App --entwanzen\n\t\t\t\t\t${LightBlue}$AMCLI -u {PROGRAMMHEFT}\\033[0m\n\t\t\t\t\t${LightBlue}$AMCLI -u --entwanzen {PROGRAMMHEFT}\n\t\t\t\t\t${LightBlue}$AMCLI -u --#Abschussgerät\\033[0m\n\n\t\t\tSteckbrief: Update #alles. Füg zu \\\"--#App\\\" zu verbessern nur die #App oder schreiben nur die #App möchtest du verbessern mal ihre Namen zufügen. Füg zu das \\\"--entwanzen\\\" Fahne zu anschauen die Ausgabe #AM-updater Skripten. Füg zu das \\\"--#Abschussgerät\\\" Fahne zu probieren zu verbessern einzige Einheimische AppImages integrativ mit die \\\"--#Abschussgerät\\\" Option (sieht \\\"--#Abschussgerät\\\").\n\n\t\t\t${Gold}Version, -v\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI -v\\033[0m\n\n\t\t\tSteckbrief: Zeigt die Version.\n\n\t\t\t${Gold}--devmode-ausschalten\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI --devmode-ausschalten\\033[0m\n\n\t\t\tSteckbrief: Annullier \\\"--devmode-aktivieren\\\" (sehen unten).\n\n\t\t\t${Gold}--devmode-aktivieren\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI --devmode-aktivieren\\033[0m\n\n\t\t\tSteckbrief: Benutz den Entwicklung Zweig (an eurem eigenen Risiko).\n\n\t\t\t${Gold}--ausschalten-Mitteilungen\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI --ausschalten-Mitteilungen\\033[0m\n\n\t\t\tSteckbrief: Schalte aus Mitteilungen während #App Update.\n\n\t\t\t${Gold}--ausschalten-Sandkästen\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI --ausschalten-Sandkästen {PROGRAMMHEFT}\\033[0m\n\n\t\t\tSteckbrief: Schalte aus den Sandkasten für das exklusive #App.\n\n\t\t\t${Gold}--aktivieren-Mitteilungen\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI --aktivieren-Mitteilungen\\033[0m\n\n\t\t\tSteckbrief: Aktivier Mitteilungen während #App Update (Nullen \\\"--ausschalten-Mitteilungen\\\").\n\n\t\t\t${Gold}--Streitkraft-späteste\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI --Streitkraft-#spät {PROGRAMMHEFT}\\033[0m\n\n\t\t\tSteckbrief: Niedergänge #ein installiert #App von pre-befreit zu \\\"späteste\\\".\n\n\t\t\t${Gold}--#Abschussgerät\\033[0m\n\n\t\t\t\t\t${LightBlue}$AMCLI --#Abschussgerät /Pfad/zu/\\${APPIMAGE}\\033[0m\n\n\t\t\tSteckbrief: Zieh/Tropfen eins oder #mehr AppImages in das endständiges und #eingraben jene in die #App Speisekarte und anpassen einen Befehl zu benutzen von den CLI.\n\n\t\t\tBEACHTE jener \\\"--#Abschussgerät\\\" kann sein benutzt herein da eine Fahne \\\"-u\\\" zu probieren zu verbessern das integratives AppImages (sieht \\\"-u\\\"). Diese Arbeiten nur ob \\\"appimageupdatetool\\\" sind installiert und Delta Updates sind unterstützt. Diese Fahne arbeitet nicht Wunder, ich empfehlen kräftig zu benutzen Optionen \\\"-ia\\\" und \\\"-e\\\" stattdessen.\n\n\t\t\t${Gold}--System\\033[0m\n\n\t\t\t\t\t${LightBlue}ist --System\\033[0m\n\n\t\t\tSteckbrief: #Schalten \\\"BIN\\\" rückwärtig zu \\\"#AM\\\" von \\\"AppMan Verfahren\\\" (sieht \\\"--Nutzer\\\").\n\n\t\t\t${Gold}--Nutzer\\033[0m\n\n\t\t\t\t\t${LightBlue}ist --Nutzer\\033[0m\n\n\t\t\tSteckbrief: #Gemacht \\\"#AM\\\" Lauf herein \\\"AppMan Verfahren\\\", örtlich, nützlich für unprivileged Nutzer. Diese Option einzige Arbeiten mit \\\"SIND\\\".\n\n\t\t\tDas \\\"--Nutzer\\\" Option kann auch sein benutzt ebenso eine Fahne für Installation Optionen. Beispielsweise:\n\n\t\t\t- Benutzen ihm zu installieren örtlich Anträge, Option \\\"-ich\\\" oder \\\"installieren\\\":\n\n\t\t\t\t${LightBlue}Bin -ich --Nutzer {PROGRAMMHEFT}\\033[0m\n\n\t\t\t- Auch suboptions von \\\"-ich\\\" kann mit dieser Fahne arbeiten:\n\n\t\t\t\t${LightBlue}Bin -ich --Nutzer --entwanzen {PROGRAMMHEFT}\\033[0m\n\t\t\t\t${LightBlue}ist -ich --Nutzer --Streitkraft-#spät {PROGRAMMHEFT}\n\t\t\t\t${LightBlue}ist -ich --Nutzer --Ikonen {PROGRAMMIEREN}\n\t\t\t\t${LightBlue}sind -ich --Nutzer --entwanzen --Streitkraft-#spät {PROGRAMMHEFT}\n\t\t\t\t${LightBlue}ist -ich --Nutzer --entwanzen --Streitkraft-späteste --Ikonen {PROGRAMMHEFT}\\033[0m\n\n\t\t\t- Gleich für AppImages nur, Option \\\"-ia\\\" oder \\\"installieren-appimage\\\":\n\n\t\t\t\t${LightBlue}Bin -ia --Nutzer {PROGRAMMHEFT}\\033[0m\n\t\t\t\t${LightBlue}ist -ia --Nutzer --entwanzen {PROGRAMMHEFT}\n\t\t\t\t${LightBlue}ist -ia --Nutzer --Streitkraft-#spät {PROGRAMMHEFT}\n\t\t\t\t${LightBlue}ist -ia --Nutzer --Ikonen {PROGRAMMIEREN}\n\t\t\t\t${LightBlue}sind -ia --Nutzer --entwanzen --Streitkraft-#spät {PROGRAMMHEFT}\\033[0m\n\t\t\t\t${LightBlue}ist -ia --Nutzer --entwanzen --Streitkraft-späteste --Ikonen {PROGRAMMHEFT}\\033[0m\n\n\t\t\t- Extern AppImages kann sein installiert so ebenso, Option \\\"-e\\\" oder \\\"#extra\\\":\n\n\t\t\t\t${LightBlue}Bin -e --Nutzer Nutzer/projiziert {APPNAME}\\033[0m\n\t\t\t\t${LightBlue}ist -e --Nutzer Nutzer/Projekt {APPNAME} {STICHWORT}\\033[0m\n\n\t\t\tNOTE, \\\"#AM\\\" 9 oder höher ist auch #imstande zu, verbesser und fertigbringen örtlich #App, bei #voreingestellt, und ohne haben zu schalten zu \\\"AppMan Verfahren\\\".\n\n\t\t\t$ENTZWEIEND_LINIE\n\n\t\t\t#DRITTER-PARTY FAHNEN: $Dritte_Party_Fahnen_Meldung\n\t\t\t$ENTZWEIEND_LINIE\n\n\t\t\t STÄTTEN:\n\n\t\t\t $AMREPO\n\n\t\t\t Https://Tragbar-linux-#App.github.io\n\n\t\t\t\\n"
 
 #: am/APP-MANAGER:1872
 #, fuzzy
@@ -1385,7 +1022,7 @@ msgstr "$APPSMESSAGE $LIBSMESSAGE BRACHTEN FERTIG MAL \\\"$AMCLIUPPER\\\""
 #: am/modules/database.am:181
 #, fuzzy
 msgid " $APPSMESSAGE LOCALLY, AS \\\"APPMAN\\\""
-msgstr "$APPSMESSAGE ÖRTLICH, WIE \\\"APPMAN\\\""
+msgstr "$APPSMESSAGE LOCALLY, AS \\\"APPMAN\\\""
 
 #: am/modules/database.am:181
 #, fuzzy
@@ -1395,7 +1032,7 @@ msgstr "$APPSMESSAGE BRACHTEN FERTIG MAL \\\"$AMCLIUPPER\\\""
 #: am/modules/database.am:197
 #, fuzzy
 msgid " ◆ $arg\t|\tstatic-binary"
-msgstr "◆ $arg\t|\tStatisch-Dual"
+msgstr "◆ $arg | statisch-binary"
 
 #: am/modules/database.am:199
 #, fuzzy
@@ -1405,7 +1042,7 @@ msgstr "◆ $arg\t|\tDynamisch-Dual"
 #: am/modules/database.am:204
 #, fuzzy
 msgid " ◆ $arg\t|\tlibrary"
-msgstr "◆ $arg | bibliothek"
+msgstr "◆ $arg\t|\tBibliothek"
 
 #: am/modules/database.am:211
 #, fuzzy
@@ -1435,7 +1072,7 @@ msgstr "◆ $arg | script"
 #: am/modules/database.am:254
 #, fuzzy
 msgid " ◆ $arg\t|\tother"
-msgstr "◆ $arg\t|\t#Andere"
+msgstr "◆ $arg | sonstige"
 
 #: am/modules/database.am:340
 #, fuzzy
@@ -1445,17 +1082,17 @@ msgstr "*hat Abhängigkeit von EOL libfuse2 Bibliothek, bitte fragen Sie den Sch
 #: am/modules/database.am:357
 #, fuzzy
 msgid " TOTAL SIZE: $TOTAL_SIZE of disk space in use"
-msgstr "TOTALE GRÖßE: $TOTALE_GRÖßE von Scheibe Weltraum in benutz"
+msgstr "INSGESAMT SIZE: $TOTAL_SIZE Speicherplatz im Einsatz"
 
 #: am/modules/database.am:394
 #, fuzzy
 msgid "-\tAPPIMAGE | PATH | SIZE "
-msgstr "-\tAPPIMAGE | PFAD | GRÖßE "
+msgstr "- APPIMAGE | PATH | SIZE "
 
 #: am/modules/database.am:426
 #, fuzzy
 msgid "\\n *this path is listed but not mounted, file size unknown\\n\\n"
-msgstr "\\n Dieser Pfad ist gelistet aber nicht angebracht, Datei Größe Unbekannte\\n\\n"
+msgstr "\\n *dieser pfad ist aufgelistet, aber nicht montiert, dateigröße unbekannt\\n\\n"
 
 #: am/modules/database.am:521
 #, fuzzy
@@ -1535,7 +1172,7 @@ msgstr "💀 FEHLER: #Können nicht installieren \\\"$arg\\\" ohne \\\"$Kolonie_
 #: am/modules/install.am:99
 #, fuzzy
 msgid " ◆ $APPNAME IS PART OF \\\"$LASTDIR\\\", ALREADY INSTALLED"
-msgstr "◆ $APPNAME IST TEIL VON \\\"$LASTDIR\\\", SCHON INSTALLIERTE"
+msgstr "◆ $APPNAME IS PART OF \\\"$LASTDIR\\\", ALREADY INSTALLED"
 
 #: am/modules/install.am:123
 #, fuzzy
@@ -1560,7 +1197,7 @@ msgstr "- Nein! Waren"
 #: am/modules/install.am:135
 #, fuzzy
 msgid " ◆ $APPNAME: starting installation script"
-msgstr "◆ $APPNAME: Installationsskript starten"
+msgstr "◆ $APPNAME: Startend Installation Skript"
 
 #: am/modules/install.am:137
 #, fuzzy
@@ -1570,7 +1207,7 @@ msgstr "Waren Dieses Skript wird eine AppImage auf der Fliege erstellen, bitte w
 #: am/modules/install.am:139
 #, fuzzy
 msgid " 💀 ERROR: \\\"$arg\\\" already exists in /usr/local/lib"
-msgstr "💀 FEHLER: \\\"$arg\\\" Schon existiert herein /usr/lokal/lib"
+msgstr "💀 ERROR: \\\"$arg\\\" existiert bereits in /usr/local/lib"
 
 #: am/modules/install.am:140
 #, fuzzy
@@ -1580,7 +1217,7 @@ msgstr "\\n ⚠️ Dieses Skript will eine System Bibliothek installieren herein
 #: am/modules/install.am:226 am/modules/install.am:229
 #, fuzzy
 msgid " 💀 ERROR DURING INSTALLATION, REMOVED $APPNAME!"
-msgstr "💀 FEHLER WÄHREND INSTALLATION, ENTFERNTE $APPNAME!"
+msgstr "💀 ERROR DURING INSTALLATION, REMOVED $APNAME!"
 
 #: am/modules/install.am:234
 #, fuzzy
@@ -1600,7 +1237,7 @@ msgstr "‡ \\\"$(echo \"$arg\" ✖ sed 's/-appimage//g')\\\" ist kein Appimage"
 #: am/modules/install.am:360
 #, fuzzy
 msgid " Detected multiple variants, choose one or press ZERO to abort:\\n\\n"
-msgstr "Herausgefunden mehrfache Varianten, wählt aus eins oder Presse NULL zu abtreiben:\\n\\n"
+msgstr "Erkennt mehrere Varianten, wählen Sie eine oder drücken Sie ZERO abort:\\n\\n\\n"
 
 #: am/modules/install.am:366
 #, fuzzy
@@ -1610,12 +1247,12 @@ msgstr "% Bitte wählen Sie einen anderen Artikel oder drücken Sie \\\"ZERO\\\"
 #: am/modules/install.am:371
 #, fuzzy
 msgid "\\n Invalid selection. INSTALLATION ABORTED! \\n"
-msgstr "\\n Kränkliche Auslese. INSTALLATION TRIEB AB! \\n"
+msgstr "\\n Invalide Auswahl. INSTALLATION ABORT! Waren"
 
 #: am/modules/install.am:416
 #, fuzzy
 msgid " 💀 ERROR, \\\"$arg\\\" does NOT exist in 3rd-party databases"
-msgstr "💀 FEHLER, \\\"$arg\\\" existiert NICHT in 3rd-Party Datenbanken"
+msgstr "💀 ERROR, \\\"$arg\\\" existiert nicht in Datenbanken Dritter"
 
 #: am/modules/install.am:417
 #, fuzzy
@@ -1635,7 +1272,7 @@ msgstr "USAGE: $AMCLI $1 --convert [ARGUMENT]"
 #: am/modules/install.am:458
 #, fuzzy
 msgid " USAGE: $AMCLI $1 --debug [ARGUMENT]"
-msgstr "GEBRAUCH: $AMCLI $1 --entwanzen [STREIT]"
+msgstr "USAGE: $AMCLI $1 --debug [ARGUMENT]"
 
 #: am/modules/install.am:459
 #, fuzzy
@@ -1655,7 +1292,7 @@ msgstr "GEBRAUCH: $AMCLI $1 --Sandkästen [STREIT]"
 #: am/modules/install.am:462
 #, fuzzy
 msgid " USAGE: $AMCLI $1 --user [ARGUMENT]"
-msgstr "GEBRAUCH: $AMCLI $1 --Nutzer [STREIT]"
+msgstr "USAGE: $AMCLI $1 --user [ARGUMENT]"
 
 #: am/modules/install.am:470
 #, fuzzy
@@ -1700,12 +1337,12 @@ msgstr "\\n             Die folgenden neuen Programmhefte haben gewesen installi
 #: am/modules/install.am:544
 #, fuzzy
 msgid " USAGE: $AMCLI $1 user/project [ARGUMENT]"
-msgstr "GEBRAUCH: $AMCLI $1 Nutzer/Projekt [STREIT]"
+msgstr "USAGE: $AMCLI $1 Benutzer/Projekt [ARGUMENT]"
 
 #: am/modules/install.am:545
 #, fuzzy
 msgid " USAGE: $AMCLI $1 user/project [ARGUMENT] [KEYWORD]"
-msgstr "USAGE: $AMCLI $1 Benutzer/Projekt [ARGUMENT] [KEYWORD]"
+msgstr "GEBRAUCH: $AMCLI $1 Nutzer/Projekt [STREIT] [STICHWORT]"
 
 #: am/modules/install.am:546
 #, fuzzy
@@ -1725,7 +1362,7 @@ msgstr "#Wünschen du #neuinstallieren #alles? (N/y): "
 #: am/modules/install.am:591
 #, fuzzy
 msgid "%b\\n ABORTED! \\n%b\\n"
-msgstr "%b\\n TRIEBEN AB! \\n%b\\n"
+msgstr "In %! Anteil"
 
 #: am/modules/install.am:593
 #, fuzzy
@@ -1770,7 +1407,7 @@ msgstr "#Wünschen du zu Sicherheitskopie die gängige Version von $2? (y/N) "
 #: am/modules/management.am:36
 #, fuzzy
 msgid "\\n OPERATION ABORTED!\\n\\n"
-msgstr "\\n OPERATION TRIEB AB!\\n\\n"
+msgstr "\\n OPERATION ABORT!\\n"
 
 #: am/modules/management.am:42
 #, fuzzy
@@ -1790,7 +1427,7 @@ msgstr "FEHLER: Kein Schnappschuss für \\\"$2\\\" fand."
 #: am/modules/management.am:64
 #, fuzzy
 msgid " Do you wish to overwrite $2 with an older version? (y,N) "
-msgstr "#Wünschen du zu überschreiben $2 mit einer älteren Version? (y,N) "
+msgstr "Möchten Sie $2 mit einer älteren Version überschreiben? (y,N) "
 
 #: am/modules/management.am:66
 #, fuzzy
@@ -1850,7 +1487,7 @@ msgstr "Kein #AM-updater verfügbar für \\\"$2\\\", kann nicht etwas herausfind
 #: am/modules/management.am:144
 #, fuzzy
 msgid " The option \\\"$1\\\" only works for https://github.com"
-msgstr "Die Option \\\"$1\\\" funktioniert nur für https://github.com"
+msgstr "Die Option \\\"$1\\\" einzige arbeitet für https://github.com"
 
 #: am/modules/management.am:151
 #, fuzzy
@@ -1865,7 +1502,7 @@ msgstr "Du hast ausgewählt zu rollen Rücken \\\"$2\\\"."
 #: am/modules/management.am:157
 #, fuzzy
 msgid "Select a URL from this menu (read carefully) or press ZERO to abort:"
-msgstr "Wähl aus ein URL von dieser Speisekarte (gelesen vorsichtig) oder Presse NULL zu abtreiben:"
+msgstr "Wählen Sie eine URL aus diesem Menü (lesen Sie sorgfältig) oder drücken Sie ZERO abbrechen:"
 
 #: am/modules/management.am:180
 #, fuzzy
@@ -1910,7 +1547,7 @@ msgstr "Willst du es übertreiben? (y,N) "
 #: am/modules/management.am:271
 #, fuzzy
 msgid " You have chosen not to assign a command."
-msgstr "Du hast ausgewählt nicht ein Befehl zu zuweisen."
+msgstr "Sie haben gewählt, keinen Befehl zuzuordnen."
 
 #: am/modules/management.am:274
 #, fuzzy
@@ -1925,7 +1562,7 @@ msgstr "%b\\n ERROR: \\\"%b\\\" nicht gefunden\\n%b\\n"
 #: am/modules/management.am:286 am/modules/sandboxes.am:36
 #, fuzzy
 msgid "%b\\n ERROR: \\\"%b\\\" is NOT an AppImage\\n%b\\n"
-msgstr "%b\\n ERROR: \\\"%b\\\" ist NICHT ein AppImage\\n%b\\n"
+msgstr "%b\\n FEHLER: \\\"%b\\\" Ist NICHT ein AppImage\\n%b\\n"
 
 #: am/modules/management.am:288
 #, fuzzy
@@ -2005,12 +1642,12 @@ msgstr "Eure \\\"#AM-updater\\\" will wahrscheinlich noch verbessern das AppImag
 #: am/modules/management.am:359
 #, fuzzy
 msgid " by comparing the old vs new version url, but it is not guaranteed"
-msgstr "durch vergleich der alten vs neuen version url, aber es ist nicht garantiert"
+msgstr "Mal vergleichen das altes vs neue Version url, aber es ist nicht garantiert"
 
 #: am/modules/management.am:360
 #, fuzzy
 msgid " Do you want to proceede anyway? (N/y) "
-msgstr "#Mögen du proceede eh? (N/y) "
+msgstr "Willst du überhaupt fortfahren? (N/y) "
 
 #: am/modules/management.am:369
 #, fuzzy
@@ -2060,7 +1697,7 @@ msgstr "#Wünschen du zu entfernen das altes libfuse2 AppImage? (Y/n) "
 #: am/modules/management.am:438 am/modules/management.am:454
 #, fuzzy
 msgid " \\\"${RED}$arg\\033[0m\\\" is not a valid \\\"APPNAME\\\", see \\\"$AMCLI -f\\\" for more."
-msgstr "\\\"${ROT}$arg\\033[0m\\\" ist nicht ein gültiges \\\"APPNAME\\\", sieh \\\"$AMCLI -f\\\" für #mehr."
+msgstr "\\\"${RED}$arg\\033[0m\\\" ist keine gültige \\\"APPNAME\\\", siehe \\\"$AMCLI -f\\\" für mehr."
 
 #: am/modules/management.am:439
 #, fuzzy
@@ -2070,7 +1707,7 @@ msgstr "◆ Möchten Sie entfernen \\\"$arg\\\"? (Y/n) "
 #: am/modules/management.am:441
 #, fuzzy
 msgid " \\\"${LightBlue}$arg\\033[0m\\\" has not been removed!"
-msgstr "\\\"${LightBlue}$arg\\033[0m\\\" wurde nicht entfernt!"
+msgstr "\\\"${LightBlue}$arg\\033[0m\\\" hat nicht gewesen entfernt!"
 
 #: am/modules/management.am:446 am/modules/management.am:458
 #, fuzzy
@@ -2080,7 +1717,7 @@ msgstr "\\\"${Grün}$arg\\033[0m\\\" hat gewesen entfernt!"
 #: am/modules/management.am:512
 #, fuzzy
 msgid " ◆ Do you wish to allow custom icon theming for ALL the apps? (y,N) "
-msgstr "◆ Möchten Sie benutzerdefinierte Symbole für ALL die Apps zulassen? (y,N) "
+msgstr "◆ #Wünschen du zu erlauben #benutzerdefiniert Ikone theming für jede die #App? (y,N) "
 
 #: am/modules/management.am:515
 #, fuzzy
@@ -2110,7 +1747,7 @@ msgstr "%b\\n \\\"%b\\\" Ist schon sandboxed!\\n%b\\n"
 #: am/modules/sandboxes.am:33
 #, fuzzy
 msgid "%b\\n ERROR: \\\"%b\\\" is not installed\\n%b\\n"
-msgstr "%b\\n FEHLER: \\\"%b\\\" Ist nicht installiert\\n%b\\n"
+msgstr "%b\\n ERROR: \\\"%b\\\" ist nicht installiert\\n%b\\n"
 
 #: am/modules/sandboxes.am:44
 #, fuzzy
@@ -2120,7 +1757,7 @@ msgstr "FEHLER: Nicht ein sandboxed AppImage, #abtreiben"
 #: am/modules/sandboxes.am:52
 #, fuzzy
 msgid " Error: You can't sandbox aisap"
-msgstr "Fehler: Du kannst nicht Sandkasten aisap"
+msgstr "Fehler: Sie können keine Sandbox aisap"
 
 #: am/modules/sandboxes.am:56
 #, fuzzy
@@ -2190,7 +1827,7 @@ msgstr "Zugang zu \\\"$NEWDIR\\\"..."
 #: am/modules/template.am:38 am/modules/template.am:322
 #, fuzzy
 msgid " ◆ ADD A BRIEF DESCRIPTION FOR THIS APPLICATION $(echo -e '\\n : ')"
-msgstr "◆ ADD A BRIEFBESCHREIBUNG FÜR DIESER ANWENDUNG $(echo -e '\\n : ')"
+msgstr "◆ FÜG ZU Einen KURZEN STECKBRIEF FÜR DIESEN ANTRAG $(Widerhall -e s\\n : ')"
 
 #: am/modules/template.am:83
 #, fuzzy
@@ -2200,7 +1837,7 @@ msgstr "◆ FOR \\\"WGET\\\", ADD A COMMAND AS \\\"\\$( ... )\\\" ODER A LINEAR 
 #: am/modules/template.am:115
 #, fuzzy
 msgid " Do you want to use repology.org to identify version (y,N)? "
-msgstr "#Mögen du benutzen repology.org Zu identifizieren Version (y,N)? "
+msgstr "Möchten Sie repology.org verwenden, um die Version (y,N) zu identifizieren? "
 
 #: am/modules/template.am:161
 #, fuzzy
@@ -2221,7 +1858,7 @@ msgstr "\\n Das URL droben ist ein Beispiel von was sowohl\\n das installieren u
 #: am/modules/template.am:306
 #, fuzzy
 msgid " ◆ ADD THE NAME OF THE PROJECT OR LEAVE BLANK IF ITS THE SAME $(echo -e '\\n : ')"
-msgstr "◆ FÜG ZU DEN NAMEN VON DEM PROJEKT ODER ABSCHIED LÜCKE OB sein #DIESELBE $(Widerhall -e s\\n : ')"
+msgstr "◆ DANN DIE NAME DER PROJEKT ODER LEAVE BLANK IF SAME $(echo -e '\\n : ')"
 
 #: am/modules/template.am:316
 #, fuzzy
@@ -2231,7 +1868,7 @@ msgstr "◆ ADD ein univoque Schlüsselwort für die Datei (zum Beispiel \\\"tar
 #: am/modules/template.am:363
 #, fuzzy
 msgid " Create a template for \\\"$arg\\\""
-msgstr "Erstellen Sie eine Vorlage für \\\"$arg\\\""
+msgstr "Schaff eine Vorlage für \\\"$arg\\\""
 
 #: am/modules/template.am:367
 #, fuzzy
@@ -2246,7 +1883,7 @@ msgstr "PLEASE, SELECT A TEMPLATE FÜR \\\"$(echo \"$arg\" | tr '[:lower:]' '[:u
 #: am/modules/template.am:371
 #, fuzzy
 msgid "  0) APPIMAGE, FROM ANY WEBSITE (BETTER IF FROM GITHUB.COM)"
-msgstr "0) ANWENDUNGSBEREICH DER WEBSITE (BETTER IF AUS GITHUB.COM)"
+msgstr "0) APPIMAGE, VON IRGENDWELCHER WEBSITE (BESSER OB VON GITHUB.COM)"
 
 #: am/modules/template.am:372
 #, fuzzy
@@ -2423,7 +2060,7 @@ msgstr "soarpkg! Für die Installation von Soar-Paketen"
 #: am/modules/yad.am:162
 #, fuzzy
 msgid "toolpack!For installation of toolpacks"
-msgstr "toolpack!Für Installation von toolpacks"
+msgstr "toolpack! Für den Einbau von Werkzeugpaketen"
 
 #: am/modules/yad.am:163
 #, fuzzy
@@ -2453,7 +2090,7 @@ msgstr "Entwanz!Für Installation debuging"
 #: am/modules/yad.am:176
 #, fuzzy
 msgid "!Choose app to install"
-msgstr "!Wähl aus #App zu installieren"
+msgstr "! Wählen Sie App zu installieren"
 
 #: am/modules/yad.am:208
 msgid "WARNING! No application has been selected for installation"
@@ -2490,7 +2127,7 @@ msgstr ""
 #: am/modules/yad.am:294 am/modules/yad.am:311
 #, fuzzy
 msgid "📥 Install apps!!Install application(s) (with about)"
-msgstr "📥 Apps installieren!! Installieren von Anwendungen (mit ca.)"
+msgstr "📥 Installier #App!!Installier Antrag(s) (mit etwa)"
 
 #: am/modules/yad.am:295 am/modules/yad.am:312
 #, fuzzy
@@ -2515,7 +2152,7 @@ msgstr "Über $progname!$LOGO! Infos Ã1⁄4ber GUI"
 #: am/modules/yad.am:300 am/modules/yad.am:317
 #, fuzzy
 msgid "yad-quit!!Exit GUI"
-msgstr "yad-Verlassen!!Ausgang #grafische Benutzeroberfläche"
+msgstr "hey! Exit GUI"
 
 #: am/modules/yad.am:303
 msgid "AM Graphical User Interface"
