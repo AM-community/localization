@@ -7,7 +7,19 @@
 # Glossary sync <noreply-glossary-sync@weblate.org>, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: am 9.7.1-9\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-06-03\nPO-Revision-Date: 2025-06-03 06:05+0000\nLast-Translator: LibreTranslate <noreply-mt-libretranslate@weblate.org>\nLanguage-Team: German <https://hosted.weblate.org/projects/am/am/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.12-dev\n"
+msgstr ""
+"Project-Id-Version: am 9.7.1-9\n"
+"Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
+"POT-Creation-Date: 2025-06-03\n"
+"PO-Revision-Date: 2025-06-03 06:05+0000\n"
+"Last-Translator: LibreTranslate <noreply-mt-libretranslate@weblate.org>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/am/am/de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: am/APP-MANAGER:91
 msgid "%b\\n No locale available for you, consider adding one\\n Visit https://github.com/AM-community/localization for more information\\n"
@@ -2267,7 +2279,14 @@ msgid ""
 " - if from other sources, use \"https://www.SITENAME.com\" or something\n"
 "\n"
 " URL: ')"
-msgstr "◆ ADD THE URL of THE SITE (BETTER IF IT COME FROM GITHUB), FÜR Beispiel: $(echo -e '\n\n- wenn von github.com \"https://github.com/USER/PROJECT\" verwendet wird\n\n- wenn aus anderen Quellen \"https://www.SITENAME.com\" oder so etwas verwendet wird\n\nURL:"
+msgstr ""
+"◆ ADD THE URL of THE SITE (BETTER IF IT COME FROM GITHUB), FÜR Beispiel: $(echo -e '\n"
+"\n"
+"- wenn von github.com \"https://github.com/USER/PROJECT\" verwendet wird\n"
+"\n"
+"- wenn aus anderen Quellen \"https://www.SITENAME.com\" oder so etwas verwendet wird\n"
+"\n"
+"URL:"
 
 #: am/modules/template.am:398 am/modules/template.am:419
 #: am/modules/template.am:471 am/modules/template.am:511
