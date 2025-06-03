@@ -1,18 +1,7 @@
 # File with translation for AM
 # zenobit <zenobit@disroot.org>, 2025
 msgid ""
-msgstr ""
-"Project-Id-Version: am 9.8\n"
-"Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
-"POT-Creation-Date: 2025-06-03\n"
-"PO-Revision-Date: 2025-06-03\n"
-"Last-Translator: John Doe <john.doe@example.com>\n"
-"Language-Team: English <LL@li.org>\n"
-"Language: en\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+msgstr "Project-Id-Version: am 9.8\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-06-03\nPO-Revision-Date: 2025-06-03 10:01+0000\nLast-Translator: zenobit <zenobit@disroot.org>\nLanguage-Team: Czech <https://hosted.weblate.org/projects/am/am/cs/>\nLanguage: cs\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\nX-Generator: Weblate 5.12-dev\n"
 
 #: am/APP-MANAGER:81
 msgid "%b\\n No locale available for you, consider adding one\\n Visit https://github.com/AM-community/localization for more information\\n"
@@ -115,8 +104,6 @@ msgid "If this message appears it is because you are missing some dependency and
 msgstr "Pokud se tato zpráva objeví, je to proto, že vám chybí nějaká závislost, a pokud je to poprvé, je to proto, že bylo zavedeno něco nového.\\n\\n"
 
 #: am/APP-MANAGER:394
-#, fuzzy
-#| msgid " See %bhttps://github.com/$AMREPO/AM#core-dependences\\033[0m for more information\\n"
 msgid " See %bhttps://github.com/$AMOWNER/AM#core-dependences\\033[0m for more information\\n"
 msgstr " Další informace naleznete na %bhttps://github.com/$AMREPO/AM#core-dependences\\033[0m\\n"
 
@@ -2081,8 +2068,6 @@ msgid "Alert"
 msgstr "Pozor"
 
 #: am/modules/yad.am:137 am/modules/yad.am:252
-#, fuzzy
-#| msgid "Remove\\\" $(< \"$GUIcacheDIR/am-toremove\")?"
 msgid "Remove\\\" $(<\"$GUIcacheDIR/am-toremove\")?"
 msgstr "Odstranit\\\" $(< \"$GUIcacheDIR/am-toremove\")?"
 
