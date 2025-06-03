@@ -1,8 +1,18 @@
 # File with translation for AM
 # zenobit <zenobit@disroot.org>, 2025
-# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: am 9.8\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-06-02\nPO-Revision-Date: 2025-06-02 18:05+0000\nLast-Translator: zenobit <zenobit@disroot.org>\nLanguage-Team: Czech <https://hosted.weblate.org/projects/am/am/cs/>\nLanguage: cs\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\nX-Generator: Weblate 5.12-dev\n"
+msgstr ""
+"Project-Id-Version: am 9.8\n"
+"Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
+"POT-Creation-Date: 2025-06-03\n"
+"PO-Revision-Date: 2025-06-03\n"
+"Last-Translator: John Doe <john.doe@example.com>\n"
+"Language-Team: English <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
 
 #: am/APP-MANAGER:75
 msgid "%b\\n No locale available for you, consider adding one\\n Visit https://github.com/AM-community/localization for more information\\n"
@@ -105,8 +115,8 @@ msgid "If this message appears it is because you are missing some dependency and
 msgstr "Pokud se tato zpráva objeví, je to proto, že vám chybí nějaká závislost, a pokud je to poprvé, je to proto, že bylo zavedeno něco nového.\\n\\n"
 
 #: am/APP-MANAGER:375
-msgid " See %bhttps://github.com/ivan-hc/AM#core-dependences\\033[0m for more information\\n"
-msgstr " Další informace naleznete na %bhttps://github.com/ivan-hc/AM#core-dependences\\033[0m\\n"
+msgid " See %bhttps://github.com/$AMREPO/AM#core-dependences\\033[0m for more information\\n"
+msgstr " Další informace naleznete na %bhttps://github.com/$AMREPO/AM#core-dependences\\033[0m\\n"
 
 #: am/APP-MANAGER:383
 msgid "\\n%bWARNING: your distro maintainer ships \\\"wget2\\\" as \\\"wget\\\" \\033[0m\\n\\n"
@@ -312,8 +322,8 @@ msgid "%b\\n Checking for changes of the installation scripts in the online data
 msgstr "%b\\n Kontroluji změny instalačních skriptů v online databázi...\\n"
 
 #: am/APP-MANAGER:990
-msgid " ◆ %b%b\\033[0m has changed, you may need to reinstall it, see\\n   https://github.com/$AM_THE_OWNER/AM/blob/main/programs/%b/%b\\n"
-msgstr " ◆ %b%b\\033[0m se změnila, možná ji budete muset znovu nainstalovat, viz\\n   https://github.com/$AM_THE_OWNER/AM/blob/main/programs/%b/%b\\n"
+msgid " ◆ %b%b\\033[0m has changed, you may need to reinstall it, see\\n   https://github.com/$AMOWNER/AM/blob/main/programs/%b/%b\\n"
+msgstr " ◆ %b%b\\033[0m se změnila, možná ji budete muset znovu nainstalovat, viz\\n   https://github.com/$AMOWNER/AM/blob/main/programs/%b/%b\\n"
 
 #: am/APP-MANAGER:995
 msgid " ◆ No installation script for %b, downloading one...\\n"
@@ -360,16 +370,16 @@ msgid "\\n  Replacement of version \\\"%b\\\" currently in use, COMPLETED! \\n"
 msgstr "\\n Výměna aktuálně používané verze \\\"%b\\\", DOKONČENA! \\n"
 
 #: am/APP-MANAGER:1068
-msgid "\\n See https://github.com/$AM_THE_OWNER/AM/commits/main\\n\\n"
-msgstr "\\n Viz https://github.com/$AM_THE_OWNER/AM/commits/main\\n\\n"
+msgid "\\n See https://github.com/$AMOWNER/AM/commits/main\\n\\n"
+msgstr "\\n Viz https://github.com/$AMOWNER/AM/commits/main\\n\\n"
 
 #: am/APP-MANAGER:1070
 msgid " ◆ \\\"$AMCLIUPPER\\\" IS ALREADY UPDATED, CURRENT VERSION \\\"$CURRENT_AM_VERSION\\\""
 msgstr " ◆ \\\"$AMCLIUPPER\\\" JE JIŽ AKTUALIZOVÁN, AKTUÁLNÍ VERZE \\\"$CURRENT_AM_VERSION\\\""
 
 #: am/APP-MANAGER:1071
-msgid "\\n See https://github.com/$AM_THE_OWNER/AM/commits/%b\\n\\n"
-msgstr "\\n Viz https://github.com/$AM_THE_OWNER/AM/commits/%b\\n\\n"
+msgid "\\n See https://github.com/$AMOWNER/AM/commits/%b\\n\\n"
+msgstr "\\n Viz https://github.com/$AMOWNER/AM/commits/%b\\n\\n"
 
 #: am/APP-MANAGER:1090
 msgid "%b\\n DONE! \\n"
@@ -607,7 +617,13 @@ msgid ""
 "\t\t\t\t\t${LightBlue}$AMCLI -i --force-latest {PROGRAM}\\033[0m\n"
 "\t\t\t\t\t${LightBlue}$AMCLI -i --icons {PROGRAM}\\033[0m\n"
 "\t\t\t\t\t${LightBlue}$AMCLI -i --sandbox {PROGRAM}\\033[0m\n"
-"\t\t\t$(if [ -n \"$third_party_flags\" ]; then echo \"\" && echo \"\tThird-party databases:\" && echo \"\" && for a in $third_party_flags; do echo \"\t\t${LightBlue}$AMCLI -l $a {PROGRAM}\\033[0m\"; done; fi)\n"
+"\n"
+"\t\t\t$(if [ -n \"$third_party_flags\" ]; then\n"
+"    echo \"\" && echo \"\tThird-party databases:\" && echo \"\" && for a in $third_party_flags;\n"
+"    do\n"
+"        echo \"\t\t${LightBlue}$AMCLI -l $a {PROGRAM}\\033[0m\";\n"
+"    done;\n"
+"fi)\n"
 "\n"
 "\t\t\tDescription: Install one or more programs or libraries from the list. With the \\\"--debug\\\" option you can see log messages to debug the script. For more details on \\\"--force-latest\\\", see the dedicated option, below. Use the \\\"--icons\\\" flag to allow the program to use icon themes. The \\\"--sandbox\\\" flag allows you to set sandboxes for AppImage packages. It can also be extended with additional flags (see third-party flags, at the bottom of this message).\n"
 "\n"
@@ -628,7 +644,12 @@ msgid ""
 "\t\t\t\t\t${LightBlue}$AMCLI -l --appimages\\033[0m\n"
 "\t\t\t\t\t${LightBlue}$AMCLI -l --portable\\033[0m\n"
 "\t\t\t\t\t${LightBlue}$AMCLI -l --all\\033[0m\n"
-"\t\t\t$(if [ -n \"$third_party_flags\" ]; then echo \"\" && echo \"\tThird-party databases:\" && echo \"\" && for a in $third_party_flags; do echo \"\t\t${LightBlue}$AMCLI -l $a\\033[0m\"; done; fi)\n"
+"\t\t\t$(if [ -n \"$third_party_flags\" ]; then\n"
+"    echo \"\" && echo \"\tThird-party databases:\" && echo \"\" && for a in $third_party_flags;\n"
+"    do\n"
+"        echo \"\t\t${LightBlue}$AMCLI -l $a\\033[0m\";\n"
+"    done;\n"
+"fi)\n"
 "\n"
 "\t\t\tDescription: Shows the list of all the apps available. Without flags only shows the apps in the \\\"AM\\\" database, add the \\\"--appimages\\\" to show only the AppImages or \\\"--portable\\\" to show other formats from the \\\"AM\\\" database. The \\\"--all\\\" flag allows you to consult the set of all supported third-party databases. It can also be extended with additional flags (see third-party flags, at the bottom of this message).\n"
 "\n"
@@ -716,7 +737,7 @@ msgid ""
 "\t\t\t\t\t${LightBlue}$AMCLI --language\\033[0m\n"
 "\t\t\t\t\t${LightBlue}$AMCLI --language {CODE}\\033[0m\n"
 "\n"
-"\t\t\tDescription: Download and set one or more language packs (if available), set \\\"$AMCLI\\\" to English (default), your language or other languages.\\n\\nVisit https://github.com/AM-community/localization to learn more on how to submit or improve translations.\n"
+"\t\t\tDescription: Download and set one or more language packs (if available), set \\\"$AMCLI\\\" to English (default), your language or other languages.\\n\\nVisit https://github.com/$AMREPO/AM/tree/$AMBRANCH/translations to get source files needed to submit new translations or to improve the existing ones.\n"
 "\n"
 "\t\t\t${Gold}unhide\\033[0m\n"
 "\n"
@@ -841,7 +862,7 @@ msgid ""
 "\n"
 "\t\t\t SITES:\n"
 "\n"
-"\t\t\t https://github.com/ivan-hc/AM\n"
+"\t\t\t https://github.com/$AMREPO/AM\n"
 "\n"
 "\t\t\t https://portable-linux-apps.github.io\n"
 "\n"
@@ -1644,10 +1665,6 @@ msgstr " ◆ WEBAPP ADRESA: "
 msgid "\\n No valid argument was chosen: process aborted! \\n"
 msgstr "\\n Nevybrán validní argument: proces přerušen! \\n"
 
-#: modules/translate.am:15
-msgid "Press y to continue, anything else to exit (timeout 15 seconds)"
-msgstr "Stiskněte y pro pokračování, cokoli jiného pro odchod (limit 15 vteřin)"
-
 #: modules/translate.am:33
 msgid "Can´t enter AMPATH $AMPATH"
 msgstr "Nemohu vstoupit do AMPATH $AMPATH"
@@ -1751,7 +1768,7 @@ msgid "Alert"
 msgstr "Pozor"
 
 #: am/modules/yad.am:137 am/modules/yad.am:252
-msgid "Remove\\\" $(<\"$GUIcacheDIR/am-toremove\")?"
+msgid "Remove\\\" $(< \"$GUIcacheDIR/am-toremove\")?"
 msgstr "Odstranit\\\" $(< \"$GUIcacheDIR/am-toremove\")?"
 
 #: am/modules/yad.am:155
@@ -1853,25 +1870,3 @@ msgstr "yad-quit!!Opustit GUI"
 #: am/modules/yad.am:303
 msgid "AM Graphical User Interface"
 msgstr "Grafické rozhranní pro AM"
-
-#~ msgid "Press y to continue, anything else to exit (timeout 15 seconds)"
-#~ msgstr "Stiskněte y pro pokračování, cokoli jiného pro odchod (limit 15 vteřin)"
-
-#~ msgid "Can´t enter AMPATH $AMPATH"
-#~ msgstr "Nemohu vstoupit do AMPATH $AMPATH"
-
-#~ msgid "Enter your name..."
-#~ msgstr "Vložte vaše jméno..."
-
-#~ msgid "Enter your email..."
-#~ msgstr "Vložte váš mail..."
-
-#~ msgid "Language already included. Try again with another language, or run \\\"$AMCLI --translate\\\" to update added translations"
-#~ msgstr "Jazyk již přidán. Zkuste jiný, nebo spusťte \\\"$AMCLI translate\\\" pro aktualizaci překladů"
-
-#, fuzzy
-#~ msgid "Copy files to $HOME/.local/share/?"
-#~ msgstr "Kopírovat soubory do $HOME/.local/share/?"
-
-#~ msgid "No language added, run \\\"$AMCLI --translate-new\\\" first!"
-#~ msgstr "Žádný jazyk nepřidán, spusťte \\\"$AMCLI translate-new\\\" jako první!"
