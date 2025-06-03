@@ -4,19 +4,7 @@
 # Glossary sync <noreply-glossary-sync@weblate.org>, 2025.
 # Apertium APy <noreply-mt-apertium-apy@weblate.org>, 2025.
 msgid ""
-msgstr ""
-"Project-Id-Version: am 9.7.1-9\n"
-"Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
-"POT-Creation-Date: 2025-06-03\n"
-"PO-Revision-Date: 2025-06-02 10:23+0000\n"
-"Last-Translator: Apertium APy <noreply-mt-apertium-apy@weblate.org>\n"
-"Language-Team: Serbian <https://hosted.weblate.org/projects/am/am/sr/>\n"
-"Language: sr\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.12-dev\n"
+msgstr "Project-Id-Version: am 9.7.1-9\nReport-Msgid-Bugs-To: https://github.com/ivan-hc/AM\nPOT-Creation-Date: 2025-06-03\nPO-Revision-Date: 2025-06-03 06:05+0000\nLast-Translator: Apertium APy <noreply-mt-apertium-apy@weblate.org>\nLanguage-Team: Serbian <https://hosted.weblate.org/projects/am/am/sr/>\nLanguage: sr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\nX-Generator: Weblate 5.12-dev\n"
 
 #: am/APP-MANAGER:91
 msgid "%b\\n No locale available for you, consider adding one\\n Visit https://github.com/AM-community/localization for more information\\n"
@@ -329,7 +317,7 @@ msgstr "%b\\n Proveravam promene instalacijskih skripti u onlajn bazi podataka..
 #, fuzzy
 #| msgid " ◆ %b%b\\033[0m has changed, you may need to reinstall it, see\\n   https://github.com/$AM_THE_OWNER/AM/blob/main/programs/%b/%b\\n"
 msgid " ◆ %b%b\\033[0m has changed, you may need to reinstall it, see\\n   https://github.com/$AMOWNER/AM/blob/main/programs/%b/%b\\n"
-msgstr " ◆ %b%b\\033[0m je promenjen, možda ćeš morati da ga reinstaliraš, vidi\\n   https://github.com/$AM_THE_OWNER/AM/blob/main/programs/%b/%b\\n"
+msgstr "◆ %@b%@b\\033[0@m #ima @changed, #free @may #nužda #na reinstall #free, #vidjeti\\@n   https://github.@com/$AMOWNER/@AM/#brboriti/#velik/@program/%@b/%@b\\@n"
 
 #: am/APP-MANAGER:1011
 msgid " ◆ No installation script for %b, downloading one...\\n"
@@ -379,7 +367,7 @@ msgstr "\\n  Zamena verzije \\\"%b\\\" u trenutnom korišćenju, ZAVRŠENO! \\n"
 #, fuzzy
 #| msgid "\\n See https://github.com/$AM_THE_OWNER/AM/commits/main\\n\\n"
 msgid "\\n See https://github.com/$AMOWNER/AM/commits/main\\n\\n"
-msgstr "\\n Vidi https://github.com/$AM_THE_OWNER/AM/commits/main\\n\\n"
+msgstr "\\@n #Vidjeti https://github.@com/$AMOWNER/@AM/#izvršiti/#velik\\@n\\@n"
 
 #: am/APP-MANAGER:1091
 msgid " ◆ \\\"$AMCLIUPPER\\\" IS ALREADY UPDATED, CURRENT VERSION \\\"$CURRENT_AM_VERSION\\\""
@@ -389,7 +377,7 @@ msgstr " ◆ \\\"$AMCLIUPPER\\\" JE VEĆ AŽURIRAN, TRENUTNA VERZIJA \\\"$CURREN
 #, fuzzy
 #| msgid "\\n See https://github.com/$AM_THE_OWNER/AM/commits/%b\\n\\n"
 msgid "\\n See https://github.com/$AMOWNER/AM/commits/%b\\n\\n"
-msgstr "\\n Vidi https://github.com/$AM_THE_OWNER/AM/commits/%b\\n\\n"
+msgstr "\\@n #Vidjeti https://github.@com/$AMOWNER/@AM/#izvršiti/%@b\\@n\\@n"
 
 #: am/APP-MANAGER:1111
 #, fuzzy
